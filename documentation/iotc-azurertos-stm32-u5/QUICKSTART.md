@@ -19,7 +19,7 @@ This guide currently only supports Windows 64-bit.
 ![Tera Term Serial Settings](media/teraterm-settings.png "Tera Term Serial Settings")
 
 ## 3. Cloud Account Setup
-***NOTE: If you have already created an IoTConnect Account, or were provided and account as part of a training or workshop, skip this section.**
+**NOTE: If you have already created an IoTConnect Account, or were provided and account as part of a training or workshop, skip this section.**
 
 If you need to create an account, a free 2-month subscription is available.
 Please follow the 
