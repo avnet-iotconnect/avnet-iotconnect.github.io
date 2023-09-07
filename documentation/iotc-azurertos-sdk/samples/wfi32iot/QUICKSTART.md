@@ -54,7 +54,9 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
 ![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
 ## Cloud Account Setup
-An IoTConnect account is required to continue this guide. If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
+**NOTE: If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.**
+
+If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
 ## IoTConnect Device Template Setup
 A Device Template with Self Signed authentication type will need to be imported.
