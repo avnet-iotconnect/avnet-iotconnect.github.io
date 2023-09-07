@@ -147,7 +147,7 @@ To setup the `iotc-azurertos-sdk` ck-rx65n project fully:
 
 Need to import the `samples/ck-rx65n` project into e<sup>2</sup> studio to
 build and debug - note deselect any "CMake Project" items, so that the
-r65ncloudkit (and its subprojects) are imported as Eclipse projects.
+ck-rx65n (and its subprojects) are imported as Eclipse projects.
 
 <img style="width:75%; height:auto" src="./assets/ck-rx65n/VirtualBox_WinDev2301Eval_29_03_2023_09_46_14.png"/>
 
