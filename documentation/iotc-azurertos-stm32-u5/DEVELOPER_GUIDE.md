@@ -16,7 +16,7 @@ Version 2.10 or greater.
 
 ### Project Setup
 
-* Clone this repo into a directory, preferably at the root of C: or another drive.
+* Clone the repo (https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) into a directory, preferably at the root of C: or another drive.
 Windows has a path name limit of 256 characters which can cause the build to fail,
 as some of the source files are deeply nested into directories.
 * Download the [X-CUBE-AZURE Expansion Package](https://www.st.com/en/embedded-software/x-cube-azure.html) version 2.3.0, 
