@@ -19,7 +19,8 @@ This guide currently only supports Windows 64-bit.
 ![Tera Term Serial Settings](media/teraterm-settings.png "Tera Term Serial Settings")
 
 ## 3. Cloud Account Setup
-An IoTConnect account is required to continue this guide.
+*NOTE: If you already created an IoTConnect Account, or were provided and account as part of a training or workshop, skip this section.
+
 If you need to create an account, a free 2-month subscription is available.
 Please follow the 
 [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md)
