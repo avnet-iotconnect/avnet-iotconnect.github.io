@@ -7,10 +7,10 @@ client certificate authentication with iotconnect on the Renesas CK-RX65N board.
 
 ## Prerequisites
 
-* Renesas CK-RX65N Cloud Kit board (the PCB is blue, rather than green (that is the old Rx65N cloudkit board whose MCU variant is without the TSIP security module)
-* Have followed the Renesas CK-RX65N Quickstart Guide [here | QUICKSTART_DEMO.md]
-* Windows PC (this setup guide details installation, etc. on a Windows PC).
-* Internet connection with ethernet connection for the Renesas board’s ethernet.
+* Renesas CK-RX65N Cloud Kit board (Blue PCB with TSIP)
+* Completed either the [QuickStart](QUICKSTART.md) or [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md)
+* Windows PC
+* Internet connection with avail ethernet cable for connecting to the Renesas board
 
 ## Download and install the TSIP driver
 
