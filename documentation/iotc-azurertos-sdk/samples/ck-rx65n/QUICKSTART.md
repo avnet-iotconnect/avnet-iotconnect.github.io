@@ -244,4 +244,5 @@ You should be able to see `CPID` and `Environment` fields in the top part of the
 ***Please note:*** current version (07/09/2023) does not allow erasing whatever was typed in, so be careful. If typo was made - you'll need to reboot the board and start anew.
 
 Example expected behaviour:
+
 <img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
