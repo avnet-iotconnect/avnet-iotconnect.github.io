@@ -66,16 +66,16 @@ A Device Template with Self Signed authentication type will need to be imported.
 
 ### 6. Obtaining the Device Certificate Fingerprint
 This section outlines how to set up the device for IoTConnect Self Signed Certificate authentication type.
-Steps for other authentication types are out of scope for this guide and are available in the main README.md.
+Other authentication types can be used, but are out of scope for this guide.
 
-* In order to complete the next steps, obtain the fingerprint of device certificate.
+* In order to complete the next steps a fingerprint of device certificate will need to be created.
 The device certificate is located in the file named snXXXXXX_device.pem on the Mass Storage Device.
 The fingerprint of the certificate can be either SHA256 or SHA1.
-There are a couple of ways to go about that:
-   * One can execute ``` openssl x509 -noout -fingerprint -inform pem -in snxXXXX_device.pem ``` if openssl is installed.
-   * The contents of snxXXXX_device.pem can be pasted into an [online fingerprint calculator](https://www.samltool.com/fingerprint.php).
+There are a couple of ways to create the fingerprint:
+   * (Online Tool) The contents of snxXXXX_device.pem can be pasted into an [online fingerprint calculator](https://www.samltool.com/fingerprint.php).
+   * (Local with OpenSSL) Execute ``` openssl x509 -noout -fingerprint -inform pem -in snxXXXX_device.pem ```
 
-Below is a sample screenshot:
+Below is a sample screenshot from the online tool:
 ![Fingerprint Web Site Screenshot](assets/fingerprint.png "Fingerprint Web Site Screenshot")
 
 ### 7. IoTConnect Device Setup
@@ -86,7 +86,7 @@ Below is a sample screenshot:
 * Click Save and press the Reset button.
 
 ### 8. Configuration
-To configure the WiFi Credentials and IoTConnect Account environment information, you will need to edit two file located on the USB Mass Storage Device
+To configure the WiFi Credentials and IoTConnect Account environment information, you will need to edit two file located on the USB Mass Storage Device.
 
 ## Configure the WiFi Credentials
 * The WiFi Credentials are configred in the WIFI.CFG file located on the MSD. Open the file in a text editor and input the WiFi credentials using one of the
