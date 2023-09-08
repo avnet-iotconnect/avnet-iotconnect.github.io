@@ -1,8 +1,6 @@
 ### 1. Introduction
 
-This document outlines a quick start to evaluation of the 
-[WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board 
-with IoTConnect, without the need to compile the source code.
+This document provides instructions on how to quickly get the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board enabled with IoTConnect, without the need to compile any code from source.
 
 The board features USB Mass Storage Device (MSD) support, which makes the IoTConnect setup simple and without the need
 to change the source code.
