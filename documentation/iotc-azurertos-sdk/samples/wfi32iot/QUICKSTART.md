@@ -1,6 +1,6 @@
 ## Introduction
 
-This document aims to provide an easy way to test and evaluate the 
+This document outlines a quick start to evaluation of the 
 [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board 
 with IoTConnect, without the need to compile the source code.
 
