@@ -36,7 +36,7 @@ guide and return to this guide once complete.
 * Execute the *trust-zone-enable.bat* batch script included in the package.<br>This will enable the TrustZone feature which is required to run the next step.
 Running this script will make it so that only TrustZone enabled applications are authorized to run on the board. This only needs to be run once per board.
 * Execute the *tfm-update.bat* batch script included in the package to setup TFM on the board.
-* Note: After completion of this demo, the *trust-zone-disable.bat* batch script can be run to once again allow non-TrustZone applications to be executed. Do not run this now.
+Note: After completion of this demo, the *trust-zone-disable.bat* batch script can be run to once again allow non-TrustZone applications to be executed. **Do not run this now**
 
 ## 5. Device Configuration
 * Ensure your serial terminal application is running.
