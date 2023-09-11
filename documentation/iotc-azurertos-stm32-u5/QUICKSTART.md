@@ -60,7 +60,7 @@ Navigate there using the image below:<br>![Key Vault](https://github.com/avnet-i
 * Copy the generated DUID displayed and save for later use.
 
 ## 6. IoTConnect Device Template Setup
-**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device and you my skip this section.**
+**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device and you my skip this section. Otherwise...**
 
 A Device Template with Self Signed authentication type will need to be imported.
 * Download the premade [Device Template with Self-Signed Auth](templates/device/stm32u5self_signed_template.JSON).
