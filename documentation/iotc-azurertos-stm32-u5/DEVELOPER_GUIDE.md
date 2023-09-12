@@ -10,9 +10,8 @@ The project development is currently supported only on Windows.
 [MSYS2](https://www.msys2.org/) or [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) 
 may also work, but are not primarily tested.
 * You can use git command line or a different tool that can clone Git repositories with submodule support.
-* Install [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) 
-and [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) 
-Version 2.10 or greater.
+* Install [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) **Must use v1.10.1.** Newer versions will show errors.
+* Install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) v2.10 or greater.
 
 ### Project Setup
 
