@@ -122,3 +122,8 @@ delete the file, eject the drive, reset the board and re-open the file as resett
 
 # 9. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json). Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
+
+# 10. Sending Commands
+* The board has 3 LEDs that can be toggled on and off by using the "on" or "off" parameter in conjunction with one of the LED commands.
+* The board also has two buttons (across from the RST button) which increment a counter when pressed.  The counters can be reset by using the "reset-counters" command with a parameter of "1".
+![Send Commands](media/send_commands.png)
