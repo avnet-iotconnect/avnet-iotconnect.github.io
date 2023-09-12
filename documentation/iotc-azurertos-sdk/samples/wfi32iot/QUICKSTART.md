@@ -126,4 +126,4 @@ The telemetry can be visualized by using the Dynamic Dashboard feature of IoTCon
 # 10. Sending Commands
 * The board has 3 LEDs that can be toggled on and off by using the "on" or "off" parameter in conjunction with one of the LED commands.
 * The board also has two buttons (across from the RST button) which increment a counter when pressed.  The counters can be reset by using the "reset-counters" command with a parameter of "1".
-![Send Commands](media/send_commands.png)
+![Send Commands](assets/send_commands.png)
