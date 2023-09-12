@@ -116,6 +116,7 @@ following templates per the network configuration:
 * Open the CLOUD.CFG file in a text editor. If the contents of CLOUD.CFG do not have text like CPID and ENV, 
 delete the file, eject the drive, reset the board and re-open the file as resetting will populate the defaults.
 * Set the CPID and Environment per your IoTConnect account settings, which can be found in Settings -> Key Vault in the IoTConnect portal.
+* The DUID and SYMMETERIC_KEY can be let empty.
 * Save the file, eject the USB drive and reset the board.
 * The device should connect to the specified IoTConnect account and publish sensor data periodically.
 
