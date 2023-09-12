@@ -475,6 +475,241 @@
             "widgetProperties": {
                 "i": "Live",
                 "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Board Temp (C)",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "WFI32IoT_temperature",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "WFI32IoT_temperature",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "B4C82744-9F9F-4331-8824-120584FD15E6",
+                            "deviceUniqueId": "sn0123239C1BEECD6001"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "CCD1362C-E0B9-456A-AAEE-106E0EC96F76",
+                                    "attributeName": "ALT2_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "23.999588012695312",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "23.999588012695312"
+                                },
+                                {
+                                    "attributeGuid": "0E418670-AF82-4285-B40F-16D25F190767",
+                                    "attributeName": "PHT_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "E7D964DC-BCD1-4801-9097-36322AE98591",
+                                    "attributeName": "WFI32IoT_light",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "21",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "21"
+                                },
+                                {
+                                    "attributeGuid": "B499455A-7345-40BF-B206-47B727A00271",
+                                    "attributeName": "ALT2_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "842.447021484375",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "842.447021484375"
+                                },
+                                {
+                                    "attributeGuid": "5C0CB91B-8BFA-4C51-86DF-4CB7970B9BBF",
+                                    "attributeName": "ULP_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "24.47381591796875",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "24.47381591796875"
+                                },
+                                {
+                                    "attributeGuid": "621CB25F-7E17-44A5-B04B-4E4E69312D96",
+                                    "attributeName": "version",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "01.00.00",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "01.00.00"
+                                },
+                                {
+                                    "attributeGuid": "9961A583-FEDD-4817-A7FA-56ABB1FC089F",
+                                    "attributeName": "TEMPHUM14_humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "30.61722755432129",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "30.61722755432129"
+                                },
+                                {
+                                    "attributeGuid": "5F4A3B57-A062-4E64-9F98-7388E487F9FD",
+                                    "attributeName": "WFI32IoT_temperature",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "36",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "36"
+                                },
+                                {
+                                    "attributeGuid": "320D12FA-A4FA-4ED5-9DE9-8A6A6CCC3E07",
+                                    "attributeName": "PHT_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "319D82E5-778B-4CB1-9B00-A355D6653B11",
+                                    "attributeName": "WFI32IoT_button1_count",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "5"
+                                },
+                                {
+                                    "attributeGuid": "EF4F87C9-BF64-469D-94E9-AC955B6CE012",
+                                    "attributeName": "PHT_humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "736D5A7C-6842-4B3D-84F9-B22D80FEA863",
+                                    "attributeName": "VAV_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0.00083333335351199",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0.00083333335351199"
+                                },
+                                {
+                                    "attributeGuid": "593BBBF7-E29E-42B6-99D6-B98FFB5839B0",
+                                    "attributeName": "ULP_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1.1356310844421387",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1.1356310844421387"
+                                },
+                                {
+                                    "attributeGuid": "B452B438-4868-4A75-958F-C5B36084ABF7",
+                                    "attributeName": "WFI32IoT_button2_count",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "2",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "2"
+                                },
+                                {
+                                    "attributeGuid": "7B86FB14-DD34-4B6E-A1B7-CB0170B27EEB",
+                                    "attributeName": "TEMPHUM14_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "24.439002990722656",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "24.439002990722656"
+                                },
+                                {
+                                    "attributeGuid": "66D40A12-F760-46B1-B9D6-D2CC27CBA6F8",
+                                    "attributeName": "VAV_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "22.26388931274414",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22.26388931274414"
+                                },
+                                {
+                                    "attributeGuid": "FB7AD1BC-7288-4AE1-A25E-D7BF653C3068",
+                                    "attributeName": "WFI32IoT_button1",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "EDA81290-CB19-4F2A-821B-DBA105D78CC7",
+                                    "attributeName": "WFI32IoT_button2",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "2A8A7EA1-93A8-4B90-A98F-E3D391FBC9E4",
+                                    "attributeName": "ALT2_altitude",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1633.8828125",
+                                    "deviceUpdatedDate": "2023-08-22T03:17:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1633.8828125"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "35",
+                "y": "0",
+                "w": "8",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#ffffff",
                 "fontColor": "#d0021b",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
@@ -694,242 +929,7 @@
                 }
             },
             "properties": {
-                "x": "35",
-                "y": "0",
-                "w": "7",
-                "h": "4",
-                "i": "Live",
-                "minW": "7",
-                "minH": "4",
-                "maxH": "4",
-                "isStatic": "false"
-            }
-        },
-        {
-            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
-            "widgetProperties": {
-                "i": "Live",
-                "background": "#9b9b9b",
-                "fontColor": "#343434",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
-                "title": "Firmware Version",
-                "titleAlign": "",
-                "contents": {
-                    "attributeValue": {
-                        "attributeName": "version",
-                        "key": "attributeValue"
-                    },
-                    "attributeTime": {
-                        "attributeName": "version",
-                        "key": "attributeTime"
-                    },
-                    "live": {
-                        "device": {
-                            "deviceGuid": "B4C82744-9F9F-4331-8824-120584FD15E6",
-                            "deviceUniqueId": "sn0123239C1BEECD6001"
-                        },
-                        "attributes": {
-                            "attribute": [
-                                {
-                                    "attributeGuid": "CCD1362C-E0B9-456A-AAEE-106E0EC96F76",
-                                    "attributeName": "ALT2_temperature",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "26.458698272705078",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "26.458698272705078"
-                                },
-                                {
-                                    "attributeGuid": "0E418670-AF82-4285-B40F-16D25F190767",
-                                    "attributeName": "PHT_temperature",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "E7D964DC-BCD1-4801-9097-36322AE98591",
-                                    "attributeName": "WFI32IoT_light",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "42",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "42"
-                                },
-                                {
-                                    "attributeGuid": "B499455A-7345-40BF-B206-47B727A00271",
-                                    "attributeName": "ALT2_pressure",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "841.94189453125",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "841.94189453125"
-                                },
-                                {
-                                    "attributeGuid": "5C0CB91B-8BFA-4C51-86DF-4CB7970B9BBF",
-                                    "attributeName": "ULP_temperature",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "26.85800552368164",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "26.85800552368164"
-                                },
-                                {
-                                    "attributeGuid": "621CB25F-7E17-44A5-B04B-4E4E69312D96",
-                                    "attributeName": "version",
-                                    "checked": "true",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "01.00.00",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "01.00.00"
-                                },
-                                {
-                                    "attributeGuid": "9961A583-FEDD-4817-A7FA-56ABB1FC089F",
-                                    "attributeName": "TEMPHUM14_humidity",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "36.058597564697266",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "36.058597564697266"
-                                },
-                                {
-                                    "attributeGuid": "5F4A3B57-A062-4E64-9F98-7388E487F9FD",
-                                    "attributeName": "WFI32IoT_temperature",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "40",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "40"
-                                },
-                                {
-                                    "attributeGuid": "320D12FA-A4FA-4ED5-9DE9-8A6A6CCC3E07",
-                                    "attributeName": "PHT_pressure",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "319D82E5-778B-4CB1-9B00-A355D6653B11",
-                                    "attributeName": "WFI32IoT_button1_count",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "5",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "5"
-                                },
-                                {
-                                    "attributeGuid": "EF4F87C9-BF64-469D-94E9-AC955B6CE012",
-                                    "attributeName": "PHT_humidity",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "736D5A7C-6842-4B3D-84F9-B22D80FEA863",
-                                    "attributeName": "VAV_pressure",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0.02083333395421505",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0.02083333395421505"
-                                },
-                                {
-                                    "attributeGuid": "593BBBF7-E29E-42B6-99D6-B98FFB5839B0",
-                                    "attributeName": "ULP_pressure",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "1.1257128715515137",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1.1257128715515137"
-                                },
-                                {
-                                    "attributeGuid": "B452B438-4868-4A75-958F-C5B36084ABF7",
-                                    "attributeName": "WFI32IoT_button2_count",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "2",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "2"
-                                },
-                                {
-                                    "attributeGuid": "7B86FB14-DD34-4B6E-A1B7-CB0170B27EEB",
-                                    "attributeName": "TEMPHUM14_temperature",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "26.876174926757812",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "26.876174926757812"
-                                },
-                                {
-                                    "attributeGuid": "66D40A12-F760-46B1-B9D6-D2CC27CBA6F8",
-                                    "attributeName": "VAV_temperature",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.56944465637207",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "24.56944465637207"
-                                },
-                                {
-                                    "attributeGuid": "FB7AD1BC-7288-4AE1-A25E-D7BF653C3068",
-                                    "attributeName": "WFI32IoT_button1",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "EDA81290-CB19-4F2A-821B-DBA105D78CC7",
-                                    "attributeName": "WFI32IoT_button2",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "2A8A7EA1-93A8-4B90-A98F-E3D391FBC9E4",
-                                    "attributeName": "ALT2_altitude",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "1652.8511962890625",
-                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1652.8511962890625"
-                                }
-                            ]
-                        },
-                        "rules": "",
-                        "key": "live"
-                    }
-                }
-            },
-            "properties": {
-                "x": "42",
+                "x": "43",
                 "y": "0",
                 "w": "7",
                 "h": "4",
@@ -1148,7 +1148,7 @@
             "properties": {
                 "x": "28",
                 "y": "4",
-                "w": "21",
+                "w": "22",
                 "h": "15",
                 "i": "LiveLineChart",
                 "minW": "15",
@@ -1489,6 +1489,37 @@
             }
         },
         {
+            "widgetGuid": "E413CDFD-54EB-465E-BA97-CE610867E440",
+            "widgetProperties": {
+                "i": "DeviceCommand",
+                "background": "#fff",
+                "fontColor": "#000",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Device Command",
+                "titleAlign": "",
+                "contents": {
+                    "deviceCommand": {
+                        "template": "4EAE438F-1882-4B07-B5EB-9C58E71B6FC3",
+                        "device": "sn0123239C1BEECD6001",
+                        "deviceGuid": "B4C82744-9F9F-4331-8824-120584FD15E6"
+                    }
+                }
+            },
+            "properties": {
+                "x": "28",
+                "y": "19",
+                "w": "22",
+                "h": "10",
+                "i": "DeviceCommand",
+                "minW": "22",
+                "minH": "10",
+                "maxH": "20",
+                "maxW": "35",
+                "isStatic": "false"
+            }
+        },
+        {
             "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
             "widgetProperties": {
                 "i": "HyperLink",
@@ -1601,6 +1632,241 @@
                 "minW": "5",
                 "minH": "2",
                 "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#9b9b9b",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Firmware Version",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "version",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "version",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "B4C82744-9F9F-4331-8824-120584FD15E6",
+                            "deviceUniqueId": "sn0123239C1BEECD6001"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "CCD1362C-E0B9-456A-AAEE-106E0EC96F76",
+                                    "attributeName": "ALT2_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "26.458698272705078",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "26.458698272705078"
+                                },
+                                {
+                                    "attributeGuid": "0E418670-AF82-4285-B40F-16D25F190767",
+                                    "attributeName": "PHT_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "E7D964DC-BCD1-4801-9097-36322AE98591",
+                                    "attributeName": "WFI32IoT_light",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "42",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "42"
+                                },
+                                {
+                                    "attributeGuid": "B499455A-7345-40BF-B206-47B727A00271",
+                                    "attributeName": "ALT2_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "841.94189453125",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "841.94189453125"
+                                },
+                                {
+                                    "attributeGuid": "5C0CB91B-8BFA-4C51-86DF-4CB7970B9BBF",
+                                    "attributeName": "ULP_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "26.85800552368164",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "26.85800552368164"
+                                },
+                                {
+                                    "attributeGuid": "621CB25F-7E17-44A5-B04B-4E4E69312D96",
+                                    "attributeName": "version",
+                                    "checked": "true",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "01.00.00",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "01.00.00"
+                                },
+                                {
+                                    "attributeGuid": "9961A583-FEDD-4817-A7FA-56ABB1FC089F",
+                                    "attributeName": "TEMPHUM14_humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "36.058597564697266",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "36.058597564697266"
+                                },
+                                {
+                                    "attributeGuid": "5F4A3B57-A062-4E64-9F98-7388E487F9FD",
+                                    "attributeName": "WFI32IoT_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "40",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "40"
+                                },
+                                {
+                                    "attributeGuid": "320D12FA-A4FA-4ED5-9DE9-8A6A6CCC3E07",
+                                    "attributeName": "PHT_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "319D82E5-778B-4CB1-9B00-A355D6653B11",
+                                    "attributeName": "WFI32IoT_button1_count",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "5",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "5"
+                                },
+                                {
+                                    "attributeGuid": "EF4F87C9-BF64-469D-94E9-AC955B6CE012",
+                                    "attributeName": "PHT_humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2023-03-02T16:07:16.930Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "736D5A7C-6842-4B3D-84F9-B22D80FEA863",
+                                    "attributeName": "VAV_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0.02083333395421505",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0.02083333395421505"
+                                },
+                                {
+                                    "attributeGuid": "593BBBF7-E29E-42B6-99D6-B98FFB5839B0",
+                                    "attributeName": "ULP_pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1.1257128715515137",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1.1257128715515137"
+                                },
+                                {
+                                    "attributeGuid": "B452B438-4868-4A75-958F-C5B36084ABF7",
+                                    "attributeName": "WFI32IoT_button2_count",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "2",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "2"
+                                },
+                                {
+                                    "attributeGuid": "7B86FB14-DD34-4B6E-A1B7-CB0170B27EEB",
+                                    "attributeName": "TEMPHUM14_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "26.876174926757812",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "26.876174926757812"
+                                },
+                                {
+                                    "attributeGuid": "66D40A12-F760-46B1-B9D6-D2CC27CBA6F8",
+                                    "attributeName": "VAV_temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "24.56944465637207",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "24.56944465637207"
+                                },
+                                {
+                                    "attributeGuid": "FB7AD1BC-7288-4AE1-A25E-D7BF653C3068",
+                                    "attributeName": "WFI32IoT_button1",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "EDA81290-CB19-4F2A-821B-DBA105D78CC7",
+                                    "attributeName": "WFI32IoT_button2",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "2A8A7EA1-93A8-4B90-A98F-E3D391FBC9E4",
+                                    "attributeName": "ALT2_altitude",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1652.8511962890625",
+                                    "deviceUpdatedDate": "2023-08-21T22:45:49.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1652.8511962890625"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "23",
+                "w": "7",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
                 "isStatic": "false"
             }
         }
