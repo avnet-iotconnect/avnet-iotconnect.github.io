@@ -1,4 +1,4 @@
-### 1. Introduction
+## 1. Introduction
 
 This document provides instructions on how to quickly get the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board enabled with IoTConnect, without the need to compile any code from source.
 
@@ -21,7 +21,7 @@ The [VAV Press Click](https://www.mikroe.com/vav-press-click)
 boards are directly supported by the demo software and provide 
 the ability to send sensor readings from these boards directly to IoTConnect.
 
-### 2. Hardware Setup
+## 2. Hardware Setup
 **NOTE: The Click hardware is not required to complete this guide. Skip any steps referencing the Clicks if none are available.**
 
 * Plug the VAV Press Click or Ultra-Low Press Click board onto Click interface of the board.
@@ -35,7 +35,7 @@ which is named "USB Serial". Use defaults for 115200 baud: 8 bits, 1 stop bit, n
 Firmware logs will be available on that COM port. 
   * The MSD should appear as a new removable drive some time after the board boots up.
 
-### 3. Programming the Firmware
+## 3. Programming the Firmware
 
 * Download and install the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide). 
 MPLAB IPE and 32-bit device support are the only required options during the installation.
@@ -52,19 +52,19 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
 
 ![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
-### 4. Cloud Account Setup
+## 4. Cloud Account Setup
 **NOTE: If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.**
 
 If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
-### 5. IoTConnect Device Template Setup
+## 5. IoTConnect Device Template Setup
 **NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device and you my skip this section.**
 
 A Device Template with Self Signed authentication type will need to be imported.
 * Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32ss_device_template.JSON).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
-### 6. Obtaining the Device Certificate Fingerprint
+## 6. Obtaining the Device Certificate Fingerprint
 This section outlines how to set up the device for IoTConnect Self Signed Certificate authentication type.
 Other authentication types can be used, but are out of scope for this guide.
 
@@ -78,14 +78,14 @@ There are a couple of ways to create the fingerprint:
 Below is a sample screenshot from the online tool:
 ![Fingerprint Web Site Screenshot](assets/fingerprint.png "Fingerprint Web Site Screenshot")
 
-### 7. IoTConnect Device Setup
+## 7. IoTConnect Device Setup
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
 * Enter a the "snXXXXXXXX" (do not include the "__device.pem") from earlier in the *Unique ID* field and enter a descriptive *Display Name* of your choice.
 * Select the template from the dropdwon box that was just imported.
 * Enter the Fingerprint calculated in the "Device Configuration" step into the Thumbprint field.
 * Click Save and press the Reset button.
 
-### 8. Configuration
+## 8. Configuration
 To configure the WiFi Credentials and IoTConnect Account environment information, you will need to edit two file located on the USB Mass Storage Device.
 
 ## Configure the WiFi Credentials
@@ -116,5 +116,5 @@ delete the file, eject the drive, reset the board and re-open the file as resett
 * Save the file, eject the USB drive then reset the board.
 * Your device should connect to your IoTConnect account and publish sensor data periodically.
 
-### 9. Visualization
+## 9. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json). Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
