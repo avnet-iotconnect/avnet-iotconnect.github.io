@@ -61,7 +61,7 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
 If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
 # 5. IoTConnect Device Template Setup
-**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device and you my skip this section.**
+**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "wfi32demo") and you my skip this section.**
 
 A Device Template with Self Signed authentication type will need to be imported.
 * Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32ss_device_template.JSON).
