@@ -24,7 +24,7 @@ the ability to send sensor readings from these boards directly to IoTConnect.
 # 2. Hardware Setup
 
 ### Setup Clicks  
-**NOTE: The Click hardware is not required to complete this guide. Skip any steps referencing the Clicks if none are available.**
+**NOTE: The Click hardware is not required to complete this guide so if none are present, this section can be skipped.**
 * Plug the VAV Press Click or Ultra-Low Press Click board onto Click interface of the board.
 * To have both Click boards connected at the same time to WFI32-IoT, you can connect them via the
 [Shuttle Click](https://www.mikroe.com/shuttle-click) adapter.
