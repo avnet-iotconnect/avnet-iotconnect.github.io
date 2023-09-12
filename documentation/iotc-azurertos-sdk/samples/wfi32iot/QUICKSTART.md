@@ -42,21 +42,21 @@ Firmware logs will be available on that COM port.
 
 * Download and install the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide). 
 MPLAB IPE and 32-bit device support are the only required options during the installation.
-* Download the [binary package zip](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/iotconnect-demo-wfi32-040523.zip)
+* Download the firmware [binary package](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/iotconnect-demo-wfi32-040523.zip).
 * Extract the iotconnect-demo.X.production.hex file from the zip.
-* Open the Microchip IPE application in order to program the firmware: 
+* Open the Microchip IPE application to program the firmware: 
   * In the **Device** entry box, select "WFI32E01"
   * In the **Tool** entry box, select "Curiosity/Starter Kits (PKBO4)"
   * Click the **Connect** button
   * Wait for any updates to complete and ignore any DFP related warnings in the output.
-  * After the device is connected, updated and verified (as reported in the output), click the **Browse** button next to the **Hex file** field and select your iotconnect-demo.X.production.hex file that was extracted in a previous step.
+  * After the device is connected, updated, and verified (as reported in the output), click the **Browse** button next to the **Hex file** field and select the iotconnect-demo.X.production.hex file that was extracted previously.
   * Click the **Program** button.
-  * Screenshot below shows an example of what the IPE would look like once the device has been programmed successfully:
+  * The ccreenshot below shows an example of what the IPE displays if the device has been programmed successfully:
 
 ![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
 # 4. Cloud Account Setup
-**NOTE: If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.**
+**NOTE: If you have already created an IoTConnect Account OR were provided an account as part of a training or workshop, skip this section.**
 
 If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
@@ -71,9 +71,9 @@ A Device Template with Self Signed authentication type will need to be imported.
 This section outlines how to set up the device for IoTConnect Self Signed Certificate authentication type.
 Other authentication types can be used, but are out of scope for this guide.
 
-* In order to complete the next steps a fingerprint of device certificate will need to be created.
+* In order to complete the next steps a fingerprint of the device certificate will need to be created.
 The device certificate is located in the file named snXXXXXX_device.pem on the Mass Storage Device.
-The fingerprint of the certificate can be either SHA256 or SHA1.
+The fingerprint of the certificate can be generated as either SHA256 or SHA1 (default).
 There are a couple of ways to create the fingerprint:
    * (Online Tool) The contents of snxXXXX_device.pem can be pasted into an [online fingerprint calculator](https://www.samltool.com/fingerprint.php).
    * (Local with OpenSSL) Execute ``` openssl x509 -noout -fingerprint -inform pem -in snxXXXX_device.pem ```
@@ -84,12 +84,12 @@ Below is a sample screenshot from the online tool:
 # 7. IoTConnect Device Setup
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
 * Enter a the "snXXXXXXXX" (do not include the "__device.pem") from earlier in the *Unique ID* field and enter a descriptive *Display Name* of your choice.
-* Select the template from the dropdwon box that was just imported.
-* Enter the Fingerprint calculated in the "Device Configuration" step into the Thumbprint field.
-* Click Save and press the Reset button.
+* Select the template from the dropdwon box that was just imported (or provided to you).
+* Enter the fingerprint calculated previously into the **Thumbprint** field.
+* Click Save and press the Reset button on the board.
 
 # 8. Configuration
-To configure the WiFi Credentials and IoTConnect Account environment information, you will need to edit two file located on the USB Mass Storage Device.
+To configure the WiFi Credentials and IoTConnect Account environment information, two files on the USB Mass Storage Device need to be editited.
 
 ## Configure the WiFi Credentials
 * The WiFi Credentials are configred in the WIFI.CFG file located on the MSD. Open the file in a text editor and input the WiFi credentials using one of the
@@ -115,9 +115,9 @@ following templates per the network configuration:
 ## Configure the IoTConnect Account
 * Open the CLOUD.CFG file in a text editor. If the contents of CLOUD.CFG do not have text like CPID and ENV, 
 delete the file, eject the drive, reset the board and re-open the file as resetting will populate the defaults.
-* Set the CPID and Environment per your IoTConnect account settings, which can be found in Settings -> Key Vault in your IoTConnect portal.
-* Save the file, eject the USB drive then reset the board.
-* Your device should connect to your IoTConnect account and publish sensor data periodically.
+* Set the CPID and Environment per your IoTConnect account settings, which can be found in Settings -> Key Vault in the IoTConnect portal.
+* Save the file, eject the USB drive and reset the board.
+* The device should connect to the specified IoTConnect account and publish sensor data periodically.
 
 # 9. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json). Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
