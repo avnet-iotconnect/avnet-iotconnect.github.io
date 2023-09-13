@@ -84,7 +84,7 @@ Below is a sample screenshot from the online tool:
 # 7. IoTConnect Device Setup
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
 * Enter a the "snXXXXXXXX" (do not include the "__device.pem") from earlier in the *Unique ID* field and enter a descriptive *Display Name* of your choice.
-* Select the template from the dropdwon box that was just imported (or provided to you).
+* Select the template from the dropdown box that was just imported (or provided to you).
 * Enter the fingerprint calculated previously into the **Thumbprint** field.
 * Click Save and press the Reset button on the board.
 
