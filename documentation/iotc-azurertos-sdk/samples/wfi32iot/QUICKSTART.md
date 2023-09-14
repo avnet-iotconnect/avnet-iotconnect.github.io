@@ -40,7 +40,7 @@ Firmware logs will be available on that COM port.
 
 # 3. Programming the Firmware
 
-* Download and install the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide). 
+* Download and install **v6.05** of the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem) (The newer versions of the included IPE have an issue connecting to the WFI32 board). 
 MPLAB IPE and 32-bit device support are the only required options during the installation.
 * Download the firmware [binary package](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/iotconnect-demo-wfi32-040523.zip).
 * Extract the iotconnect-demo.X.production.hex file from the zip.
