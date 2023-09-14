@@ -8,6 +8,13 @@
 
 - Download and install [GCCRX toolchain](https://llvm-gcc-renesas.com/rx-download-toolchains/).
 
+***Note:*** if the `.run` file throws an error during installation or refuses to install your machine requires some i386 dependencies, fix by installing
+```bash
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+```
+
 ***Note:*** All the testing was done on 2022/04 version of GCCRX. However, others managed to get it working with 2023/05.
 
 ***Note:*** Previous note only relates to CK-RX65N and RX65NCloudKit projects.
