@@ -51,7 +51,7 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
   * Wait for any updates to complete and ignore any DFP related warnings in the output.
   * After the device is connected, updated, and verified (as reported in the output), click the **Browse** button next to the **Hex file** field and select the iotconnect-demo.X.production.hex file that was extracted previously.
   * Click the **Program** button.
-  * The ccreenshot below shows an example of what the IPE displays if the device has been programmed successfully:
+  * The screenshot below shows an example of what the IPE displays if the device has been programmed successfully:
 
 ![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
