@@ -13,9 +13,7 @@ This guide currently only supports Windows 64-bit.
   * Select the 64-bit version
   * Install to the default directory "C:\Program Files\\" (The config uses some .bat files which reference this location.)
 * A serial console application, such as [Tera Term](https://ttssh2.osdn.jp/index.html.en), 
- or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/) 
- is required for the next steps. 
- Configure settings per the screenshot below:
+ or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/) configured per the screenshot below:  
 
 ![Tera Term Serial Settings](media/teraterm-settings.png "Tera Term Serial Settings")
 
