@@ -27,10 +27,13 @@ guide and return to this guide once complete.
 
 # 4. Firmware Setup
 
-* Download and extract either of the following packages
-  * [WiFi 1.1.1](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/stm32u5-tfm-package-1.1.1.zip) - For connection to a WiFi network
-  * [BG96 1.1.1](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/stm32u5-tfm-package-bg96-1.1.1.zip) - For connecting to a cellular network (see comment below)
-* If using the BG96 binary, follow the [BG96 Guide](BG96.md)
+* Download one of the following firmware packages:
+  * [WiFi 1.1.1](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/stm32u5-tfm-package-1.1.1.zip) - For connection to a WiFi network (Most Common)
+  * [BG96 1.1.1](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/stm32u5-tfm-package-bg96-1.1.1.zip) - For connecting to a cellular network with addition of a BG96 daughter board. (Follow the [BG96 Guide](BG96.md))
+* Extract the package in a location that meets the following requirements to ensure compatibility with windows batch files:
+ * File path should not contain any spaces
+ * File path should only contain alphanumeric characters and hyphens
+ * File path should not be part of a sync'd location (e.g., OneDrive)
 * Connect a USB cable to the Micro USB slot of the B-U585I-IOT02A board.
 * Execute the *trust-zone-enable.bat* batch script included in the package.<br>This will enable the TrustZone feature which is required to run the next step.
 Running this script will make it so that only TrustZone enabled applications are authorized to run on the board. This only needs to be run once per board.
