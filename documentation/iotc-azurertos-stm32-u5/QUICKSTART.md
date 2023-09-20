@@ -49,7 +49,7 @@ Running this script will make it so that only TrustZone enabled applications are
   * Configure your WiFi Password by pressing 2 (if running the WiFi version)
   * Set the values for your CPID and Environment by pressing 3 and 4 respectively. These values can be located 
 in the IoTConnect WebUI on the *Key Vault* page. 
-Navigate there using the image below:
+Navigate there using the image below:  
 ![Key Vault](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/assets/key_vault.png "Key Vault")
   * The DUID value should be left unset. A DUID unique to your device will be generated and displayed on the console during startup
   * The Symmetric key should be left unset. This will allow for authentication using STSAFE with x509 authentication
