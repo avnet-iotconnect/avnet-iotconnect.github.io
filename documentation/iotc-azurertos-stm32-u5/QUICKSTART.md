@@ -54,8 +54,8 @@ Navigate there using the image below:<br>
   * The DUID value should be left unset. A DUID unique to your device will be generated and displayed on the console during startup
   * The Symmetric key should be left unset. This will allow for authentication using STSAFE with x509 authentication
   * Press '0' to write the configuration. This option will also reset the board.
-* After configuring the device settings, monitor the serial terminal for information similar to the screenshot below. You may have to scroll up in the terminal.
-  ![Certificate and DUID Screemshot](media/duid-and-certifciate-console.png "Certificate and DUID Screemshot") 
+* After configuring the device settings, monitor the serial terminal for information similar to the screenshot below. You may have to scroll up in the terminal.<br>
+![Certificate and DUID Screemshot](media/duid-and-certifciate-console.png "Certificate and DUID Screemshot") 
 * A device fingerprint needs to be generated from the certificate.
   * Copy the Device Certificate from the console, including the BEGIN and END lines.
   * Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php). (Optionally you can use openssl to print the device fingerprint, but this is outside the scope of this guide.)
