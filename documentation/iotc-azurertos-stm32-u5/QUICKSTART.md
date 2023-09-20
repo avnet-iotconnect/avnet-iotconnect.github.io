@@ -8,9 +8,10 @@ This guide currently only supports Windows 64-bit.
 
 # 2. Required Software
 
-* Download and install the [STM32CubeProgrammer for STM32](https://www.st.com/en/development-tools/stm32cubeprog.html).
-  * Ensure that the installed version is 2.10 or newer.
-  * Ensure the 64-bit version is installed to the default directory "C:\Program Files\" as there are some .bat files which reference this location.
+* Download and install the [STM32CubeProgrammer for STM32](https://www.st.com/en/development-tools/stm32cubeprog.html) with the following notes:
+  * Select version 2.10 (Newer versions are untested, but should work.)
+  * Select the 64-bit version
+  * Install to the default directory "C:\Program Files\\" (The config uses some .bat files which reference this location.)
 * A serial console application, such as [Tera Term](https://ttssh2.osdn.jp/index.html.en), 
  or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/) 
  is required for the next steps. 
