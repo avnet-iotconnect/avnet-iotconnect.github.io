@@ -39,8 +39,6 @@ guide and return to this guide once complete.
 Running this script will make it so that only TrustZone enabled applications are authorized to run on the board. This only needs to be run once per board.
 * Execute the *tfm-update.bat* batch script included in the package to setup TFM on the board along with the IoTConnect firmware.
 
-** Note: After completion of this demo, the *trust-zone-disable.bat* batch script can be run to once again allow non-TrustZone applications to be executed. **Do not run this now**
-
 # 5. Device Configuration
 * Ensure the serial terminal application is running.
 * Press the RST button on the board and look for the "X-CUBE-AZURE" title block. This may take 1 or two presses of the button. (The reset button is the black button labled "RST" next to the only blue button on the top of the board.)
@@ -79,7 +77,7 @@ A Device Template with Self Signed authentication type will need to be imported 
 # 8. Verification
 At this point the board should be sending telemetry to the IoTConnect portal. We can verify by checking the "Live Data" feed.
 * Return to the *Devices* page and click on the newly created Device ID.
-* On the left sub-menu, click "Live Data" and after a few seconds, MQTT data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
+* On the left sub-menu, click "Live Data" and after a few seconds, data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
 
 # 9. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display some telemtery from the STM32U5 IoT Discovery Kit is available for download [here](templates/dashboards/stm32u5_quickstart_dashboard_export.json).  Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
