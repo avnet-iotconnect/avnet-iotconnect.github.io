@@ -30,26 +30,27 @@ guide and return to this guide once complete.
 * Download one of the following firmware packages:
   * [WiFi 1.1.1](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/stm32u5-tfm-package-1.1.1.zip) - For connection to a WiFi network (Most Common)
   * [BG96 1.1.1](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/stm32u5-tfm-package-bg96-1.1.1.zip) - For connecting to a cellular network with the addition of a BG96 daughter board. (Follow the [BG96 Guide](BG96.md))
-* Extract the package in a location that meets the following requirements to ensure compatibility with windows batch files:
+* Extract the package in a location that meets the following requirements to ensure compatibility with Windows batch files:
   * File path should not contain any spaces
   * File path should only contain alphanumeric characters and hyphens
-  * File path should not be part of a sync'd location (e.g., OneDrive)
-* Connect a USB cable to the Micro USB slot of the B-U585I-IOT02A board.
-* Execute the *trust-zone-enable.bat* batch script included in the package.<br>This will enable the TrustZone feature which is required to run the next step.
+  * File path should not be part of a synchronized location (e.g., OneDrive)
+* Connect a USB cable to the Micro USB slot of the board.
+* Execute the *trust-zone-enable.bat* batch script included in the package to enable the TrustZone feature which is required to run the next step.
 Running this script will make it so that only TrustZone enabled applications are authorized to run on the board. This only needs to be run once per board.
-* Execute the *tfm-update.bat* batch script included in the package to setup TFM on the board.
+* Execute the *tfm-update.bat* batch script included in the package to setup TFM on the board along with the IoTConnect firmware.
 
 ** Note: After completion of this demo, the *trust-zone-disable.bat* batch script can be run to once again allow non-TrustZone applications to be executed. **Do not run this now**
 
 # 5. Device Configuration
-* Ensure your serial terminal application is running.
+* Ensure the serial terminal application is running.
 * Press the RST button on the board and look for the "X-CUBE-AZURE" title block. This may take 1 or two presses of the button. (The reset button is the black button labled "RST" next to the only blue button on the top of the board.)
 * In your terminal application enter "y" when prompted to set device configuration. You will only need to set values 1-4.
   * Configure your WiFi SSID (Network Name) by pressing 1 (if running the WiFi version)
   * Configure your WiFi Password by pressing 2 (if running the WiFi version)
   * Set the values for your CPID and Environment by pressing 3 and 4 respectively. These values can be located 
 in the IoTConnect WebUI on the *Key Vault* page. 
-Navigate there using the image below:<br>![Key Vault](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/assets/key_vault.png "Key Vault")
+Navigate there using the image below:
+![Key Vault](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/assets/key_vault.png "Key Vault")
   * The DUID value should be left unset. A DUID unique to your device will be generated and displayed on the console during startup
   * The Symmetric key should be left unset. This will allow for authentication using STSAFE with x509 authentication
   * Press '0' to write the configuration. This option will also reset the board.
