@@ -10,7 +10,7 @@ This guide currently only supports Windows 64-bit.
 
 * Download and install the [STM32CubeProgrammer for STM32](https://www.st.com/en/development-tools/stm32cubeprog.html).
   * Ensure that the installed version is 2.10 or newer.
-  * Ensure the 64-bit version is installed to the default  directory "C:\Program Files\"
+  * Ensure the 64-bit version is installed to the default directory "C:\Program Files\" as there are some .bat files which reference this location.
 * A serial console application, such as [Tera Term](https://ttssh2.osdn.jp/index.html.en), 
  or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/) 
  is required for the next steps. 
@@ -91,5 +91,5 @@ Using the serial terminal is the best way to identify issues. Common issues can 
 * After an update, you may see an error in the log *[ERR] Error while initializing the security counter*. Simply resetting the board should clear the error.
 * A blank screen may appear after flashing. The following steps may recover the board:
   * Erase the board using the full chip erase option using the STM32CubeProgrammer GUI.
-  * Run *trust-zone-disable.bat* and then *trust-zone-disable.bat* again.
+  * Run *trust-zone-disable.bat* and then *trust-zone-enable.bat* again.
   * Flash the board again with *tfm-update.bat*.
