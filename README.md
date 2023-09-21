@@ -25,7 +25,7 @@ To quickly jump to documentation, please use the links below:
 ### Renesas
 * [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) (CK-RK65N) [Blue Board]
 * [RX65N-Cloud-Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) (RX65N-Cloud-Kit) [Green Board]
-* (DA16200)
+* [DA16200 and DA16400](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk) (DA16200) [DA16200MOD EVK and DA16200MOD]
 
 ### STMicroelectronics
 * [STM32L4 Discovery Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) (B-L475E-IOT01A)
