@@ -1,25 +1,23 @@
 # 1. Introduction
 
-This document provides instructions on how to quickly get the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board enabled with IoTConnect, without the need to compile any code from source.
+This document provides instructions on how to quickly get the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board enabled with IoTConnect, without the need to compile any code from source by leveraging the USB Mass Storage Device (MSD) support.
 
-The board features USB Mass Storage Device (MSD) support, which makes the IoTConnect setup simple and without the need
-to change the source code.
-
-The built-in ATECC608 secure element provides a quick and secure way 
-to set up the device with IoTConnect.
+* This QuickStart uses the built-in ATECC608 secure element to enable a secure connection to IoTConnect.
+* The Temperature and Light Sensor telemerty are be enabled in the IoTConnect GUI.
+* The IoTConnect GUI can monitor user input from the on-board user switches (SW1 & SW2)
+* Althought not required, further telemetry can be visualized by adding Click Boards (see below).
 
 The Click board interface makes it possible to make use of hundreds of different Click boards from MikroE.
-The [VAV Press Click](https://www.mikroe.com/vav-press-click) 
-, [Ultra-Low Press Click](https://www.mikroe.com/ultra-low-press-click)
-, [PHT Click](https://www.mikroe.com/pht-click)
-, [TEMP&HUM 14 click](https://www.mikroe.com/temphum-14-click)
-, [Telaire T6713 CO2 Sensor Module](https://www.amphenol-sensors.com/en/telaire/co2/525-co2-sensor-modules/3399-t6713) on the [PROTO Click](https://www.mikroe.com/proto-click)
-, [Telaire T9602 IP67 Harsh Environment Humidity & Temperature Sensor](https://www.amphenol-sensors.com/en/telaire/humidity/527-humidity-sensors/3224-t9602) on the [Terminal 2 Click](https://www.mikroe.com/terminal-2-click)
-, [Air Quality 7 click](https://www.mikroe.com/air-quality-7-click)
-, [Altitude 4 Click](https://www.mikroe.com/altitude-4-click)
-, and [Altitude 2 Click](https://www.mikroe.com/altitude-2-click)
-boards are directly supported by the demo software and provide 
-the ability to send sensor readings from these boards directly to IoTConnect.
+The following boards are directly supported and provide the ability to send sensor readings directly to IoTConnect:  
+* [VAV Press Click](https://www.mikroe.com/vav-press-click)
+* [Ultra-Low Press Click](https://www.mikroe.com/ultra-low-press-click)
+* [PHT Click](https://www.mikroe.com/pht-click)
+* [TEMP&HUM 14 click](https://www.mikroe.com/temphum-14-click)
+* [Telaire T6713 CO2 Sensor Module](https://www.amphenol-sensors.com/en/telaire/co2/525-co2-sensor-modules/3399-t6713) on the [PROTO Click](https://www.mikroe.com/proto-click)
+* [Telaire T9602 IP67 Harsh Environment Humidity & Temperature Sensor](https://www.amphenol-sensors.com/en/telaire/humidity/527-humidity-sensors/3224-t9602) on the [Terminal 2 Click](https://www.mikroe.com/terminal-2-click)
+* [Air Quality 7 click](https://www.mikroe.com/air-quality-7-click)
+* [Altitude 4 Click](https://www.mikroe.com/altitude-4-click)
+* [Altitude 2 Click](https://www.mikroe.com/altitude-2-click)
 
 # 2. Hardware Setup
 
