@@ -37,7 +37,7 @@ To quickly jump to documentation, please use the links below:
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) | [FreeRTOS](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) 
 * STM32H5 Discovery Kit - P/N: [STM32H573I-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32h573i-dk-3074457345653398677)
 * STM32MP135F MPU - P/N: [STM32MP135F-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp135f-dk-3074457345651659229)
-  * [Python](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo) | [Yacto Linux](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk/blob/kirkstone/board_specific_readmes/stm32mpu135.md)
+  * [Python](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo) | [Yocto Linux](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk/blob/kirkstone/board_specific_readmes/stm32mpu135.md)
 * [STM32MP157F MPU](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP157F-DK2_Demo) - P/N: [STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731)
 * [STM32MP157F & PROTEUS Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo) - P/N: [STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731) & P/N: [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-proteus1/evaluation-kit-industrial-sensor/dp/47AK6939)
 * [Industrial Sensor Evaluation Kit] - P/N: [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-proteus1/evaluation-kit-industrial-sensor/dp/47AK6939)
