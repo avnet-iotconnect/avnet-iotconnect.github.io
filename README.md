@@ -26,10 +26,10 @@ To quickly jump to documentation, please use the links below:
 
 ### Renesas  
 [Guide on using E2 Studio on Linux](documentation/e2studio/e2studio_linux_guide.md)
-* [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) - Blue Board (P/N: CK-RK65N)
-* [RX65N-Cloud-Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) - Green Board (P/N: RX65N-Cloud-Kit)
-* [DA16200 and DA16400](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk) (DA16200) [DA16200MOD EVK and DA16200MOD]
-* [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) (P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard/))
+* [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) ("Blue Board") - P/N: [RTK5CK65N0S04000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5ck65n0s04000be-3074457345648945765)
+* [RX65N-Cloud-Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) ("Green Board") - P/N: [RTK5RX65N0S01000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5rx65n0s01000be-3074457345641711168)
+* [DA16200](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk) - P/N: [DA16200MOD-DEVKT](https://www.avnet.com/shop/us/products/renesas-electronics/da16200mod-devkt-3074457345643529171)
+* [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
 
 ### STMicroelectronics
 * [STM32L4 Discovery Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) (P/N: B-L475E-IOT01A)
