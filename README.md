@@ -6,14 +6,14 @@ To quickly jump to documentation, please use the links below:
 * [Basic AWS Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Basic_AWS_Demo)
 
 ### Infineon Technologies
-* [PSoC 6 WiFi-BT Pioneer Kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) (P/N: CY8CKIT-062-WIFI-BT)
-* [XENSIV™ KIT CSK PASCO2](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) (P/N: KITCSKPASCO2TOBO1)
+* [PSoC 6 WiFi-BT Pioneer Kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) (Buy: [CY8CKIT-062-WIFI-BT](https://www.avnet.com/shop/us/products/infineon/cy8ckit-062-wifi-bt-3074457345644457811))
+* [XENSIV™ KIT CSK PASCO2](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) (Buy: ([KITCSKPASCO2TOBO1](https://www.avnet.com/shop/us/products/infineon/kitcskpasco2tobo1-3074457345649343226))
 
 ### Microchip
-* WFI32-IoT Development Board (P/N: EV36W50A)
+* WFI32-IoT Development Board (Buy: [EV36W50A](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653415285/))
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot)
-* [AVR-IoT Cellular Mini](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk) (P/N: EV70N78A)
-* SAM E54 Xplained Pro Evaluation Kit (P/N: ATSAME54-XPRO)
+* [AVR-IoT Cellular Mini](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk) (Buy: [EV70N78A](https://www.avnet.com/shop/us/products/microchip/ev70n78a-3074457345652818957/))
+* SAM E54 Xplained Pro Evaluation Kit (Buy: [ATSAME54-XPRO](https://www.avnet.com/shop/us/products/microchip/atsame54-xpro-3074457345632695712))
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro)
 
 ### NXP
