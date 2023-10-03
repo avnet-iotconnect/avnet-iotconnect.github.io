@@ -10,19 +10,19 @@ To quickly jump to documentation, please use the links below:
 * [XENSIV™ KIT CSK PASCO2](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) - P/N: [KITCSKPASCO2TOBO1](https://www.avnet.com/shop/us/products/infineon/kitcskpasco2tobo1-3074457345649343226)
 
 ### Microchip
-* WFI32-IoT Development Board - P/N: [EV36W50A](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653415285/)
+* WFI32-IoT Development Board - P/N: [EV36W50A](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653415285)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot)
-* [AVR-IoT Cellular Mini](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk) - P/N: [EV70N78A](https://www.avnet.com/shop/us/products/microchip/ev70n78a-3074457345652818957/)
+* [AVR-IoT Cellular Mini](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk) - P/N: [EV70N78A](https://www.avnet.com/shop/us/products/microchip/ev70n78a-3074457345652818957)
 * SAM E54 Xplained Pro Evaluation Kit - P/N: [ATSAME54-XPRO](https://www.avnet.com/shop/us/products/microchip/atsame54-xpro-3074457345632695712)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro)
 
 ### NXP
-* [MaaxBoard RT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) (P/N: AES-MC-SBC-IMXRT1176-G)
-* [MaaXBoard](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) (P/N: AES-MC-SBC-IMX8M-G)
-* [MaaXBoard 8ULP](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) (P/N: AES-MAAXB-8ULP-SK-G)
-* [MaaXBoard Mini](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) (P/N: AES-MC-SBC-IMX8MINI-G)
-* [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md) (P/N: MSC SM2S-IMX8PLUS)
-* [i.MX RT1060 Evaluation Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060) (P/N: MIMXRT1060-EVKB)
+* [MaaxBoard RT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - P/N: [AES-MC-SBC-IMXRT1176-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imxrt1176-g-3074457345644679188)
+* [MaaXBoard](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MC-SBC-IMX8M-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8m-g-3074457345642080716)
+* [MaaXBoard 8ULP](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MAAXB-8ULP-SK-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-8ulp-sk-g-3074457345648110677)
+* [MaaXBoard Mini](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MC-SBC-IMX8MINI-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8mini-g-3074457345643866383)
+* [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md) - P/N: MSC SM2S-IMX8PLUS
+* [i.MX RT1060 Evaluation Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060) - P/N: [MIMXRT1060-EVKB](https://www.avnet.com/shop/us/products/nxp/mimxrt1060-evkb-3074457345646220163)
 
 ### Renesas  
 [Guide on using E2 Studio on Linux](documentation/e2studio/e2studio_linux_guide.md)
