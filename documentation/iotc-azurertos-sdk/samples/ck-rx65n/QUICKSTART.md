@@ -1,11 +1,11 @@
-# Renesas CK-RX65N (blue PCB) Quickstart Guide
+# Renesas CK-RX65N (blue PCB) Quick Start Guide
 
 ***NOTE:*** this guide assumes you have E2 Studio installed. If you didn't - please follow instructions to install if from [here](DEVELOPER_GUIDE.md)
 
 ## Download binaries
 
-//TODO: change link when binaries will get moved somewhere else
-[Download portal](https://files.witekio.com/)
+Download executable project framework ELF (Executable and Linking Format) file containing the Quick Start binary
+[Download portal](https://saleshosted.z13.web.core.windows.net/sdk/renesas/cl-rx65n-qs/ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf)
 
 ## Open E2 Studio
 
