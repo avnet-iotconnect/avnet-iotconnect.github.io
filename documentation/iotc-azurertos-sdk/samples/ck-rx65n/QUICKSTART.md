@@ -4,7 +4,8 @@
 
 ## Download binaries
 
-Download executable project framework ELF (Executable and Linking Format) file containing the Quick Start binary
+Download executable project framework ELF (Executable and Linking Format) file containing the Quick Start binary.
+
 [Download portal](https://saleshosted.z13.web.core.windows.net/sdk/renesas/cl-rx65n-qs/ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf)
 
 ## Open E2 Studio
