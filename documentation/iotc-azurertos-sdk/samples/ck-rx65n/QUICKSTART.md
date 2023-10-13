@@ -28,8 +28,8 @@ A Device Template with Self Signed authentication type will need to be imported.
 
 ## 6. IoTConnect Device Creation
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
-* Enter a *Unique ID* in the field and take note for later
-* Enter a descriptive *Display Name*
+* Enter a <b>Unique ID</b> in the field and take note for later
+* Enter a descriptive <b>Display Name</b>
 * Select the template from the dropdown box that was just imported or provided to you
 * A new key needs to be generated:
     * Make Key and take note.
