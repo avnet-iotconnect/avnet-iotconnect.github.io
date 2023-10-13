@@ -1,7 +1,5 @@
 # Renesas CK-RX65N (blue PCB) Quick Start Guide
 
-***NOTE:*** this guide assumes you have E2 Studio installed. If you didn't - please follow instructions to install if from [here](DEVELOPER_GUIDE.md)
-
 ## 1. Prerequisites
 * PC with Windows 10/11
 * Internet connection for the PC
@@ -10,7 +8,7 @@
 * A serial terminal application such as [Tera Term](https://ttssh2.osdn.jp/index.html.en)
 
 ## 2. Download & Install Renesas Software
-Follow the instructions here, then return to this guide.
+Follow the instructions [here](DEVELOPER_GUIDE.md), then return to this guide.
 
 ## 3. Download Pre-Built Binary
 Download the QuickStart ELF (Executable and Linking Format) file which contains the pre-built binary:  
@@ -26,7 +24,7 @@ Open e2 Studio
 <img style="width:75%; height:auto" src="./assets/quickstart/c_cpp_project_import.png"/>
 </details>
 
-<details><summary>Click <b>Browse</b>, select the binary downloaded in step 3, then click <b>Next</b></summary>
+<details><summary>Click <b>Browse</b>, select the binary downloaded in Step 3, then click <b>Next</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/browse_and_next.png"/>
 </details>
 
@@ -43,17 +41,18 @@ Open e2 Studio
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230303_093310710-crop.jpg"/>
 </details>
 
-<details><summary>The power LED (white hyphen between the "CK" and "RX65N") should be lit</summary>
+<details><summary>Verify the power LED (white hyphen between the "CK" and "RX65N") is illuminated</summary>
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop-power.jpg"/>
 </details>
 
 ## 6. Setup the Serial Terminal
 Open the serial terminal application and configure as follows:
+* Select the serial port 
 * 115200 baud rate
 * 8-bit data
 * No parity
 
-## 7. Setup Debugging and Flashing the Board
+## 7. Setup Debugging and Flash the Board
 
 <details><summary>Right click on the project and select <b>Debug As -> Debug Configurations...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Debug_as.png"/>
@@ -86,13 +85,17 @@ Open the serial terminal application and configure as follows:
 </details>
 
 The build contains <b>two</b> breakpoints.
-<details><summary>Press the <b>Resume</b> button when the console indicates a breakpoint was reached</summary>
+<details><summary>Press the <b>Resume</b> button when the console indicates a breakpoint has been reached</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/resume_button.png"/>
-</details>
+</details><b>Note: </b>It may take a few minutes to move through the breakpoints depending on the speed of the system used.
+<br><br>
+Switch over to the serial terminal application and monitor the output.  
+
+After a mintue or two, verify the following prompt is presented:<br>
+* <b>Type the CPID</b>:
+<br>
 
 ## 8. Configuring IoTConnect Information
-
-After successful boot and network configuration (automatic process) you will be prompted to enter IoTConnect connection details
 
 <details><summary> Click here if you do not have a device on IoTConnect to enter details of </summary>
 
