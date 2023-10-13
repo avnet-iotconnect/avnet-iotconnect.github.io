@@ -1,5 +1,4 @@
-
-# Renesas CK-RX65N Developers Guide
+### Renesas CK-RX65N Developers Guide
 
 This document is intended to introduce developers to the use of the blue Renesas CK-RX65N
 board, using the ck-rx65n sample project, with IoTConnect.
@@ -7,14 +6,9 @@ board, using the ck-rx65n sample project, with IoTConnect.
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop.jpg"/>
 
 ## Prerequisites
-
-***Note:*** For using E<sup>2</sup>Studio on Linux please follow [this README](/documentation/e2studio/e2studio_linux_guide.md)
-
-- Windows PC (this setup guide details installation, etc. on a Windows PC; a
-  Linux setup might be setup in an analogous manner).
-- Internet connection
-- Internet with ethernet connection for the Renesas board’s ethernet.
-- optionally: plastic tweezers.
+- PC with Windows 10/11 (For using E<sup>2</sup> Studio on Linux please follow the [e2studio_linux_guide.md](/documentation/e2studio/e2studio_linux_guide.md)).
+- Internet connection for the PC
+- Ethernet connection for the Renesas board
 
 ## Download and install Renesas GCC
 
