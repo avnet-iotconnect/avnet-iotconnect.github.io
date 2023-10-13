@@ -2,125 +2,95 @@
 
 ***NOTE:*** this guide assumes you have E2 Studio installed. If you didn't - please follow instructions to install if from [here](DEVELOPER_GUIDE.md)
 
-## Download binaries
+## 1. Prerequisites
+* PC with Windows 10/11
+* Internet connection for the PC
+* Ethernet connection cable for the Renesas board
+* (2) USB-A to micro-USB cables <b>with data support</b>
+* A serial terminal application such as [Tera Term](https://ttssh2.osdn.jp/index.html.en)
 
+## 2. Download & Install Renesas Software
+Follow the instructions here, then return to this guide.
+
+## 3. Download Pre-Built Binary
 Download the QuickStart ELF (Executable and Linking Format) file which contains the pre-built binary:  
-[ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf)
+[ck-rx65n-basic-sample-cli.elf](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf)
 
-## Open E2 Studio
-
-## Importing binaries
-
-### Close Welcome view
-
-<img style="width:75%; height:auto" src="./assets/quickstart/close_welcome.png"/> 
-
-### Import C/C++ project
-
+## 4. Import The Project
+Open e2 Studio
+<details><summary>Click <b>File</b> then <b>Import...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Import_project.png"/>
+</details>
+
+<details><summary>Select the <b>C/C++ Executable</b> option</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/c_cpp_project_import.png"/>
+</details>
 
-
-### Click "Browse" button and provide path to downloaded binaries and proceed.
-
+<details><summary>Click <b>Browse</b>, select the binary downloaded in step 3, then click <b>Next</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/browse_and_next.png"/>
+</details>
 
-### Click "Finish"
-
+<details><summary>Click <b>Finish</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/finish_import.png"/>
+</details>
 
-### Close opened window
-
+<details><summary>Click <b>Close</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/close_import.png"/>
+</details>
 
-## Setup the CK-RX65N board
-
-[Setup the CK-RX65N](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/ck-rx65n-cloud-kit-based-rx65n-mcu-group).
-
-Connect the two USB-micro leads and the ethernet cable:
-***Note:*** both USB-to-USB_micro must be data transfer cables.
-
+## 5. Setup the CK-RX65N board
+<details><summary>Connect both USB cables and the network cable to the board</summary>
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230303_093310710-crop.jpg"/>
+</details>
 
-The power LED should be lit. The power LED forms the "-" in the CK-RX65N on the silk-screen on the board, above the fingerprint reader.
-
+<details><summary>The power LED (white hyphen between the "CK" and "RX65N") should be lit</summary>
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop-power.jpg"/>
+</details>
 
-### Setup a terminal connection
+## 6. Setup the Serial Terminal
+Open the serial terminal application and configure as follows:
+* 115200 baud rate
+* 8-bit data
+* No parity
 
-Install
-[termite](https://www.virtual-serial-port.org/articles/alternative-to-termite-terminal/), or
-[Tera Term](https://ttssh2.osdn.jp/index.html.en), or
-[picocom](https://linux.die.net/man/8/picocom), 
-or a similar terminal application.
+## 7. Setup Debugging and Flashing the Board
 
-The terminal settings to connect are:
-
-- Chose appropriate COM port. Note: In Linux the terminal may enumerate as
-  `/dev/ttyACM0`.
-- 115200 baud rate
-- 8-bit data
-- No parity
-
-## Creating Debugging Setup and Flashing the board
-
-Right click on your project in Project Explorer Tab (typically on your left side)-> Debug As -> Debug Configurations... 
-
+<details><summary>Right click on the project and select <b>Debug As -> Debug Configurations...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Debug_as.png"/>
+</details>
 
-Double click Renesas GDB Hardware Debugging -> it should create new debug setup instance.
+<details><summary>Double click on <b>Renesas GDB Hardware Debugging</b></summary>
+  A new debug setup instance will apear directly beneath
+</details>
 
-In newly created debug instance check that:
-
-In "GDB settings" tab:
-- "Debug Hardware" is set to "E2 Lite (RX)";
-- "Target Device" is set to "R5F565NE" (for ck-rx65n (blueboard));
-
-<details> <summary> Click to see screenshot of setup </summary>
+<details><summary>Select the <b>Debugger</b> tab and verify settings as follows:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/debug_setup1.png"/>
-</details>
+</details>  
+ 
+ * <b>Debug hardware:</b> is set to "E2 Lite (RX)"<br>
+ * <b>Target Device:</b> is set to "R5F565NE"
 
-In "Connection Settings" tab:
-
-"Connection type" is set to "Fine".
-
-Apply -> Debug
-
-<details> <summary> Click to see screenshot of setup </summary>
+<details><summary>Just below, click the <b>Connection Settings</b> tab and ensure:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/debug_setup2.png"/>
-</details>
+</details>  
 
-It should start flashing the board.
+* <b>Connection Type</b> is set to "Fine"
+* Click <b>Apply</b> then <b>Debug</b> to begin flashing the board.
 
-**If it started successfuly you should be able to see this:**
+<details><summary>Verify the download begins in the console</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/flashing.png"/>
-
-Switch to the debug perspective when prompted.
-
-<img style="width:75%; height:auto" src="./assets/quickstart/perspective_switch.png"/>
-
 </details>
 
-The build will have two default breakpoints already enabled, so presume the
-Resume button (green "left-pointing triangle") in the middle of e<sup>2</sup>
-studio twice to enable to code to execute past those two breakpoints.
+<details><summary>Switch to the debug perspective when prompted.</summary>
+<img style="width:75%; height:auto" src="./assets/quickstart/perspective_switch.png"/>
+</details>
 
+The build contains <b>two</b> breakpoints.
+<details><summary>Press the <b>Resume</b> button when the console indicates a breakpoint was reached</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/resume_button.png"/>
+</details>
 
-Output should be visible in any attached terminal now.
-
-When finished press the Terminate button (red "square") next to the Resume
-button.
-
-To debug again, press the debug button.
-
-To return to C/C++ development, select the "Window", then "Perspective", then
-"Open perspective", then "C/C++ project".
-
-To return to debugging/running, select the "Window", then "Perspective", then
-"Open perspective", then "Debug".
-
-## Using CLI
+## 8. Configuring IoTConnect Information
 
 After successful boot and network configuration (automatic process) you will be prompted to enter IoTConnect connection details
 
@@ -241,6 +211,18 @@ You should be able to see `CPID` and `Environment` fields in the top part of the
 
 `DUID` - Unique ID used in creation of device on IoTConnect dashboard
 
+
+## Changing perspectives
+When finished press the Terminate button (red "square") next to the Resume
+button.
+
+To debug again, press the debug button.
+
+To return to C/C++ development, select the "Window", then "Perspective", then
+"Open perspective", then "C/C++ project".
+
+To return to debugging/running, select the "Window", then "Perspective", then
+"Open perspective", then "Debug".
 ***Please note:*** current version (07/09/2023) does not allow erasing whatever was typed in, so be careful. If typo was made - you'll need to reboot the board and start anew.
 
 Example expected behaviour:
