@@ -1,0 +1,42 @@
+{
+    "code": "CKRX65Nsk",
+    "name": "CK-RX65Nsk",
+    "authType": 5,
+    "isIotEdgeEnable": false,
+    "attributes": [
+        {
+            "name": "version",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "button",
+            "type": "BOOLEAN",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "temperature",
+            "type": "DECIMAL",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "humidity",
+            "type": "DECIMAL",
+            "description": null,
+            "unit": null
+        }
+    ],
+    "messageVersion": "2.1",
+    "msgCode": "7LIB7R2",
+    "properties": {
+        "description": null,
+        "dataFrequency": "60",
+        "fileSupport": false
+    },
+    "_meta": {
+        "version": "2.0"
+    }
+}
