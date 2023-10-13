@@ -134,7 +134,7 @@ and then Base64 encode it – so that the binary values can be shared easily.
 
 Run this command in a shell, e.g. in Git for Windows Bash, Cygwin, etc.:
 
-    dd if=/dev/urandom bs=32 count=1 status=none | base64
+    dd if=/dev/urandom bs=16 count=1 status=none | base64
 
 A symmetric key is used to both encode and decode - so the same key is used on
 the IoT device and on the IoTConnect server.
