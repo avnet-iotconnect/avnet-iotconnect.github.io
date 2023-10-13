@@ -14,7 +14,28 @@ Follow the instructions [here](DEVELOPER_GUIDE.md), then return to this guide.
 Download the QuickStart ELF (Executable and Linking Format) file which contains the pre-built binary:  
 [ck-rx65n-basic-sample-cli.elf](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf)
 
-## 4. Import The Project
+## 4. IoTConnect Account Setup
+**NOTE: If you have already created an IoTConnect Account OR were provided an account as part of a training or workshop, skip this section.**
+
+If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
+
+## 5. IoTConnect Device Template Setup
+**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "CK-RX65Nsk") and you my skip this section.**
+
+A Device Template with Self Signed authentication type will need to be imported.
+* Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples//ck-rx65n/templates/device/CK-RX65Nsk_template.JSON).
+* Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
+
+## 6. IoTConnect Device Creation
+* Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
+* Enter a *Unique ID* in the field and take note for later
+* Enter a descriptive *Display Name*
+* Select the template from the dropdown box that was just imported or provided to you
+* A new key needs to be generated:
+    * Make Key and take note.
+* Click <b>Save</b>
+
+## 7. Import the Project
 Open e2 Studio
 <details><summary>Click <b>File</b> then <b>Import...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Import_project.png"/>
@@ -45,14 +66,14 @@ Open e2 Studio
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop-power.jpg"/>
 </details>
 
-## 6. Setup the Serial Terminal
+## 8. Setup the Serial Terminal
 Open the serial terminal application and configure as follows:
 * Select the serial port 
 * 115200 baud rate
 * 8-bit data
 * No parity
 
-## 7. Setup Debugging and Flash the Board
+## 9. Setup Debugging and Flash the Board
 
 <details><summary>Right click on the project and select <b>Debug As -> Debug Configurations...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Debug_as.png"/>
@@ -95,7 +116,7 @@ After a mintue or two, verify the following prompt is presented:<br>
 * <b>Type the CPID</b>:
 <br>
 
-## 8. Configuring IoTConnect Information
+## 10. Configuring IoTConnect Information
 
 <details><summary> Click here if you do not have a device on IoTConnect to enter details of </summary>
 
