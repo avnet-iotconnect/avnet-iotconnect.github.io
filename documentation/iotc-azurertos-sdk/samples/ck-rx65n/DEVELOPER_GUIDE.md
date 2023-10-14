@@ -6,62 +6,20 @@ board, using the ck-rx65n sample project, with IoTConnect.
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop.jpg"/>
 
 ## 1. Prerequisites
+
 - PC with Windows 10/11 (For using e<sup>2</sup> Studio on Linux please follow the [e2studio_linux_guide.md](/documentation/e2studio/e2studio_linux_guide.md)).
 - Internet connection for the PC
 - Ethernet connection for the Renesas board
 
-## Download and install Renesas GCC
+## 2. Setup Environment
 
-You will need to register to [download GCC release](https://llvm-gcc-renesas.com/rx-download-toolchains/).
+Follow the [Environment Setup Guide](documentation/iotc-azurertos-sdk/samples/ck-rx65n/environment_setup.md) and return to this document.
 
-Please consult Renesas documentation on installing GCC release.
+## Optional: Update e<sup>2</sup> studio
 
-Recommended GCCRX version is 2022/04. 
+If an older version e<sup>2</sup> studio is already installed, you can update by following the instructions below.
 
-## Download and install latest e<sup>2</sup> studio
-
-You will need to register to [download the latest e<sup>2</sup> studio
-release](https://www.renesas.com/us/en/software-tool/e2studio-information-rx-family).
-
-Please consult Renesas documentation on installing the latest e<sup>2</sup>
-studio.
-
-The following options are required for Cloudkit development: RX support, and
-optionally Jlink debugging, terminal, and git support.
-
-## Run/setup e<sup>2</sup> studio
-
-You will need to use the your Renesas account information that was used to
-download the latest e<sup>2</sup> studio release when setting up/registering
-e<sup>2</sup> studio.
-
-<details><summary>EXAMPLE STEPS TO RUN AND SETUP E2 STUDIO</summary>
-
-<img style="width:23.59%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_22_40.png"/>
-
-<img style="width:24.1%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_22_51.png"/>
-
-<img style="width:20.51%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_06.png"/>
-
-<img style="width:23.52%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_21.png"/>
-
-<img style="width:39.33%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_34.png"/>
-
-<img style="width:39.33%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_45.png"/>
-
-<img style="width:39.41%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_24_20.png"/>
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_25_07.png"/>
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_25_22.png"/>
-
-</details>
-
-## Optional: Update e<sup>2</sup> studio to latest versions
-
-"Check for Updates" – can be a little slow.
-
-<details><summary>EXAMPLE STEPS TO UPDATE E2 STUDIO</summary>
+<details><summary>Steps to update e<sup>2</sup> studio</summary>
 
 <img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_37_17.png"/>
 
@@ -75,12 +33,12 @@ e<sup>2</sup> studio.
 
 </details>
 
-## Optional: setup egit in e<sup>2</sup> studio
+## Optional: Setup egit in e<sup>2</sup> studio
 
 If using egit support in e<sup>2</sup> studio then [follow Renesas
 notes](https://www.renesas.com/us/en/document/apn/integrated-development-environment-e-studio-how-use-egit-e-studio).
 
-<details><summary>EXAMPLE STEPS TO SETUP EGIT</summary>
+<details><summary>Steps to setup egit</summary>
 
 <img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_45_37.png"/>
 
@@ -90,7 +48,7 @@ notes](https://www.renesas.com/us/en/document/apn/integrated-development-environ
 
 </details>
 
-## Using git clone to access iotc-azurertos-sdk
+## 3. Clone the iotc-azurertos-sdk Repository
 
 The `git clone` details can be found on the [IotConnect Azure RTOS SDK github
 project](https://github.com/avnet-iotconnect/iotc-azurertos-sdk).
@@ -119,7 +77,7 @@ Alternatively, install [Cygwin](https://www.cygwin.com) - and ensure that
 `git`, `unzip` and at least one of `wget` or `curl` are installed - and clone
 the repository.
 
-## Setup the Renesas iotc-azurertos-sdk project fully
+## 4. Setup the Renesas iotc-azurertos-sdk project
 
 The setup process requires a bash-like shell (not cmd) – could use Windows
 Subsystem for Linux (WSL), MinGW shell from "git for Windows", or Cygwin. The
@@ -137,7 +95,7 @@ To setup the `iotc-azurertos-sdk` ck-rx65n project fully:
 
 <img style="width:39.98%; height:auto" src="./assets/ck-rx65n/VirtualBox_WinDev2301Eval_03_03_2023_11_13_34.png"/>
 
-## Import iotc-azurertos-sdk ck-rx65n project into e<sup>2</sup> studio
+## 5. Import iotc-azurertos-sdk ck-rx65n project into e<sup>2</sup> studio
 
 Need to import the `samples/ck-rx65n` project into e<sup>2</sup> studio to
 build and debug - note deselect any "CMake Project" items, so that the
@@ -163,7 +121,7 @@ latest one – if not, then select the latest one, and "Apply and Close".
 
 There may be other dialogs about smart-manual – accept/dismiss as required.
 
-## Update the RX Driver Package (FIT modules)
+## 6. Update the RX Driver Package (FIT modules)
 
 Expand "basic-sample" and the "src" subdirectory, so that "basic-sample.scfg"
 can be seen in the "Project Explorer" pane.
@@ -197,7 +155,7 @@ will suggest a download.
 
 </details>
 
-## Clean and build the project
+## 7. Clean and Build the project
 
 Right-click on the basic-sample item under the ck-rx65n project in the
 "Project Explorer" and select "Clean Project" in case any previous build
@@ -218,7 +176,7 @@ sub-directory.
 
 <img style="width:75%; height:auto" src="./assets/ck-rx65n/VirtualBox_WinDev2301Eval_29_03_2023_10_47_50.png"/>
 
-## Setup the CK-RX65N board
+## 8. Setup the CK-RX65N board
 
 [Setup the CK-RX65N](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/ck-rx65n-cloud-kit-based-rx65n-mcu-group).
 
