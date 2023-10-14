@@ -18,15 +18,17 @@ Download the QuickStart ELF (Executable and Linking Format) file which contains 
 
 ## 4. IoTConnect Account Setup
 
-> **NOTE:**  If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.
+> **NOTE:**  
+> If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.
 
 If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
 ## 5. IoTConnect Device Template Setup
 
-> **NOTE:**  If you are following this guide as part of a training or workshop, a template has already been created (typically "CK-RX65Nsk"), so skip this section.
+> **NOTE:**  
+> If you are following this guide as part of a training or workshop, a template has already been created and this section may be skipped.
 
-A Device Template with Symmetric Key authentication type will need to be imported.
+An IoTConnect *Device Template* with Symmetric Key authentication type will need to be imported.
 * Download the premade [Device Template with Symmetric Key Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples//ck-rx65n/templates/device/CK-RX65Nsk_template.JSON).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
@@ -35,17 +37,18 @@ A Device Template with Symmetric Key authentication type will need to be importe
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
 * Enter a value for the **Unique ID** and make note of it for later
 * Enter a descriptive **Display Name**
-* Select the template from the dropdown box that was just imported (or provided)
+* Select the template from the dropdown box hat was just imported (or provided)
 * Generate a Base64 Key
-   * Option 1) Use a website such as [this one](https://generate.plus/en/base64)
-   * Option 2) Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
+   * <b>Option 1:</b>  Use a website such as <a href="https://generate.plus/en/base64" target="_blank">this one</a> and leave the byte length at 16.
+   * <b>Option 2:</b>  Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
      ```
       dd if=/dev/urandom bs=16 count=1 status=none | base64
      ```
 * Copy the generated key (including any trailing "=") and paste in both **Primary Key** and **Secondary Key** fields
 * Save this key as it will be used to setup the the device later on this guide
 
-> **Note:**  It is not possible to reveal the key once added to the IoTConnect dashboard so be sure to save it.
+> **Note:**  
+> It is not possible to reveal the key once added to the IoTConnect dashboard so be sure to save it.
  
 * Click **Save**
 
@@ -124,8 +127,8 @@ The build contains <b>two</b> breakpoints that will be encountered after a short
 <img style="width:75%; height:auto" src="./assets/quickstart/resume_button.png"/>
 </details>
 
-> **Note:**  It may take a few minutes to move through the breakpoints depending on the speed of the PC.
-
+> **Note:**  
+> It may take a few minutes to move through the breakpoints depending on the speed of the PC.
 
 Switch over to the serial terminal application and monitor the output.  
 
