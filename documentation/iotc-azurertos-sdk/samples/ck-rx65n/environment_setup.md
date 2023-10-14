@@ -34,3 +34,5 @@ Follow the images below and enter your Renesas account e-mail and password when 
 <img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_25_07.png"/>
 
 <img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_25_22.png"/>
+
+Return to the [QuickStart](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/ck-rx65n/QUICKSTART.md#2-download--install-renesas-software) or [Developer Guide]().
