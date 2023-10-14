@@ -11,4 +11,26 @@ Other versions may work, but are untested.
 
 Download the latest [e<sup>2</sup> studio installer for Windows](https://www.renesas.com/us/en/software-tool/e2studio-information-rx-family)
 
-The following options are required for Cloudkit development: RX support, and
+During installation ensure to select "GCC for Renesas RX" support.
+
+## 3. Setup e<sup>2</sup> studio
+
+Follow the images below and enter your Renesas account e-mail and password when prompted.
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_22_40.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_22_51.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_06.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_21.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_34.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_23_45.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_24_20.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_25_07.png"/>
+
+<img style="width:600px; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_08_02_2023_10_25_22.png"/>
