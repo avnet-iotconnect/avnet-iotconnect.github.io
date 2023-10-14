@@ -31,8 +31,18 @@ A Device Template with Self Signed authentication type will need to be imported.
 * Enter a <b>Unique ID</b> in the field and take note for later
 * Enter a descriptive <b>Display Name</b>
 * Select the template from the dropdown box that was just imported or provided to you
-* A new key needs to be generated:
-    * Make Key and take note.
+* Generate a Base64 Key
+   * Option 1) Use a website such as [this one](https://generate.plus/en/base64)
+   * Option 2) Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
+     ```
+      dd if=/dev/urandom bs=16 count=1 status=none | base64
+     ```
+
+* Copy/Paste the generated key for both Primary Key and Secondary Key
+* Save this key as it will be used to setup the security on the device
+
+<b>Note:</b>  It is not possible to recover key information once added to the IoTConnect dashboard.
+ 
 * Click <b>Save</b>
 
 ## 7. Import the Project
@@ -116,125 +126,20 @@ After a mintue or two, verify the following prompt is presented:<br>
 * <b>Type the CPID</b>:
 <br>
 
-## 10. Configuring IoTConnect Information
+If the above output is present, continue to the next section.
 
-<details><summary> Click here if you do not have a device on IoTConnect to enter details of </summary>
+## 10. Configure IoTConnect Information
 
-## Create a sequence of 16-64 random bytes that are Base64 encoded - for use as a Symmetric Key
-
-To create a random symmetric "key" we will generate a random 32 byte sequence
-and then Base64 encode it – so that the binary values can be shared easily.
-
-Run this command in a shell, e.g. in Git for Windows Bash, Cygwin, etc.:
-
-    dd if=/dev/urandom bs=16 count=1 status=none | base64
-
-A symmetric key is used to both encode and decode - so the same key is used on
-the IoT device and on the IoTConnect server.
-
-<img style="width:28.63%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_21_02_2023_10_04_32.png"/>
-
-Make a note of this output, as it will be used to setup the IoTConnect template
-for the device on the IoTConnect dashboard – and in the application use. 
-This is important as isn’t possible to recover key information once
-added to the IoTConnect dashboard.
-
-In this case the symmetric key is:
-
-    YzlgdRbYcreYW1fhjwxO4b3X7hBlDY3OVuw6q9wDbAo=
-
-## IoTConnect device
-
-For further information, please consult the [Knowledge Base](https://help.iotconnect.io) which can be found
-on the left side of the IoTConnect dashboard in the "Resources" section.
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_17_02_2023_13_41_11.png"/>
-
-<details> <summary> Click to see template creation </summary>
-
-### Create IoTConnect template
-
-Log into your IoTConnect account and open the appropriate Device page which can
-be found on the left side of the IoTConnect dashboard.
-
-The template page can be selected by using the "Templates" tab at the bottom of
-the page.
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_20_02_2023_14_15_26.png"/>
-
-Press "Create Template" at the top right corner of the page to create a new
-template.
-
-When creating the template choose a unique name for the "Template Code" (which
-is a maximum of 10 characters and must start with a letter) and a useful
-description in the "Template Name".  Choose "Symmetric Key" for the
-"Authentication Type" and choose "2.1" for the "Device Message Version".
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_20_02_2023_14_40_52.png"/>
-
-When the template is saved, we can add attributes – "measurements" (and types)
-– for values that will be sent by the ck-rx65n board.
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_20_02_2023_14_41_51.png"/>
-
-Click "Attributes (0)" and add a "version" attribute with STRING type and "Save" it.
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_20_02_2023_14_49_29.png"/>
-
-Add a second "button" attribute with BOOLEAN type, a third "temperature" attribute with
-DECIMAL type, and a fourth "humidity" attribute with DECIMAL type.
-
-<img style="width:75%; height:auto" src="./assets/ck-rx65n/VirtualBox_WinDev2301Eval_29_03_2023_13_53_25.png"/>
-
-Note: in the ck-rx65n basic-sample the attribute values are sent using
-`iotcl_telemetry_set_xxx()` style commands.
-
-Make a note of the template name, as this will be used as the "Template" to
-create the IoTConnect device in the next step – but it will be visible in the
-drop-down list.
-
-</details>
-
-### Create IoTConnect device
-
-Log into your IoTConnect account and open the appropriate Device page which can
-be found on the left side of the IoTConnect dashboard.
-
-The device page can be selected by using the "Devices" tab at the bottom of the
-page.
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_21_02_2023_09_56_06.png"/>
-
-- Chose a "Unique Id" for your device – this will be asked to be entered as `DUID`
-  built/compiled in the device later.
-- Chose a "Display Name" for your device.
-- Select an appropriate "Entity" – this is a pre-populated menu item.
-- Select the "Template" display name that was created in the previous step or was already defined –
-  this will require filling in extra fields "Primary Key" and "Secondary Key".
-- Use the symmetric key that was generated previously, including any trailing
-  "=" signs, e.g. `YzlgdRbYcreYW1fhjwxO4b3X7hBlDY3OVuw6q9wDbAo=` as the value
-  for the "Primary Key" and the "Secondary Key".
-
-<img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_21_02_2023_09_57_43.png"/>
-
-When I created the template I pasted the same value in both the
-"Primary Key" and the "Secondary Key" and included the trailing "=" equals
-sign.
-
-</details>
-
-<details> <summary> Acquire CPID and ENV parameters </summary>
-
-`CPID` and `ENV`- can be aquired by going to IoTConnect Dashboard -> Settings -> Key Vault
-You should be able to see `CPID` and `Environment` fields in the top part of the screen:
+<details><summary>Acquire CPID and ENV parameters from the IoTConnect Key Vault</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/cpid_and_env.png"/>
-
 </details>
 
-`SYMMETRIC_KEY` is the key you've saved when you were creating new device on IoTConnect dashboard. Should be entered fully (with trailing "=" signs)
+* Enter the CPID and ENV values into the Serial Terminal as prompted.  
 
-`DUID` - Unique ID used in creation of device on IoTConnect dashboard
+<b>DUID</b> - This is the Unique ID entered when the device was created in the IoTConnect GUI<br>
+<b>SYMMETRIC_KEY</b> - This is the key generated when the device was created in the IoTConnect GUI
 
+* Enter the DUID and SYMMETRIC_KEY values into the Serial Terminal as prompted.  
 
 ## Changing perspectives
 When finished press the Terminate button (red "square") next to the Resume
