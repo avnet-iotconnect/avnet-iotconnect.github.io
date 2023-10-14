@@ -1,13 +1,15 @@
 # Renesas CK-RX65N (blue PCB) Quick Start Guide
 
 ## 1. Prerequisites
+
 * PC with Windows 10/11
 * Internet connection for the PC
-* Ethernet connection cable for the Renesas board
+* Network cable for the Renesas board
 * (2) USB-A to micro-USB cables <b>with data support</b>
 * A serial terminal application such as [Tera Term](https://ttssh2.osdn.jp/index.html.en)
 
 ## 2. Download & Install Renesas Software
+
 Follow the instructions [here](DEVELOPER_GUIDE.md), then return to this guide.
 
 ## 3. Download Pre-Built Binary
@@ -15,35 +17,37 @@ Download the QuickStart ELF (Executable and Linking Format) file which contains 
 [ck-rx65n-basic-sample-cli.elf](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-basic-sample-cli.elf)
 
 ## 4. IoTConnect Account Setup
-**NOTE: If you have already created an IoTConnect Account OR were provided an account as part of a training or workshop, skip this section.**
+
+> **NOTE:**  If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.
 
 If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
 ## 5. IoTConnect Device Template Setup
-**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "CK-RX65Nsk") and you my skip this section.**
 
-A Device Template with Self Signed authentication type will need to be imported.
-* Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples//ck-rx65n/templates/device/CK-RX65Nsk_template.JSON).
+> **NOTE:**  If you are following this guide as part of a training or workshop, a template has already been created (typically "CK-RX65Nsk"), so skip this section.
+
+A Device Template with Symmetric Key authentication type will need to be imported.
+* Download the premade [Device Template with Symmetric Key Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples//ck-rx65n/templates/device/CK-RX65Nsk_template.JSON).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
 ## 6. IoTConnect Device Creation
+
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
-* Enter a <b>Unique ID</b> in the field and take note for later
-* Enter a descriptive <b>Display Name</b>
-* Select the template from the dropdown box that was just imported or provided to you
+* Enter a value for the **Unique ID** and make note of it for later
+* Enter a descriptive **Display Name**
+* Select the template from the dropdown box that was just imported (or provided)
 * Generate a Base64 Key
    * Option 1) Use a website such as [this one](https://generate.plus/en/base64)
    * Option 2) Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
      ```
       dd if=/dev/urandom bs=16 count=1 status=none | base64
      ```
+* Copy the generated key (including any trailing "=") and paste in both **Primary Key** and **Secondary Key** fields
+* Save this key as it will be used to setup the the device later on this guide
 
-* Copy/Paste the generated key for both Primary Key and Secondary Key
-* Save this key as it will be used to setup the security on the device
-
-<b>Note:</b>  It is not possible to recover key information once added to the IoTConnect dashboard.
+> **Note:**  It is not possible to reveal the key once added to the IoTConnect dashboard so be sure to save it.
  
-* Click <b>Save</b>
+* Click **Save**
 
 ## 7. Import the Project
 Open e2 Studio
@@ -136,24 +140,27 @@ If the above output is present, continue to the next section.
 
 * Enter the CPID and ENV values into the Serial Terminal as prompted.  
 
-<b>DUID</b> - This is the Unique ID entered when the device was created in the IoTConnect GUI<br>
+<b>DUID</b> - This is the **Unique ID** entered when the device was created in the IoTConnect GUI<br>
 <b>SYMMETRIC_KEY</b> - This is the key generated when the device was created in the IoTConnect GUI
 
 * Enter the DUID and SYMMETRIC_KEY values into the Serial Terminal as prompted.  
 
-## Changing perspectives
-When finished press the Terminate button (red "square") next to the Resume
-button.
+## 11. Verifying the Connection
 
-To debug again, press the debug button.
+After completing section 10, verify that the board connects:
+<img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
 
-To return to C/C++ development, select the "Window", then "Perspective", then
+## 12. Visualize the Data with a Dashboard
+
+A sample Dashboard has been created to easily visualize the data.  
+It can be downloaded here.
+
+## 13. Tips / Troubleshooting
+
+<details><summary>Change perspectives in e<sup>2</sup> Studio</summary>
+To return to C/C++ development view, select "Window", then "Perspective", then
 "Open perspective", then "C/C++ project".
 
 To return to debugging/running, select the "Window", then "Perspective", then
 "Open perspective", then "Debug".
-***Please note:*** current version (07/09/2023) does not allow erasing whatever was typed in, so be careful. If typo was made - you'll need to reboot the board and start anew.
-
-Example expected behaviour:
-
-<img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
+</details>
