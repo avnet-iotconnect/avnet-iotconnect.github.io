@@ -11,7 +11,7 @@ board, using the ck-rx65n sample project, with IoTConnect.
 - Internet connection for the PC
 - Ethernet connection for the Renesas board
 
-## 2. Setup Environment
+## 2. Download & Install Renesas Software
 
 Follow the [Environment Setup Guide](documentation/iotc-azurertos-sdk/samples/ck-rx65n/environment_setup.md) and return to this document.
 
