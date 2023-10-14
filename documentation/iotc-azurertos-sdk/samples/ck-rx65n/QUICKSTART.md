@@ -10,7 +10,7 @@
 
 ## 2. Download & Install Renesas Software
 
-Follow the instructions [here](DEVELOPER_GUIDE.md), then return to this guide.
+Follow the instructions to [setup the Renesas Envrionment](documentation/iotc-azurertos-sdk/samples/ck-rx65n/environment_setup.md), then return to this guide.
 
 ## 3. Download Pre-Built Binary
 Download the QuickStart ELF (Executable and Linking Format) file which contains the pre-built binary:  
