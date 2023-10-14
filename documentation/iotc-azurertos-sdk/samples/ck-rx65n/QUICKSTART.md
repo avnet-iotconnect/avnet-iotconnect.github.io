@@ -35,16 +35,16 @@ An IoTConnect *Device Template* with Symmetric Key authentication type will need
 ## 6. IoTConnect Device Creation
 
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
-* Enter a value for the **Unique ID** and make note of it for later
-* Enter a descriptive **Display Name**
+* Enter a value for the <var>Unique ID</var> and make note of it for later
+* Enter a descriptive <var>Display Name</var>
 * Select the template from the dropdown box hat was just imported (or provided)
 * Generate a Base64 Key
-   * <b>Option 1:</b>  Use a website such as <a href="https://generate.plus/en/base64" target="_blank">this one</a> and leave the byte length at 16.
+   * <b>Option 1:</b>  Use a website such as [this one](https://generate.plus/en/base64) and leave the byte length at 16.
    * <b>Option 2:</b>  Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
      ```
       dd if=/dev/urandom bs=16 count=1 status=none | base64
      ```
-* Copy the generated key (including any trailing "=") and paste in both **Primary Key** and **Secondary Key** fields
+* Copy the generated key (including any trailing "=") and paste in both <var>Primary Key</var> and <var>Secondary Key</var> fields
 * Save this key as it will be used to setup the the device later on this guide
 
 > **Note:**  
@@ -74,8 +74,8 @@ Open e2 Studio
 <img style="width:75%; height:auto" src="./assets/quickstart/close_import.png"/>
 </details>
 
-## 5. Setup the CK-RX65N board
-<details><summary>Connect both USB cables and the network cable to the board</summary>
+## 8. Setup the CK-RX65N board
+<details><summary>Connect the network and USB cables to the board</summary>
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230303_093310710-crop.jpg"/>
 </details>
 
@@ -83,14 +83,14 @@ Open e2 Studio
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop-power.jpg"/>
 </details>
 
-## 8. Setup the Serial Terminal
+## 9. Setup the Serial Terminal
 Open the serial terminal application and configure as follows:
 * Select the appropriate COM port
 * 115200 baud rate
 * 8-bit data
 * No parity
 
-## 9. Setup Debugging and Flash the Board
+## 10. Setup Debugging and Flash the Board
 
 <details><summary>Right click on the project and select <b>Debug As -> Debug Configurations...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Debug_as.png"/>
@@ -104,14 +104,14 @@ Open the serial terminal application and configure as follows:
 <img style="width:75%; height:auto" src="./assets/quickstart/debug_setup1.png"/>
 </details>  
  
- * <b>Debug hardware</b> is set to "E2 Lite (RX)"<br>
- * <b>Target Device</b> is set to "R5F565NE"
+ * <var>Debug hardware</var> is set to `E2 Lite (RX)`<br>
+ * <var>Target Device</var> is set to `R5F565NE`
 
 <details><summary>Just below, click the <b>Connection Settings</b> tab and ensure:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/debug_setup2.png"/>
 </details>  
 
-* <b>Connection Type</b> is set to "Fine"
+* <var>Connection Type</var> is set to `Fine`
 * Click <b>Apply</b> then <b>Debug</b> to begin flashing the board.
 
 <details><summary>Verify the download begins in the console</summary>
@@ -135,24 +135,21 @@ Switch over to the serial terminal application and monitor the output.
 After a mintue or two, verify the following prompt is presented before moving on:<br>
 `Type the CPID:`
 
-## 10. Configure IoTConnect Information
+## 11. Configure IoTConnect Information
 
 <details><summary>Acquire CPID and ENV parameters from the IoTConnect Key Vault</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/cpid_and_env.png"/>
 </details>
 
 Enter the following into the Serial Terminal as prompted:  
-  `CPID` - The Company ID aquired from the Key Vault  
-  `ENV` - The Environment aquired from the Key Vault  
-  `DUID` - This is the **Unique ID** previously entered during device created in Step 6  
-  `SYMMETRIC_KEY` - This is the key that was previously generated during device created in Step 6  
+  <var>CPID</var> - The Company ID aquired from the Key Vault  
+  <var>ENV</var> - The Environment aquired from the Key Vault  
+  <var>DUID</var> - This is the <var>Unique ID</var> previously entered during device created in Step 6  
+  <var>SYMMETRIC_KEY</var> - This is the key that was previously generated during device created in Step 6  
 
-At this point, the device will attempt to connect.
-
-## 11. Verifying the Connection
-
-After completing section 10, verify that the board connects:
+<details><summary>Verify that the board connects:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
+</details>
 
 ## 12. Visualize the Data with a Dashboard
 
