@@ -82,7 +82,7 @@ Open e2 Studio
 
 ## 8. Setup the Serial Terminal
 Open the serial terminal application and configure as follows:
-* Select the serial port 
+* Select the appropriate COM port
 * 115200 baud rate
 * 8-bit data
 * No parity
@@ -101,8 +101,8 @@ Open the serial terminal application and configure as follows:
 <img style="width:75%; height:auto" src="./assets/quickstart/debug_setup1.png"/>
 </details>  
  
- * <b>Debug hardware:</b> is set to "E2 Lite (RX)"<br>
- * <b>Target Device:</b> is set to "R5F565NE"
+ * <b>Debug hardware</b> is set to "E2 Lite (RX)"<br>
+ * <b>Target Device</b> is set to "R5F565NE"
 
 <details><summary>Just below, click the <b>Connection Settings</b> tab and ensure:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/debug_setup2.png"/>
@@ -119,18 +119,18 @@ Open the serial terminal application and configure as follows:
 <img style="width:75%; height:auto" src="./assets/quickstart/perspective_switch.png"/>
 </details>
 
-The build contains <b>two</b> breakpoints.
+The build contains <b>two</b> breakpoints that will be encountered after a short time.
 <details><summary>Press the <b>Resume</b> button when the console indicates a breakpoint has been reached</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/resume_button.png"/>
-</details><b>Note: </b>It may take a few minutes to move through the breakpoints depending on the speed of the system used.
-<br><br>
+</details>
+
+> **Note:**  It may take a few minutes to move through the breakpoints depending on the speed of the PC.
+
+
 Switch over to the serial terminal application and monitor the output.  
 
-After a mintue or two, verify the following prompt is presented:<br>
-* <b>Type the CPID</b>:
-<br>
-
-If the above output is present, continue to the next section.
+After a mintue or two, verify the following prompt is presented before moving on:<br>
+`Type the CPID:`
 
 ## 10. Configure IoTConnect Information
 
@@ -138,12 +138,13 @@ If the above output is present, continue to the next section.
 <img style="width:75%; height:auto" src="./assets/quickstart/cpid_and_env.png"/>
 </details>
 
-* Enter the CPID and ENV values into the Serial Terminal as prompted.  
+Enter the following into the Serial Terminal as prompted:  
+  `CPID` - The Company ID aquired from the Key Vault  
+  `ENV` - The Environment aquired from the Key Vault  
+  `DUID` - This is the **Unique ID** previously entered during device created in Step 6  
+  `SYMMETRIC_KEY` - This is the key that was previously generated during device created in Step 6  
 
-<b>DUID</b> - This is the **Unique ID** entered when the device was created in the IoTConnect GUI<br>
-<b>SYMMETRIC_KEY</b> - This is the key generated when the device was created in the IoTConnect GUI
-
-* Enter the DUID and SYMMETRIC_KEY values into the Serial Terminal as prompted.  
+At this point, the device will attempt to connect.
 
 ## 11. Verifying the Connection
 
