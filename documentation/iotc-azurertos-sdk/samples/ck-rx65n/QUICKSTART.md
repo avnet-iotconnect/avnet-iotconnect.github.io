@@ -79,8 +79,8 @@ Open e2 Studio
 
 Esnure all cables (USB, Network) are removed from from the board.
 
-<details><summary>Change Jumper to "Debug"</summary>
-<img style="width:45%; height:auto" src="./assets/ck-rx65n/quickstart/move_debug_jumper.jpg"/>
+<details><summary>Change Jumper to <b>DEBUG</b></summary>
+<img style="width:45%; height:auto" src="./assets/quickstart/move_debug_jumper.jpg"/>
 </details>
 
 <details><summary>Connect the network and USB cables to the board</summary>
