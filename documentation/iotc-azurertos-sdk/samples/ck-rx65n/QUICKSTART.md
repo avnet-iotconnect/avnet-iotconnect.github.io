@@ -144,6 +144,10 @@ Switch over to the serial terminal application and monitor the output.
 After a mintue or two, verify the following prompt is presented before moving on:<br>
 `Type the CPID:`
 
+<details><summary>The board is now programmed. You can now disconnect the USB cables, change jumper to <b>RUN</b>, and reconnect the USB cables</summary>
+<img style="width:45%; height:auto" src="./assets/quickstart/move_debug_jumper.jpg"/>
+</details>
+
 ## 11. Configure IoTConnect Information
 
 <details><summary>Acquire CPID and ENV parameters from the IoTConnect Key Vault</summary>
