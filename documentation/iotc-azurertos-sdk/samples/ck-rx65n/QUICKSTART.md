@@ -53,6 +53,7 @@ An IoTConnect *Device Template* with Symmetric Key authentication type will need
 * Click **Save**
 
 ## 7. Import the Project
+
 Open e2 Studio
 <details><summary>Click <b>File</b> then <b>Import...</b></summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/Import_project.png"/>
@@ -75,6 +76,13 @@ Open e2 Studio
 </details>
 
 ## 8. Setup the CK-RX65N board
+
+Esnure all cables (USB, Network) are removed from from the board.
+
+<details><summary>Change Jumper to "Debug"</summary>
+<img style="width:45%; height:auto" src="./assets/ck-rx65n/quickstart/move_debug_jumper.jpg"/>
+</details>
+
 <details><summary>Connect the network and USB cables to the board</summary>
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230303_093310710-crop.jpg"/>
 </details>
@@ -84,6 +92,7 @@ Open e2 Studio
 </details>
 
 ## 9. Setup the Serial Terminal
+
 Open the serial terminal application and configure as follows:
 * Select the appropriate COM port
 * 115200 baud rate
