@@ -1,0 +1,556 @@
+{
+    "ddType": 2,
+    "items": [
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "10",
+                "title": "",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/renesas/renesas_logo.jpg",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "0",
+                "w": "14",
+                "h": "5",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "21A18C90-2DBC-4283-89D2-B01E1B70E363",
+            "widgetProperties": {
+                "i": "gauge",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Temperature",
+                "titleAlign": "",
+                "contents": {
+                    "gauge": {
+                        "device": {
+                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
+                            "deviceUniqueId": "MCLrx65n"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "DA838F41-79A9-4120-AB2B-83D6995314E9",
+                                    "attributeName": "temperature",
+                                    "checked": "true",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "30.1499996185303",
+                                    "deviceUpdatedDate": "2023-10-17T15:30:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "30.1499996185303"
+                                },
+                                {
+                                    "attributeGuid": "360F4436-D358-47CB-BF26-D0E46EA46270",
+                                    "attributeName": "humidity",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "26.5400009155273",
+                                    "deviceUpdatedDate": "2023-10-17T15:30:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "26.5400009155273"
+                                }
+                            ]
+                        },
+                        "minValue": "0",
+                        "maxValue": "100",
+                        "greenFrom": "0",
+                        "greenTo": "0",
+                        "redFrom": "0",
+                        "redTo": "0",
+                        "yellowFrom": "0",
+                        "yellowTo": "0",
+                        "key": "gauge"
+                    }
+                }
+            },
+            "properties": {
+                "x": "14",
+                "y": "0",
+                "w": "7",
+                "h": "8",
+                "i": "gauge",
+                "minW": "7",
+                "minH": "8",
+                "maxH": "14",
+                "maxW": "16",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "8BF5A2DF-51FA-479B-B5D8-8413DC425CFF",
+            "widgetProperties": {
+                "i": "LiveLineChart",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Environment",
+                "titleAlign": "",
+                "contents": {
+                    "liveChart": {
+                        "device": {
+                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
+                            "deviceUniqueId": "MCLrx65n"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "DA838F41-79A9-4120-AB2B-83D6995314E9",
+                                    "attributeName": "temperature",
+                                    "checked": "true",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "30.1499996185303",
+                                    "deviceUpdatedDate": "2023-10-17T15:30:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "30.1499996185303"
+                                },
+                                {
+                                    "attributeGuid": "360F4436-D358-47CB-BF26-D0E46EA46270",
+                                    "attributeName": "humidity",
+                                    "checked": "true",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "26.5400009155273",
+                                    "deviceUpdatedDate": "2023-10-17T15:30:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "26.5400009155273"
+                                }
+                            ]
+                        },
+                        "key": "liveChart",
+                        "recentEndPoints": "14"
+                    }
+                }
+            },
+            "properties": {
+                "x": "21",
+                "y": "0",
+                "w": "17",
+                "h": "16",
+                "i": "LiveLineChart",
+                "minW": "15",
+                "minH": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "6A7BB4C8-1763-41EB-A490-0764F72A527F",
+            "widgetProperties": {
+                "i": "DeviceLatestValue",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "12",
+                "title": "Device Telemetry",
+                "titleAlign": "",
+                "contents": {
+                    "devicelatestvalue": {
+                        "device": {
+                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
+                            "deviceUniqueId": "MCLrx65n"
+                        },
+                        "boxtypes": "2",
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "button",
+                                    "attributeName": "button"
+                                },
+                                {
+                                    "attributeGuid": "version",
+                                    "attributeName": "version"
+                                },
+                                {
+                                    "attributeGuid": "temperature",
+                                    "attributeName": "temperature"
+                                },
+                                {
+                                    "attributeGuid": "humidity",
+                                    "attributeName": "humidity"
+                                }
+                            ]
+                        },
+                        "key": "devicelatestvalue"
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "0",
+                "w": "15",
+                "h": "12",
+                "i": "DeviceLatestValue",
+                "minW": "15",
+                "minH": "12",
+                "maxH": "12",
+                "maxW": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "10",
+                "title": "",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/renesas/ck-rx65n-board-front.png",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "5",
+                "w": "14",
+                "h": "11",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "21A18C90-2DBC-4283-89D2-B01E1B70E363",
+            "widgetProperties": {
+                "i": "gauge",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Humidity",
+                "titleAlign": "",
+                "contents": {
+                    "gauge": {
+                        "device": {
+                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
+                            "deviceUniqueId": "MCLrx65n"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "DA838F41-79A9-4120-AB2B-83D6995314E9",
+                                    "attributeName": "temperature",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "30.1499996185303",
+                                    "deviceUpdatedDate": "2023-10-17T15:30:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "30.1499996185303"
+                                },
+                                {
+                                    "attributeGuid": "360F4436-D358-47CB-BF26-D0E46EA46270",
+                                    "attributeName": "humidity",
+                                    "checked": "true",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "26.5400009155273",
+                                    "deviceUpdatedDate": "2023-10-17T15:30:28.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "26.5400009155273"
+                                }
+                            ]
+                        },
+                        "minValue": "0",
+                        "maxValue": "100",
+                        "greenFrom": "0",
+                        "greenTo": "0",
+                        "redFrom": "0",
+                        "redTo": "0",
+                        "yellowFrom": "0",
+                        "yellowTo": "0",
+                        "key": "gauge"
+                    }
+                }
+            },
+            "properties": {
+                "x": "14",
+                "y": "8",
+                "w": "7",
+                "h": "8",
+                "i": "gauge",
+                "minW": "7",
+                "minH": "8",
+                "maxH": "14",
+                "maxW": "16",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "6FEFF6B7-15C4-4095-A156-87A1B38D2FF5",
+            "widgetProperties": {
+                "i": "Transformation",
+                "background": "#000000",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Button",
+                "titleAlign": "",
+                "contents": {
+                    "Transformation": {
+                        "device": {
+                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
+                            "deviceUniqueId": "MCLrx65n"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "B2607034-5798-432C-834E-046CC922D771",
+                                    "attributeName": "button",
+                                    "checked": "true",
+                                    "dataType": "BOOLEAN",
+                                    "attributeLatestValue": "1",
+                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1"
+                                },
+                                {
+                                    "attributeGuid": "DA838F41-79A9-4120-AB2B-83D6995314E9",
+                                    "attributeName": "temperature",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "30.0699996948242",
+                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "30.0699996948242"
+                                },
+                                {
+                                    "attributeGuid": "0B918098-EA3F-4382-91AB-8BD6978262B3",
+                                    "attributeName": "version",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "01.00.00",
+                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "01.00.00"
+                                },
+                                {
+                                    "attributeGuid": "360F4436-D358-47CB-BF26-D0E46EA46270",
+                                    "attributeName": "humidity",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "28",
+                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "28"
+                                }
+                            ]
+                        },
+                        "key": "Transformation",
+                        "transformations": [
+                            {
+                                "condition": "eq",
+                                "conditionValue": "True",
+                                "type": "Color",
+                                "errors": "",
+                                "typeValue": "#324099",
+                                "isShowLiveFontColor": "false"
+                            },
+                            {
+                                "condition": "ne",
+                                "conditionValue": "False",
+                                "type": "Color",
+                                "errors": "",
+                                "typeValue": "#000000",
+                                "isShowLiveFontColor": "false"
+                            }
+                        ]
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "12",
+                "w": "15",
+                "h": "4",
+                "i": "Transformation",
+                "minW": "7",
+                "minH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#324099",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Overview",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect/development-kits/renesas-ck-rx65n/",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "16",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#324099",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "IoTConnect",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://iotconnect.io",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "14",
+                "y": "16",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#324099",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Developer Guide",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/ck-rx65n/DEVELOPER_GUIDE.md",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "28",
+                "y": "16",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#324099",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Source Code (GitHub)",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "42",
+                "y": "16",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        }
+    ]
+}
