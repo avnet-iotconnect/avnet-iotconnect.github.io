@@ -39,8 +39,8 @@ An IoTConnect *Device Template* with Symmetric Key authentication type will need
 * Enter a descriptive <var>Display Name</var>
 * Select the template from the dropdown box hat was just imported (or provided)
 * Generate a Base64 Key
-   * <b>Option 1:</b>  Use a website such as [this one](https://generate.plus/en/base64) and leave the byte length at 16.
-   * <b>Option 2:</b>  Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
+   * **Option 1:**  Use a website such as [this one](https://generate.plus/en/base64) and leave the *Byte Length* at `16`
+   * **Option 2:**  Run the following command in a shell (e.g. Git for Windows Bash or Cygwin):
      ```
       dd if=/dev/urandom bs=16 count=1 status=none | base64
      ```
