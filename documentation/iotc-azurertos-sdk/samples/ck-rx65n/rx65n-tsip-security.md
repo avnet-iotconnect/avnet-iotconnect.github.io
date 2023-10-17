@@ -1,7 +1,7 @@
 # Using Renesas RX65N Trusted Secure IP (TSIP) with IoTConnect
 
 This document describes how to use the RX65N Trusted Secure IP (TSIP) for hardware-based TLS 
-client certificate authentication with iotconnect on the Renesas CK-RX65N board. This document describes how it is used with the ck-rx65n sample project.
+client certificate authentication with IoTconnect on the Renesas CK-RX65N board with the sample project.
 
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop.jpg"/>
 
@@ -9,10 +9,10 @@ client certificate authentication with iotconnect on the Renesas CK-RX65N board.
 
 * Renesas CK-RX65N Cloud Kit board (Blue PCB with TSIP)
 * Completed either the [QuickStart](QUICKSTART.md) or [DEVELOPER_GUIDE](DEVELOPER_GUIDE.md)
-* Windows PC
-* Internet connection with avail ethernet cable for connecting to the Renesas board
+* PC with Windows 10/11
+* Internet connection via Ethernet Cable
 
-## Download and install the TSIP driver
+## Download and Install the TSIP driver
 
 A binary version of the TSIP driver is available to download from https://www.renesas.com/us/en/software-tool/trusted-secure-ip-driver#design_development
 
