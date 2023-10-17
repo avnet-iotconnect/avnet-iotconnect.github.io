@@ -176,3 +176,14 @@ To return to C/C++ development view, select "Window", then "Perspective", then
 To return to debugging/running, select the "Window", then "Perspective", then
 "Open perspective", then "Debug".
 </details>
+<details><summary>Print this Document</summary>
+To print this document with all details expanded, right-click on this document and 
+select "Inspect" or "Inspect Element".  This will open the browser's developer tools. 
+Go to the Console tab and paste the following code:
+
+  ```
+    document.querySelectorAll('details').forEach(el => el.open = true);
+  ```
+Press Enter. This will expand all images on this page. After that, use the 
+browser's print functionality to print the page.
+</details>
