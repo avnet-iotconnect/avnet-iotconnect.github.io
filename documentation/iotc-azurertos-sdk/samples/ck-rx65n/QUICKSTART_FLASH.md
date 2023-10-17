@@ -114,10 +114,10 @@ Esnure all cables (USB, Network) are removed from from the board.
 </details>
 
 * Switch to the serial terminal and enter the following as prompted:  
-  <var>CPID</var> - The Company ID aquired from the Key Vault  
-  <var>ENV</var> - The Environment aquired from the Key Vault  
-  <var>DUID</var> - This is the <var>Unique ID</var> previously entered during device created in Step 6  
-  <var>SYMMETRIC_KEY</var> - This is the key that was previously generated during device created in Step 6  
+  * <var>CPID</var> - The Company ID aquired from the Key Vault  
+  * <var>ENV</var> - The Environment aquired from the Key Vault  
+  * <var>DUID</var> - This is the <var>Unique ID</var> previously entered during device created in Step 6  
+  * <var>SYMMETRIC_KEY</var> - This is the key that was previously generated during device created in Step 6  
 
 <details><summary>Verify that the board connects:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
@@ -125,7 +125,8 @@ Esnure all cables (USB, Network) are removed from from the board.
 
 ## 11. Visualize the Data
 
-A sample Dashboard will be available in the future.
+The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard has been created to display some telemtery from the board and is avail for download [here](templates/dashboard/renesas_CK-RX65N_dashboard_export.json).  
+Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the *Template Name* and *Device Name* used previously in this guide.
 
 ## Tips / Troubleshooting
 
