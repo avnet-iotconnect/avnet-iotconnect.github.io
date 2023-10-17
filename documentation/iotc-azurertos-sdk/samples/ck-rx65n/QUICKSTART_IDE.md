@@ -165,7 +165,8 @@ Enter the following into the Serial Terminal as prompted:
 
 ## 12. Visualize the Data
 
-A sample Dashboard will be available in the future.
+The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard has been created to display some telemtery from the board and is avail for download [here](templates/dashboards/renesas_CK-RX65N_dashboard_export.json).  
+Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the *Template Name* and *Device Name* used previously in this guide.
 
 ## Tips / Troubleshooting
 
