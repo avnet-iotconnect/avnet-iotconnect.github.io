@@ -165,7 +165,7 @@ Enter the following into the Serial Terminal as prompted:
 
 ## 12. Visualize the Data
 
-A sample Dashboard will be avaiiable in the future.
+A sample Dashboard will be available in the future.
 
 ## 13. Tips / Troubleshooting
 
