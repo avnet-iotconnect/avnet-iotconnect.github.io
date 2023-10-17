@@ -163,10 +163,9 @@ Enter the following into the Serial Terminal as prompted:
 <img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
 </details>
 
-## 12. Visualize the Data with a Dashboard
+## 12. Visualize the Data
 
-A sample Dashboard has been created to easily visualize the data.  
-It can be downloaded here.
+A sample Dashboard will be avaiiable in the future.
 
 ## 13. Tips / Troubleshooting
 
