@@ -87,12 +87,21 @@ Esnure all cables (USB, Network) are removed from from the board.
   * Select a *Project Folder* of your choice
   * Change *Tool* to `E2 emulator Lite`
   * Change *Interface* to `Fine`
+
+<img style="width:45%; height:auto" src="./assets/rfp_create_new_project.png"/>
+
  * Click **Connect**
 
-* **Click** the *Auto Authentication* checkbox and **Click** `OK`
+<details><summary><b>Click</b> the <i>Auto Authentication</i> checkbox and <b>Click</b> OK</summary>
+<img style="width:45%; height:auto" src="./assets/rfp_authentication.png">
+</details>
+
 * **Click** *Browse* and select the MOT Firmware file previously downloaded
 * **Click** *Start*
-* After a short time, ensure the "Operation completed." message is displayed.
+
+<details><summary>After a short time, ensure the "Operation completed." message is displayed.</summary>
+<img style="width:45%; height:auto" src="./assets/rfp_flash_completed.png">
+</details>
 
 <details><summary>The board is now programmed. You can now disconnect the USB cables, change jumper to <b>RUN</b>, and reconnect the USB cables.</summary>
 <img style="width:45%; height:auto" src="./assets/quickstart/move_debug_jumper.jpg"/>
