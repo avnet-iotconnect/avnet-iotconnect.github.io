@@ -6,7 +6,7 @@
 * Internet connection for the PC
 * Network cable for the Renesas board
 * (2) USB-A to micro-USB cables <b>with data support</b>
-* A serial terminal application such as [Tera Term](https://ttssh2.osdn.jp/index.html.en)
+* A serial terminal application such as [Tera Term](https://ttssh2.osdn.jp/index.html.en), or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/)
 
 ## 2. Download & Install Renesas Software
 
@@ -92,7 +92,7 @@ Esnure all cables (USB, Network) are removed from from the board.
 </details>
 
 ## 9. Setup the Serial Terminal
-Open serial console application, such as [Tera Term](https://ttssh2.osdn.jp/index.html.en), or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/), and configure as follows:
+Open the serial terminal application of choice, and configure as follows:
 * Select the appropriate COM port
 * 115200 baud rate
 * 8-bit data
