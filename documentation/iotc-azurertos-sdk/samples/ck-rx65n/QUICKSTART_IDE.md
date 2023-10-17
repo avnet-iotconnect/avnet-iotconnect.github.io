@@ -153,7 +153,7 @@ After a mintue or two, verify the following prompt is presented before moving on
 <img style="width:75%; height:auto" src="./assets/quickstart/cpid_and_env.png"/>
 </details>
 
-Enter the following into the Serial Terminal as prompted:  
+* Enter the following into the Serial Terminal as prompted:  
   * <var>CPID</var> - The Company ID aquired from the Key Vault  
   * <var>ENV</var> - The Environment aquired from the Key Vault  
   * <var>DUID</var> - This is the <var>Unique ID</var> previously entered during device created in Step 6  
