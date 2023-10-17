@@ -154,10 +154,10 @@ After a mintue or two, verify the following prompt is presented before moving on
 </details>
 
 Enter the following into the Serial Terminal as prompted:  
-  <var>CPID</var> - The Company ID aquired from the Key Vault  
-  <var>ENV</var> - The Environment aquired from the Key Vault  
-  <var>DUID</var> - This is the <var>Unique ID</var> previously entered during device created in Step 6  
-  <var>SYMMETRIC_KEY</var> - This is the key that was previously generated during device created in Step 6  
+  * <var>CPID</var> - The Company ID aquired from the Key Vault  
+  * <var>ENV</var> - The Environment aquired from the Key Vault  
+  * <var>DUID</var> - This is the <var>Unique ID</var> previously entered during device created in Step 6  
+  * <var>SYMMETRIC_KEY</var> - This is the key that was previously generated during device created in Step 6  
 
 <details><summary>Verify that the board connects:</summary>
 <img style="width:75%; height:auto" src="./assets/quickstart/cli_example.png"/>
