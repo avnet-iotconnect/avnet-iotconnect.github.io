@@ -167,7 +167,7 @@ Enter the following into the Serial Terminal as prompted:
 
 A sample Dashboard will be available in the future.
 
-## 13. Tips / Troubleshooting
+## Tips / Troubleshooting
 
 <details><summary>Change perspectives in e<sup>2</sup> Studio</summary>
 To return to C/C++ development view, select "Window", then "Perspective", then
