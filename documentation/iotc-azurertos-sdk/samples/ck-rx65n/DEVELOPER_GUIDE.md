@@ -64,6 +64,10 @@ Alternatively, install ["git for Windows"](https://gitforwindows.org/).
 And use the bash shell to clone the repository – right-click on directory -
 "Other options", then "Git Bash" to launch the shell.
 
+```
+git clone https://github.com/avnet-iotconnect/iotc-azurertos-sdk.git
+```
+
 <img style="width:39.98%; height:auto" src="./assets/ck-rx65n/VirtualBox_WinDev2301Eval_03_03_2023_11_06_48.png"/>
 
 ### Windows Subsystem for Linux (WSL)
