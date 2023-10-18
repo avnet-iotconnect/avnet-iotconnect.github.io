@@ -91,8 +91,10 @@ To setup the `iotc-azurertos-sdk` ck-rx65n project fully:
 
 - change into the `scripts` directory in the `iotc-azurertos-sdk` project: `cd
   iotc-azurertos-sdk/scripts`
-- run the script: `setup-project.sh ck-rx65n`
-
+- run the script:
+```
+./setup-project.sh ck-rx65n
+```
 <img style="width:39.98%; height:auto" src="./assets/ck-rx65n/VirtualBox_WinDev2301Eval_03_03_2023_11_13_34.png"/>
 
 ## 5. Import iotc-azurertos-sdk ck-rx65n project into e<sup>2</sup> studio
