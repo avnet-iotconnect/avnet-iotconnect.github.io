@@ -99,6 +99,9 @@ Esnure all cables (USB, Network) are removed from from the board.
 * **Click** *Browse* and select the MOT Firmware file previously downloaded
 * **Click** *Start*
 
+> **Note:**
+> The board may fail on the first flash attempt. If so, just press **Start** again.
+
 <details><summary>After a short time, ensure the "Operation completed." message is displayed.</summary>
 <img style="width:45%; height:auto" src="./assets/rfp_flash_completed.png">
 </details>
