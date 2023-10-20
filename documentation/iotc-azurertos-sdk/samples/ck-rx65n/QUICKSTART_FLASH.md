@@ -14,7 +14,7 @@
 
 ## 3. Download Firmware
 
-**Download** the QuickStart Firmware (MOT file):  [ck-rx65n-fw-20231017.mot](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-fw-20231017.mot)
+**Download** the QuickStart Firmware (MOT file):  [ck-rx65n-fw-20231020.mot](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-fw-20231020.mot)
 
 ## 4. IoTConnect Account Setup
 
