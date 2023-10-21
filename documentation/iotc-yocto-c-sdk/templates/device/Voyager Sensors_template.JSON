@@ -1,0 +1,102 @@
+{
+    "code": "voyager",
+    "name": "Voyager Sensors",
+    "authType": 3,
+    "isIotEdgeEnable": false,
+    "attributes": [
+        {
+            "name": "voy1_au",
+            "type": "NUMBER",
+            "description": "Distance of Voyager 1 from Earth in AU",
+            "unit": null
+        },
+        {
+            "name": "voy2_au",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy1_aus",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy2_aus",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy1_km",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy2_km",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy1_kms",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy2_kms",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy1_speed",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy2_speed",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy1_lt",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "voy2_lt",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "version",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "cpu",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        }
+    ],
+    "messageVersion": "1.0",
+    "msgCode": "7LIBAXO",
+    "properties": {
+        "description": null,
+        "dataFrequency": "60",
+        "fileSupport": false
+    },
+    "_meta": {
+        "version": "2.0"
+    }
+}
