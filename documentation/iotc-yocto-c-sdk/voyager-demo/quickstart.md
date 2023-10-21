@@ -170,10 +170,11 @@ If you have not already, download the [my-iotc-devices.tgz](https://saleshosted.
 *Is this required?
 
 
+
  
 2) Transfer this file from your PC to the 
 
-
+</details>		
 
 
 root@maaxboard:~# basic-sample /home/config-x509.json 
