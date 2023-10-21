@@ -1,5 +1,3 @@
-
-
 # **Maaxboard Demo**
 The demo consists of a website scraper that will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mission/status/) every few seconds & a pre-compiled basic-sample that takes a path to a configuration json file as it’s only argument. Once running the demo will send data to your specified device on iotc-azure. e.g.
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png) 
@@ -13,6 +11,40 @@ The demo consists of a website scraper that will scrape [NASA Voyager data](http
 * Ethernet WAN connection
 * (optional) USB to TTL Serial Converter Cable 5V
 
+# **IoTConnect Account Setup**
+**NOTE: If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.**
+
+If you need to create an account, a free 2-month subscription is available.
+Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
+
+# **IoTConnect Device Template Setup**
+**NOTE: If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "???" already exists in the template tab of the "Device" section.**
+
+A Device Template with Self-Signed authentication type will need to be imported or created.
+* Download the premade [Device Template with Self-Signed Auth](???).
+* Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
+
+# **Cloud Certificate Setup**
+The Demo uses an X.509 certificate to authenticate itself to IoTConnect.  For the purpose of this demo, these certificates have been generated for the user and provided with the package, my-iot-devices.tgz. 
+1. Download and open the package [my-iot-devices.tgz](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG).
+2. Extract the "my-iotc-devices" folder to your development machine.
+![enter image description here](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG)
+
+3. Open the DeviceCertificate.pem in notepad or other text editor,  and copy the Device Certificate from the console, including the BEGIN and END lines (and the hyphens '---').
+![enter image description here](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/certcopy.JPG)
+4.  A device fingerprint needs to be generated from the certificate.
+	* Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php). (Optionally you can use openssl to print the device fingerprint, but this is outside the scope of this guide.)
+	  * Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
+![enter image description here](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/genfing.JPG)
+
+# **Create Device in IoTConnect**
+* From the navigation panel on the left, select the Device icon and the "Device" sub-menu.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/fc84a59a-1317-4f25-bebf-1d07d1e535bf)
+* At the top-right, click on the "Create Device" button.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/1882296f-a3dc-44d0-936c-79ed15a874e2)
+* Enter a *Unique ID* and descriptive *Display Name* of your choice.
+	* This Unique ID is your "DUID".  Please make note of it.
+* Select the device template you created earlier. For more information on templates, see the [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/) guide.
+* Select the appropriate Entity for this device to reside.
+* Copy and paste the thumbprint your generated into the Primary Thumbprint field. 
 # **Setting Up Your MaaXBoard**
 1. Download the SD Card image [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/core-image-minimal-maaxboard-20231020233139.rootfs.wic.gz)
 2. Download the configuration and demo certificate files [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz)
@@ -131,8 +163,13 @@ Pass: **avnet**
 
 # **Update Device Cloud Credentials**
 
-1)	If you have not already, download the [my-iotc-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz) folder containing the configuration and demo certificates
-2) Create the folder 
+If you have not already, download the [my-iotc-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz) folder containing the configuration and demo certificates
+<details><summary><b>Insert and modify config.json</b></summary>
+
+*Is this required?
+
+
+ 
 2) Transfer this file from your PC to the 
 
 
