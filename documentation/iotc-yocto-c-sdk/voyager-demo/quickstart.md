@@ -1,9 +1,10 @@
+
 # **Maaxboard Demo**
 The demo consists of a website scraper that will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mission/status/) every few seconds & a pre-compiled basic-sample that takes a path to a configuration json file as it’s only argument. Once running the demo will send data to your specified device on iotc-azure. e.g.
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png) 
 * Information from the following guides were used in creating this document and will provide helpful troubleshooting information
-[Getting Started with MaaXBoard - Headless Setup](https://www.hackster.io/monica/getting-started-with-maaxboard-headless-setup-24102b)
-[Getting Started with MaaXBoard](https://community.element14.com/products/devtools/single-board-computers/b/blog/posts/getting-started-with-maaxboard)
+	*[Getting Started with MaaXBoard - Headless Setup](https://www.hackster.io/monica/getting-started-with-maaxboard-headless-setup-24102b)
+*[Getting Started with MaaXBoard](https://community.element14.com/products/devtools/single-board-computers/b/blog/posts/getting-started-with-maaxboard)
 
 # **Prerequisites**
 * Avnet MaaXBoard p/n: [AES-MC-SBC-IMX8M-G]([https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/maaxboard/maaxboard])
@@ -18,11 +19,11 @@ If you need to create an account, a free 2-month subscription is available.
 Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
 # **IoTConnect Device Template Setup**
-**NOTE: If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "???" already exists in the template tab of the "Device" section.**
+**NOTE: If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "Voyager Sensors" already exists in the template tab of the "Device" section.**
 
 A Device Template with Self-Signed authentication type will need to be imported or created.
-* Download the premade [Device Template with Self-Signed Auth](???).
-* Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
+* Download the premade [Device Template with Self-Signed Auth](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/Voyager%20Sensors_template.JSON).
+* Import the template into your IoTConnect instance.  (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available, or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io/) website.)
 
 # **Cloud Certificate Setup**
 The Demo uses an X.509 certificate to authenticate itself to IoTConnect.  For the purpose of this demo, these certificates have been generated for the user and provided with the package, my-iot-devices.tgz. 
@@ -214,3 +215,13 @@ Below is the contents of the example config-x509.json:
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png)
 
 The number sent from basic-sample, 12494925803 corresponds to the 12,494,952,933 mi Voyager 2 is from the Sun (the website updates much quicker than the scraper)
+
+# **Verification**
+At this point the board should be sending telemetry to the IoTConnect portal. We can verify by checking the "Live Data" feed.
+* Return to the *Devices* page and click on the newly created Device ID.
+* On the left sub-menu, click "Live Data" and after a few seconds, data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
+
+# **Visualization**
+The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display some telemetry from the STM32U5 IoT Discovery Kit is available for download [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
+
+Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
