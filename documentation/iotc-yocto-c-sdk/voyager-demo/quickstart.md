@@ -3,7 +3,8 @@ The demo consists of a website scraper that will scrape [NASA Voyager data](http
 
 ![](Aspose.Words.8f9adb12-92a3-45af-8249-a8f179cbeea7.001.png) 
 # **Setting Up Your MaaXBoard**
-1. Download the SD Card images from [here](https://files.witekio.com/fxi_interface/ha6e7059ed9b126c0453fd669663e780/list.php?dir=%2FMaaXBoard+Demo%2F)
+1. Download the SD Card images from [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/core-image-minimal-maaxboard-20231020233139.rootfs.wic.gz)
+
 1. If zstd isn't installed, install it.
 
 sudo apt install zstd
