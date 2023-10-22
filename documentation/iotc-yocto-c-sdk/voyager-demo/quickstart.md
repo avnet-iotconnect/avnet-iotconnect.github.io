@@ -1,19 +1,23 @@
+# Maaxboard Demo
 
-# **Maaxboard Demo**
-The demo consists of a website scraper that will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mission/status/) every few seconds & a pre-compiled basic-sample that takes a path to a configuration json file as it’s only argument. Once running the demo will send data to your specified device on iotc-azure. e.g.
+This demo is an example implementation of the IoTConnect C SDK implemented on the Avnet MaaxBoard running Yocto Linux.  
+The application will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mission/status/) every few seconds send the data to a specific device on IoTConnect.  This is achieved using a pre-compiled binary ("basic-sample") and a user configurable JSON file.  
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png) 
 * Information from the following guides were used in creating this document and will provide helpful troubleshooting information
-* 	[Getting Started with MaaXBoard - Headless Setup](https://www.hackster.io/monica/getting-started-with-maaxboard-headless-setup-24102b)
-* 	[Getting Started with MaaXBoard](https://community.element14.com/products/devtools/single-board-computers/b/blog/posts/getting-started-with-maaxboard)
+[Getting Started with MaaXBoard - Headless Setup](https://www.hackster.io/monica/getting-started-with-maaxboard-headless-setup-24102b)
+[Getting Started with MaaXBoard](https://community.element14.com/products/devtools/single-board-computers/b/blog/posts/getting-started-with-maaxboard)
 
-# **Prerequisites**
+# Prerequisites
+
 * Avnet MaaXBoard p/n: [AES-MC-SBC-IMX8M-G]([https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/maaxboard/maaxboard])
 * microSD Card between 8 and 64GB
-* Ethernet WAN connection
+* Ethernet Cable with Internet Access
 * (optional) USB to TTL Serial Converter Cable 5V
 
-# **IoTConnect Account Setup**
-**NOTE: If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.**
+# IoTConnect Account Setup
+
+> **NOTE:**
+> If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.
 
 If you need to create an account, a free 2-month subscription is available.
 Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
@@ -21,35 +25,47 @@ Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-i
 # **IoTConnect Device Template Setup**
 **NOTE: If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "Voyager Sensors" already exists in the template tab of the "Device" section.**
 
-A Device Template with Self-Signed authentication type will need to be imported or created.
-* Download the premade [Device Template with Self-Signed Auth](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/Voyager%20Sensors_template.JSON).
-* Import the template into your IoTConnect instance.  (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available, or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io/) website.)
+# IoTConnect Device Template Setup
 
-# **Cloud Certificate Setup**
-The Demo uses an X.509 certificate to authenticate itself to IoTConnect.  For the purpose of this demo, these certificates have been generated for the user and provided with the package, my-iot-devices.tgz. 
-1. Download and open the package [my-iot-devices.tgz](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG).
-2. Extract the "my-iotc-devices" folder to your development machine.
-![enter image description here](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG)
+> **Note:**
+> If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "Voyager Sensors" already exists in the template tab of the "Device" section.
 
-3. Open the DeviceCertificate.pem in notepad or other text editor,  and copy the Device Certificate from the console, including the BEGIN and END lines (and the hyphens '---').
-![enter image description here](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/certcopy.JPG)
-4.  A device fingerprint needs to be generated from the certificate.
-	* Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php). (Optionally you can use openssl to print the device fingerprint, but this is outside the scope of this guide.)
-	  * Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
-![enter image description here](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/genfing.JPG)
+A Device Template with will need to be imported:
+* Download the premade [Voyager Sensors](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/templates/device/Voyager%20Sensors_template.JSON) Device Template.  
+* Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
-# **Create Device in IoTConnect**
-* From the navigation panel on the left, select the Device icon and the "Device" sub-menu.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/fc84a59a-1317-4f25-bebf-1d07d1e535bf)
-* At the top-right, click on the "Create Device" button.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/1882296f-a3dc-44d0-936c-79ed15a874e2)
+# Cloud Certificate Setup
+
+This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For the purpose of this demo, these certificates have been pre-generated for the user and provided with the demo package, below.
+1. Download and extract the package [my-iot-devices.tgz](https://saleshosted.z13.web.core.windows.net/media/nxp/voyager/my-iotc-devices.tgz).
+![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG)
+
+2. Open the DeviceCertificate.pem in a text editor and copy the Device Certificate including the BEGIN and END lines.
+![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/certcopy.JPG)
+3.  A device fingerprint needs to be generated from the certificate.
+	* Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php).  
+	* Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
+![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/genfing.JPG)
+
+# Create Device in IoTConnect
+
+* From the navigation panel on the left, select the Device icon and the "Device" sub-menu.  
+![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/fc84a59a-1317-4f25-bebf-1d07d1e535bf)
+
+* At the top-right, click on the "Create Device" button.  
+![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/1882296f-a3dc-44d0-936c-79ed15a874e2)
+
 * Enter a *Unique ID* and descriptive *Display Name* of your choice.
 	* This Unique ID is your "DUID".  Please make note of it.
-* Select the device template you created earlier. For more information on templates, see the [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/) guide.
+* Select the device template identified or created earlier in this guide. 
 * Select the appropriate Entity for this device to reside.
-* Copy and paste the thumbprint your generated into the Primary Thumbprint field. 
-# **Setting Up Your MaaXBoard**
+* Copy and paste the thumbprint generated from the device certificate into the Primary Thumbprint field.
+* Click **Save**
+
+# Setting Up the MaaXBoard
+
 1. Download the SD Card image [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/core-image-minimal-maaxboard-20231020233139.rootfs.wic.gz)
-2. Download the configuration and demo certificate files [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz)
-3. Insert the SD Card into your developer host machine
+2. Insert the SD Card into your PC
 <details><summary><b>Option 1: Linux Command Line</b></summary>
   
 * Ensure the sd card is not mounted
@@ -80,26 +96,29 @@ The Demo uses an X.509 certificate to authenticate itself to IoTConnect.  For th
 <details><summary><b>Option 2: Image File Utility (PC/MAC)</b></summary>
   
   * Download and install [Balena Etcher](https://etcher.balena.io/)
-  * Open Etcher (recommend that you run as adminstrator or with Privilage Guard)
+  * Open Balena Etcher (may required elevated privileges based on your computer user account)
   * Select your image and flash it to an SD card
     
   ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/balenaetcher.JPG) 
   </details>
 
-4. Remove the SD Card once finished, insert into MaaXBoard, power board on and connect the Ethernet port to the Internet.
+3. Remove the SD Card once finished, insert into MaaXBoard, power board on and connect the Ethernet port to the Internet.
 
-Note:  *The board is up & running if LED0 is on constantly & LED1 is flashing. If neither of these conditions are true, try power-cycling the board.*
+> **Note:**
+> The board is up & running if LED0 is on constantly & LED1 is flashing. If neither of these conditions are true, try power-cycling the board.
 
-# **Establish Communications with the MaaXBoard**
-  <details><summary><b>Option 1: SSH to the MaaXBoard</b></summary>
+# Establish Communications with the MaaXBoard
 
-  1. Determine your developer host machine's IP address and subnet.
-	 * On Linux or macOS, Type "ifconfig"
+<details><summary><b>Option 1: SSH to the MaaXBoard</b></summary>
+
+1. Determine your host machine's IP address and subnet.
+	* On Linux or macOS, Type "ifconfig"
 		  * Look for entries like eth0 (wired connection) or wlan0 (wireless connection). Your IP address will be listed as inet (IPv4).
-	  * On Windows, Type "ipconfig"
+	* On Windows, Type "ipconfig"
 		  * Look for the section Ethernet adapter (for wired connections) or Wireless LAN adapter (for wireless connections). Your IP address will be listed as IPv4 Address.
 2. Determine your scan range
 	* Based on your subnet mask, you can determine the range. For instance, if your IP is `10.42.0.100` and the subnet mask is `255.255.255.0` (or `/24` in CIDR notation), you can scan the range `10.42.0.1/24` to cover all devices in your local network.
+
 3. Find the IP of the MaaXBoard using nmap
 
   ```ruby
@@ -118,29 +137,26 @@ Note:  *The board is up & running if LED0 is on constantly & LED1 is flashing. I
   Nmap done: 256 IP addresses (2 hosts up) scanned in 3.19 seconds
   ```
   *  Sign in over SSH
-User: **root**
-Pass: **avnet**
+User: `root`
+Pass: `avnet`
 
   ```ruby
 	  ssh root@10.42.0.10
   ```
-  </details>
-  
+</details>
   
 <details><summary><b>Option 2: UART/Serial (requires USB to TTL Serial Cable)</b></summary>
 
 1. Install [CoolTerm](https://freeware.the-meiers.org/) (or another SSH client, like [Tera Term](https://ttssh2.osdn.jp/index.html.en), [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [Cyberduck](https://www.ssh.com/ssh/cyberduck))
-5. Connect the board to your USB-to-TTL cable. Connect pin 6 (the 3rd from the edge) to GND, pin 7 to RX (the white wire in this case) and pin 8 to TX (the green wire in this case).
+2. Connect the board to your USB-to-TTL cable. Connect pin 6 (the 3rd from the edge) to GND, pin 7 to RX (the white wire in this case) and pin 8 to TX (the green wire in this case).
 
 ![](https://hackster.imgix.net/uploads/attachments/1097620/ttl_HLcYgi3dxk.png?auto=compress%2Cformat&w=740&h=555&fit=max)
 
-5. Connect to your MaaXBoard via serial using your SSH client. Baudrate should be 115200, data bits are 8, and stop bits are 1.
+3. Connect to your MaaXBoard via serial using your SSH client. Baudrate should be 115200, data bits are 8, and stop bits are 1.
 
-6. Connect the USB-C to power
+4. Connect the USB-C to power
 
 **NOTE:** If you use a USB-C cable to power your board, don't plug it into your computer's USB ports, since it may draw more power than your USB ports can supply. You can also purchase the recommended 5V 3A power supply for the board [here.](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-acc-maax-pwrul-3074457345642357173/)
-
-### 
 
 Connect via CoolTerm
 
@@ -221,19 +237,21 @@ Below is the contents of the example config-x509.json:
 
 The number sent from basic-sample, 12494925803 corresponds to the 12,494,952,933 mi Voyager 2 is from the Sun (the website updates much quicker than the scraper)
 
-# **Start the Demo Application**
-* From the /usr/local/iotc folder, run the following command
+# Start the Demo Application
+
+* From the `/usr/local/iotc` folder, run the following command
 ```ruby
 systemctl start itoc-c-telemetry-demo
 ```
 
-# **Verification**
+# Verification
 
 At this point the board should be sending telemetry to the IoTConnect portal. We can verify by checking the "Live Data" feed.
 * Return to the *Devices* page and click on the newly created Device ID.
 * On the left sub-menu, click "Live Data" and after a few seconds, data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
 
-# **Visualization**
-The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display some telemetry from the STM32U5 IoT Discovery Kit is available for download [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
+# Visualization
+
+The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display teh Voyager information is available for download [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
 
 Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
