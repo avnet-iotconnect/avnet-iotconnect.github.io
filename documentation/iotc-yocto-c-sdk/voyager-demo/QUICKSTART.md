@@ -31,7 +31,7 @@ Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-i
 > If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "Voyager Sensors" already exists in the template tab of the "Device" section.
 
 A Device Template with will need to be imported:
-* Download the premade [Voyager Sensors](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/templates/device/Voyager%20Sensors_template.JSON) Device Template.  
+* Download the premade [Voyager Sensors](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/device/Voyager%20Sensors_template.JSON) Device Template.  
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
 # Cloud Certificate Setup
