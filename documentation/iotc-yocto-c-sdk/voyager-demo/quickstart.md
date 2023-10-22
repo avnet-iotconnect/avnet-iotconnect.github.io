@@ -164,21 +164,25 @@ Pass: **avnet**
 
 # **Update Device Cloud Credentials**
 
-If you have not already, download the [my-iotc-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz) folder containing the configuration and demo certificates
+If you have not already, download and extract the [my-iotc-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz) folder containing the configuration and demo certificates
 <details><summary><b>Insert and modify config.json</b></summary>
 
-*Is this required?
-
-
-
- 
-2) Transfer this file from your PC to the 
+* On the MaaXBoard, navigate to the user directory
+	```ruby
+	cd /usr/
+	```
+* Create the following directories and navigate to that location
+ ```ruby
+		mkdir -p /local/iotc
+		cd /local/iotc
+```
+* Transfer the compressed folder containing the certificates to the newly created folder IoTC
+* Unzip the folder in this location
 
 </details>		
 
 
-root@maaxboard:~# basic-sample /home/config-x509.json 
-# **Changing what Device the Data gets sent to**
+# **Modify the config.json file**
 There are a couple of json config files included on in the /home/ directory to serve as examples. Users have the option to create their own config files or edit the ones already present on the board. Creating and editing files on the SD Card can be achieved by either “in-situ” editing over terminal (cp, mv & vi for editing) or removing the SD Card & editing its contents on a PC. E.g.
 
 mmcblk0                 179:0    0   3.7G  0 disk  
@@ -217,7 +221,14 @@ Below is the contents of the example config-x509.json:
 
 The number sent from basic-sample, 12494925803 corresponds to the 12,494,952,933 mi Voyager 2 is from the Sun (the website updates much quicker than the scraper)
 
+# **Start the Demo Application**
+* From the /usr/local/iotc folder, run the following command
+```ruby
+systemctl start itoc-c-telemetry-demo
+```
+
 # **Verification**
+
 At this point the board should be sending telemetry to the IoTConnect portal. We can verify by checking the "Live Data" feed.
 * Return to the *Devices* page and click on the newly created Device ID.
 * On the left sub-menu, click "Live Data" and after a few seconds, data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
