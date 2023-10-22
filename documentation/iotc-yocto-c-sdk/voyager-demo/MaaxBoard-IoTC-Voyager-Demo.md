@@ -196,6 +196,12 @@ The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.
 
 Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
+Congratulations, your sample dashboard should look similar to the one below.
+
+
+<img src="https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/voydash.png" width="300">
+
+
 # Other Information
 
 <details><summary>Generating the certificate fingerprint</summary>
