@@ -31,20 +31,6 @@ A Device Template with need to be imported:
 * Download the premade [Voyager Sensors](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/device/Voyager%20Sensors_template.JSON) Device Template.  
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
-# Cloud Certificate Setup
-
-This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For the purpose of this demo, these certificates have been pre-generated for the user and provided with the demo package, below.
-1. Download the package [my-iot-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz)
-2. Extract the TGZ, then the TAR, and finally the ZIP.
-![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG)
-
-3. Open the DeviceCertificate.pem in a text editor and copy the Device Certificate including the BEGIN and END lines.
-![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/certcopy.JPG)
-4.  A device fingerprint needs to be generated from the certificate.
-	* Paste the contents into the *X.509 cert* field on [this web site](https://www.samltool.com/fingerprint.php).  
-	* Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
-![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/genfing.JPG)
-
 # Create Device in IoTConnect
 
 * From the navigation panel on the left, select the Device icon and the "Device" sub-menu.  
@@ -57,7 +43,10 @@ This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For t
 	* This Unique ID is your "DUID".  Please make note of it.
 * Select the device template identified or created earlier in this guide. 
 * Select the appropriate Entity for this device to reside.
-* Copy and paste the thumbprint generated from the device certificate into the Primary Thumbprint field.
+* Use the following for the Primary Thumbprint field:
+  ```
+  37c8c74eca7f885ec5286e30c650ae1c7c6a69f8
+  ```
 * Click **Save**
 
 # Setting Up the MaaXBoard
@@ -173,39 +162,14 @@ Pass: <none>
 
 </details>		
 
-# Install Certificates
-
-* On the MaaXBoard, navigate to the user directory
-	```ruby
-	cd /usr/
-	```
-* Create the following directory
-	 ```ruby
-	mkdir -p /local/iotc
-	```
-* Transfer the compressed folder containing the certificates to the `iotc` folder
-  * On the PC, open a new Command windows and navigate to the folder containing the .zip file
-  * Transfer it to the board using SCP
-	```ruby
- 	scp 37C8C74ECA7F885EC5286E30C650AE1C7C6A69F8.zip root@[device IP]:/usr/local/iotc
- 	```
-* Return to the SSH windows and navigate to the zip file location
-	 ```ruby
-	cd /usr/local/iotc
-	```
-* Unzip the folder in this location
-	 ```ruby
-	unzip 37C8C74ECA7F885EC5286E30C650AE1C7C6A69F8.zip
-	```
-
 # Update Configuration
 
-* While still in the same directory, open the `config.json` file for editing:
+* Open the `config.json` file for editing:
 	 ```ruby
-	vi config.json
+	vi /usr/local/iotc/config.json
 	```
 * Press `i` and use the arrow keys to navigate to line 3
-* Enter the Device ID created earlier as the value for DUID
+* Enter the **Device ID** created earlier as the value for DUID
 * Press `ESC` then `:wq` to write and quit
 
 # Start the Demo Application
@@ -231,3 +195,19 @@ At this point the board will be sending telemetry to the IoTConnect portal. This
 The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display teh Voyager information is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/dashboard/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
 
 Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
+
+# Other Information
+
+<details><summary>Generating the certificate fingerprint</summary>
+This demo uses an X.509 certificate to authenticate itself to IoTConnect.  
+For the purpose of this demo, this certificates have been pre-generated and provided with the demo package.  
+To walkthough how the fingerprint is generated, follow the steps below.  
+This same process can be used to use your own certificate.  
+
+1. Download the package: <a href="https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz">my-iot-devices.tgz</a>
+2. Extract the TGZ, then the TAR, and finally the ZIP.
+3. Open the DeviceCertificate.pem in a text editor and copy the Device Certificate including the BEGIN and END lines.
+4. Generate the device fingerprint from the certificate.
+	* Paste the certficate information into the "X.509 cert" field on <a href="https://www.samltool.com/fingerprint.php"> this site</a>  
+	* Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
+</details>
