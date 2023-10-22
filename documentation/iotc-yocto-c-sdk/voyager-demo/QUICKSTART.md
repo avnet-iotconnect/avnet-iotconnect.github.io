@@ -22,9 +22,6 @@ The application will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mis
 If you need to create an account, a free 2-month subscription is available.
 Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
 
-# **IoTConnect Device Template Setup**
-**NOTE: If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "Voyager Sensors" already exists in the template tab of the "Device" section.**
-
 # IoTConnect Device Template Setup
 
 > **Note:**
