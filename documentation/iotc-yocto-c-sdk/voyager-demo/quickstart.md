@@ -3,8 +3,8 @@
 The demo consists of a website scraper that will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mission/status/) every few seconds & a pre-compiled basic-sample that takes a path to a configuration json file as it’s only argument. Once running the demo will send data to your specified device on iotc-azure. e.g.
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png) 
 * Information from the following guides were used in creating this document and will provide helpful troubleshooting information
-	*[Getting Started with MaaXBoard - Headless Setup](https://www.hackster.io/monica/getting-started-with-maaxboard-headless-setup-24102b)
-*[Getting Started with MaaXBoard](https://community.element14.com/products/devtools/single-board-computers/b/blog/posts/getting-started-with-maaxboard)
+* 	[Getting Started with MaaXBoard - Headless Setup](https://www.hackster.io/monica/getting-started-with-maaxboard-headless-setup-24102b)
+* 	Getting Started with MaaXBoard](https://community.element14.com/products/devtools/single-board-computers/b/blog/posts/getting-started-with-maaxboard)
 
 # **Prerequisites**
 * Avnet MaaXBoard p/n: [AES-MC-SBC-IMX8M-G]([https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/maaxboard/maaxboard])
