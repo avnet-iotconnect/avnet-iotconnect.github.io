@@ -192,7 +192,7 @@ At this point the board will be sending telemetry to the IoTConnect portal. This
 
 # Visualization
 
-The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display teh Voyager information is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/dashboard/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
+The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display the Voyager Mission's telemetry is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/dashboard/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
 
 Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
