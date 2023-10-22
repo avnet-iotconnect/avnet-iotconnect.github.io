@@ -1,0 +1,2070 @@
+{
+    "ddType": 2,
+    "items": [
+        {
+            "widgetGuid": "F66A9747-6C71-40E5-8639-9F53233494D2",
+            "widgetProperties": {
+                "i": "Label",
+                "background": "#0b3d91",
+                "fontColor": "#ffffff",
+                "fontFamily": "Oswald",
+                "fontSize": "27",
+                "title": "Voyager 1 - September 5, 1977",
+                "titleAlign": "",
+                "contents": ""
+            },
+            "properties": {
+                "x": "0",
+                "y": "0",
+                "w": "22",
+                "h": "2",
+                "i": "Label",
+                "minW": "6",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "10",
+                "title": "\\",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/JPLtitleall.jpg",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "22",
+                "y": "0",
+                "w": "16",
+                "h": "16",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F66A9747-6C71-40E5-8639-9F53233494D2",
+            "widgetProperties": {
+                "i": "Label",
+                "background": "#fc3d21",
+                "fontColor": "#ffffff",
+                "fontFamily": "Oswald",
+                "fontSize": "27",
+                "title": "Voyager 2 - August 20, 1977",
+                "titleAlign": "",
+                "contents": ""
+            },
+            "properties": {
+                "x": "38",
+                "y": "0",
+                "w": "22",
+                "h": "2",
+                "i": "Label",
+                "minW": "6",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "21A18C90-2DBC-4283-89D2-B01E1B70E363",
+            "widgetProperties": {
+                "i": "gauge",
+                "background": "#fff",
+                "fontColor": "#0b3d91",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Velocity  WRT Sun (mph)",
+                "titleAlign": "",
+                "contents": {
+                    "gauge": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012511401\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012511401\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062137069\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062137069\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534666344\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534666344\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03551097\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03551097\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50164779\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50164779\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03551097\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03551097\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525758406\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525758406\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50164779\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50164779\n"
+                                }
+                            ]
+                        },
+                        "minValue": "30000",
+                        "maxValue": "40000",
+                        "greenFrom": "0",
+                        "greenTo": "0",
+                        "redFrom": "0",
+                        "redTo": "0",
+                        "yellowFrom": "0",
+                        "yellowTo": "0",
+                        "key": "gauge"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "2",
+                "w": "7",
+                "h": "8",
+                "i": "gauge",
+                "minW": "7",
+                "minH": "8",
+                "maxH": "14",
+                "maxW": "16",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "8BF5A2DF-51FA-479B-B5D8-8413DC425CFF",
+            "widgetProperties": {
+                "i": "LiveLineChart",
+                "background": "#fff",
+                "fontColor": "#0b3d91",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Distance from Earth (AU)",
+                "titleAlign": "",
+                "contents": {
+                    "liveChart": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012500114\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012500114\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062113653\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062113653\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534640678\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534640678\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03525907\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03525907\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50152637\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50152637\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03525907\n",
+                                    "attributeColor": "#29499c",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03525907\n",
+                                    "showColorPicker": "false"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525748361\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525748361\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50152637\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:15:00.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50152637\n"
+                                }
+                            ]
+                        },
+                        "key": "liveChart",
+                        "recentEndPoints": "10"
+                    }
+                }
+            },
+            "properties": {
+                "x": "7",
+                "y": "2",
+                "w": "15",
+                "h": "15",
+                "i": "LiveLineChart",
+                "minW": "15",
+                "minH": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "21A18C90-2DBC-4283-89D2-B01E1B70E363",
+            "widgetProperties": {
+                "i": "gauge",
+                "background": "#fff",
+                "fontColor": "#fc3d21",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Velocity WRT Sun (mph)",
+                "titleAlign": "",
+                "contents": {
+                    "gauge": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012509470\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012509470\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062133063\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062133063\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534661953\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534661953\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03546788\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03546788\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50162702\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50162702\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03546788\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03546788\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525756688\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525756688\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50162702\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50162702\n"
+                                }
+                            ]
+                        },
+                        "minValue": "30000",
+                        "maxValue": "40000",
+                        "greenFrom": "0",
+                        "greenTo": "0",
+                        "redFrom": "0",
+                        "redTo": "0",
+                        "yellowFrom": "0",
+                        "yellowTo": "0",
+                        "key": "gauge"
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "2",
+                "w": "7",
+                "h": "8",
+                "i": "gauge",
+                "minW": "7",
+                "minH": "8",
+                "maxH": "14",
+                "maxW": "16",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "8BF5A2DF-51FA-479B-B5D8-8413DC425CFF",
+            "widgetProperties": {
+                "i": "LiveLineChart",
+                "background": "#fff",
+                "fontColor": "#fc3d21",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Distance from Earth (AU)",
+                "titleAlign": "",
+                "contents": {
+                    "liveChart": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012509470\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012509470\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062133063\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062133063\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534661953\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534661953\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03546788\n",
+                                    "attributeColor": "#d03002",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03546788\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50162702\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50162702\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03546788\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03546788\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525756688\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525756688\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50162702\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:29:59.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50162702\n"
+                                }
+                            ]
+                        },
+                        "key": "liveChart",
+                        "recentEndPoints": "10"
+                    }
+                }
+            },
+            "properties": {
+                "x": "45",
+                "y": "2",
+                "w": "15",
+                "h": "15",
+                "i": "LiveLineChart",
+                "minW": "15",
+                "minH": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#ffffff",
+                "fontColor": "#0b3d91",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "One-Way Light Time",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "voy1_lt",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "voy1_lt",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "6C4CD482-7E67-42D0-8C66-23E6BE79316D",
+                                    "attributeName": "voy2_lt",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "18:41:28\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "18:41:28\n"
+                                },
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012511401\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012511401\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062137069\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062137069\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534666344\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534666344\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03551097\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03551097\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50164779\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50164779\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03551097\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03551097\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525758406\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525758406\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50164779\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50164779\n"
+                                },
+                                {
+                                    "attributeGuid": "5A4FD60C-DC12-4E4A-A7FC-E9E1407792A5",
+                                    "attributeName": "voy1_lt",
+                                    "checked": "true",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "22:27:36\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22:27:36\n"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "10",
+                "w": "7",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#ffffff",
+                "fontColor": "#fc3d21",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "One-Way Light Time",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "voy2_lt",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "voy2_lt",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "6C4CD482-7E67-42D0-8C66-23E6BE79316D",
+                                    "attributeName": "voy2_lt",
+                                    "checked": "true",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "18:41:28\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "18:41:28\n"
+                                },
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012511401\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012511401\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062137069\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062137069\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534666344\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534666344\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03551097\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03551097\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50164779\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50164779\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03551097\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03551097\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525758406\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525758406\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50164779\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50164779\n"
+                                },
+                                {
+                                    "attributeGuid": "5A4FD60C-DC12-4E4A-A7FC-E9E1407792A5",
+                                    "attributeName": "voy1_lt",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "22:27:36\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:33:01.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22:27:36\n"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "10",
+                "w": "7",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "1C12305F-91F5-4DEE-9DF2-ED542C06313E",
+            "widgetProperties": {
+                "i": "combo",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Oswald",
+                "fontSize": "23",
+                "title": "VS:  Velocity wrt the Sun ",
+                "titleAlign": "",
+                "contents": {
+                    "combo": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012517782\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012517782\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062150306\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062150306\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534680853\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534680853\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03565337\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03565337\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50171644\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50171644\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03565337\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03565337\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525764085\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525764085\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50171644\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:43:11.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50171644\n"
+                                }
+                            ]
+                        },
+                        "lineAttributes": {
+                            "lineAttributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                            "lineAttributeName": "voy2_speed",
+                            "lineAttributeColor": "#fc3d21"
+                        },
+                        "barAttributes": {
+                            "barAttributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                            "barAttributeName": "voy1_speed",
+                            "barAttributeColor": "#0b3d91"
+                        },
+                        "lineColor": "#00cc00",
+                        "barColor": "#00cc00",
+                        "barCount": "42",
+                        "lineAttributeGuid": "",
+                        "lineAttributeName": "",
+                        "lineAttributeColor": "",
+                        "barAttributeGuid": "",
+                        "barAttributeName": "",
+                        "barAttributeColor": "",
+                        "key": "combo",
+                        "recentEndPoints": "100"
+                    }
+                }
+            },
+            "properties": {
+                "x": "22",
+                "y": "16",
+                "w": "16",
+                "h": "12",
+                "i": "combo",
+                "minW": "16",
+                "minH": "12",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A0326788-ACC8-4C4C-8243-98112CAEB98B",
+            "widgetProperties": {
+                "i": "Telemetry",
+                "background": "#fff",
+                "fontColor": "#0b3d91",
+                "fontFamily": "Oswald",
+                "fontSize": "23",
+                "title": "Live Telemetry",
+                "titleAlign": "",
+                "contents": {
+                    "telemetry": {
+                        "showHeader": "true",
+                        "showDate": "true",
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "6C4CD482-7E67-42D0-8C66-23E6BE79316D",
+                                    "attributeName": "voy2_lt",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "240F1F33-7436-4A03-AB8B-5ABD5EBA2A8E",
+                                    "attributeName": "cpu",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "4147D9BC-15AF-40FA-AFF5-CE153FF73606",
+                                    "attributeName": "version",
+                                    "checked": "false"
+                                },
+                                {
+                                    "attributeGuid": "5A4FD60C-DC12-4E4A-A7FC-E9E1407792A5",
+                                    "attributeName": "voy1_lt",
+                                    "checked": "true"
+                                }
+                            ]
+                        },
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "17",
+                "w": "22",
+                "h": "10",
+                "i": "Telemetry",
+                "minW": "15",
+                "minH": "6",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A0326788-ACC8-4C4C-8243-98112CAEB98B",
+            "widgetProperties": {
+                "i": "Telemetry",
+                "background": "#fff",
+                "fontColor": "#fc3d21",
+                "fontFamily": "Oswald",
+                "fontSize": "23",
+                "title": "Live Telemetry",
+                "titleAlign": "",
+                "contents": {
+                    "telemetry": {
+                        "showHeader": "true",
+                        "showDate": "true",
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": {
+                                "attributeGuid": "6C4CD482-7E67-42D0-8C66-23E6BE79316D",
+                                "attributeName": "voy2_lt",
+                                "checked": "true"
+                            }
+                        },
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "17",
+                "w": "22",
+                "h": "10",
+                "i": "Telemetry",
+                "minW": "15",
+                "minH": "6",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#000000",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "10",
+                "title": "",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/voy1.jpg",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "27",
+                "w": "22",
+                "h": "11",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#000000",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "10",
+                "title": "",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/voy2r2.jpg",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "27",
+                "w": "22",
+                "h": "11",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "6A7BB4C8-1763-41EB-A490-0764F72A527F",
+            "widgetProperties": {
+                "i": "DeviceLatestValue",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Oswald",
+                "fontSize": "23",
+                "title": "Metrics Comparison",
+                "titleAlign": "",
+                "contents": {
+                    "devicelatestvalue": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "boxtypes": "2",
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "voy1_lt",
+                                    "attributeName": "voy1_lt"
+                                },
+                                {
+                                    "attributeGuid": "voy2_lt",
+                                    "attributeName": "voy2_lt"
+                                },
+                                {
+                                    "attributeGuid": "voy1_km",
+                                    "attributeName": "voy1_km"
+                                },
+                                {
+                                    "attributeGuid": "voy2_km",
+                                    "attributeName": "voy2_km"
+                                }
+                            ]
+                        },
+                        "key": "devicelatestvalue"
+                    }
+                }
+            },
+            "properties": {
+                "x": "22",
+                "y": "28",
+                "w": "15",
+                "h": "12",
+                "i": "DeviceLatestValue",
+                "minW": "15",
+                "minH": "12",
+                "maxH": "12",
+                "maxW": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Avnet IoT",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://avnet.com\\iot",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "38",
+                "w": "7",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Quick Start",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect/development-kits/nxp-maaxboard/",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "7",
+                "y": "38",
+                "w": "8",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Free Trial",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://subscription.iotconnect.io/subscribe",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "15",
+                "y": "38",
+                "w": "7",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "23",
+                "title": "Version",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "voy2_au",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "voy2_au",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "6C4CD482-7E67-42D0-8C66-23E6BE79316D",
+                                    "attributeName": "voy2_lt",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "18:41:28\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "18:41:28\n"
+                                },
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012527259\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012527259\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062169966\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062169966\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534702403\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534702403\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03586487\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03586487\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50181839\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50181839\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03586487\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03586487\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525772518\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525772518\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50181839\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50181839\n"
+                                },
+                                {
+                                    "attributeGuid": "5A4FD60C-DC12-4E4A-A7FC-E9E1407792A5",
+                                    "attributeName": "voy1_lt",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "22:27:36\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22:27:36\n"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "38",
+                "y": "38",
+                "w": "11",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "23",
+                "title": "CPU",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "voy2_au",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "voy2_au",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "42EA5BC0-6F48-4EC8-AA53-4213F2BDF2F4",
+                            "deviceUniqueId": "pymxbrdvygrdm2"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "6C4CD482-7E67-42D0-8C66-23E6BE79316D",
+                                    "attributeName": "voy2_lt",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "18:41:28\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "18:41:28\n"
+                                },
+                                {
+                                    "attributeGuid": "71FC5D78-32DD-4E91-9586-3D03C7217DDF",
+                                    "attributeName": "voy1_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15012527259\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15012527259\n"
+                                },
+                                {
+                                    "attributeGuid": "4BF3639F-73D6-41F8-93D7-4C5874F00B04",
+                                    "attributeName": "voy1_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "15062169966\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "15062169966\n"
+                                },
+                                {
+                                    "attributeGuid": "73496846-17EC-4554-A78A-509721FDDB29",
+                                    "attributeName": "voy2_km",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12534702403\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12534702403\n"
+                                },
+                                {
+                                    "attributeGuid": "EC379A5D-9E4C-4C34-9DE4-573927B68D7A",
+                                    "attributeName": "voy2_au",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03586487\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03586487\n"
+                                },
+                                {
+                                    "attributeGuid": "17F822B2-32A3-42E8-8006-5A086ACE091A",
+                                    "attributeName": "voy2_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50181839\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50181839\n"
+                                },
+                                {
+                                    "attributeGuid": "C55C9E61-B8FE-4203-82F7-748FF16A3AF2",
+                                    "attributeName": "voy1_au",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "162.03586487\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "162.03586487\n"
+                                },
+                                {
+                                    "attributeGuid": "CB1FBCBB-824B-4B50-B12B-7615E6C5934B",
+                                    "attributeName": "voy2_kms",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "12525772518\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "12525772518\n"
+                                },
+                                {
+                                    "attributeGuid": "0A38F043-EEFC-414E-BCC8-8D2E9B830DE9",
+                                    "attributeName": "voy1_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38026.77\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "38026.77\n"
+                                },
+                                {
+                                    "attributeGuid": "0002BD85-F5FD-4148-8FD8-8EBCC83E3AA2",
+                                    "attributeName": "voy2_speed",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34390.98\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34390.98\n"
+                                },
+                                {
+                                    "attributeGuid": "1D9596D1-1067-4B13-9428-AC35709955F4",
+                                    "attributeName": "voy1_aus",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "161.50181839\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "161.50181839\n"
+                                },
+                                {
+                                    "attributeGuid": "5A4FD60C-DC12-4E4A-A7FC-E9E1407792A5",
+                                    "attributeName": "voy1_lt",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "22:27:36\n",
+                                    "deviceUpdatedDate": "2023-10-21T22:58:10.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22:27:36\n"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "49",
+                "y": "38",
+                "w": "11",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Yocto C SDK",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/iotc-yocto-c-sdk",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "40",
+                "w": "7",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "Yocto Python SDK",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/iotc-yocto-python-sdk",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "7",
+                "y": "40",
+                "w": "8",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#41c363",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "20",
+                "title": "IoTConnect Help",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://help.iotconnect.io/",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "15",
+                "y": "40",
+                "w": "7",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#9b9b9b",
+                "fontColor": "#000000",
+                "fontFamily": "Oswald",
+                "fontSize": "21",
+                "title": "Mission Status",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://voyager.jpl.nasa.gov/mission/status/",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "22",
+                "y": "40",
+                "w": "7",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#9b9b9b",
+                "fontColor": "#343434",
+                "fontFamily": "Oswald",
+                "fontSize": "21",
+                "title": "Mission Overview",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://voyager.jpl.nasa.gov/mission/",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "30",
+                "y": "40",
+                "w": "7",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#000000",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "10",
+                "title": "",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/helio.jpg",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "42",
+                "w": "60",
+                "h": "24",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        }
+    ]
+}
