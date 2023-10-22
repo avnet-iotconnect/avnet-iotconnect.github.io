@@ -186,7 +186,7 @@ Pass: <none>
 * Transfer the compressed folder containing the certificates to the `iotc` folder
   * On the PC, open a new Command windows and navigate to the folder containing the .zip file
   * Transfer it to the board using SCP
-	```
+	```ruby
  	scp 37C8C74ECA7F885EC5286E30C650AE1C7C6A69F8.zip root@[device IP]:/usr/local/iotc
  	```
 * Return to the SSH windows and navigate to the zip file location
