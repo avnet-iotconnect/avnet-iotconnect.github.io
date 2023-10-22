@@ -232,10 +232,10 @@ Below is the contents of the example config-x509.json:
 
 “x509\_certs” contains the requisite paths to certificates stored on the SD Card. When it’s time for the user to utilize their own certificates, edit this path.
 
-“sensor” contains the name of a sensor & the path to where its sensor data can be accessed. At the time of writing the path is the output of the website scraper which is in the format of a comma-separated large number. basic-sample parses the number at the path it’s given & sends it as telemetry data E.g.,
+“sensor” contains the name of a sensor & the path to where its sensor data can be accessed. At the time of writing the path is the output of the website scraper which is in the format of a comma-separated large number. basic-sample parses the number at the path it’s given & sends it as telemetry data.  
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png)
 
-The number sent from basic-sample, 12494925803 corresponds to the 12,494,952,933 mi Voyager 2 is from the Sun (the website updates much quicker than the scraper)
+The number sent from from the application (e.g. 12494925803) corresponds to the distance, in miles, Voyager 2 is from the Sun. (12,494,952,933mi).
 
 # Start the Demo Application
 
@@ -246,12 +246,13 @@ systemctl start itoc-c-telemetry-demo
 
 # Verification
 
-At this point the board should be sending telemetry to the IoTConnect portal. We can verify by checking the "Live Data" feed.
+At this point the board will be sending telemetry to the IoTConnect portal. This can be verified by checking the "Live Data" feed.
 * Return to the *Devices* page and click on the newly created Device ID.
-* On the left sub-menu, click "Live Data" and after a few seconds, data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
+* On the left sub-menu, click *Live Data* and after a few seconds, data will be displayed.  
+![](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
 
 # Visualization
 
-The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display teh Voyager information is available for download [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
+The data can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display teh Voyager information is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/dashboard/MaaXBoard%20Voyager%20Demo_dashboard_export.json).  
 
 Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
