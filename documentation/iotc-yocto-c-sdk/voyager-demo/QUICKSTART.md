@@ -27,20 +27,21 @@ Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-i
 > **Note:**
 > If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "Voyager Sensors" already exists in the template tab of the "Device" section.
 
-A Device Template with will need to be imported:
+A Device Template with need to be imported:
 * Download the premade [Voyager Sensors](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/templates/device/Voyager%20Sensors_template.JSON) Device Template.  
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
 # Cloud Certificate Setup
 
 This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For the purpose of this demo, these certificates have been pre-generated for the user and provided with the demo package, below.
-1. Download and extract the package [my-iot-devices.tgz](https://saleshosted.z13.web.core.windows.net/media/nxp/voyager/my-iotc-devices.tgz).
+1. Download the package [my-iot-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz)
+2. Extract the TGZ, then the TAR, and finally the ZIP.
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/my-iotc-dev.JPG)
 
-2. Open the DeviceCertificate.pem in a text editor and copy the Device Certificate including the BEGIN and END lines.
+3. Open the DeviceCertificate.pem in a text editor and copy the Device Certificate including the BEGIN and END lines.
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/certcopy.JPG)
-3.  A device fingerprint needs to be generated from the certificate.
-	* Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php).  
+4.  A device fingerprint needs to be generated from the certificate.
+	* Paste the contents into the *X.509 cert* field on [this web site](https://www.samltool.com/fingerprint.php).  
 	* Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
 ![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/genfing.JPG)
 
@@ -61,8 +62,8 @@ This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For t
 
 # Setting Up the MaaXBoard
 
-1. Download the SD Card image [here](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/core-image-minimal-maaxboard-20231020233139.rootfs.wic.gz)
-2. Insert the SD Card into your PC
+1. Download and extract the SD Card image: [core-image-minimal-maaxboard-20231020233139.rootfs.wic.gz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/core-image-minimal-maaxboard-20231020233139.rootfs.wic.gz)
+2. Insert the SD Card into your PC and write it to the SD card using one of the following options:
 <details><summary><b>Option 1: Linux Command Line</b></summary>
   
 * Ensure the sd card is not mounted
@@ -104,7 +105,7 @@ This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For t
 > **Note:**
 > The board is up & running if LED0 is on constantly & LED1 is flashing. If neither of these conditions are true, try power-cycling the board.
 
-# Establish Communications with the MaaXBoard
+# Connecting to the MaaXBoard
 
 <details><summary><b>Option 1: SSH to the MaaXBoard</b></summary>
 
@@ -134,9 +135,6 @@ This demo uses an X.509 certificate to authenticate itself to IoTConnect.  For t
   Nmap done: 256 IP addresses (2 hosts up) scanned in 3.19 seconds
   ```
   *  Sign in over SSH
-User: `root`
-Pass: `avnet`
-
   ```ruby
 	  ssh root@10.42.0.10
   ```
@@ -153,7 +151,7 @@ Pass: `avnet`
 
 4. Connect the USB-C to power
 
-**NOTE:** If you use a USB-C cable to power your board, don't plug it into your computer's USB ports, since it may draw more power than your USB ports can supply. You can also purchase the recommended 5V 3A power supply for the board [here.](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-acc-maax-pwrul-3074457345642357173/)
+> **NOTE:** If you use a USB-C cable to power your board, don't plug it into your computer's USB ports, since it may draw more power than your USB ports can supply. You can also purchase the recommended 5V 3A power supply for the board [here](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-acc-maax-pwrul-3074457345642357173/).
 
 Connect via CoolTerm
 
@@ -171,74 +169,54 @@ You should see all the log messages while booting like in the picture below with
 
 At this point you can log into the board with the default credentials:
 User: **root**
-Pass: **avnet**
+Pass: <none>
 
 </details>		
 
-# **Update Device Cloud Credentials**
-
-If you have not already, download and extract the [my-iotc-devices.tgz](https://saleshosted.z13.web.core.windows.net/sdk/nxp/voyager/my-iotc-devices.tgz) folder containing the configuration and demo certificates
-<details><summary><b>Insert and modify config.json</b></summary>
+# Install Certificates
 
 * On the MaaXBoard, navigate to the user directory
 	```ruby
 	cd /usr/
 	```
-* Create the following directories and navigate to that location
- ```ruby
-		mkdir -p /local/iotc
-		cd /local/iotc
-```
-* Transfer the compressed folder containing the certificates to the newly created folder IoTC
+* Create the following directory
+	 ```ruby
+	mkdir -p /local/iotc
+	```
+* Transfer the compressed folder containing the certificates to the `iotc` folder
+  * On the PC, open a new Command windows and navigate to the folder containing the .zip file
+  * Transfer it to the board using SCP
+	```
+ 	scp 37C8C74ECA7F885EC5286E30C650AE1C7C6A69F8.zip root@[device IP]:/usr/local/iotc
+ 	```
+* Return to the SSH windows and navigate to the zip file location
+	 ```ruby
+	cd /usr/local/iotc
+	```
 * Unzip the folder in this location
+	 ```ruby
+	unzip 37C8C74ECA7F885EC5286E30C650AE1C7C6A69F8.zip
+	```
 
-</details>		
+# Update Configuration
 
-
-# **Modify the config.json file**
-There are a couple of json config files included on in the /home/ directory to serve as examples. Users have the option to create their own config files or edit the ones already present on the board. Creating and editing files on the SD Card can be achieved by either “in-situ” editing over terminal (cp, mv & vi for editing) or removing the SD Card & editing its contents on a PC. E.g.
-
-mmcblk0                 179:0    0   3.7G  0 disk  
-
-├─mmcblk0p1             179:1    0  83.2M  0 part  /media/user/boot
-
-└─mmcblk0p2             179:2    0 819.9M  0 part  /media/user/root
-
-With the SD Card inserted & mounted config jsons & new certificates could be uploaded to /media/user/root/home
-## **Config json contents**
-Below is the contents of the example config-x509.json:
-```ruby
-{
-`  `"duid": "CSDKYoctoVladSelfSigned",
-`  `"cpid": "avtds",
-`  `"env": "avnetpoc",
-`  `"auth\_type": "IOTC\_AT\_X509",
-`  `"x509\_certs": {
-`    `"client\_key": "/home/client1-key.pem",
-`    `"client\_cert": "/home/client1.pem"
-`  `},
-
-`  `"sensor": {
-`    `"name": "Voyager-Sensor",
-`    `"path": "/tmp/voy2\_kms"
-`  `}
-
-}
-```
-“Duid”, “cpid”, “env “& “auth\_type” should all be familiar with the use of the SDK.
-
-“x509\_certs” contains the requisite paths to certificates stored on the SD Card. When it’s time for the user to utilize their own certificates, edit this path.
-
-“sensor” contains the name of a sensor & the path to where its sensor data can be accessed. At the time of writing the path is the output of the website scraper which is in the format of a comma-separated large number. basic-sample parses the number at the path it’s given & sends it as telemetry data.  
-![](https://saleshosted.z13.web.core.windows.net/media/nxp/jpl/qs-img1.png)
-
-The number sent from from the application (e.g. 12494925803) corresponds to the distance, in miles, Voyager 2 is from the Sun. (12,494,952,933mi).
+* While still in the same directory, open the `config.json` file for editing:
+	 ```ruby
+	vi config.json
+	```
+* Press `i` and use the arrow keys to navigate to line 3
+* Enter the Device ID created earlier as the value for DUID
+* Press `ESC` then `:wq` to write and quit
 
 # Start the Demo Application
 
-* From the `/usr/local/iotc` folder, run the following command
+Type the following command to restart the service with the new Device ID
 ```ruby
-systemctl start itoc-c-telemetry-demo
+systemctl restart iotc-c-telemetry-demo
+```
+Check to ensure the service started properly:
+```ruby
+systemctl status iotc-c-telemetry-demo
 ```
 
 # Verification
