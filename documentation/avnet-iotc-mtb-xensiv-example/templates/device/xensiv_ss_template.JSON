@@ -1,6 +1,6 @@
 {
-    "code": "xensiv_ss",
-    "name": "xensiv_ss",
+    "code": "xensivdemo",
+    "name": "xensivdemo",
     "authType": 3,
     "isIotEdgeEnable": false,
     "attributes": [
