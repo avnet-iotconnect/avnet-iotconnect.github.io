@@ -68,17 +68,7 @@ Esnure all cables (USB, Network) are removed from from the board.
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop-power.jpg"/>
 </details>
 
-## 8. Setup the Serial Terminal
-
-* Open the Serial Terminal application and setup as following to allow for logging:
-  * Port: (Select the COM port with the device)
-  * Speed: `115200`
-  * Data: `8 bits`
-  * Parity: `none`
-  * Stop Bits: `1`
-  * Flow Control: `none` 
-
-## 9. Flash the Board
+## 8. Flash the Board
 
 * Launch the Renesas Flash Programmer tool
 * Click **File** then **New Project...** and configure as below:
@@ -106,9 +96,21 @@ Esnure all cables (USB, Network) are removed from from the board.
 <img style="width:45%; height:auto" src="./assets/rfp_flash_completed.png">
 </details>
 
-<details><summary>The board is now programmed. You can now disconnect the USB cables, change jumper to <b>RUN</b>, and reconnect the USB cables.</summary>
+<details><summary>The board is now programmed. You can now disconnect the USB cables and change jumper to <b>RUN</b>.</summary>
 <img style="width:45%; height:auto" src="./assets/quickstart/move_debug_jumper.jpg"/>
 </details>
+
+
+## 9. Setup the Serial Terminal
+
+* Open the Serial Terminal application and setup as following to allow for logging:
+  * Port: (Select the COM port with the device)
+  * Speed: `115200`
+  * Data: `8 bits`
+  * Parity: `none`
+  * Stop Bits: `1`
+  * Flow Control: `none` 
+* Reconnect the USB cables to power on the board.
 
 ## 10. Configure IoTConnect Information
 
