@@ -12,7 +12,7 @@
         },
         {
             "name": "button",
-            "type": "BOOLEAN",
+            "type": "INTEGER",
             "description": null,
             "unit": null
         },
