@@ -14,7 +14,7 @@ Follow the instructions to [setup the Renesas Envrionment](https://github.com/av
 
 ## 3. Download Pre-Built Binary
 Download the QuickStart ELF (Executable and Linking Format) file which contains the pre-built binary:  
-[ck-rx65n-basic-sample-20231020.elf](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-basic-sample-20231020.elf)
+[ck-rx65n-fw-20231026.elf](https://saleshosted.z13.web.core.windows.net/sdk/renesas/ck-rx65n-qs/ck-rx65n-fw-20231026.elf)
 
 ## 4. IoTConnect Account Setup
 
