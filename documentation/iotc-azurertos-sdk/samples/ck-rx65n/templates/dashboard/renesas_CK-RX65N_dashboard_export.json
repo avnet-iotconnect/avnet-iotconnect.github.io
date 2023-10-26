@@ -28,10 +28,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "steven-rx65n"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -65,8 +66,8 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
-                            "deviceUniqueId": "MCLrx65n"
+                            "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
+                            "deviceUniqueId": "steven-rx65n"
                         },
                         "attributes": {
                             "attribute": [
@@ -130,8 +131,8 @@
                 "contents": {
                     "liveChart": {
                         "device": {
-                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
-                            "deviceUniqueId": "MCLrx65n"
+                            "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
+                            "deviceUniqueId": "steven-rx65n"
                         },
                         "attributes": {
                             "attribute": [
@@ -165,7 +166,7 @@
             "properties": {
                 "x": "21",
                 "y": "0",
-                "w": "17",
+                "w": "15",
                 "h": "16",
                 "i": "LiveLineChart",
                 "minW": "15",
@@ -186,8 +187,8 @@
                 "contents": {
                     "devicelatestvalue": {
                         "device": {
-                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
-                            "deviceUniqueId": "MCLrx65n"
+                            "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
+                            "deviceUniqueId": "steven-rx65n"
                         },
                         "boxtypes": "2",
                         "attributes": {
@@ -215,7 +216,7 @@
                 }
             },
             "properties": {
-                "x": "38",
+                "x": "36",
                 "y": "0",
                 "w": "15",
                 "h": "12",
@@ -254,10 +255,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "steven-rx65n"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -291,8 +293,8 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
-                            "deviceUniqueId": "MCLrx65n"
+                            "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
+                            "deviceUniqueId": "steven-rx65n"
                         },
                         "attributes": {
                             "attribute": [
@@ -347,88 +349,77 @@
             "widgetGuid": "6FEFF6B7-15C4-4095-A156-87A1B38D2FF5",
             "widgetProperties": {
                 "i": "Transformation",
-                "background": "#000000",
-                "fontColor": "#ffffff",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
+                "background": "#ffffff",
+                "fontColor": "#000000",
+                "fontFamily": "Poppins",
+                "fontSize": "20",
                 "title": "Button",
                 "titleAlign": "",
                 "contents": {
                     "Transformation": {
                         "device": {
-                            "deviceGuid": "87A33A1C-DCF8-4FB2-AB5D-D81898F0FDA3",
-                            "deviceUniqueId": "MCLrx65n"
+                            "deviceGuid": "1C5CCAE5-16F2-466F-ACB1-12291EF08775",
+                            "deviceUniqueId": "steven-rx65n"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "B2607034-5798-432C-834E-046CC922D771",
-                                    "attributeName": "button",
-                                    "checked": "true",
-                                    "dataType": "BOOLEAN",
-                                    "attributeLatestValue": "1",
-                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1"
-                                },
-                                {
-                                    "attributeGuid": "DA838F41-79A9-4120-AB2B-83D6995314E9",
+                                    "attributeGuid": "F40515CC-7A72-4211-97C4-10F66A3E0DBC",
                                     "attributeName": "temperature",
                                     "checked": "false",
                                     "dataType": "DECIMAL",
-                                    "attributeLatestValue": "30.0699996948242",
-                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "attributeLatestValue": "26.75",
+                                    "deviceUpdatedDate": "2023-10-26T15:59:29.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "30.0699996948242"
+                                    "attributeValue": "26.75"
                                 },
                                 {
-                                    "attributeGuid": "0B918098-EA3F-4382-91AB-8BD6978262B3",
+                                    "attributeGuid": "57B25AD5-B43C-4666-8D33-532A42E70FD9",
+                                    "attributeName": "humidity",
+                                    "checked": "false",
+                                    "dataType": "DECIMAL",
+                                    "attributeLatestValue": "29.7999992370605",
+                                    "deviceUpdatedDate": "2023-10-26T15:59:29.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "29.7999992370605"
+                                },
+                                {
+                                    "attributeGuid": "842EB464-1E8A-41AF-8EA9-F25AD3F87AE1",
                                     "attributeName": "version",
                                     "checked": "false",
                                     "dataType": "STRING",
                                     "attributeLatestValue": "01.00.00",
-                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "deviceUpdatedDate": "2023-10-26T15:59:29.000Z",
                                     "gatewayUpdatedDate": "NA",
                                     "attributeValue": "01.00.00"
                                 },
                                 {
-                                    "attributeGuid": "360F4436-D358-47CB-BF26-D0E46EA46270",
-                                    "attributeName": "humidity",
-                                    "checked": "false",
-                                    "dataType": "DECIMAL",
-                                    "attributeLatestValue": "28",
-                                    "deviceUpdatedDate": "2023-10-17T15:54:59.000Z",
+                                    "attributeGuid": "AA754509-2044-4913-B6C4-FC00E4E8782E",
+                                    "attributeName": "button",
+                                    "checked": "true",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "1",
+                                    "deviceUpdatedDate": "2023-10-26T15:59:29.000Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "28"
+                                    "attributeValue": "1"
                                 }
                             ]
                         },
                         "key": "Transformation",
-                        "transformations": [
-                            {
-                                "condition": "eq",
-                                "conditionValue": "True",
-                                "type": "Color",
-                                "errors": "",
-                                "typeValue": "#324099",
-                                "isShowLiveFontColor": "false"
-                            },
-                            {
-                                "condition": "ne",
-                                "conditionValue": "False",
-                                "type": "Color",
-                                "errors": "",
-                                "typeValue": "#000000",
-                                "isShowLiveFontColor": "false"
-                            }
-                        ]
+                        "transformations": {
+                            "condition": "eq",
+                            "conditionValue": "1",
+                            "type": "Text",
+                            "errors": "",
+                            "typeValue": "PRESSED"
+                        }
                     }
                 }
             },
             "properties": {
-                "x": "38",
+                "x": "36",
                 "y": "12",
-                "w": "15",
+                "w": "8",
                 "h": "4",
                 "i": "Transformation",
                 "minW": "7",
@@ -483,7 +474,7 @@
                 }
             },
             "properties": {
-                "x": "14",
+                "x": "12",
                 "y": "16",
                 "w": "11",
                 "h": "2",
@@ -502,17 +493,17 @@
                 "fontColor": "#ffffff",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
-                "title": "Developer Guide",
+                "title": "QuickStart Guide",
                 "titleAlign": "center",
                 "contents": {
                     "hyperlink": {
-                        "link": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/ck-rx65n/DEVELOPER_GUIDE.md",
+                        "link": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/ck-rx65n/QUICKSTART.md",
                         "key": "hyperlink"
                     }
                 }
             },
             "properties": {
-                "x": "28",
+                "x": "24",
                 "y": "16",
                 "w": "11",
                 "h": "2",
@@ -541,7 +532,7 @@
                 }
             },
             "properties": {
-                "x": "42",
+                "x": "36",
                 "y": "16",
                 "w": "11",
                 "h": "2",
