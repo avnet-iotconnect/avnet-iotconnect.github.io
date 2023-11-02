@@ -43,6 +43,10 @@ Running this script will make it so that only TrustZone enabled applications are
 # 5. Device Configuration
 * Ensure the serial terminal application is running.
 * Press the RST button on the board and look for the "X-CUBE-AZURE" title block. This may take 1 or two presses of the button. (The reset button is the black button labled "RST" next to the only blue button on the top of the board.)
+
+> **Note:**  
+> The next steps involve entering text into the terminal that is NOT echoed as typed.  Enter the values and hit `Enter` and the input will be displayed for confirmation.
+
 * In your terminal application enter "y" when prompted to set device configuration. You will only need to set values 1-4.
   * Configure your WiFi SSID (Network Name) by pressing 1 (if running the WiFi version)
   * Configure your WiFi Password by pressing 2 (if running the WiFi version)
