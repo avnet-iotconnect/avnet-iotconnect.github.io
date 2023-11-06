@@ -1,10 +1,17 @@
-### IoTConnect Subscription Information
+# IoTConnect Subscription Information
 
-[IoTConnect](https://iotconnect.io) is availabe as a SaaS hosted subscription service or available as a PaaS subscription hosted on a client's infrastructure. SaaS IoTConnect subscriptions are available for business and personal accounts, and both are deployed on a production cloud instance.  Personal accounts are currently available through a North American instance of IoTConnect built on Microsoft Azure and is available for global use.  Personal IoTConnect accounts support between 1 and 100 devices, and can be setup in minutes through credit card payment on [IoTConnect Subscription Site](https://subscription.iotconnect.io/subscribe). Business SaaS accounts are available on both AWS and Azure, and deployed on EMEA and North American instances.  The Business SaaS platforms will support 1 to over a million devices, allow unlimited users, and can be setup in 1-business day through your local Avnet, Avnet Silica, Avnet Abacus, and EBV Elektronik account managment team. If you are not connected to an Avnet representative already, one can be reached by the "Contact Us" link on the Subscription Page. PaaS subscriptions are available in all Azure and AWS serviced regions, and require an Avnet license agreement and a cloud subscription service through Anvet or directly through the cloud sevices provider. 
+## Plan Types  
 
-For registration, you will need an email address, phone number, and unique company name. When you sign up for an account, you are creating an organizational instance.  You can add others later into this account with various permissions, including admistrative rights.  But note that users within the same organization, as well as device users, do not require their own seperate IoTConnect subscriptions.   
+IoTConnect is available for Personal and Business usage with tiered usage plans.  Personal plans are a Software-as-a-Serivce (SaaS) and hosted on either Azure or AWS.  Plans range from $30 to $300 based on Messages, Devices, Users and premium connectors to other underlying services.  Businesses may leverage IoTConnect as either a SaaS model or as a Platform-as-a-Service (PaaS) model hosted on existing infrastructure.  Business interested in learning more should contact their regional Avnet representative or leverage the "Contact Us" button on the [IoTConnect Subscription Site](https://subscription.iotconnect.io/subscribe).
 
-**IoTConnect Trial Account**  
-A 2-Month Test Drive is available through the [IoTConnect Subscription Site](https://subscription.iotconnect.io/subscribe).  This version allows up to 5 devices, 5 users, and 30K messages per month, and does not require creditcard information for registration.  In addition, all paid tiers provide a 1-month trial period. The second month will be billed 30-days after sign-up and can be cancelled anytime through the [subcription management portal](https://subscription.iotconnect.io).
+## Supported Clouds  
 
-![IoTConnect Subscription Screenshot](media/IoTC-subscribe.png "IoTConnect Plans")
+IoTConnect may be deployed on either Microsoft Azure or Amazon AWS.  This is espcially beneficial if there is existing infrastructure with a specific cloud provider or other preferences.  Both Personal and Business accounts may choose the underlying cloud platform. 
+
+## Free Trial  
+
+A 2 month "Test Drive" trial plan is available through the [IoTConnect Subscription](https://subscription.iotconnect.io/subscribe) page.  This version allows up to 5 devices, 5 users, and 30K messages per month, and does not require a credit card for registration.
+
+## Avnet Employees  
+
+Avnet and affliated employees should contact the IoT team for their account information.
