@@ -10,7 +10,7 @@ IoTConnect may be deployed on either Microsoft Azure or Amazon AWS. Both Persona
 
 ## Free Trial  
 
-A 2 month "Test Drive" trial plan is available through the [IoTConnect Subscription](https://subscription.iotconnect.io/subscribe) page.  This version allows up to 5 devices, 5 users, and 30K messages per month, and does not require a credit card for registration.
+A 2-month "Test Drive" trial plan is available through the [IoTConnect Subscription](https://subscription.iotconnect.io/subscribe) page.  This version allows up to 5 devices, 5 users, and 30K messages per month, and does not require a credit card for registration.
 
 ## Avnet Employees  
 
