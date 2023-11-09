@@ -5,13 +5,13 @@ board, using the ck-rx65n sample project, with IoTConnect.
 
 <img style="width:45%; height:auto" src="./assets/ck-rx65n/IMG_20230316_120246661-crop.jpg"/>
 
-## Prerequisites
+## 1. Prerequisites
 
 - PC with Windows 10/11 (For using e<sup>2</sup> Studio on Linux please follow the [e2studio_linux_guide.md](/documentation/e2studio/e2studio_linux_guide.md)).
 - Internet connection for the PC
 - Ethernet connection for the Renesas board
 
-## Download & Install Renesas Software
+## 2. Download & Install Renesas Software
 
 Follow the [Environment Setup Guide](documentation/iotc-azurertos-sdk/samples/ck-rx65n/environment_setup.md) and return to this document.
 
@@ -48,7 +48,7 @@ notes](https://www.renesas.com/us/en/document/apn/integrated-development-environ
 
 </details>
 
-## Clone the iotc-azurertos-sdk Repository
+## 3. Clone the iotc-azurertos-sdk Repository
 
 The `git clone` details can be found on the [IotConnect Azure RTOS SDK github
 project](https://github.com/avnet-iotconnect/iotc-azurertos-sdk).
