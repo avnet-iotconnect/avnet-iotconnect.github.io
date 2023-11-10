@@ -39,6 +39,7 @@ guide and return to this guide once complete.
 Running this script will make it so that only TrustZone enabled applications are authorized to run on the board. This only needs to be run once per board.
 * Execute the *tfm-update.bat* batch script included in the package to setup TFM on the board along with the IoTConnect firmware.
 * Remove the USB cable from the board for a few seconds and reconnect to perform a hard reset.
+* *NOTE:* After completion of this demo, the trust-zone-disable.bat batch script can be run to once again allow non-TrustZone applications to be executed. Do not run this now. If you erased the board, you may need to re-flash it with tfm-update.bat before you can run trust-zone-disable.bat.
 
 # 5. Device Configuration
 * Ensure the serial terminal application is running.
