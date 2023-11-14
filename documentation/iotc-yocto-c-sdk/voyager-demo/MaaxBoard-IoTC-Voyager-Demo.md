@@ -176,7 +176,7 @@ Pass: <none>
 
 Type the following command to restart the service with the new Device ID
 ```ruby
-systemctl restart iotc-c-telemetry-demo
+systemctl start iotc-c-telemetry-demo
 ```
 Check to ensure the service started properly:
 ```ruby
