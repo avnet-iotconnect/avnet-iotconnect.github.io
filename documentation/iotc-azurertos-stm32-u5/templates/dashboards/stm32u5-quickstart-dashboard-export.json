@@ -774,7 +774,7 @@
                 "titleAlign": "center",
                 "contents": {
                     "hyperlink": {
-                        "link": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5/blob/main/IoTConnect/docs/QUICKSTART.md",
+                        "link": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-stm32-u5/QUICKSTART.md",
                         "key": "hyperlink"
                     }
                 }
