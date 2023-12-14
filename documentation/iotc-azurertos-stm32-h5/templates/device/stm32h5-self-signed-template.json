@@ -1,0 +1,36 @@
+{
+    "code": "stm32h5ss",
+    "name": "stm32h5ss",
+    "authType": 3,
+    "isIotEdgeEnable": false,
+    "attributes": [
+        {
+            "name": "version",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "temperature",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "button_counter",
+            "type": "NUMBER",
+            "description": null,
+            "unit": null
+        }
+    ],
+    "messageVersion": "1.0",
+    "msgCode": "7LIBYCX",
+    "properties": {
+        "description": null,
+        "dataFrequency": "60",
+        "fileSupport": false
+    },
+    "_meta": {
+        "version": "2.0"
+    }
+}

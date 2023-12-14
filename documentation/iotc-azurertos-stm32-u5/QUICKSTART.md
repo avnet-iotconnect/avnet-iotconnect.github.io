@@ -59,8 +59,8 @@ Navigate there using the image below:<br>
   * The Symmetric key should be left unset. This will allow for authentication using STSAFE with x509 authentication
   * Press '0' to write the configuration. This option will also reset the board.
 * After configuring the device settings, monitor the serial terminal for information similar to the screenshot below. You may have to scroll up in the terminal.<br>
-![Certificate and DUID Screemshot](media/duid-and-certifciate-console.png "Certificate and DUID Screemshot") 
-* A device fingerprint needs to be generated from the certificate.
+![Certificate and DUID Screenshot](media/duid-and-certifciate-console.png "Certificate and DUID Screemshot") 
+* A certificate fingerprint needs to be generated from the certificate.
   * Copy the Device Certificate from the console, including the BEGIN and END lines.
   * Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php). (Optionally you can use openssl to print the device fingerprint, but this is outside the scope of this guide.)
   * Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
@@ -70,7 +70,7 @@ Navigate there using the image below:<br>
 **NOTE: If you are following this guide as part of a training or workshop, a device template may have already been created and this section can be skipped. Check if a template called "stm32u5ss" already exists in the template tab of the "Device" section.**
 
 A Device Template with Self Signed authentication type will need to be imported or created.
-* Download the premade [Device Template with Self-Signed Auth](templates/device/stm32u5self_signed_template.JSON).
+* Download the premade [Device Template with Self-Signed Auth](templates/device/stm32u5-self-signed-template.json).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
 # 7. IoTConnect Device Setup
@@ -86,7 +86,7 @@ At this point the board should be sending telemetry to the IoTConnect portal. We
 * On the left sub-menu, click "Live Data" and after a few seconds, data should be shown. See below:<br>![image](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/assets/40640041/21d25bbb-71d0-4a9d-9e74-e2acf0983183)
 
 # 9. Visualization
-The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display some telemtery from the STM32U5 IoT Discovery Kit is available for download [here](templates/dashboards/stm32u5_quickstart_dashboard_export.json).  Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
+The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect.  A sample dashboard that is preconfigured to display some telemtery from the STM32U5 IoT Discovery Kit is available for download [here](templates/dashboards/stm32u5-quickstart-dashboard-export.json).  Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
 # 10. Troubleshooting
 Using the serial terminal is the best way to identify issues. Common issues can be resolved by verifying the following items:
