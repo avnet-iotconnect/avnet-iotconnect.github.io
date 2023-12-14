@@ -6,8 +6,11 @@ IoTConnect is available for Personal and Business usage with tiered usage plans.
 
 ## Supported Clouds  
 
-IoTConnect may be deployed on either Microsoft Azure or Amazon AWS. Both Personal and Business accounts may choose the underlying cloud platform during registration. 
-
+IoTConnect may be deployed on either Microsoft Azure or Amazon AWS. Both Personal and Business accounts may choose the underlying cloud platform during registration.
+```
+Note:
+The various guides will indicate which underlying cloud is required for the experience, so ensure to select the appropriate trial.
+```
 ## Free Trial  
 
 A 2-month "Test Drive" trial plan is available through the [IoTConnect Subscription](https://subscription.iotconnect.io/subscribe) page.  This version allows up to 5 devices, 5 users, and 30K messages per month, and does not require a credit card for registration.
