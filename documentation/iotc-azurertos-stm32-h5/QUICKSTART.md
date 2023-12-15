@@ -1,11 +1,8 @@
-
-
-
 # 1. Introduction
 
-This document provides a step-by-step-guide to program and evaluate the 
-[B-U585I-IOT02A STM32U5 Discovery kit for IoT](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html) board 
-with STM32Trust TEE Secure Manager (STM32TRUSTEE-SM) support on IoTConnect.
+This document provides a step-by-step-guide to program and evaluate the
+[STM32H573I-DK Discovery Kit](https://www.st.com/en/evaluation-tools/stm32h573i-dk.html)
+board with STM32Trust TEE Secure Manager (STM32TRUSTEE-SM) support on IoTConnect.
 
 Though development is supported on both Linux and Windows, this quickstart guide currently only supports Windows 64-bit.
 
