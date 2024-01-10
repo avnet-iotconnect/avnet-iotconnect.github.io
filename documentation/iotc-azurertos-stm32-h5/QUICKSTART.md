@@ -11,7 +11,7 @@ Though development is supported on both Linux and Windows, this quickstart guide
 * Download and install [Git Bash](https://git-scm.com/downloads) (Select default options during installation)
 * Install [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) v1.14.0 or greater. 
 Note that some 1.13.x versions may give benign linker errors. 
-* Install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) v1.14.0 or greater.
+* Install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) v2.14.0 or greater.
 Some older versions do not support the H5 Secure Manager.
 * A serial console application, such as [Tera Term](https://ttssh2.osdn.jp/index.html.en), 
  or a browser application like [Google Chrome Labs Serial Terminal](https://googlechromelabs.github.io/serial-terminal/) configured per the screenshot below:  
@@ -48,7 +48,7 @@ guide and return to this guide once complete.
 Running this script will provision the board with Secure Manager. This only needs to be run once per board.
 After executing this step, the board will no longer be able
 to run non-secure projects (see below).
-* If you encounter issues with *provisioning.sh*, run *regression.sh* and then *provisioning.sh* again.
+* If you encounter issues the first time with *provisioning.sh* or *download.sh*, run *regression.sh* and then *provisioning.sh* again and/or *download.sh* after *provisioning.sh*.
 * Execute the *download.sh* script included in the package to download the IoTConnect demo firmware.
 You can ignore the running process warning when closing the window.
 * *NOTE:* After completion of your evaluation, the *regression.sh* script can be run to once again allow standard (non-secure) project applications to be executed. Do not run this now.
