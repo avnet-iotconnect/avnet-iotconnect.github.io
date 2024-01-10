@@ -10,7 +10,7 @@ The project development is currently supported on Windows and Linux and was test
 * 
 * Python 3.10 (On Linux, Windows does not require Python)
 * STM32CubeIDE v1.14.0
-* STM32CubeProgrammer v1.14.0
+* STM32CubeProgrammer v2.14.0
 * Using ubuntu version earlier than 22.xx is not recommended.
 It is possible to use Ubuntu 20.04, but installing python 3.10 as default (see later steps)
 on Ubuntu 20.04 breaks the terminal application that comes with Ubuntu.
