@@ -20,4 +20,4 @@ A 2-month "Test Drive" trial plan is available through the [IoTConnect Subscript
 
 ## Avnet Employees  
 
-Avnet and Avnet Affiliated employees should contact the IoT team for account information.
+Avnet and Avnet affiliated employees should contact the IoT team for account information.
