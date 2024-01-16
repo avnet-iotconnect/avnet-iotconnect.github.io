@@ -19,18 +19,17 @@ Some older versions do not support the H5 Secure Manager.
 ![Tera Term Serial Settings](media/teraterm-settings.png "Tera Term Serial Settings")
 
 # 3. Cloud Account Setup
-This guide requires an IoTConnect on Azure account.
+This guide requires an IoTConnect account on Azure.
 
->**NOTE:**
-> If you have already created an IoTConnect on Azure account, or were provided an account as part of a training or workshop, skip this section.
+>**NOTE:**  
+> If you have already created an IoTConnect account on Azure, or were provided an account as part of a training or workshop, skip this section.
 
 If you need to create an account, a free 2-month subscription is available.
 Please follow the 
 [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md)
-guide and ensure to select the Azure version during registration:
+guide and ensure to select the [Azure version](https://subscription.iotconnect.io/subscribe?cloud=azure) during registration:
 
 ![IoTConnect on Azure](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/media/iotc-azure.png)
-
 
 ### Hardware Setup
 
