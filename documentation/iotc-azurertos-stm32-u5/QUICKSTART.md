@@ -18,7 +18,7 @@ This guide currently only supports Windows 64-bit.
 ![Tera Term Serial Settings](media/teraterm-settings.png "Tera Term Serial Settings")
 
 # 3. Cloud Account Setup
-This guide requires an IoTConnect on Azure account.
+This guide requires an IoTConnect account on Azure.
 
 >**NOTE:**
 > If you have already created an IoTConnect on Azure account, or were provided an account as part of a training or workshop, skip this section.
