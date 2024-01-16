@@ -12,11 +12,12 @@ IoTConnect may be deployed on either Microsoft Azure or Amazon AWS.  Ensure the 
 > **Note:**  
 > If following a guide in one of the IoTConnect repositories, please verify the type of IoTConnect needed to support the experience.
 
-
 ## Free Trial  
 
 A 2-month "Test Drive" trial plan is available through the [IoTConnect Subscription](https://subscription.iotconnect.io/subscribe) page.  This version allows up to 5 devices, 5 users, and 30K messages per month, and does not require a credit card for registration.
 
+* Register for an [IoTConnect account on Azure](https://subscription.iotconnect.io/subscribe?cloud=azure)
+* Register for an [IoTConnect account on AWS](https://subscription.iotconnect.io/subscribe?cloud=aws)
 
 ## Avnet Employees  
 
