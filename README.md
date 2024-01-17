@@ -1,6 +1,9 @@
 ## Avnet IoTConnect Repository Index
 To quickly jump to documentation, please use the links below:
 
+### Arduino
+* [Portenta C33 Demo](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo) (Based on the Renesas R7FA6M5BH2CBG microcontroller)
+
 ### Asus PE100A (90AE0020)
 * [Motor Monitor Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Motor_Monitor_Demo)
 * [Basic AWS Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Basic_AWS_Demo)
@@ -31,7 +34,7 @@ To quickly jump to documentation, please use the links below:
 * [RX65N-Cloud-Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) ("Green Board") - P/N: [RTK5RX65N0S01000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5rx65n0s01000be-3074457345641711168)
 * [DA16200](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk) - P/N: [DA16200MOD-DEVKT](https://www.avnet.com/shop/us/products/renesas-electronics/da16200mod-devkt-3074457345643529171)
 * [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
-
+* R7FA6M5BH2CBG (see the [Portenta C33 Demo](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo))
 ### STMicroelectronics
 * [STM32L4 Discovery Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) - P/N: [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
 * STM32U5 Discovery Kit - P/N [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
