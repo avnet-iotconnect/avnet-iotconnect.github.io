@@ -1865,7 +1865,7 @@
                 "titleAlign": "center",
                 "contents": {
                     "hyperlink": {
-                        "link": "https://github.com/avnet-iotconnect/iotc-azurertos-sdk/blob/main/samples/wfi32iot/QUICKSTART.md",
+                        "link": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/QUICKSTART.md",
                         "key": "hyperlink"
                     }
                 }
