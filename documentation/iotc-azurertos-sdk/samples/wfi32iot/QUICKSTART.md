@@ -67,7 +67,7 @@ guide and ensure to select the [Azure version](https://subscription.iotconnect.i
 ![IoTConnect on Azure](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/media/iotc-azure.png)
 
 # 5. IoTConnect Device Template Setup
-**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "wfi32demo") and you my skip this section.**
+**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "wfi32demo_r2") and you my skip this section.**
 
 A Device Template with Self Signed authentication type will need to be imported.
 * Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32demo_r2_template.JSON).
