@@ -54,9 +54,17 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
 ![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
 # 4. IoTConnect Account Setup
-**NOTE: If you have already created an IoTConnect Account OR were provided an account as part of a training or workshop, skip this section.**
+This guide requires an IoTConnect account on Azure.
 
-If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
+>**NOTE:**  
+> If you have already created an IoTConnect account on Azure, or were provided an account as part of a training or workshop, skip this section.
+
+If you need to create an account, a free 2-month subscription is available.
+Please follow the 
+[Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md)
+guide and ensure to select the [Azure version](https://subscription.iotconnect.io/subscribe?cloud=azure) during registration:
+
+![IoTConnect on Azure](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/media/iotc-azure.png)
 
 # 5. IoTConnect Device Template Setup
 **NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "wfi32demo") and you my skip this section.**
