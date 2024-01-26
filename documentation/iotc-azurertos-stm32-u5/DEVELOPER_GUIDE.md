@@ -91,12 +91,8 @@ guide and ensure to select the [Azure version](https://subscription.iotconnect.i
 
 ![Tera Term Serial Settings](media/teraterm-settings.png "Tera Term Serial Settings")
 
-Follow the [Device Configuration section of the QuickStart Guide](QUICKSTART.md#device-configuration)
-
-### IoTConnect Template Setup with Pre-made import
-A Device Template with Self Signed authentication type will need to be imported.
-* Download the premade [Device Template with Self-Signed Auth](templates/device/stm32u5-self-signed-template.json).
-* Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
+### Connect to IoTConnect
+* Follow the [Device Configuration section of the QuickStart Guide](QUICKSTART.md#5-device-configuration)
 
 ### Using OTA or ADU
 When updating the firmware with OTA or ADU, make sure to use the *Projects\B-U585I-IOT02A\Applications\TFM_Azure_IoT\TFM_Appli\Binary\tfm_ns_app_enc_sign.bin* file.
