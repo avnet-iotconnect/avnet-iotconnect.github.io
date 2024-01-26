@@ -15,12 +15,17 @@ The application will scrape [NASA Voyager data](https://voyager.jpl.nasa.gov/mis
 * (optional) USB to TTL Serial Converter Cable 5V
 
 # IoTConnect Account Setup
+This guide requires an IoTConnect account on Azure.
 
-> **NOTE:**
-> If you have already created an IoTConnect Account, or were provided an account as part of a training or workshop, skip this section.
+>**NOTE:**  
+> If you have already created an IoTConnect account on Azure, or were provided an account as part of a training or workshop, skip this section.
 
 If you need to create an account, a free 2-month subscription is available.
-Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
+Please follow the 
+[Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md)
+guide and ensure to select the [Azure version](https://subscription.iotconnect.io/subscribe?cloud=azure) during registration:
+
+![IoTConnect on Azure](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/media/iotc-azure.png)
 
 # IoTConnect Device Template Setup
 
