@@ -38,7 +38,7 @@ To quickly jump to documentation, please use the links below:
 ### STMicroelectronics
 * [STM32L4 Discovery Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) - P/N: [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
 * STM32U5 Discovery Kit - P/N [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
-  * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) | [FreeRTOS](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) 
+  * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) | [FreeRTOS](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) | [FreeRTOS AI/ML Demo](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo)
 * [STM32H573I-DK Discovery Kit](https://www.newark.com/pt-BR/stmicroelectronics/stm32h573i-dk/discovery-kit-32bit-arm-cortex/dp/78AK8713)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5)
 * STM32MP135F MPU - P/N: [STM32MP135F-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp135f-dk-3074457345651659229)
