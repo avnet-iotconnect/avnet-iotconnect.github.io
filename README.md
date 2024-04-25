@@ -50,6 +50,7 @@ To quickly jump to documentation, please use the links below:
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) | [FreeRTOS](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) | [FreeRTOS AI/ML Demo](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo)
 * STM32H5 Discovery Kit:  P/N: [STM32H573I-DK](https://www.newark.com/pt-BR/stmicroelectronics/stm32h573i-dk/discovery-kit-32bit-arm-cortex/dp/78AK8713)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5)   | [FreeRTOS](https://github.com/avnet-iotconnect/x-cube-aws-h5/tree/iotc)
+* STM32H7 ([see Portenta H7](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-h7-demo))
 * STM32MP135F Discovery Kit - P/N: [STM32MP135F-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp135f-dk-3074457345651659229)
   * [Python](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo) | [Yocto C](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk/blob/kirkstone/board_specific_readmes/stm32mpu135.md)
   * AWS Greengrass
