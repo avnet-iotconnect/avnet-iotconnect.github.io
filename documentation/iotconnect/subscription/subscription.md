@@ -19,6 +19,8 @@ A 2-month "Test Drive" trial plan is available through the [IoTConnect Subscript
 * Register for an [IoTConnect account on Azure](https://subscription.iotconnect.io/subscribe?cloud=azure)
 * Register for an [IoTConnect account on AWS](https://subscription.iotconnect.io/subscribe?cloud=aws)
 
+* Be sure to check your email spam folder if you do not receive a temporary password a few minutes after registration.
+
 ## Avnet Employees  
 
 Avnet and Avnet affiliated employees should contact the IoT team for account information.
