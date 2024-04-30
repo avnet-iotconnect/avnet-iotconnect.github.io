@@ -38,8 +38,8 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
@@ -114,8 +114,8 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
@@ -190,8 +190,8 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
@@ -281,11 +281,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
+                        "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
                         "deviceName": "",
                         "imageurl": "",
                         "key": "device",
-                        "deviceUniqueId": "xensiv-f1af142e"
+                        "deviceUniqueId": "xensiv-f1ef3b35"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -319,8 +319,8 @@
                 "contents": {
                     "liveChart": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
@@ -385,8 +385,8 @@
                 "contents": {
                     "Transformation": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
@@ -466,7 +466,7 @@
                 "x": "31",
                 "y": "8",
                 "w": "7",
-                "h": "6",
+                "h": "5",
                 "i": "Transformation",
                 "minW": "7",
                 "minH": "4",
@@ -486,56 +486,56 @@
                 "contents": {
                     "combo": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
                                 {
-                                    "attributeGuid": "AAD3F50A-929F-47AE-90B6-1BFAD882761C",
-                                    "attributeName": "co2level",
-                                    "checked": "false",
-                                    "dataType": "INTEGER",
-                                    "attributeLatestValue": "1046",
-                                    "deviceUpdatedDate": "2024-04-24T16:56:30.113Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "1046"
-                                },
-                                {
-                                    "attributeGuid": "4C08CDCE-9F33-464E-9A69-3061F85688A4",
-                                    "attributeName": "pressure",
-                                    "checked": "false",
-                                    "dataType": "LONG",
-                                    "attributeLatestValue": "998",
-                                    "deviceUpdatedDate": "2024-04-24T16:56:30.113Z",
-                                    "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "998"
-                                },
-                                {
-                                    "attributeGuid": "00774B7D-2FF0-461A-B5DC-6B8BCC61342D",
+                                    "attributeGuid": "46DA63C0-3D97-4749-B6EC-80064D3F540D",
                                     "attributeName": "temperature",
                                     "checked": "false",
                                     "dataType": "LONG",
-                                    "attributeLatestValue": "32",
-                                    "deviceUpdatedDate": "2024-04-24T16:56:30.113Z",
+                                    "attributeLatestValue": "30",
+                                    "deviceUpdatedDate": "2024-04-29T14:44:38.653Z",
                                     "gatewayUpdatedDate": "NA",
-                                    "attributeValue": "32"
+                                    "attributeValue": "30"
+                                },
+                                {
+                                    "attributeGuid": "651BCC34-C528-4C39-BAC9-8AF15FEC7123",
+                                    "attributeName": "pressure",
+                                    "checked": "false",
+                                    "dataType": "LONG",
+                                    "attributeLatestValue": "834",
+                                    "deviceUpdatedDate": "2024-04-29T14:44:38.653Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "834"
+                                },
+                                {
+                                    "attributeGuid": "9336F02B-1A45-4DF5-B4D6-8D67613B0EC0",
+                                    "attributeName": "co2level",
+                                    "checked": "false",
+                                    "dataType": "INTEGER",
+                                    "attributeLatestValue": "819",
+                                    "deviceUpdatedDate": "2024-04-29T14:44:38.653Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "819"
                                 }
                             ]
                         },
                         "lineAttributes": {
-                            "lineAttributeGuid": "4C08CDCE-9F33-464E-9A69-3061F85688A4",
+                            "lineAttributeGuid": "651BCC34-C528-4C39-BAC9-8AF15FEC7123",
                             "lineAttributeName": "pressure",
                             "lineAttributeColor": "#d0021b"
                         },
                         "barAttributes": {
-                            "barAttributeGuid": "AAD3F50A-929F-47AE-90B6-1BFAD882761C",
+                            "barAttributeGuid": "9336F02B-1A45-4DF5-B4D6-8D67613B0EC0",
                             "barAttributeName": "co2level",
                             "barAttributeColor": "#4a90e2"
                         },
                         "lineColor": "#00cc00",
                         "barColor": "#00cc00",
-                        "barCount": "17",
+                        "barCount": "16",
                         "dateToUse": "SDK Date",
                         "lineAttributeGuid": "",
                         "lineAttributeName": "",
@@ -587,11 +587,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
+                        "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
                         "deviceName": "",
                         "imageurl": "",
                         "key": "device",
-                        "deviceUniqueId": "xensiv-f1af142e"
+                        "deviceUniqueId": "xensiv-f1ef3b35"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -633,8 +633,8 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "attributes": {
                             "attribute": [
@@ -687,7 +687,7 @@
             },
             "properties": {
                 "x": "31",
-                "y": "14",
+                "y": "13",
                 "w": "7",
                 "h": "4",
                 "i": "Live",
@@ -710,8 +710,8 @@
                 "contents": {
                     "devicelatestvalue": {
                         "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
                         },
                         "boxtypes": "2",
                         "attributes": {
@@ -752,6 +752,95 @@
             }
         },
         {
+            "widgetGuid": "A0326788-ACC8-4C4C-8243-98112CAEB98B",
+            "widgetProperties": {
+                "i": "Telemetry",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Xensiv Telemetry",
+                "titleAlign": "",
+                "contents": {
+                    "telemetry": {
+                        "showHeader": "true",
+                        "showDate": "true",
+                        "device": {
+                            "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7",
+                            "deviceUniqueId": "xensiv-f1ef3b35"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "62DAACB2-15A9-4172-82E2-635F978B6531",
+                                    "attributeName": "random",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "46DA63C0-3D97-4749-B6EC-80064D3F540D",
+                                    "attributeName": "temperature",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "651BCC34-C528-4C39-BAC9-8AF15FEC7123",
+                                    "attributeName": "pressure",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "9336F02B-1A45-4DF5-B4D6-8D67613B0EC0",
+                                    "attributeName": "co2level",
+                                    "checked": "true"
+                                }
+                            ]
+                        },
+                        "dateToUse": "SDK Date",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "19",
+                "w": "16",
+                "h": "11",
+                "i": "Telemetry",
+                "minW": "15",
+                "minH": "6",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "E413CDFD-54EB-465E-BA97-CE610867E440",
+            "widgetProperties": {
+                "i": "DeviceCommand",
+                "background": "#fff",
+                "fontColor": "#000",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Device Command",
+                "titleAlign": "",
+                "contents": {
+                    "deviceCommand": {
+                        "template": "5EC55DBC-D677-470E-AC87-EC7D25152AF0",
+                        "device": "xensiv-f1ef3b35",
+                        "deviceGuid": "CE17877E-8BEF-4B63-B448-C458E35575F7"
+                    }
+                }
+            },
+            "properties": {
+                "x": "31",
+                "y": "20",
+                "w": "23",
+                "h": "10",
+                "i": "DeviceCommand",
+                "minW": "22",
+                "minH": "10",
+                "maxH": "20",
+                "maxW": "35",
+                "isStatic": "false"
+            }
+        },
+        {
             "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
             "widgetProperties": {
                 "i": "HyperLink",
@@ -770,93 +859,8 @@
             },
             "properties": {
                 "x": "0",
-                "y": "19",
-                "w": "16",
-                "h": "2",
-                "i": "HyperLink",
-                "minW": "5",
-                "minH": "2",
-                "maxH": "2",
-                "isStatic": "false"
-            }
-        },
-        {
-            "widgetGuid": "A0326788-ACC8-4C4C-8243-98112CAEB98B",
-            "widgetProperties": {
-                "i": "Telemetry",
-                "background": "#fff",
-                "fontColor": "#343434",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
-                "title": "Xensiv Telemetry",
-                "titleAlign": "",
-                "contents": {
-                    "telemetry": {
-                        "showHeader": "true",
-                        "showDate": "true",
-                        "device": {
-                            "deviceGuid": "296F5968-194C-4354-81E5-2492332EDCC2",
-                            "deviceUniqueId": "xensiv-f1af142e"
-                        },
-                        "attributes": {
-                            "attribute": [
-                                {
-                                    "attributeGuid": "1EF25B12-A49C-4A05-922A-CC0C8201DBD8",
-                                    "attributeName": "pressure",
-                                    "displayName": "pressure",
-                                    "checked": "true"
-                                },
-                                {
-                                    "attributeGuid": "7D36BE20-A5E5-46B7-96D3-D125DD42152E",
-                                    "attributeName": "co2level",
-                                    "displayName": "co2level",
-                                    "checked": "true"
-                                },
-                                {
-                                    "attributeGuid": "78DF2F67-6C48-4DB0-B2DF-FB87D0E8DEE4",
-                                    "attributeName": "temperature",
-                                    "displayName": "temperature",
-                                    "checked": "true"
-                                }
-                            ]
-                        },
-                        "dateToUse": "SDK Date",
-                        "key": "telemetry"
-                    }
-                }
-            },
-            "properties": {
-                "x": "31",
-                "y": "20",
-                "w": "23",
-                "h": "9",
-                "i": "Telemetry",
-                "minW": "15",
-                "minH": "6",
-                "isStatic": "false"
-            }
-        },
-        {
-            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
-            "widgetProperties": {
-                "i": "HyperLink",
-                "background": "#4a90e2",
-                "fontColor": "#ffffff",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "26",
-                "title": "IoTConnect",
-                "titleAlign": "center",
-                "contents": {
-                    "hyperlink": {
-                        "link": "https://www.avnet.com/iot",
-                        "key": "hyperlink"
-                    }
-                }
-            },
-            "properties": {
-                "x": "0",
-                "y": "21",
-                "w": "16",
+                "y": "30",
+                "w": "8",
                 "h": "2",
                 "i": "HyperLink",
                 "minW": "5",
@@ -883,9 +887,38 @@
                 }
             },
             "properties": {
-                "x": "0",
-                "y": "23",
-                "w": "16",
+                "x": "8",
+                "y": "30",
+                "w": "8",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#4a90e2",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "26",
+                "title": "IoTConnect",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://www.avnet.com/iot",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "16",
+                "y": "30",
+                "w": "8",
                 "h": "2",
                 "i": "HyperLink",
                 "minW": "5",
@@ -912,9 +945,9 @@
                 }
             },
             "properties": {
-                "x": "0",
-                "y": "25",
-                "w": "16",
+                "x": "24",
+                "y": "30",
+                "w": "7",
                 "h": "2",
                 "i": "HyperLink",
                 "minW": "5",
