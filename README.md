@@ -17,7 +17,7 @@ To quickly jump to documentation, please use the links below:
 
 ### Microchip
 * WFI32-IoT Development Board - P/N: [EV36W50A](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653415285)
-  * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot) | [FreeRTOS]()
+  * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot) | FreeRTOS - Coming Soon
 * AVR-IoT Cellular Mini - P/N: [EV70N78A](https://www.avnet.com/shop/us/products/microchip/ev70n78a-3074457345652818957)
 	* [Arduino sketch](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk)
 * SAM E54 Xplained Pro Evaluation Kit - P/N: [ATSAME54-XPRO](https://www.avnet.com/shop/us/products/microchip/atsame54-xpro-3074457345632695712)
