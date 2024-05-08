@@ -65,10 +65,7 @@ Navigate there using the image below:<br>
   * Press '0' to write the configuration. This option will also reset the board.
 * After configuring the device settings, monitor the serial terminal for information similar to the screenshot below. You may have to scroll up in the terminal.<br>
 ![Certificate and DUID Screenshot](media/duid-and-certifciate-console.png "Certificate and DUID Screemshot") 
-* A certificate fingerprint needs to be generated from the certificate.
-  * Copy the Device Certificate from the console, including the BEGIN and END lines.
-  * Paste the contents into the X509 Cert field at [this web site](https://www.samltool.com/fingerprint.php). (Optionally you can use openssl to print the device fingerprint, but this is outside the scope of this guide.)
-  * Leave the "Algorithm" selection at the default SHA1, press "Calculate Fingerprint" and copy/save the Fingerprint field for later use.
+* Copy the Device Certificate from the console, including the BEGIN and END lines and save in a notepad or other text editor for later use.
 * Copy the generated DUID displayed and save for later use.
 
 # 6. IoTConnect Device Template Setup
@@ -82,7 +79,9 @@ A Device Template with Self Signed authentication type will need to be imported 
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
 * Enter the DUID saved from earlier into the *Unique ID* field and enter a descriptive *Display Name* of your choice.
 * Select the template from the dropdown box that was just imported.
-* Enter the Fingerprint calculated in the "Device Configuration" step into the Thumbprint field.
+* Ensure the "Use my certificate" option is selected and paste the certificate information saved from earlier into the "Certificate Text" field.
+ <img width="247" alt="add_cert" src="https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/e1691189-4d06-48ef-bef0-ece5684f2f93">
+
 * Click Save and press the Reset button.
 
 # 8. Verification
