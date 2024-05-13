@@ -12,7 +12,13 @@ To quickly jump to documentation, please use the links below:
 * [Basic AWS Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Basic_AWS_Demo)
 
 ### Infineon Technologies
-* [PSoC 6 WiFi-BT Pioneer Kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CKIT-062-WIFI-BT](https://www.avnet.com/shop/us/products/infineon/cy8ckit-062-wifi-bt-3074457345644457811)
+* [PSoC&trade; 6 Wi-Fi Bluetooth&reg; pioneer kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CKIT-062-WIFI-BT](https://www.avnet.com/shop/us/products/infineon/cy8ckit-062-wifi-bt-3074457345644457811)
+* [PSoC&trade; 6 Wi-Fi Bluetooth&reg; prototyping kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CPROTO-062-4343W](https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-062-4343w/)
+* [PSoC&trade; 62S1 Wi-Fi Bluetooth&reg; pioneer kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CYW9P62S1-43438EVB-01](https://www.infineon.com/cms/en/product/evaluation-boards/cyw9p62s1-43438evb-01/)
+* [PSoC&trade; 62S1 Wi-Fi Bluetooth&reg; pioneer kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CYW9P62S1-43012EVB-01](https://www.infineon.com/cms/en/product/evaluation-boards/cyw9p62s1-43012evb-01/)
+* [PSoC&trade; 62S2 evaluation kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CEVAL-062S2-LAI-4373M2](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ceval-062s2/), [CY8CEVAL-062S2-MUR-43439M2](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ceval-062s2/)
+* [PSoC&trade; 62S2 Wi-Fi Bluetooth&reg; pioneer kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CKIT-062S2-43012](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-062s2-43012/)
+* [PSoC&trade; 62S3 Wi-Fi Bluetooth&reg; prototyping kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CPROTO-062S3-4343W](https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-062s3-4343w/)
 * [XENSIV™ KIT CSK PASCO2](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) - P/N: [KITCSKPASCO2TOBO1](https://www.avnet.com/shop/us/products/infineon/kitcskpasco2tobo1-3074457345649343226)
 
 ### Microchip
