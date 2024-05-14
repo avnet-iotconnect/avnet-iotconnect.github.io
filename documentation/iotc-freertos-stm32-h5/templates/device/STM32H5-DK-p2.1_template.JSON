@@ -1,0 +1,73 @@
+{
+    "code": "h5dkp21",
+    "name": "STM32H5-DK-p2.1",
+    "authType": 2,
+    "attributes": [
+        {
+            "name": "timer",
+            "type": "DECIMAL",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "sent",
+            "type": "DECIMAL",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "received",
+            "type": "DECIMAL",
+            "description": null,
+            "unit": null
+        },
+        {
+            "name": "version",
+            "type": "STRING",
+            "description": null,
+            "unit": null
+        }
+    ],
+    "commands": [
+        {
+            "name": "ping",
+            "command": "ping",
+            "requiredParam": false,
+            "requiredAck": false,
+            "isOTACommand": false
+        },
+        {
+            "name": "led-freq",
+            "command": "led-freq",
+            "requiredParam": true,
+            "requiredAck": false,
+            "isOTACommand": false
+        },
+        {
+            "name": "led-red",
+            "command": "led-red",
+            "requiredParam": true,
+            "requiredAck": false,
+            "isOTACommand": false
+        },
+        {
+            "name": "led-green",
+            "command": "led-green",
+            "requiredParam": true,
+            "requiredAck": false,
+            "isOTACommand": false
+        }
+    ],
+    "messageVersion": "2.1",
+    "msgCode": "XG4EGU6",
+    "greenGrass": "0",
+    "wireless": "0",
+    "properties": {
+        "description": null,
+        "dataFrequency": "5",
+        "fileSupport": false
+    },
+    "_meta": {
+        "version": "2.0"
+    }
+}
