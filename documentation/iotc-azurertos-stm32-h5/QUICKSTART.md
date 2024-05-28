@@ -41,7 +41,7 @@ guide and ensure to select the [Azure version](https://subscription.iotconnect.i
 
 # 4. Firmware Setup
 
-* Contact tour Sales Representative to obtain the binary package for this evaluation.
+* Contact your Sales Representative to obtain the binary package for this evaluation.
 * Extract the package in a location that meets the following requirements to ensure compatibility with Windows:
   * The location path should be short, preferably the zip file should be extracted at the root of a drive (for example C:\stm32h5-demo) in order to ensure that path limit of 256 characters does not cause issues.
   * File path should not contain any spaces.
