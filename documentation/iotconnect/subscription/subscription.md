@@ -7,7 +7,7 @@ IoTConnect is available for Personal and Business usage with tiered usage plans.
 
 ## Supported Clouds  
 
-IoTConnect may be deployed on either Microsoft Azure or Amazon AWS.  Ensure the approproiate version for your needs is selected during registration.
+IoTConnect may be deployed on either Microsoft Azure or Amazon AWS.  Ensure the appropriate version for your needs is selected during registration.
 
 > **Note:**  
 > If following a guide in one of the IoTConnect repositories, please verify the type of IoTConnect needed to support the experience.
