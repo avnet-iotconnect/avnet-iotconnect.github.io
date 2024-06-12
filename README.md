@@ -52,6 +52,7 @@ To quickly jump to documentation, please use the links below:
 	* [FreeRTOS](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main)
 * RASynBoard NDP120 Evaluation Kit - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
 	* [FreeRTOS](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md)
+        * [SPARK Parking Lot Demo](https://github.com/Avnet/SPARK) 
 * R7FA6M5BH2CBG (see the [Portenta C33 Demo](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo))  
 
 ### STMicroelectronics
