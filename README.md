@@ -25,7 +25,7 @@ To quickly jump to documentation, please use the links below:
 * [PSoC&trade; 62S3 Wi-Fi Bluetooth&reg; prototyping kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CPROTO-062S3-4343W](https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-062s3-4343w/)
 * [XENSIV™ KIT CSK PASCO2](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) - P/N: [KITCSKPASCO2TOBO1](https://www.avnet.com/shop/us/products/infineon/kitcskpasco2tobo1-3074457345649343226)
 * [PSoC™ 6 AI with ModusToolbox™ Machine Learning (MTBML)](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor) - P/N: [CY8CKIT-062S2-AI](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-062s2-ai/)
-* [PSoC™ 6 AI with Human Activity Detection AI](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imu-example) - P/N: [CY8CKIT-062S2-AI](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-062s2-ai/)
+* [PSoC™ 6 AI with Human Activity Detection](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imu-example) - P/N: [CY8CKIT-062S2-AI](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-062s2-ai/)
 
 ### Microchip  
 * WFI32-IoT Development Board - P/N: [EV36W50A](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653415285)  
