@@ -49,14 +49,25 @@ To quickly jump to documentation, please use the links below:
 
 ### Renesas  
 [Guide on using E2 Studio on Linux](documentation/e2studio/e2studio_linux_guide.md)
+
+RX 32-Bit Performance / Efficiency MCUs
 * [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) ("Blue Board") - P/N: [RTK5CK65N0S04000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5ck65n0s04000be-3074457345648945765)
 * [RX65N-Cloud-Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) ("Green Board") - P/N: [RTK5RX65N0S01000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5rx65n0s01000be-3074457345641711168)
-* DA16200, DA16400 - P/N: [DA16200MOD-DEVKT](https://www.newark.com/dialog-semiconductor/da16200mod-devkt/dev-kit-wifi-battery-powered-iot/dp/82AH4520), [US159-DA16200MEVZ](https://www.newark.com/renesas/us159-da16200mevz/evaluation-board-arm-cortex-m4f/dp/51AK1965), [DA16600MOD-DEVKT](https://www.newark.com/dialog-semiconductor/da16600mod-devkt/analog-development-kits-rohs-compliant/dp/37AJ8937), & [US159-DA16600EVZ](https://www.newark.com/renesas/us159-da16600evz/evaluation-board-arm-cortex-m0/dp/51AK1966)
-	* [FreeRTOS](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main)
-* RASynBoard NDP120 Evaluation Kit - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
-	* [FreeRTOS](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md)
- 	* [SPARK Parking Lot Demo](https://github.com/Avnet/SPARK) 
+
+RA Family of Arm® Cortex®-M based MCUs
+* [EK-RA6M4](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod) - P/N: [RTK7EKA6M4S00001BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m4-evaluation-kit-ra6m4-mcu-group)
+* [CK-RA6M5](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod) - P/N: [RTK7CKA6M5S08002BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ck-ra6m5-cloud-kit-based-ra6m5-mcu-group)
+* [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
 * R7FA6M5BH2CBG (see the [Portenta C33 Demo](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo))  
+
+RZ Family of Arm® Cortex®-A based MPUs
+* RZBoard V2L](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/RZBoardV2L/README.md) - P/N: [AES-RZB-V2L-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rzboard-v2l)
+* [SPARK Parking Lot Demo](https://github.com/Avnet/SPARK) 
+
+Low Power Wi-Fi Solutions
+*  DA16200, DA16400 - P/N: [DA16200MOD-DEVKT](https://www.newark.com/dialog-semiconductor/da16200mod-devkt/dev-kit-wifi-battery-powered-iot/dp/82AH4520), [US159-DA16200MEVZ](https://www.newark.com/renesas/us159-da16200mevz/evaluation-board-arm-cortex-m4f/dp/51AK1965), [DA16600MOD-DEVKT](https://www.newark.com/dialog-semiconductor/da16600mod-devkt/analog-development-kits-rohs-compliant/dp/37AJ8937), & [US159-DA16600EVZ](https://www.newark.com/renesas/us159-da16600evz/evaluation-board-arm-cortex-m0/dp/51AK1966)
+	* [FreeRTOS](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main)
+
 
 ### STMicroelectronics
 * STM32L4 Discovery Kit - P/N: [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
