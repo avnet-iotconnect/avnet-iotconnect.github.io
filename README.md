@@ -36,7 +36,7 @@ To quickly jump to documentation, please use the links below:
 * SAM E54 Xplained Pro Evaluation Kit - P/N: [ATSAME54-XPRO](https://www.avnet.com/shop/us/products/microchip/atsame54-xpro-3074457345632695712)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro)
  * SAMA5D27 - P/N:  [ATSAMA5D27-SOM1-EK1](https://www.newark.com/microchip/atsama5d27-som1-ek1/eval-board-32bit-mpu-arm-cortex/dp/44AC2213)
-	 * [Python](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/SAMA5D27_Basic_Demo)
+	 * [Yocto Metalayer](https://github.com/avnet-iotconnect/meta-iotconnect-docs?tab=readme-ov-file)
 
 ### NXP  
 * [MaaxBoard RT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - P/N: [AES-MC-SBC-IMXRT1176-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imxrt1176-g-3074457345644679188)
