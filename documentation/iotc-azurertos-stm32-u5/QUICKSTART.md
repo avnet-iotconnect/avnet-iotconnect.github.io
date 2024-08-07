@@ -20,7 +20,7 @@ This guide currently only supports Windows 64-bit.
 # 3. Cloud Account Setup
 This guide requires an IoTConnect account on Azure.
 
->**NOTE:**  
+>[!NOTE]
 > If you have already created an IoTConnect account on Azure, or were provided an account as part of a training or workshop, skip this section.
 
 If you need to create an account, a free 2-month subscription is available.
