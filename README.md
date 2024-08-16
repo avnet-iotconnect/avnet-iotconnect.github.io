@@ -61,7 +61,7 @@ RA Family of Arm® Cortex®-M based MCUs
 * R7FA6M5BH2CBG (see the [Portenta C33 Demo](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo))  
 
 RZ Family of Arm® Cortex®-A based MPUs
-* RZBoard V2L](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/RZBoardV2L/README.md) - P/N: [AES-RZB-V2L-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rzboard-v2l)
+* [RZBoard V2L](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/RZBoardV2L/README.md) - P/N: [AES-RZB-V2L-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rzboard-v2l)
 * [SPARK Parking Lot Demo](https://github.com/Avnet/SPARK) 
 
 Low Power Wi-Fi Solutions
