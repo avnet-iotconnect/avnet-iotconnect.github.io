@@ -52,7 +52,6 @@ To quickly jump to documentation, please use the links below:
 
 RX 32-Bit Performance / Efficiency MCUs
 * [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) ("Blue Board") - P/N: [RTK5CK65N0S04000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5ck65n0s04000be-3074457345648945765)
-* [RX65N-Cloud-Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) ("Green Board") - P/N: [RTK5RX65N0S01000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5rx65n0s01000be-3074457345641711168)
 
 RA Family of Arm® Cortex®-M based MCUs
 * [EK-RA6M4](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod) - P/N: [RTK7EKA6M4S00001BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m4-evaluation-kit-ra6m4-mcu-group)
