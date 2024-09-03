@@ -51,7 +51,7 @@ To quickly jump to documentation, please use the links below:
 [Guide on using E2 Studio on Linux](documentation/e2studio/e2studio_linux_guide.md)
 
 RX 32-Bit Performance / Efficiency MCUs
-* [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) ("Blue Board") - P/N: [RTK5CK65N0S04000BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5ck65n0s04000be-3074457345648945765)
+* [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) ("Blue Board") - P/N: [RTK5CK65N0S08001BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5ck65n0s08001be-3074457345653738916)
 
 RA Family of Arm® Cortex®-M based MCUs
 * [EK-RA6M4](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod) - P/N: [RTK7EKA6M4S00001BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m4-evaluation-kit-ra6m4-mcu-group)
