@@ -45,7 +45,7 @@ To quickly jump to documentation, please use the links below:
 * [MaaXBoard Mini](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MC-SBC-IMX8MINI-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8mini-g-3074457345643866383)
 * [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md) - P/N: MSC SM2S-IMX8PLUS
 * [i.MX RT1060 Evaluation Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060) - P/N: [MIMXRT1060-EVKB](https://www.avnet.com/shop/us/products/nxp/mimxrt1060-evkb-3074457345646220163)
-* [MSC SM2S-MB-EP5](https://github.com/avnet-embedded/simplecore-iotconnect) - SimpleFlex, Application-Ready Embedded Platform SMARC™ 2.1 (Also Requires MSC SM2S-IMX8PLUS)
+* [MSC SM2S-MB-EP5](https://embedded.avnet.com/simpleswitch-registration) - SimpleFlex, Application-Ready Embedded Platform SMARC™ 2.1 (Also Requires MSC SM2S-IMX8PLUS)
 
 ### Renesas  
 [Guide on using E2 Studio on Linux](documentation/e2studio/e2studio_linux_guide.md)
