@@ -74,7 +74,7 @@ Low Power Wi-Fi Solutions
 * STM32U5 Discovery Kit - P/N [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5)
   * [FreeRTOS](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5)
-  * [FreeRTOS AI/ML Demo](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo)
+  * [FreeRTOS Smart City Noise Detection Solution: Harnessing IoT and AI/ML](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo)
 * STM32H5 Discovery Kit:  P/N: [STM32H573I-DK](https://www.newark.com/pt-BR/stmicroelectronics/stm32h573i-dk/discovery-kit-32bit-arm-cortex/dp/78AK8713)
   * [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5)
   * [FreeRTOS](https://github.com/avnet-iotconnect/iotc-freertos-stm32-h5)
