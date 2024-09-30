@@ -21,24 +21,23 @@ The following boards are directly supported and send sensor readings directly to
 ## 2. Hardware Setup
 
 ### Setup Clicks  
-**NOTE: The Click hardware is not required to complete this guide so if none are present, this section can be skipped.**
-* Plug the VAV Press Click or Ultra-Low Press Click board onto Click interface of the board.
-* To have both Click boards connected at the same time to WFI32-IoT, you can connect them via the
-[Shuttle Click](https://www.mikroe.com/shuttle-click) adapter.
-* When connecting Click boards, ensure that the pin markings on the Click boards are matching to the header markings on the WFI32-IoT.
+> [!NOTE]
+> The MicroE Click hardware is not required to complete this guide, so if none are present, skip this section.
+
+* Plug a Click board into onto Click interface on the WFI32-IoT board ensuring that the pin labels match the header markings.
+* To connect up to 5 Click boards at the same time, purchase the [Shuttle Click](https://www.mikroe.com/shuttle-click) adapter.
 
 ### Setup WFI32-IoT Board  
-* The WFI32-IoT board needs to be connected to a USB port on your PC via the Micro USB cable.
-* Once the board boots up, a new USB devices will be available. 
+* Connect the WFI32-IoT board to a USB port on your PC via the Micro USB cable.
+* Once the board boots up, driver installation for a Mass Storage USB device may appear. 
   * Optionally, connect a terminal program (like TeraTerm) to one of the two COM ports
-which is named "USB Serial". Use defaults for 115200 baud: 8 bits, 1 stop bit, no flow control or parity. 
-Firmware logs will be available on that COM port. 
-  * The MSD should appear as a new removable drive some time after the board boots up.
+which is named "USB Serial". Use defaults for 115200 baud: 8 bits, 1 stop bit, no flow control or parity. Firmware logs will be available on that COM port. 
+  * After a short time, a new removable drive will appear in the Windows Explorer.
 
-# 3. Programming the Firmware
+## 3. Programming the Firmware
 
-* Download and install **v6.05** of the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem) (The newer versions of the included IPE have an issue connecting to the WFI32 board). 
-MPLAB IPE and 32-bit device support are the only required options during the installation.
+* Download and install **v6.05** of the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem) (The newer versions of the included IPE have an issue connecting to the WFI32-IoT board). 
+"MPLAB IPE" and "32-bit device support" are the only required options during the installation.
 * Download the firmware [binary package](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/iotconnect-demo-wfi32-042423.zip).
 * Extract the iotconnect-demo.X.production.hex file from the zip.
 * Open the Microchip IPE application to program the firmware: 
@@ -52,27 +51,22 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
 
 ![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
-# 4. IoTConnect Account Setup
-This guide requires an IoTConnect account on Azure.
+## 4. IoTConnect Account Setup
+An IoTConnect account is required.  If you need to create an account, a free trial subscription is available:
 
->**NOTE:**  
-> If you have already created an IoTConnect account on Azure, or were provided an account as part of a training or workshop, skip this section.
-
-If you need to create an account, a free 2-month subscription is available.
-Please follow the 
-[Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md)
-guide and ensure to select the [Azure version](https://subscription.iotconnect.io/subscribe?cloud=azure) during registration:
-
+* [IoTConnect Trial (Azure version)](https://subscription.iotconnect.io/subscribe?cloud=azure)  
 ![IoTConnect on Azure](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/media/iotc-azure.png)
+> [!NOTE]
+> Be sure to check any SPAM folder for the temporary password after registering.
 
-# 5. IoTConnect Device Template Setup
-**NOTE: If you are following this guide as part of a training or workshop, a template may already be created for this device (typically "wfi32demo_r2") and you my skip this section.**
+See the IoTConnect [Subscription Information](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) for more details on the trial.
 
+## 5. IoTConnect Device Template Setup
 A Device Template with Self Signed authentication type will need to be imported.
 * Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32demo_r2_template.JSON).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
-# 6. Obtaining the Device Certificate Fingerprint
+## 6. Obtaining the Device Certificate Fingerprint
 This section outlines how to set up the device for IoTConnect Self Signed Certificate authentication type.
 Other authentication types can be used, but are out of scope for this guide.
 
