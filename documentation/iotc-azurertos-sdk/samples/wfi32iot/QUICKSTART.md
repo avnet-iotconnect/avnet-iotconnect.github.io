@@ -1,14 +1,13 @@
-# 1. Introduction
+## 1. Introduction
 
-This document provides instructions on how to quickly get the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) board enabled with IoTConnect, without the need to compile any code from source by leveraging the USB Mass Storage Device (MSD) support.
-
-* This QuickStart uses the built-in ATECC608 secure element to enable a secure connection to IoTConnect.
-* The Temperature and Light Sensor telemerty are be enabled in the IoTConnect GUI.
-* The IoTConnect GUI can monitor user input from the on-board user switches (SW1 & SW2)
-* Althought not required, further telemetry can be visualized by adding Click Boards (see below).
+This document provides instructions on how to quickly connect [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) development board to Avnet's [IoTConnect](https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect) platform without the need to compile any code from source. The guide further leverages [MicroE](https://www.mikroe.com/) click boards featuring [TE Connectivity](https://www.te.com/en/products/sensors.html) sensors.
+* This QuickStart leverages the built-in ATECC608 secure element to enable a secure connection to IoTConnect.
+* The Temperature and Light Sensor telemetry are supported.
+* IoTConnect display user input from the on-board switches (SW1 & SW2).
+* Althought not required, further telemetry can be visualized by adding Click boards (see below).
 
 The Click board interface makes it possible to make use of hundreds of different Click boards from MikroE.
-The following boards are directly supported and provide the ability to send sensor readings directly to IoTConnect:  
+The following boards are directly supported and send sensor readings directly to IoTConnect:  
 * [VAV Press Click](https://www.mikroe.com/vav-press-click)
 * [Ultra-Low Press Click](https://www.mikroe.com/ultra-low-press-click)
 * [PHT Click](https://www.mikroe.com/pht-click)
@@ -19,7 +18,7 @@ The following boards are directly supported and provide the ability to send sens
 * [Altitude 4 Click](https://www.mikroe.com/altitude-4-click)
 * [Altitude 2 Click](https://www.mikroe.com/altitude-2-click)
 
-# 2. Hardware Setup
+## 2. Hardware Setup
 
 ### Setup Clicks  
 **NOTE: The Click hardware is not required to complete this guide so if none are present, this section can be skipped.**
