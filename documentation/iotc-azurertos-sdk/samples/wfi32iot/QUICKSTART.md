@@ -80,17 +80,17 @@ There are a couple of ways to create the fingerprint:
 Below is a sample screenshot from the online tool:
 ![Fingerprint Web Site Screenshot](assets/fingerprint.png "Fingerprint Web Site Screenshot")
 
-# 7. IoTConnect Device Setup
+## 7. IoTConnect Device Setup
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
 * Enter a the "snXXXXXXXX" (do not include the "__device.pem") from earlier in the *Unique ID* field and enter a descriptive *Display Name* of your choice.
 * Select the template from the dropdown box that was just imported (or provided to you).
 * Enter the fingerprint calculated previously into the **Thumbprint** field.
 * Click Save and press the Reset button on the board.
 
-# 8. Configuration
+## 8. Configuration
 To configure the WiFi Credentials and IoTConnect Account environment information, two files on the USB Mass Storage Device need to be editited.
 
-## Configure the WiFi Credentials
+### Configure the WiFi Credentials
 * The WiFi Credentials are configred in the WIFI.CFG file located on the MSD. Open the file in a text editor and input the WiFi credentials using one of the
 following templates per the network configuration:
    - Open Unsecured Network (no password protection)
@@ -111,7 +111,7 @@ following templates per the network configuration:
         ```
 * Save the file when done.
 
-## Configure the IoTConnect Account
+### Configure the IoTConnect Account
 * Open the CLOUD.CFG file in a text editor. If the contents of CLOUD.CFG do not have text like CPID and ENV, 
 delete the file, eject the drive, reset the board and re-open the file as resetting will populate the defaults.
 * Set the CPID and Environment per your IoTConnect account settings, which can be found in Settings -> Key Vault in the IoTConnect portal.
@@ -119,10 +119,10 @@ delete the file, eject the drive, reset the board and re-open the file as resett
 * Save the file, eject the USB drive and reset the board.
 * The device should connect to the specified IoTConnect account and publish sensor data periodically.
 
-# 9. Visualization
+## 9. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json). Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
-# 10. Sending Commands
+## 10. Sending Commands
 * The board has 3 LEDs that can be toggled on and off by using the "on" or "off" parameter in conjunction with one of the LED commands.
 * The board also has two buttons (across from the RST button) which increment a counter when pressed.  The counters can be reset by using the "reset-counters" command with a parameter of "1".
 ![Send Commands](assets/send_commands.png)
