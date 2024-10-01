@@ -56,12 +56,14 @@ RX 32-Bit Performance / Efficiency MCUs
 RA Family of Arm® Cortex®-M based MCUs
 * [EK-RA6M4](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod) - P/N: [RTK7EKA6M4S00001BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m4-evaluation-kit-ra6m4-mcu-group)
 * [CK-RA6M5](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod) - P/N: [RTK7CKA6M5S08002BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ck-ra6m5-cloud-kit-based-ra6m5-mcu-group)
-* [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
+* [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) (RA6M4 + DA1660) - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
+* [RASynBoard RASynPuck Demo](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/RASynPuckDemo.md)
 * R7FA6M5BH2CBG (see the [Portenta C33 Demo](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-c33-demo))  
 
 RZ Family of Arm® Cortex®-A based MPUs
 * [RZBoard V2L](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/RZBoardV2L/README.md) - P/N: [AES-RZB-V2L-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rzboard-v2l)
-* [SPARK Parking Lot Demo](https://github.com/Avnet/SPARK) 
+* [SPARK Parking Lot Demo](https://github.com/Avnet/SPARK)
+* [RZBuddy](https://www.hackster.io/lucas-keller/preview-rzbuddy-the-smart-pet-companion-for-anxiety-c50c87) (Pet Feeder Demo on Hackster.io)
 
 Low Power Wi-Fi Solutions
 *  DA16200, DA16400 - P/N: [DA16200MOD-DEVKT](https://www.newark.com/dialog-semiconductor/da16200mod-devkt/dev-kit-wifi-battery-powered-iot/dp/82AH4520), [US159-DA16200MEVZ](https://www.newark.com/renesas/us159-da16200mevz/evaluation-board-arm-cortex-m4f/dp/51AK1965), [DA16600MOD-DEVKT](https://www.newark.com/dialog-semiconductor/da16600mod-devkt/analog-development-kits-rohs-compliant/dp/37AJ8937), & [US159-DA16600EVZ](https://www.newark.com/renesas/us159-da16600evz/evaluation-board-arm-cortex-m0/dp/51AK1966)
