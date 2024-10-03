@@ -1,9 +1,10 @@
 ## 1. Introduction
 
-This document provides instructions on how to quickly connect [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) development board to Avnet's [IoTConnect](https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect) platform without the need to compile any code from source. The guide further leverages [MicroE](https://www.mikroe.com/) click boards featuring [TE Connectivity](https://www.te.com/en/products/sensors.html) sensors.
-* This QuickStart leverages the built-in ATECC608 secure element to enable a secure connection to IoTConnect.
+This document provides instructions on how to quickly connect the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) development board to Avnet's [IoTConnect](https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect) platform without the need to compile any code from source. The guide further leverages [MicroE](https://www.mikroe.com/) click boards featuring [TE Connectivity](https://www.te.com/en/products/sensors.html) sensors. 
+### Key Features:
+* The built-in ATECC608 secure element is utilized to enable a secure connection to IoTConnect.
 * The Temperature and Light Sensor telemetry are supported.
-* IoTConnect display user input from the on-board switches (SW1 & SW2).
+* Device-to-cloud commands are supported using the on-board switches (SW1 & SW2).
 * Althought not required, further telemetry can be visualized by adding Click boards (see below).
 
 The Click board interface makes it possible to make use of hundreds of different Click boards from MikroE.
@@ -12,11 +13,11 @@ The following boards are directly supported and send sensor readings directly to
 * [Ultra-Low Press Click](https://www.mikroe.com/ultra-low-press-click)
 * [PHT Click](https://www.mikroe.com/pht-click)
 * [TEMP&HUM 14 click](https://www.mikroe.com/temphum-14-click)
-* [Telaire T6713 CO2 Sensor Module](https://www.amphenol-sensors.com/en/telaire/co2/525-co2-sensor-modules/3399-t6713) on the [PROTO Click](https://www.mikroe.com/proto-click)
-* [Telaire T9602 IP67 Harsh Environment Humidity & Temperature Sensor](https://www.amphenol-sensors.com/en/telaire/humidity/527-humidity-sensors/3224-t9602) on the [Terminal 2 Click](https://www.mikroe.com/terminal-2-click)
 * [Air Quality 7 click](https://www.mikroe.com/air-quality-7-click)
 * [Altitude 4 Click](https://www.mikroe.com/altitude-4-click)
 * [Altitude 2 Click](https://www.mikroe.com/altitude-2-click)
+* [Telaire T6713 CO2 Sensor Module](https://www.amphenol-sensors.com/en/telaire/co2/525-co2-sensor-modules/3399-t6713) on the [PROTO Click](https://www.mikroe.com/proto-click)
+* [Telaire T9602 IP67 Harsh Environment Humidity & Temperature Sensor](https://www.amphenol-sensors.com/en/telaire/humidity/527-humidity-sensors/3224-t9602) on the [Terminal 2 Click](https://www.mikroe.com/terminal-2-click)
 
 ## 2. Hardware Setup
 
@@ -36,10 +37,10 @@ which is named "USB Serial". Use defaults for 115200 baud: 8 bits, 1 stop bit, n
 
 ## 3. Programming the Firmware
 
-* Download and install **v6.05** of the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem) (The newer versions of the included IPE have an issue connecting to the WFI32-IoT board). 
-"MPLAB IPE" and "32-bit device support" are the only required options during the installation.
-* Download the firmware [binary package](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/iotconnect-demo-wfi32-042423.zip).
-* Extract the iotconnect-demo.X.production.hex file from the zip.
+* Download and install **v6.05** of the [MPLAB X IDE package](https://www.microchip.com/en-us/tools-resources/archives/mplab-ecosystem) (Newer versions have not been tested and may not be compatible).
+  * "MPLAB IPE" and "32-bit device support" are the only required options during the installation.
+* Download the firmware binary package [iotconnect-demo-wfi32-042423.zip](https://saleshosted.z13.web.core.windows.net/sdk/AzureRTOS/iotconnect-demo-wfi32-042423.zip)
+* Extract the iotconnect-demo.X.production.hex file and take note of the location
 * Open the Microchip IPE application to program the firmware: 
   * In the **Device** entry box, select "WFI32E01"
   * In the **Tool** entry box, select "Curiosity/Starter Kits (PKBO4)"
@@ -63,7 +64,7 @@ See the IoTConnect [Subscription Information](https://github.com/avnet-iotconnec
 
 ## 5. IoTConnect Device Template Setup
 A Device Template with Self Signed authentication type will need to be imported.
-* Download the premade [Device Template with Self-Signed Auth](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32demo_r2_template.JSON).
+* Download the premade device template [wfi32iot_device_template.JSON](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32demo_r2_template.JSON).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
 ## 6. Obtaining the Device Certificate Fingerprint
