@@ -26,7 +26,7 @@ The following boards are directly supported and send sensor readings directly to
 > The MicroE Click hardware is not required to complete this guide, so if none are present, skip this section.
 
 * Plug a Click board into onto Click interface on the WFI32-IoT board ensuring that the pin labels match the header markings.
-* To connect up to 5 Click boards at the same time, purchase the [Shuttle Click](https://www.mikroe.com/shuttle-click) adapter.
+* To connect up to 4 Click boards at the same time, purchase the [Shuttle Click](https://www.mikroe.com/shuttle-click) adapter.
 
 ### Setup WFI32-IoT Board  
 * Connect the WFI32-IoT board to a USB port on your PC via the Micro USB cable.
@@ -75,7 +75,6 @@ A Device Template with Self Signed authentication type will need to be imported.
 * Select an *Entity* in the drop-down (on new/trial accounts, there will only be one option)
 * In the "Device Certificate" section, click the **"Browse"** link and navigate back to and select the "snXXXXXX_device.pem" file.
 * Click "Save & View"
-* Press the RST button on the board
 
 ## 7. Configuration
 To configure the WiFi Credentials and IoTConnect Account environment information, two files on the USB Mass Storage Device need to be editited.
@@ -106,7 +105,7 @@ following templates per the network configuration:
 delete the file, eject the drive, reset the board and re-open the file as resetting will populate the defaults.
 * Set the CPID and Environment per your IoTConnect account settings, which can be found in Settings -> Key Vault in the IoTConnect portal.
 * The DUID and SYMMETERIC_KEY can be let empty.
-* Save the file, eject the USB drive and reset the board.
+* Save the file and reset the board.
 * The device should connect to the specified IoTConnect account and publish sensor data periodically.
 
 ## 8. Visualization
