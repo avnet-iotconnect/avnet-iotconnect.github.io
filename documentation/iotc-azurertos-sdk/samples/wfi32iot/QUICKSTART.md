@@ -67,28 +67,17 @@ A Device Template with Self Signed authentication type will need to be imported.
 * Download the premade device template [wfi32iot_device_template.JSON](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32iot_device_template.JSON?raw=1) (**MUST** Right-Click and "Save-As" to get raw file)
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information, please see the [IoTConnect Documentation](https://docs.iotconnect.io/iotconnect/) website.)
 
-## 6. Obtaining the Device Certificate Fingerprint
-This section outlines how to set up the device for IoTConnect Self Signed Certificate authentication type.
-Other authentication types can be used, but are out of scope for this guide.
-
-* In order to complete the next steps a fingerprint of the device certificate will need to be created.
-The device certificate is located in the file named snXXXXXX_device.pem on the Mass Storage Device.
-The fingerprint of the certificate can be generated as either SHA256 or SHA1 (default).
-There are a couple of ways to create the fingerprint:
-   * (Online Tool) The contents of snxXXXX_device.pem can be pasted into an [online fingerprint calculator](https://www.samltool.com/fingerprint.php).
-   * (Local with OpenSSL) Execute ``` openssl x509 -noout -fingerprint -inform pem -in snxXXXX_device.pem ```
-
-Below is a sample screenshot from the online tool:
-![Fingerprint Web Site Screenshot](assets/fingerprint.png "Fingerprint Web Site Screenshot")
-
-## 7. IoTConnect Device Setup
+## 6. IoTConnect Device Setup
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)
-* Enter a the "snXXXXXXXX" (do not include the "__device.pem") from earlier in the *Unique ID* field and enter a descriptive *Display Name* of your choice.
 * Select the template from the dropdown box that was just imported (or provided to you).
-* Enter the fingerprint calculated previously into the **Thumbprint** field.
-* Click Save and press the Reset button on the board.
+* Navigate to the Mass Storage Device (WFI32-IOT) in the Windows Explorer under "This PC"
+* Locate the device certificate file named "snXXXXXX_device.pem" and copy the "snXXXXXXXX" portion (do not include the "__device.pem").  Enter this value into the *Unique ID* field and enter a descriptive *Display Name* of your choice.
+* Select an *Entity* in the drop-down (on new/trial accounts, there will only be one option)
+* In the "Device Certificate" section, click the **"Browse"** link and navigate back to and select the "snXXXXXX_device.pem" file.
+* Click "Save & View"
+* Press the RST button on the board
 
-## 8. Configuration
+## 7. Configuration
 To configure the WiFi Credentials and IoTConnect Account environment information, two files on the USB Mass Storage Device need to be editited.
 
 ### Configure the WiFi Credentials
@@ -120,10 +109,10 @@ delete the file, eject the drive, reset the board and re-open the file as resett
 * Save the file, eject the USB drive and reset the board.
 * The device should connect to the specified IoTConnect account and publish sensor data periodically.
 
-## 9. Visualization
+## 8. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json). Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
-## 10. Sending Commands
+## 9. Sending Commands
 * The board has 3 LEDs that can be toggled on and off by using the "on" or "off" parameter in conjunction with one of the LED commands.
 * The board also has two buttons (across from the RST button) which increment a counter when pressed.  The counters can be reset by using the "reset-counters" command with a parameter of "1".
 ![Send Commands](assets/send_commands.png)
