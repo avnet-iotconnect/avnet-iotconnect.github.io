@@ -64,7 +64,7 @@ See the IoTConnect [Subscription Information](https://github.com/avnet-iotconnec
 
 ## 5. IoTConnect Device Template Setup
 A Device Template with Self Signed authentication type will need to be imported.
-* Download the premade device template [wfi32iot_device_template.JSON](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32iot_device_template.JSON?raw=1) **MUIST** Right-Click and "Save-As"
+* Download the premade device template [wfi32iot_device_template.JSON](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32iot_device_template.JSON?raw=1) (**MUST** Right-Click and "Save-As" to get raw file)
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information, please see the [IoTConnect Documentation](https://docs.iotconnect.io/iotconnect/) website.)
 
 ## 6. Obtaining the Device Certificate Fingerprint
