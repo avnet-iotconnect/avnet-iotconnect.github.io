@@ -64,7 +64,7 @@ See the IoTConnect [Subscription Information](https://github.com/avnet-iotconnec
 
 ## 5. IoTConnect Device Template Setup
 A Device Template with Self Signed authentication type will need to be imported.
-* Download the premade device template [wfi32iot_device_template.JSON](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32iot_device_template.JSON?raw=1) (**MUST** Right-Click and "Save-As" to get raw file)
+* Download the premade device template [wfi32iot_device_template.JSON](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/device/wfi32iot_device_template.JSON?raw=1) (**MUST** Right-Click and "Save-As" to get the raw json file)
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information, please see the [IoTConnect Documentation](https://docs.iotconnect.io/iotconnect/) website.)
 
 ## 6. IoTConnect Device Setup
@@ -109,7 +109,7 @@ delete the file, eject the drive, reset the board and re-open the file as resett
 * The device should connect to the specified IoTConnect account and publish sensor data periodically.
 
 ## 8. Visualization
-The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json). Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
+The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. A sample dashboard that is preconfigured to display some telemtery from the board is available for download [here](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json?raw=1) (**MUST** Right-Click and "Save-As" to get the raw json file).  Once downloaded, select "Create Dashboard" from the top of the IoTConnect portal and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
 ## 9. Sending Commands
 * The board has 3 LEDs that can be toggled on and off by using the "on" or "off" parameter in conjunction with one of the LED commands.
