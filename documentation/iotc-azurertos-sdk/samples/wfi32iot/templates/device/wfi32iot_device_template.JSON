@@ -1,6 +1,6 @@
 {
-    "code": "wfi32r2",
-    "name": "wfi32demo_r2",
+    "code": "wfi32iot",
+    "name": "wfi32iot",
     "authType": 3,
     "isIotEdgeEnable": false,
     "attributes": [
