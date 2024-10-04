@@ -3230,7 +3230,7 @@
             "widgetProperties": {
                 "i": "HyperLink",
                 "background": "#ea8400",
-                "fontColor": "#343434",
+                "fontColor": "#ffffff",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
                 "title": "IoTConnect Sign-up",
@@ -3259,10 +3259,10 @@
             "widgetProperties": {
                 "i": "HyperLink",
                 "background": "#ea8400",
-                "fontColor": "#343434",
+                "fontColor": "#ffffff",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
-                "title": "Browse TE Sensor Products",
+                "title": "Buy TE Sensor Products",
                 "titleAlign": "center",
                 "contents": {
                     "hyperlink": {
@@ -3288,7 +3288,7 @@
             "widgetProperties": {
                 "i": "HyperLink",
                 "background": "#ea8400",
-                "fontColor": "#343434",
+                "fontColor": "#ffffff",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
                 "title": "QuickStart Guide",
@@ -3317,7 +3317,7 @@
             "widgetProperties": {
                 "i": "HyperLink",
                 "background": "#ea8400",
-                "fontColor": "#343434",
+                "fontColor": "#ffffff",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
                 "title": "TE Connectivity Homepage",
