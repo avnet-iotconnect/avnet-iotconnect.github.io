@@ -29,10 +29,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -81,10 +82,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -118,7 +120,7 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "attributes": {
@@ -450,7 +452,7 @@
                 "contents": {
                     "gauge": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "attributes": {
@@ -772,7 +774,7 @@
             },
             "properties": {
                 "x": "48",
-                "y": "2",
+                "y": "0",
                 "w": "10",
                 "h": "9",
                 "i": "gauge",
@@ -811,10 +813,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -863,10 +866,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -915,10 +919,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -967,10 +972,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -1019,10 +1025,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -1071,10 +1078,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -1123,10 +1131,11 @@
                         "key": "url"
                     },
                     "device": {
-                        "deviceGuid": "",
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                         "deviceName": "",
                         "imageurl": "",
-                        "key": "device"
+                        "key": "device",
+                        "deviceUniqueId": "sn0123239C1BEECD6001"
                     },
                     "telemetry": {
                         "deviceGuid": "",
@@ -1138,7 +1147,7 @@
             },
             "properties": {
                 "x": "45",
-                "y": "10",
+                "y": "9",
                 "w": "15",
                 "h": "8",
                 "i": "Image",
@@ -1160,7 +1169,7 @@
                 "contents": {
                     "liveChart": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "dateToUse": "Gateway Date",
@@ -1483,7 +1492,7 @@
                 "contents": {
                     "liveChart": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "dateToUse": "Gateway Date",
@@ -1806,7 +1815,7 @@
                 "contents": {
                     "liveChart": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "dateToUse": "Gateway Date",
@@ -2129,7 +2138,7 @@
                 "contents": {
                     "liveChart": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "dateToUse": "Gateway Date",
@@ -2430,7 +2439,7 @@
             },
             "properties": {
                 "x": "45",
-                "y": "18",
+                "y": "17",
                 "w": "15",
                 "h": "15",
                 "i": "LiveLineChart",
@@ -2452,7 +2461,7 @@
                 "contents": {
                     "devicelatestvalue": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "boxtypes": "1",
@@ -2498,9 +2507,9 @@
                 "titleAlign": "",
                 "contents": {
                     "deviceCommand": {
-                        "template": "3D6267D7-28DD-4ADB-87F6-2E2D95AA18AE",
+                        "template": "B44F18D7-A57D-46EA-9037-26AFFB9FDE23",
                         "device": "sn0123239C1BEECD6001",
-                        "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E"
+                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5"
                     }
                 }
             },
@@ -2538,7 +2547,7 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "attributes": {
@@ -2882,8 +2891,8 @@
                 }
             },
             "properties": {
-                "x": "39",
-                "y": "33",
+                "x": "37",
+                "y": "32",
                 "w": "11",
                 "h": "4",
                 "i": "Live",
@@ -2914,7 +2923,7 @@
                     },
                     "live": {
                         "device": {
-                            "deviceGuid": "480794C1-B478-4AA6-A909-2255C133173E",
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
                         "attributes": {
@@ -3258,14 +3267,130 @@
                 }
             },
             "properties": {
-                "x": "50",
-                "y": "33",
-                "w": "10",
+                "x": "49",
+                "y": "32",
+                "w": "11",
                 "h": "4",
                 "i": "Live",
                 "minW": "7",
                 "minH": "4",
                 "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#ea8400",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "IoTConnect Sign-up",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://subscription.iotconnect.io/subscribe?cloud=azure",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "37",
+                "y": "36",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#ea8400",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Browse TE Sensor Products",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://www.avnet.com/shop/us/m/te-connectivity",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "49",
+                "y": "36",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#ea8400",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "QuickStart Guide",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/QUICKSTART.md",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "37",
+                "y": "38",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#ea8400",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "TE Connectivity Homepage",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://www.te.com/en/home.html",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "49",
+                "y": "38",
+                "w": "11",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
                 "isStatic": "false"
             }
         }
