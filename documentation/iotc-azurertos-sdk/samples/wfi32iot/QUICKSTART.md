@@ -1,6 +1,6 @@
 ## 1. Introduction
 
-This document provides instructions on how to quickly connect the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) development board to Avnet's [IoTConnect](https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect) platform without the need to compile any code from source. The guide further leverages [MicroE](https://www.mikroe.com/) click boards featuring [TE Connectivity](https://www.te.com/en/products/sensors.html) sensors. 
+This document provides instructions on how to quickly connect the [WFI32-IoT](https://www.microchip.com/en-us/development-tool/ev36w50a) development board to Avnet's [IoTConnect](https://www.avnet.com/wps/portal/us/solutions/iot/iotconnect) platform without the need to compile any code from source. The guide further leverages [MikroE](https://www.mikroe.com/) click boards featuring [TE Connectivity](https://www.te.com/en/products/sensors.html) sensors. 
 ### Key Features:
 * The built-in ATECC608 secure element is utilized to enable a secure connection to IoTConnect.
 * The Temperature and Light Sensor telemetry are supported.
@@ -23,7 +23,7 @@ The following boards are directly supported and send sensor readings directly to
 
 ### Setup Clicks  
 > [!NOTE]
-> The MicroE Click hardware is not required to complete this guide, so if none are present, skip this section.
+> The MikroE Click hardware is not required to complete this guide, so if none are present, skip this section.
 
 * Plug a Click board into onto Click interface on the WFI32-IoT board ensuring that the pin labels match the header markings.
 * To connect up to 4 Click boards at the same time, purchase the [Shuttle Click](https://www.mikroe.com/shuttle-click) adapter.
@@ -110,7 +110,7 @@ delete the file, eject the drive, reset the board and re-open the file as resett
 
 ## 8. Visualization
 The telemetry can be visualized by using the Dynamic Dashboard feature of IoTConnect. Some preconfigured dashboards templates are available download:
-* [Micochip Centric Dashboard](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json?raw=1) (**MUST** Right-Click and "Save-As" to get the raw json file).
+* [Microchip Centric Dashboard](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/wfi32iot_quickstart_dashboard_export.json?raw=1) (**MUST** Right-Click and "Save-As" to get the raw json file).
 * [TE Sensor Centric Dashboard](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/wfi32iot/templates/dashboards/TE_Sensors_Dashboard.json?raw=1) (**MUST** Right-Click and "Save-As" to get the raw json file).
 * Once downloaded, select "Create Dashboard" from the top of the IoTConnect GUI and then choose the "Import Dashboard" option and select the template and device name used previously in this guide.
 
