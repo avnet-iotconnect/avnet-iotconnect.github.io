@@ -862,59 +862,6 @@
                         "key": "upload"
                     },
                     "url": {
-                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/mcp/Altitude4.png",
-                        "key": "url"
-                    },
-                    "device": {
-                        "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
-                        "deviceName": "",
-                        "imageurl": "",
-                        "key": "device",
-                        "deviceUniqueId": "sn0123239C1BEECD6001"
-                    },
-                    "telemetry": {
-                        "deviceGuid": "",
-                        "deviceName": "",
-                        "imageurl": "",
-                        "key": "telemetry"
-                    }
-                }
-            },
-            "properties": {
-                "x": "8",
-                "y": "9",
-                "w": "7",
-                "h": "8",
-                "i": "Image",
-                "minW": "5",
-                "minH": "5",
-                "isStatic": "false"
-            }
-        },
-        {
-            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
-            "widgetProperties": {
-                "i": "Image",
-                "background": "#FFFFFF",
-                "fontColor": "#343434",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
-                "title": "Image",
-                "titleAlign": "",
-                "contents": {
-                    "option": {
-                        "imageUpload": "false",
-                        "imageUrl": "true",
-                        "imageDevice": "false",
-                        "imageTelemetry": "false",
-                        "key": "option",
-                        "position": "center"
-                    },
-                    "upload": {
-                        "imageurl": "",
-                        "key": "upload"
-                    },
-                    "url": {
                         "imageurl": "https://saleshosted.z13.web.core.windows.net/media/mcp/vav-press-click.jpg",
                         "key": "url"
                     },
@@ -934,7 +881,7 @@
                 }
             },
             "properties": {
-                "x": "15",
+                "x": "8",
                 "y": "9",
                 "w": "8",
                 "h": "8",
@@ -987,7 +934,7 @@
                 }
             },
             "properties": {
-                "x": "23",
+                "x": "16",
                 "y": "9",
                 "w": "7",
                 "h": "8",
@@ -1040,7 +987,7 @@
                 }
             },
             "properties": {
-                "x": "30",
+                "x": "23",
                 "y": "9",
                 "w": "8",
                 "h": "8",
@@ -1093,7 +1040,7 @@
                 }
             },
             "properties": {
-                "x": "38",
+                "x": "31",
                 "y": "9",
                 "w": "7",
                 "h": "8",
@@ -1146,9 +1093,9 @@
                 }
             },
             "properties": {
-                "x": "45",
+                "x": "38",
                 "y": "9",
-                "w": "15",
+                "w": "14",
                 "h": "8",
                 "i": "Image",
                 "minW": "5",
@@ -1157,29 +1104,36 @@
             }
         },
         {
-            "widgetGuid": "8BF5A2DF-51FA-479B-B5D8-8413DC425CFF",
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
             "widgetProperties": {
-                "i": "LiveLineChart",
-                "background": "#fff",
+                "i": "Live",
+                "background": "#ffffff",
                 "fontColor": "#343434",
                 "fontFamily": "Proxima Nova",
                 "fontSize": "18",
-                "title": "Atmospheric Pressure (mBar)",
+                "title": "Firmware Version",
                 "titleAlign": "",
                 "contents": {
-                    "liveChart": {
+                    "attributeValue": {
+                        "attributeName": "version",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "version",
+                        "key": "attributeTime"
+                    },
+                    "live": {
                         "device": {
                             "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
                             "deviceUniqueId": "sn0123239C1BEECD6001"
                         },
-                        "dateToUse": "Gateway Date",
                         "attributes": {
                             "attribute": [
                                 {
                                     "attributeGuid": "EB83CD55-A60B-491E-A5DA-07CD29CDAB8E",
                                     "attributeName": "PHT_Pressure_mBar",
                                     "displayName": "",
-                                    "checked": "true",
+                                    "checked": "false",
                                     "dataType": "NUMBER",
                                     "attributeLatestValue": "",
                                     "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
@@ -1226,9 +1180,20 @@
                                     "checked": "false",
                                     "dataType": "NUMBER",
                                     "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
                                     "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "CB5A9D01-399C-48E8-8C94-2C19B8AECD98",
+                                    "attributeName": "T6713_Status",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
                                 },
                                 {
                                     "attributeGuid": "9FE2139D-5D1F-4267-8CAA-2CC3C6D07756",
@@ -1237,8 +1202,8 @@
                                     "checked": "false",
                                     "dataType": "NUMBER",
                                     "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
                                     "attributeValue": "0"
                                 },
                                 {
@@ -1258,21 +1223,32 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "25.002975463867187",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "25.002975463867187"
+                                    "attributeLatestValue": "25.083541870117187",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "25.083541870117187"
+                                },
+                                {
+                                    "attributeGuid": "FA170963-BDD4-4314-8E91-484C61ED445B",
+                                    "attributeName": "AIR7_Status",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
                                 },
                                 {
                                     "attributeGuid": "D7D66C0E-69E7-4633-81AD-4D74C062CFEB",
                                     "attributeName": "ALT2_Pressure_mBar",
                                     "displayName": "",
-                                    "checked": "true",
+                                    "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "842.7109375",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "842.7109375"
+                                    "attributeLatestValue": "842.63220214843749",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "842.63220214843749"
                                 },
                                 {
                                     "attributeGuid": "8239C57C-C185-43E6-BDA8-563A4551544E",
@@ -1292,8 +1268,8 @@
                                     "checked": "false",
                                     "dataType": "NUMBER",
                                     "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
                                     "attributeValue": "0"
                                 },
                                 {
@@ -1302,10 +1278,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "1.2348127365112304",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "1.2348127365112304"
+                                    "attributeLatestValue": "1.224894642829895",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "1.224894642829895"
                                 },
                                 {
                                     "attributeGuid": "56923F54-8B3D-4F57-800A-70B787C6C9D3",
@@ -1313,10 +1289,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "1633.75830078125",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "1633.75830078125"
+                                    "attributeLatestValue": "1634.8829345703124",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "1634.8829345703124"
                                 },
                                 {
                                     "attributeGuid": "D4BE04B5-6697-44F6-9D32-7AACE68FFD98",
@@ -1333,7 +1309,7 @@
                                     "attributeGuid": "9F59CD51-3F5F-4F7B-B2CF-7E107705CA02",
                                     "attributeName": "ALT4_Pressure_mBar",
                                     "displayName": "",
-                                    "checked": "true",
+                                    "checked": "false",
                                     "dataType": "NUMBER",
                                     "attributeLatestValue": "",
                                     "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
@@ -1347,8 +1323,8 @@
                                     "checked": "false",
                                     "dataType": "NUMBER",
                                     "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
                                     "attributeValue": "0"
                                 },
                                 {
@@ -1357,10 +1333,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "21.3083324432373",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "21.3083324432373"
+                                    "attributeLatestValue": "21.363889694213867",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "21.363889694213867"
                                 },
                                 {
                                     "attributeGuid": "3724B41A-06C7-4E33-9358-8970A4CC76FA",
@@ -1368,10 +1344,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "42",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "42"
+                                    "attributeLatestValue": "43",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "43"
                                 },
                                 {
                                     "attributeGuid": "C6BC33E3-63A6-437E-AA7E-8CCE8D930C6B",
@@ -1379,10 +1355,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "56",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "56"
+                                    "attributeLatestValue": "55",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "55"
                                 },
                                 {
                                     "attributeGuid": "E328441D-3489-4C44-AA03-8E6D97FAF040",
@@ -1390,10 +1366,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.49086570739746",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "24.49086570739746"
+                                    "attributeLatestValue": "24.542165756225585",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "24.542165756225585"
                                 },
                                 {
                                     "attributeGuid": "CDAAE040-3184-4F63-BAF9-967FE3F73E8F",
@@ -1407,15 +1383,26 @@
                                     "attributeValue": "NA"
                                 },
                                 {
+                                    "attributeGuid": "D2551C71-3060-48B5-BB38-9C615106FED2",
+                                    "attributeName": "version",
+                                    "displayName": "",
+                                    "checked": "true",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "01.01.00",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "01.01.00"
+                                },
+                                {
                                     "attributeGuid": "8D0681C9-0E2B-4C74-B868-A1633E8531F1",
                                     "attributeName": "TH14_Humidity_Percent",
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "34.659339904785156",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "34.659339904785156"
+                                    "attributeLatestValue": "34.6303482055664",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "34.6303482055664"
                                 },
                                 {
                                     "attributeGuid": "0C622CE0-CE3D-4046-A701-B84C6BAE1738",
@@ -1434,10 +1421,10 @@
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.808660507202148",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "24.808660507202148"
+                                    "attributeLatestValue": "24.823766708374023",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "24.823766708374023"
                                 },
                                 {
                                     "attributeGuid": "2EF3E6F8-C54F-4D85-9E0D-C71EDE6FEDCF",
@@ -1451,15 +1438,727 @@
                                     "attributeValue": "NA"
                                 },
                                 {
+                                    "attributeGuid": "5D8F2C56-3CF2-427A-B6ED-D56B0CA32A5D",
+                                    "attributeName": "T9602_Status",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
                                     "attributeGuid": "E8092BF8-FDCF-42F3-9C07-F8214304F561",
                                     "attributeName": "VAV_Pressure_Pa",
                                     "displayName": "",
                                     "checked": "false",
                                     "dataType": "NUMBER",
-                                    "attributeLatestValue": "-0.02250000089406967",
-                                    "deviceUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:06:28.000Z",
-                                    "attributeValue": "-0.02250000089406967"
+                                    "attributeLatestValue": "0.02083333395421505",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "0.02083333395421505"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "dateToUse": "Gateway Date",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "52",
+                "y": "9",
+                "w": "8",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Light (Lux)",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "Onboard_Light_Lux",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "Onboard_Light_Lux",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
+                            "deviceUniqueId": "sn0123239C1BEECD6001"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "EB83CD55-A60B-491E-A5DA-07CD29CDAB8E",
+                                    "attributeName": "PHT_Pressure_mBar",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "D6DEE84D-EE32-4889-94AB-1541A30333D8",
+                                    "attributeName": "AIR7_tVOC_ppb",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "457777A0-85B8-4376-ADC2-195D6A040294",
+                                    "attributeName": "T9602_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "4E0D9032-3211-409C-B6CA-19F5A1E1F316",
+                                    "attributeName": "ALT4_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "DA0D143A-1772-4C1F-905C-2BE36FCD3059",
+                                    "attributeName": "WFI32IoT_button1_count",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "CB5A9D01-399C-48E8-8C94-2C19B8AECD98",
+                                    "attributeName": "T6713_Status",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "9FE2139D-5D1F-4267-8CAA-2CC3C6D07756",
+                                    "attributeName": "WFI32IoT_button2_count",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "9CC7CBDC-10A4-4503-B658-36E984C24373",
+                                    "attributeName": "PHT_Humidity_Percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "4EFFE678-19C2-4E87-A1E9-449FD04F2BF5",
+                                    "attributeName": "TH14_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "25.083541870117187",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "25.083541870117187"
+                                },
+                                {
+                                    "attributeGuid": "FA170963-BDD4-4314-8E91-484C61ED445B",
+                                    "attributeName": "AIR7_Status",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "D7D66C0E-69E7-4633-81AD-4D74C062CFEB",
+                                    "attributeName": "ALT2_Pressure_mBar",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "842.63220214843749",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "842.63220214843749"
+                                },
+                                {
+                                    "attributeGuid": "8239C57C-C185-43E6-BDA8-563A4551544E",
+                                    "attributeName": "T9602_Humidity_Percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "0F75C0C2-14EF-4500-8161-6E87341EAA64",
+                                    "attributeName": "WFI32IoT_button2",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "C87035D3-8619-4C00-B8B8-704319285C00",
+                                    "attributeName": "ULP_Pressure_Pa",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1.224894642829895",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "1.224894642829895"
+                                },
+                                {
+                                    "attributeGuid": "56923F54-8B3D-4F57-800A-70B787C6C9D3",
+                                    "attributeName": "ALT2_Altitude_m",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1634.8829345703124",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "1634.8829345703124"
+                                },
+                                {
+                                    "attributeGuid": "D4BE04B5-6697-44F6-9D32-7AACE68FFD98",
+                                    "attributeName": "ALT4_Altitude_m",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "9F59CD51-3F5F-4F7B-B2CF-7E107705CA02",
+                                    "attributeName": "ALT4_Pressure_mBar",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "F1F34FC8-C02C-4BA5-9D6A-85172F38FCB2",
+                                    "attributeName": "WFI32IoT_button1",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "0B2D1BB9-8BAE-4681-B094-88A83AFDA67F",
+                                    "attributeName": "VAV_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "21.363889694213867",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "21.363889694213867"
+                                },
+                                {
+                                    "attributeGuid": "3724B41A-06C7-4E33-9358-8970A4CC76FA",
+                                    "attributeName": "Onboard_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "43",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "43"
+                                },
+                                {
+                                    "attributeGuid": "C6BC33E3-63A6-437E-AA7E-8CCE8D930C6B",
+                                    "attributeName": "Onboard_Light_Lux",
+                                    "displayName": "",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "55",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "55"
+                                },
+                                {
+                                    "attributeGuid": "E328441D-3489-4C44-AA03-8E6D97FAF040",
+                                    "attributeName": "ALT2_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "24.542165756225585",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "24.542165756225585"
+                                },
+                                {
+                                    "attributeGuid": "CDAAE040-3184-4F63-BAF9-967FE3F73E8F",
+                                    "attributeName": "AIR7_CO2_ppm",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "D2551C71-3060-48B5-BB38-9C615106FED2",
+                                    "attributeName": "version",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "01.01.00",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "01.01.00"
+                                },
+                                {
+                                    "attributeGuid": "8D0681C9-0E2B-4C74-B868-A1633E8531F1",
+                                    "attributeName": "TH14_Humidity_Percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34.6303482055664",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "34.6303482055664"
+                                },
+                                {
+                                    "attributeGuid": "0C622CE0-CE3D-4046-A701-B84C6BAE1738",
+                                    "attributeName": "PHT_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "6D74AC7D-3CFF-4198-89F3-C22B90E4C870",
+                                    "attributeName": "ULP_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "24.823766708374023",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "24.823766708374023"
+                                },
+                                {
+                                    "attributeGuid": "2EF3E6F8-C54F-4D85-9E0D-C71EDE6FEDCF",
+                                    "attributeName": "T6713_CO2_ppm",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "5D8F2C56-3CF2-427A-B6ED-D56B0CA32A5D",
+                                    "attributeName": "T9602_Status",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "E8092BF8-FDCF-42F3-9C07-F8214304F561",
+                                    "attributeName": "VAV_Pressure_Pa",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0.02083333395421505",
+                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
+                                    "attributeValue": "0.02083333395421505"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "dateToUse": "Gateway Date",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "52",
+                "y": "13",
+                "w": "8",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "8BF5A2DF-51FA-479B-B5D8-8413DC425CFF",
+            "widgetProperties": {
+                "i": "LiveLineChart",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Atmospheric Pressure (mBar)",
+                "titleAlign": "",
+                "contents": {
+                    "liveChart": {
+                        "device": {
+                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
+                            "deviceUniqueId": "sn0123239C1BEECD6001"
+                        },
+                        "dateToUse": "Gateway Date",
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "2C1A8CDE-B555-4A85-85E4-159B8A6FE06A",
+                                    "attributeName": "T9602_Humidity_Percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "3DA04BD7-F092-45C2-B6C6-181D6E52DCE1",
+                                    "attributeName": "PHT_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "21.283620834350585",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "21.283620834350585"
+                                },
+                                {
+                                    "attributeGuid": "E97D4626-BF14-4FAF-ADC0-229F2B20A87C",
+                                    "attributeName": "PHT_Pressure_mBar",
+                                    "displayName": "",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "844.850341796875",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "attributeValue": "844.850341796875"
+                                },
+                                {
+                                    "attributeGuid": "9CCA4B82-CBBC-4C1A-8EBB-28801BDFF5C2",
+                                    "attributeName": "PHT_Humidity_Percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "32.883209228515624",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "32.883209228515624"
+                                },
+                                {
+                                    "attributeGuid": "2608A292-30D7-49DD-8005-2CAE92CE97D7",
+                                    "attributeName": "TH14_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "21.981689453125",
+                                    "deviceUpdatedDate": "2024-10-04T16:13:02.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:13:02.000Z",
+                                    "attributeValue": "21.981689453125"
+                                },
+                                {
+                                    "attributeGuid": "44FB88B8-0F4C-40D0-8F96-33E23EA48B0F",
+                                    "attributeName": "AIR7_tVOC_ppb",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "5212B291-2960-48AA-949A-365BF1997BE0",
+                                    "attributeName": "VAV_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "18.725000381469726",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "attributeValue": "18.725000381469726"
+                                },
+                                {
+                                    "attributeGuid": "F278BB93-E13A-4864-B7E8-4E162A9AFAF4",
+                                    "attributeName": "ALT2_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "21.790727615356445",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "21.790727615356445"
+                                },
+                                {
+                                    "attributeGuid": "FB82B977-A283-477B-BD9E-63B92ABFD089",
+                                    "attributeName": "ALT2_Altitude_m",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1596.1895751953124",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "1596.1895751953124"
+                                },
+                                {
+                                    "attributeGuid": "B96470DA-4D22-4603-9E74-71DD22CDFF59",
+                                    "attributeName": "ALT4_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "8DED9A50-3918-4B6E-BE1A-80AD77197AAC",
+                                    "attributeName": "ULP_Pressure_Pa",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1.1951401233673095",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "attributeValue": "1.1951401233673095"
+                                },
+                                {
+                                    "attributeGuid": "659AA28C-4CE0-431E-AE33-8E70B8730A44",
+                                    "attributeName": "WFI32IoT_button2_count",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "9DD85225-EC49-448B-B04A-904BD38BB452",
+                                    "attributeName": "ULP_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "21.644008636474609",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "21.644008636474609"
+                                },
+                                {
+                                    "attributeGuid": "6665386C-1904-4DCE-912F-96E0A8ACBDE6",
+                                    "attributeName": "T9602_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "5E62B959-3B0F-4AC6-BE6A-A73B83B9E262",
+                                    "attributeName": "WFI32IoT_button1",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "4BF36BE8-51DF-44ED-84BA-B13196D1EB2D",
+                                    "attributeName": "ALT4_Pressure_mBar",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "BD7C024B-7BFA-419B-96F6-B1A0DAA5B57F",
+                                    "attributeName": "AIR7_CO2_ppm",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "0343BC8E-C23F-43B0-B01A-B56C5117A9F5",
+                                    "attributeName": "WFI32IoT_button2",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "6C160969-7119-44BD-B21E-CA42409E85F2",
+                                    "attributeName": "T6713_CO2_ppm",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "6B7CA22D-1641-487F-84EC-CFCA17A360EF",
+                                    "attributeName": "ALT2_Pressure_mBar",
+                                    "displayName": "",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "844.90295410156249",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "attributeValue": "844.90295410156249"
+                                },
+                                {
+                                    "attributeGuid": "22A282ED-C03A-4E96-BA73-DD8A5A3B37D0",
+                                    "attributeName": "VAV_Pressure_Pa",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-0.02083333395421505",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "-0.02083333395421505"
+                                },
+                                {
+                                    "attributeGuid": "8E77FEC3-6B1C-45F4-B042-E2EE067051A7",
+                                    "attributeName": "ALT4_Altitude_m",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "",
+                                    "deviceUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "gatewayUpdatedDate": "2024-10-04T14:18:09.433Z",
+                                    "attributeValue": "NA"
+                                },
+                                {
+                                    "attributeGuid": "F2AB2983-FEDB-4FA8-872A-F38578F4E804",
+                                    "attributeName": "Onboard_Temp_DegC",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "38",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:01.000Z",
+                                    "attributeValue": "38"
+                                },
+                                {
+                                    "attributeGuid": "AE80DE6F-AE1B-44A2-B945-F68411ECA45A",
+                                    "attributeName": "Onboard_Light_Lux",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "46",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "46"
+                                },
+                                {
+                                    "attributeGuid": "9C22F889-8A39-418D-8802-FA64060F6362",
+                                    "attributeName": "TH14_Humidity_Percent",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "32.0592041015625",
+                                    "deviceUpdatedDate": "2024-10-04T16:13:02.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:13:02.000Z",
+                                    "attributeValue": "32.0592041015625"
+                                },
+                                {
+                                    "attributeGuid": "376A10B0-C8C9-459C-8136-FAF93BBA2BFC",
+                                    "attributeName": "WFI32IoT_button1_count",
+                                    "displayName": "",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "gatewayUpdatedDate": "2024-10-04T16:15:10.000Z",
+                                    "attributeValue": "0"
                                 }
                             ]
                         },
@@ -2527,758 +3226,6 @@
             }
         },
         {
-            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
-            "widgetProperties": {
-                "i": "Live",
-                "background": "#ffffff",
-                "fontColor": "#343434",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
-                "title": "Light (Lux)",
-                "titleAlign": "",
-                "contents": {
-                    "attributeValue": {
-                        "attributeName": "Onboard_Light_Lux",
-                        "key": "attributeValue"
-                    },
-                    "attributeTime": {
-                        "attributeName": "Onboard_Light_Lux",
-                        "key": "attributeTime"
-                    },
-                    "live": {
-                        "device": {
-                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
-                            "deviceUniqueId": "sn0123239C1BEECD6001"
-                        },
-                        "attributes": {
-                            "attribute": [
-                                {
-                                    "attributeGuid": "EB83CD55-A60B-491E-A5DA-07CD29CDAB8E",
-                                    "attributeName": "PHT_Pressure_mBar",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "D6DEE84D-EE32-4889-94AB-1541A30333D8",
-                                    "attributeName": "AIR7_tVOC_ppb",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "457777A0-85B8-4376-ADC2-195D6A040294",
-                                    "attributeName": "T9602_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "4E0D9032-3211-409C-B6CA-19F5A1E1F316",
-                                    "attributeName": "ALT4_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "DA0D143A-1772-4C1F-905C-2BE36FCD3059",
-                                    "attributeName": "WFI32IoT_button1_count",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "CB5A9D01-399C-48E8-8C94-2C19B8AECD98",
-                                    "attributeName": "T6713_Status",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "9FE2139D-5D1F-4267-8CAA-2CC3C6D07756",
-                                    "attributeName": "WFI32IoT_button2_count",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "9CC7CBDC-10A4-4503-B658-36E984C24373",
-                                    "attributeName": "PHT_Humidity_Percent",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "4EFFE678-19C2-4E87-A1E9-449FD04F2BF5",
-                                    "attributeName": "TH14_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "25.083541870117187",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "25.083541870117187"
-                                },
-                                {
-                                    "attributeGuid": "FA170963-BDD4-4314-8E91-484C61ED445B",
-                                    "attributeName": "AIR7_Status",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "D7D66C0E-69E7-4633-81AD-4D74C062CFEB",
-                                    "attributeName": "ALT2_Pressure_mBar",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "842.63220214843749",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "842.63220214843749"
-                                },
-                                {
-                                    "attributeGuid": "8239C57C-C185-43E6-BDA8-563A4551544E",
-                                    "attributeName": "T9602_Humidity_Percent",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "0F75C0C2-14EF-4500-8161-6E87341EAA64",
-                                    "attributeName": "WFI32IoT_button2",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "C87035D3-8619-4C00-B8B8-704319285C00",
-                                    "attributeName": "ULP_Pressure_Pa",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "1.224894642829895",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "1.224894642829895"
-                                },
-                                {
-                                    "attributeGuid": "56923F54-8B3D-4F57-800A-70B787C6C9D3",
-                                    "attributeName": "ALT2_Altitude_m",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "1634.8829345703124",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "1634.8829345703124"
-                                },
-                                {
-                                    "attributeGuid": "D4BE04B5-6697-44F6-9D32-7AACE68FFD98",
-                                    "attributeName": "ALT4_Altitude_m",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "9F59CD51-3F5F-4F7B-B2CF-7E107705CA02",
-                                    "attributeName": "ALT4_Pressure_mBar",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "F1F34FC8-C02C-4BA5-9D6A-85172F38FCB2",
-                                    "attributeName": "WFI32IoT_button1",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "0B2D1BB9-8BAE-4681-B094-88A83AFDA67F",
-                                    "attributeName": "VAV_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "21.363889694213867",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "21.363889694213867"
-                                },
-                                {
-                                    "attributeGuid": "3724B41A-06C7-4E33-9358-8970A4CC76FA",
-                                    "attributeName": "Onboard_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "43",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "43"
-                                },
-                                {
-                                    "attributeGuid": "C6BC33E3-63A6-437E-AA7E-8CCE8D930C6B",
-                                    "attributeName": "Onboard_Light_Lux",
-                                    "displayName": "",
-                                    "checked": "true",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "55",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "55"
-                                },
-                                {
-                                    "attributeGuid": "E328441D-3489-4C44-AA03-8E6D97FAF040",
-                                    "attributeName": "ALT2_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.542165756225585",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "24.542165756225585"
-                                },
-                                {
-                                    "attributeGuid": "CDAAE040-3184-4F63-BAF9-967FE3F73E8F",
-                                    "attributeName": "AIR7_CO2_ppm",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "D2551C71-3060-48B5-BB38-9C615106FED2",
-                                    "attributeName": "version",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "01.01.00",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "01.01.00"
-                                },
-                                {
-                                    "attributeGuid": "8D0681C9-0E2B-4C74-B868-A1633E8531F1",
-                                    "attributeName": "TH14_Humidity_Percent",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "34.6303482055664",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "34.6303482055664"
-                                },
-                                {
-                                    "attributeGuid": "0C622CE0-CE3D-4046-A701-B84C6BAE1738",
-                                    "attributeName": "PHT_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "6D74AC7D-3CFF-4198-89F3-C22B90E4C870",
-                                    "attributeName": "ULP_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.823766708374023",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "24.823766708374023"
-                                },
-                                {
-                                    "attributeGuid": "2EF3E6F8-C54F-4D85-9E0D-C71EDE6FEDCF",
-                                    "attributeName": "T6713_CO2_ppm",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "5D8F2C56-3CF2-427A-B6ED-D56B0CA32A5D",
-                                    "attributeName": "T9602_Status",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "E8092BF8-FDCF-42F3-9C07-F8214304F561",
-                                    "attributeName": "VAV_Pressure_Pa",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0.02083333395421505",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0.02083333395421505"
-                                }
-                            ]
-                        },
-                        "rules": "",
-                        "dateToUse": "Gateway Date",
-                        "key": "live"
-                    }
-                }
-            },
-            "properties": {
-                "x": "37",
-                "y": "32",
-                "w": "11",
-                "h": "4",
-                "i": "Live",
-                "minW": "7",
-                "minH": "4",
-                "maxH": "4",
-                "isStatic": "false"
-            }
-        },
-        {
-            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
-            "widgetProperties": {
-                "i": "Live",
-                "background": "#ffffff",
-                "fontColor": "#343434",
-                "fontFamily": "Proxima Nova",
-                "fontSize": "18",
-                "title": "Firmware Version",
-                "titleAlign": "",
-                "contents": {
-                    "attributeValue": {
-                        "attributeName": "version",
-                        "key": "attributeValue"
-                    },
-                    "attributeTime": {
-                        "attributeName": "version",
-                        "key": "attributeTime"
-                    },
-                    "live": {
-                        "device": {
-                            "deviceGuid": "847CD3FC-F66B-4284-A497-3F883C482DE5",
-                            "deviceUniqueId": "sn0123239C1BEECD6001"
-                        },
-                        "attributes": {
-                            "attribute": [
-                                {
-                                    "attributeGuid": "EB83CD55-A60B-491E-A5DA-07CD29CDAB8E",
-                                    "attributeName": "PHT_Pressure_mBar",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "D6DEE84D-EE32-4889-94AB-1541A30333D8",
-                                    "attributeName": "AIR7_tVOC_ppb",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "457777A0-85B8-4376-ADC2-195D6A040294",
-                                    "attributeName": "T9602_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "4E0D9032-3211-409C-B6CA-19F5A1E1F316",
-                                    "attributeName": "ALT4_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "DA0D143A-1772-4C1F-905C-2BE36FCD3059",
-                                    "attributeName": "WFI32IoT_button1_count",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "CB5A9D01-399C-48E8-8C94-2C19B8AECD98",
-                                    "attributeName": "T6713_Status",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "9FE2139D-5D1F-4267-8CAA-2CC3C6D07756",
-                                    "attributeName": "WFI32IoT_button2_count",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "9CC7CBDC-10A4-4503-B658-36E984C24373",
-                                    "attributeName": "PHT_Humidity_Percent",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "4EFFE678-19C2-4E87-A1E9-449FD04F2BF5",
-                                    "attributeName": "TH14_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "25.083541870117187",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "25.083541870117187"
-                                },
-                                {
-                                    "attributeGuid": "FA170963-BDD4-4314-8E91-484C61ED445B",
-                                    "attributeName": "AIR7_Status",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "D7D66C0E-69E7-4633-81AD-4D74C062CFEB",
-                                    "attributeName": "ALT2_Pressure_mBar",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "842.63220214843749",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "842.63220214843749"
-                                },
-                                {
-                                    "attributeGuid": "8239C57C-C185-43E6-BDA8-563A4551544E",
-                                    "attributeName": "T9602_Humidity_Percent",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "0F75C0C2-14EF-4500-8161-6E87341EAA64",
-                                    "attributeName": "WFI32IoT_button2",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "C87035D3-8619-4C00-B8B8-704319285C00",
-                                    "attributeName": "ULP_Pressure_Pa",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "1.224894642829895",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "1.224894642829895"
-                                },
-                                {
-                                    "attributeGuid": "56923F54-8B3D-4F57-800A-70B787C6C9D3",
-                                    "attributeName": "ALT2_Altitude_m",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "1634.8829345703124",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "1634.8829345703124"
-                                },
-                                {
-                                    "attributeGuid": "D4BE04B5-6697-44F6-9D32-7AACE68FFD98",
-                                    "attributeName": "ALT4_Altitude_m",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "9F59CD51-3F5F-4F7B-B2CF-7E107705CA02",
-                                    "attributeName": "ALT4_Pressure_mBar",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "F1F34FC8-C02C-4BA5-9D6A-85172F38FCB2",
-                                    "attributeName": "WFI32IoT_button1",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0"
-                                },
-                                {
-                                    "attributeGuid": "0B2D1BB9-8BAE-4681-B094-88A83AFDA67F",
-                                    "attributeName": "VAV_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "21.363889694213867",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "21.363889694213867"
-                                },
-                                {
-                                    "attributeGuid": "3724B41A-06C7-4E33-9358-8970A4CC76FA",
-                                    "attributeName": "Onboard_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "43",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "43"
-                                },
-                                {
-                                    "attributeGuid": "C6BC33E3-63A6-437E-AA7E-8CCE8D930C6B",
-                                    "attributeName": "Onboard_Light_Lux",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "55",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "55"
-                                },
-                                {
-                                    "attributeGuid": "E328441D-3489-4C44-AA03-8E6D97FAF040",
-                                    "attributeName": "ALT2_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.542165756225585",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "24.542165756225585"
-                                },
-                                {
-                                    "attributeGuid": "CDAAE040-3184-4F63-BAF9-967FE3F73E8F",
-                                    "attributeName": "AIR7_CO2_ppm",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "D2551C71-3060-48B5-BB38-9C615106FED2",
-                                    "attributeName": "version",
-                                    "displayName": "",
-                                    "checked": "true",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "01.01.00",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "01.01.00"
-                                },
-                                {
-                                    "attributeGuid": "8D0681C9-0E2B-4C74-B868-A1633E8531F1",
-                                    "attributeName": "TH14_Humidity_Percent",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "34.6303482055664",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "34.6303482055664"
-                                },
-                                {
-                                    "attributeGuid": "0C622CE0-CE3D-4046-A701-B84C6BAE1738",
-                                    "attributeName": "PHT_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "6D74AC7D-3CFF-4198-89F3-C22B90E4C870",
-                                    "attributeName": "ULP_Temp_DegC",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "24.823766708374023",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "24.823766708374023"
-                                },
-                                {
-                                    "attributeGuid": "2EF3E6F8-C54F-4D85-9E0D-C71EDE6FEDCF",
-                                    "attributeName": "T6713_CO2_ppm",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "5D8F2C56-3CF2-427A-B6ED-D56B0CA32A5D",
-                                    "attributeName": "T9602_Status",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "STRING",
-                                    "attributeLatestValue": "",
-                                    "deviceUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "gatewayUpdatedDate": "2024-10-03T17:56:28.887Z",
-                                    "attributeValue": "NA"
-                                },
-                                {
-                                    "attributeGuid": "E8092BF8-FDCF-42F3-9C07-F8214304F561",
-                                    "attributeName": "VAV_Pressure_Pa",
-                                    "displayName": "",
-                                    "checked": "false",
-                                    "dataType": "NUMBER",
-                                    "attributeLatestValue": "0.02083333395421505",
-                                    "deviceUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "gatewayUpdatedDate": "2024-10-03T19:15:47.000Z",
-                                    "attributeValue": "0.02083333395421505"
-                                }
-                            ]
-                        },
-                        "rules": "",
-                        "dateToUse": "Gateway Date",
-                        "key": "live"
-                    }
-                }
-            },
-            "properties": {
-                "x": "49",
-                "y": "32",
-                "w": "11",
-                "h": "4",
-                "i": "Live",
-                "minW": "7",
-                "minH": "4",
-                "maxH": "4",
-                "isStatic": "false"
-            }
-        },
-        {
             "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
             "widgetProperties": {
                 "i": "HyperLink",
@@ -3297,7 +3244,7 @@
             },
             "properties": {
                 "x": "37",
-                "y": "36",
+                "y": "32",
                 "w": "11",
                 "h": "2",
                 "i": "HyperLink",
@@ -3326,7 +3273,7 @@
             },
             "properties": {
                 "x": "49",
-                "y": "36",
+                "y": "32",
                 "w": "11",
                 "h": "2",
                 "i": "HyperLink",
@@ -3355,7 +3302,7 @@
             },
             "properties": {
                 "x": "37",
-                "y": "38",
+                "y": "34",
                 "w": "11",
                 "h": "2",
                 "i": "HyperLink",
@@ -3384,7 +3331,7 @@
             },
             "properties": {
                 "x": "49",
-                "y": "38",
+                "y": "34",
                 "w": "11",
                 "h": "2",
                 "i": "HyperLink",
