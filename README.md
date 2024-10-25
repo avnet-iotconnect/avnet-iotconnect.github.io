@@ -41,6 +41,7 @@ To quickly jump to documentation, please use the links below:
 ### NXP  
 * [MaaxBoard RT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - P/N: [AES-MC-SBC-IMXRT1176-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imxrt1176-g-3074457345644679188)
 * [MaaXBoard](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MC-SBC-IMX8M-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8m-g-3074457345642080716)
+	* [Voyager Demo](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/MaaxBoard-IoTC-Voyager-Demo.md)
 * [MaaXBoard 8ULP](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MAAXB-8ULP-SK-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-8ulp-sk-g-3074457345648110677)
 * [MaaXBoard Mini](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) - P/N: [AES-MC-SBC-IMX8MINI-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8mini-g-3074457345643866383)
 * [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md) - P/N: MSC SM2S-IMX8PLUS
@@ -54,6 +55,7 @@ RX 32-Bit Performance / Efficiency MCUs
 * [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) ("Blue Board") - P/N: [RTK5CK65N0S08001BE](https://www.avnet.com/shop/us/products/renesas-electronics/rtk5ck65n0s08001be-3074457345653738916)
 
 RA Family of Arm® Cortex®-M based MCUs
+* [EK-RA8M1](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod) - P/N: [RTK7EKA8M1S00001BE](https://www.renesas.com/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra8m1-evaluation-kit-ra8m1-mcu-group)
 * [EK-RA6M4](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod) - P/N: [RTK7EKA6M4S00001BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m4-evaluation-kit-ra6m4-mcu-group)
 * [CK-RA6M5](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod) - P/N: [RTK7CKA6M5S08002BE](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ck-ra6m5-cloud-kit-based-ra6m5-mcu-group)
 * [RASynBoard NDP120 Evaluation Kit](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md) (RA6M4 + DA1660) - P/N: [AES-RASYNB-120-SK-G](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard)
@@ -85,6 +87,7 @@ Low Power Wi-Fi Solutions
   * [Python](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo)
   * [Yocto C](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk/blob/kirkstone/board_specific_readmes/stm32mpu135.md)
   * AWS Greengrass - [BLE Sniffer Component](https://github.com/akarnil/ble_sniffer_component)
+  * [Vision AI Demo](https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1/mickledore-st-x-linux-ai-demo) 
 * STM32MP157F Discovery Kit - P/N: [STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731)
   * [Yocto Python](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/kirkstone/board_specific_readmes/stm32mp157/stm32mp157.md)
   * [Yocto C](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/STM32MP157/README.md)
