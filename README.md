@@ -91,7 +91,7 @@ Low Power Wi-Fi Solutions
 * STM32MP157F Discovery Kit - P/N: [STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731)
   * [Yocto Python](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/kirkstone/board_specific_readmes/stm32mp157/stm32mp157.md)
   * [Yocto C](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/STM32MP157/README.md)
-  * LoRa Gateway - P/N: [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-astra1b/refr-design-board-arm-cortex-m0/dp/33AK9318) & [NUCLEO-WL55JC1](https://www.newark.com/stmicroelectronics/nucleo-wl55jc1/dev-board-32bit-arm-cortex-m0/dp/14AJ2473)
+  * LoRa Gateway - P/N: [STEVAL-ASTRA1B](https://www.newark.com/stmicroelectronics/steval-astra1b/refr-design-board-arm-cortex-m0/dp/33AK9318) & [NUCLEO-WL55JC1](https://www.newark.com/stmicroelectronics/nucleo-wl55jc1/dev-board-32bit-arm-cortex-m0/dp/14AJ2473)
   * [Using with SensorTile.box PRO](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/MKBOXPRO_MP157F_Demo)
   * [Using with Proteus](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo)
 * STM32MP257F Evaluation Board - P/N: [STM32MP257F-EV1](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp257f-ev1-3074457345659668899/)
