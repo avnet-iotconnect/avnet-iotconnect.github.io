@@ -72,7 +72,7 @@ Low Power Wi-Fi Solutions
 	* [FreeRTOS](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main)
 
 
-### STMicroelectronics
+### [STMicroelectronics](partners/st.md)
 * STM32L4 Discovery Kit - P/N: [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
   *  [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4)
 * STM32U5 Discovery Kit - P/N [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
@@ -102,5 +102,3 @@ Low Power Wi-Fi Solutions
   * [Using STM32MP157F Discovery Kit as a Gateway](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/MKBOXPRO_MP157F_Demo)
 * Proteus - P/N: [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-proteus1/evaluation-kit-industrial-sensor/dp/47AK6939)
   * [Using STM32MP157F Discovery Kit as a Gateway](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo)
-
-[test](partners/st.md)
