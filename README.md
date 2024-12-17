@@ -103,4 +103,4 @@ Low Power Wi-Fi Solutions
 * Proteus - P/N: [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-proteus1/evaluation-kit-industrial-sensor/dp/47AK6939)
   * [Using STM32MP157F Discovery Kit as a Gateway](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo)
 
-[test](partners/readme.md)
+[test](partners/st.md)
