@@ -3,6 +3,8 @@
 /IOTCONNECT enabled products by STMicroelectronics
 
 ## STM32N6 Discovery Kit
+<img src="STM32N6570-DK.jpg" width="300" title="STM32N6">
+
 *Purchase:*  [STM32N6570-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32n6570-dk-3074457345660283716)
 
 #### Guides:
