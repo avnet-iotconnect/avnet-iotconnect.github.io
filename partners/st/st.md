@@ -2,7 +2,7 @@
 
 /IOTCONNECT enabled products by STMicroelectronics
 
-## STM32N6 Discovery Kit
+### STM32N6 Discovery Kit
 <img src="STM32N6570-DK.jpg" width="300" title="STM32N6">
 
 *Purchase:*  [STM32N6570-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32n6570-dk-3074457345660283716)
@@ -15,7 +15,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32MP2 Evaluation Board
+### STM32MP2 Evaluation Board
 <img src="STM32MP257F-EV1.jpg" width="300" title="STM32MP2">
 
 *Purchase:*  [STM32MP257F-EV1](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp257f-ev1-3074457345659668899/)
@@ -31,7 +31,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32MP2 Discovery Kit
+### STM32MP2 Discovery Kit
 <img src="STM32N6570-DK.jpg" width="300" title="STM32MP2">
 
 *Purchase:* [STM32MP257F-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp257f-dk-3074457345659691930/)
@@ -43,7 +43,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32U5 Discovery Kit
+### STM32U5 Discovery Kit
 <img src="STM32U5.jpg" width="300" title="STM32U5">
 
 *Purchase:* [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
@@ -57,7 +57,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32H5 Discovery Kit
+### STM32H5 Discovery Kit
 <img src="STM32H5.jpg" width="300" title="STM32H5">
 
 *Purchase:* [STM32H573I-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32h573i-dk-3074457345658096192/)
@@ -70,7 +70,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32MP135 Discovery Kit
+### STM32MP135 Discovery Kit
 <img src="STM32MP135F.jpg" width="300" title="STM32MP135">
 
 *Purchase:* [STM32MP135F-DK]()
@@ -84,7 +84,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32MP157 Discovery Kit
+### STM32MP157 Discovery Kit
 <img src="STM32MP157F.jpg" width="300" title="STM32MP157">
 
 *Purchase:* [STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731)
@@ -99,7 +99,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## SensorTile.box PRO
+### SensorTile.box PRO
 <img src="SensorTilebox-PRO.jpg" width="300" title="SensorTile.box PRO">
 
 *Purchase:* [STEVAL-MKBOXPRO](https://www.newark.com/stmicroelectronics/steval-mkboxpro/sensortile-box-pro-dev-kit-iot/dp/77AK2834)
@@ -112,7 +112,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## Proteus
+### Proteus
 <img src="proteus.jpg" width="300" title="Proteus">
 
 *Purchase:* [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-proteus1/evaluation-kit-industrial-sensor/dp/47AK6939)
@@ -124,7 +124,7 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32L4 Discovery Kit
+### STM32L4 Discovery Kit
 <img src="STM32L4.jpg" width="300" title="STM32L4">
 
 *Purchase:* [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
@@ -136,5 +136,5 @@
 * [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
-## STM32H7
+### STM32H7
 See the [Portenta H7](https://github.com/avnet-iotconnect/iotc-arduino-pro-portenta-h7-demo) repository for more information.
