@@ -5,9 +5,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32N6 Discovery Kit
-<img src="STM32N6570-DK.jpg" width="300" title="STM32N6">
-
 *Purchase:*  [STM32N6570-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32n6570-dk-3074457345660283716)
+
+<img src="STM32N6570-DK.jpg" width="300" title="STM32N6">
 
 #### Guides:
 * [QuickStart Guide](https://github.com/avnet-iotconnect/I-CUBE-IoTC-DA16k-PMOD/blob/main/doc/n6_quickstart.md)
@@ -19,9 +19,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32MP2 Evaluation Board
-<img src="STM32MP257F-EV1.jpg" width="300" title="STM32MP2">
-
 *Purchase:*  [STM32MP257F-EV1](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp257f-ev1-3074457345659668899/)
+
+<img src="STM32MP257F-EV1.jpg" width="300" title="STM32MP2">
 
 #### Guides:
 * [QuickStart Guide](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/STM32MP257.md)
@@ -36,9 +36,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32MP2 Discovery Kit
-<img src="STM32N6570-DK.jpg" width="300" title="STM32MP2">
-
 *Purchase:* [STM32MP257F-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32mp257f-dk-3074457345659691930/)
+
+<img src="STM32N6570-DK.jpg" width="300" title="STM32MP2">
 
 #### Guides:
 * [QuickStart Guide](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/STM32MP257.md)
@@ -49,9 +49,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32U5 Discovery Kit
-<img src="STM32U5.jpg" width="300" title="STM32U5">
-
 *Purchase:* [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
+
+<img src="STM32U5.jpg" width="300" title="STM32U5">
 
 #### Guides:
  * [QuickStart Guide (AWS)](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) - Utilizing IoTConnect on AWS
@@ -64,9 +64,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32H5 Discovery Kit
-<img src="STM32H5.jpg" width="300" title="STM32H5">
-
 *Purchase:* [STM32H573I-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32h573i-dk-3074457345658096192/)
+
+<img src="STM32H5.jpg" width="300" title="STM32H5">
 
 #### Guides:
  * [QuickStart Guide (AWS)](https://github.com/avnet-iotconnect/iotc-freertos-stm32-h5) - Utilizing IoTConnect on AWS
@@ -78,9 +78,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32MP135 Discovery Kit
-<img src="STM32MP135F.jpg" width="300" title="STM32MP135">
-
 *Purchase:* [STM32MP135F-DK]()
+
+<img src="STM32MP135F.jpg" width="300" title="STM32MP135">
 
 #### Guides:
  * [Get Started with Python](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo)
@@ -93,9 +93,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32MP157 Discovery Kit
-<img src="STM32MP157F.jpg" width="300" title="STM32MP157">
-
 *Purchase:* [STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731)
+
+<img src="STM32MP157F.jpg" width="300" title="STM32MP157">
 
 #### Guides:
 * [Get Started with Yocto Python](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/kirkstone/board_specific_readmes/stm32mp157/stm32mp157.md)
@@ -109,9 +109,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### SensorTile.box PRO
-<img src="SensorTilebox-PRO.jpg" width="300" title="SensorTile.box PRO">
-
 *Purchase:* [STEVAL-MKBOXPRO](https://www.newark.com/stmicroelectronics/steval-mkboxpro/sensortile-box-pro-dev-kit-iot/dp/77AK2834)
+
+<img src="SensorTilebox-PRO.jpg" width="300" title="SensorTile.box PRO">
 
 #### Guides:
 * [Using the IoTConnect App as Gateway](https://github.com/avnet-iotconnect/iotc-gateway-mobile-app)
@@ -123,9 +123,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### Proteus
-<img src="proteus.jpg" width="300" title="Proteus">
-
 *Purchase:* [STEVAL-PROTEUS1](https://www.newark.com/stmicroelectronics/steval-proteus1/evaluation-kit-industrial-sensor/dp/47AK6939)
+
+<img src="proteus.jpg" width="300" title="Proteus">
 
 #### Guides:
 * [Using STM32MP157F Discovery Kit as a Gateway](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo)
@@ -136,9 +136,9 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### STM32L4 Discovery Kit
-<img src="STM32L4.jpg" width="300" title="STM32L4">
-
 *Purchase:* [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
+
+<img src="STM32L4.jpg" width="300" title="STM32L4">
 
 #### Guides:
 *  [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) - Utilizing IoTConnect on Azure
