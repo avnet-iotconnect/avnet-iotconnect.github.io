@@ -72,7 +72,7 @@ Low Power Wi-Fi Solutions
 	* [FreeRTOS](https://github.com/avnet-iotconnect/iotc-dialog-da16k-sdk/tree/main)
 
 
-### [STMicroelectronics](partners/st.md)
+### [STMicroelectronics](partners/st/st.md)
 * STM32L4 Discovery Kit - P/N: [B-L475E-IOT01A2](https://www.avnet.com/shop/us/products/stmicroelectronics/b-l475e-iot01a2-3074457345646183681)
   *  [AzureRTOS](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4)
 * STM32U5 Discovery Kit - P/N [B-U585I-IOT02A](https://www.avnet.com/shop/us/products/stmicroelectronics/b-u585i-iot02a-3074457345647217745)
