@@ -108,6 +108,32 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 
 ---
 
+### LoRa Gateway (ASTRA-based)
+*Purchase:* [STEVAL-ASTRA1B](https://www.newark.com/stmicroelectronics/steval-astra1b/refr-design-board-arm-cortex-m0/dp/33AK9318)
+
+<img src="STEVAL-ASTRA1B.jpg" width="300" title="STEVAL-ASTRA1B"> 
+
+#### Guides:
+* [LoRa & /IOTCONNECT Integration](https://github.com/avnet-iotconnect/iotc-lora-demos)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/st)
+
+---
+
+### LoRa Gateway (NUCLEO-based)
+*Purchase:* [NUCLEO-WL55JC1](https://www.newark.com/stmicroelectronics/nucleo-wl55jc1/dev-board-32bit-arm-cortex-m0/dp/14AJ2473)
+
+<img src="NUCLEO.jpg" width="300" title="NUCLEO"> 
+
+#### Guides:
+* [LoRa & /IOTCONNECT Integration](https://github.com/avnet-iotconnect/iotc-lora-demos)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/st)
+
+---
+
 ### SensorTile.box PRO
 *Purchase:* [STEVAL-MKBOXPRO](https://www.newark.com/stmicroelectronics/steval-mkboxpro/sensortile-box-pro-dev-kit-iot/dp/77AK2834)
 
