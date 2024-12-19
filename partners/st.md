@@ -4,7 +4,7 @@
 
 ## STM32N6 Discovery Kit
 
-<img src="https://www.avnet.com/wps/wcm/connect/onesite/ec153de6-f18d-4475-8fa8-a8e8862239b3/STM32N6570-DK-with-camera-perspective-v2.jpg" width="300" alt="STM32N6">
+<img src="https://www.avnet.com/wps/wcm/connect/onesite/ec153de6-f18d-4475-8fa8-a8e8862239b3/STM32N6570-DK-with-camera-perspective-v2.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_NA5A1I41L0ICD0ABNDMDDG0000-ec153de6-f18d-4475-8fa8-a8e8862239b3-peNLDiH" width="300" alt="STM32N6">
 
 | Purchase                                                                                                     | Resources                                                                                                                                                                                                               | More Information                                               |
 |:-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
