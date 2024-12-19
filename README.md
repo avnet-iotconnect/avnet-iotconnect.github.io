@@ -1,4 +1,4 @@
-## Avnet IoTConnect Repository Index
+## Avnet /IOTCONNECT Repository Index
 To quickly jump to documentation, please use the links below:
 
 ### Arduino
