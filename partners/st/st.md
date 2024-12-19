@@ -1,6 +1,8 @@
 # STMicroelectronics
 
-/IOTCONNECT enabled products by STMicroelectronics
+STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
+
+---
 
 ### STM32N6 Discovery Kit
 <img src="STM32N6570-DK.jpg" width="300" title="STM32N6">
