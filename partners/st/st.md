@@ -13,6 +13,7 @@
 #### Resources:
 * [Blog: Unlocking the Power of EdgeAI](https://news.avnet.com/news-blog/news-blog-details/2024/Unlocking-the-Power-of-EdgeAI-Avnet-STMicroelectronics-and-AWS-team-up-to-show-the-power-of-the-STM32N6-MCU/default.aspx)
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32MP2 Evaluation Board
@@ -29,6 +30,7 @@
 * [Video: Vision AI Demo](https://players.brightcove.net/4598493563001/BkZJhSKu_default/index.html?videoId=6363657298112)
 * [Video: Edge AI](https://players.brightcove.net/4598493563001/BkZJhSKu_default/index.html?videoId=6363655095112)
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32MP2 Discovery Kit
@@ -41,6 +43,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32U5 Discovery Kit
@@ -55,6 +58,7 @@
  
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32H5 Discovery Kit
@@ -68,6 +72,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32MP135 Discovery Kit
@@ -82,6 +87,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32MP157 Discovery Kit
@@ -97,6 +103,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### SensorTile.box PRO
@@ -110,6 +117,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### Proteus
@@ -122,6 +130,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32L4 Discovery Kit
@@ -134,6 +143,7 @@
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
+
 ---
 
 ### STM32H7
