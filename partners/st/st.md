@@ -3,14 +3,14 @@
 /IOTCONNECT enabled products by STMicroelectronics
 
 ## STM32N6 Discovery Kit
+*Purchase:*  [STM32N6570-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32n6570-dk-3074457345660283716)
 
-| Purchase                                                                                                     | Resources                                                                                                                                                                                                               | More Information                                               |
-|:-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [STM32N6570-DK](https://www.avnet.com/shop/us/products/stmicroelectronics/stm32n6570-dk-3074457345660283716) | [Blog: Unlocking the Power of EdgeAI](https://news.avnet.com/news-blog/news-blog-details/2024/Unlocking-the-Power-of-EdgeAI-Avnet-STMicroelectronics-and-AWS-team-up-to-show-the-power-of-the-STM32N6-MCU/default.aspx) | [avnet.com/iotconnect/st](https://www.avnet.com/iotconnect/st) |
-
-**Guide(s)**:
+#### Guides:
 * [QuickStart Guide](https://github.com/avnet-iotconnect/I-CUBE-IoTC-DA16k-PMOD/blob/main/doc/n6_quickstart.md)
 
+#### Resources:
+* [Blog: Unlocking the Power of EdgeAI](https://news.avnet.com/news-blog/news-blog-details/2024/Unlocking-the-Power-of-EdgeAI-Avnet-STMicroelectronics-and-AWS-team-up-to-show-the-power-of-the-STM32N6-MCU/default.aspx)
+* [More Information](https://www.avnet.com/iotconnect/st)
 ---
 
 ## STM32MP2 Evaluation Board
