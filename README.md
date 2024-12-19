@@ -15,7 +15,7 @@ To quickly jump to documentation, please use the links below:
 ### Avnet
 * [IoTConnect Bridge](https://github.com/avnet-iotconnect/iotc-gateway-mobile-app) (Mobile App for use as a BLE Gateway)
 
-### Infineon Technologies
+### [Infineon Technologies](partners/infineon/readme.md)
 * [PSoC&trade; 6 Wi-Fi Bluetooth&reg; pioneer kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CKIT-062-WIFI-BT](https://www.avnet.com/shop/us/products/infineon/cy8ckit-062-wifi-bt-3074457345644457811)
 * [PSoC&trade; 6 Wi-Fi Bluetooth&reg; prototyping kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CY8CPROTO-062-4343W](https://www.infineon.com/cms/en/product/evaluation-boards/cy8cproto-062-4343w/)
 * [PSoC&trade; 62S1 Wi-Fi Bluetooth&reg; pioneer kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) - P/N: [CYW9P62S1-43438EVB-01](https://www.infineon.com/cms/en/product/evaluation-boards/cyw9p62s1-43438evb-01/)
