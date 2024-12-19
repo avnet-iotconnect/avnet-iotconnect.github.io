@@ -54,8 +54,8 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 <img src="STM32U5.jpg" width="300" title="STM32U5">
 
 #### Guides:
- * [QuickStart Guide (AWS)](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) - Utilizing IoTConnect on AWS
- * [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) - Utilizing IoTConnect on Azure
+ * [QuickStart Guide (AWS)](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5) - Utilizing /IOTCONNECT on AWS
+ * [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5) - Utilizing /IOTCONNECT on Azure
  * [Demo: Smart City Noise Detection](https://github.com/avnet-iotconnect/iotc-freertos-stm32-u5-ml-demo) - AI/ML Demonstration
  
 #### Resources:
@@ -69,8 +69,8 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 <img src="STM32H5.jpg" width="300" title="STM32H5">
 
 #### Guides:
- * [QuickStart Guide (AWS)](https://github.com/avnet-iotconnect/iotc-freertos-stm32-h5) - Utilizing IoTConnect on AWS
- * [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5) - Utilizing IoTConnect on Azure
+ * [QuickStart Guide (AWS)](https://github.com/avnet-iotconnect/iotc-freertos-stm32-h5) - Utilizing /IOTCONNECT on AWS
+ * [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-h5) - Utilizing /IOTCONNECT on Azure
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
@@ -140,7 +140,7 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 <img src="SensorTilebox-PRO.jpg" width="300" title="SensorTile.box PRO">
 
 #### Guides:
-* [Using the IoTConnect App as Gateway](https://github.com/avnet-iotconnect/iotc-gateway-mobile-app)
+* [Using the /IOTCONNECT App as Gateway](https://github.com/avnet-iotconnect/iotc-gateway-mobile-app)
 * [Using the STM32MP157F Discovery Kit as a Gateway](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/MKBOXPRO_MP157F_Demo)
 
 #### Resources:
@@ -167,7 +167,7 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 <img src="STM32L4.jpg" width="300" title="STM32L4">
 
 #### Guides:
-*  [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) - Utilizing IoTConnect on Azure
+*  [QuickStart Guide (Azure)](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4) - Utilizing /IOTCONNECT on Azure
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/st)
