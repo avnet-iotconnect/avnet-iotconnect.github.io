@@ -17,6 +17,7 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 * [Video Demo: PSoC6 AI Sound Classification](https://youtu.be/6mzo-koVk00?si=K7YGhhSrIb4A8PFz)
 * [Video Demo: Human Activity Detection](https://bcove.video/40i9psn)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
+
 ---
 
 ### XENSIV™ KIT CSK PASCO2
