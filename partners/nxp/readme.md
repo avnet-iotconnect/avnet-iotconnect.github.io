@@ -1,0 +1,71 @@
+# NXP
+
+NXP products that have been pre-enabled to work with /IOTCONNECT.
+
+---
+
+### MaaxBoard RT
+*Purchase:*  [AES-MC-SBC-IMXRT1176-G](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653385127/)
+
+<img src="AES-MC-SBC-IMXRT1176-G.jpg" width="300" title="AES-MC-SBC-IMXRT1176-G">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/blob/main/samples/maaxboardrt/QUICKSTART.md)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
+
+### MaaXBoard Single Board Computer
+*Purchase:*  [AES-MC-SBC-IMX8M-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8m-g-3074457345642080716)
+
+<img src="AES-MC-SBC-IMX8M-G.jpg" width="300" title="AES-MC-SBC-IMX8M-G">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
+
+### MaaxBoard 8ULP
+*Purchase:*  [AES-MAAXB-8ULP-SK-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-8ulp-sk-g-3074457345648110677)
+
+<img src="AES-MAAXB-8ULP-SK-G.jpg" width="300" title="AES-MAAXB-8ULP-SK-G">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
+
+### MaaxBoard Mini
+*Purchase:*  [AES-MC-SBC-IMX8MINI-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-mc-sbc-imx8mini-g-3074457345643866383)
+
+<img src="AES-MC-SBC-IMX8MINI-G.jpg" width="300" title="AES-MC-SBC-IMX8MINI-G">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+
+#### Resources:
+* [Video: Chip to Cloud EV Charging Solution](https://bcove.video/3A04q5f)
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
+
+### i.MX RT1060 Evaluation Kit
+*Purchase:*  [MIMXRT1060-EVKB](https://www.avnet.com/shop/us/products/nxp/mimxrt1060-evkb-3074457345653941780/)
+
+<img src="MIMXRT1060-EVKB.jpg" width="300" title="MIMXRT1060-EVKB">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
