@@ -13,6 +13,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/blob/main/samples/maaxboardrt/QUICKSTART.md)
 
 #### Resources:
+[GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt)
 * [More Information](https://www.avnet.com/iotconnect/nxp)
 
 ---
@@ -23,7 +24,8 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 <img src="AES-MC-SBC-IMX8M-G.jpg" width="300" title="AES-MC-SBC-IMX8M-G">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+* [Compilation Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+* [Demo Guide: Track Voyager](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-yocto-c-sdk/voyager-demo/MaaxBoard-IoTC-Voyager-Demo.md)
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/nxp)
@@ -36,7 +38,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 <img src="AES-MAAXB-8ULP-SK-G.jpg" width="300" title="AES-MAAXB-8ULP-SK-G">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+* [Compilation Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
 
 #### Resources:
 * [More Information](https://www.avnet.com/iotconnect/nxp)
@@ -49,7 +51,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 <img src="AES-MC-SBC-IMX8MINI-G.jpg" width="300" title="AES-MC-SBC-IMX8MINI-G">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+* [Compilation Guide](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
 
 #### Resources:
 * [Video: Chip to Cloud EV Charging Solution](https://bcove.video/3A04q5f)
@@ -63,9 +65,23 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 <img src="MIMXRT1060-EVKB.jpg" width="300" title="MIMXRT1060-EVKB">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060)
 
 #### Resources:
+* [GitHub Repository Folder](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060)
 * [More Information](https://www.avnet.com/iotconnect/nxp)
 
 ---
+
+### MSC SM2S-IMX8PLUS
+*Order Info:*  [SM2S-IMX8PLUS](https://embedded.avnet.com/product/msc-sm2s-imx8plus/#order_info)
+
+<img src="board_SM_MSC_IMX8PLUS_small.png" width="300" title="MIMXRT1060-EVKB">
+
+#### Guides:
+* [Build Information](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md)
+
+#### Resources:
+* [More Information](https://embedded.avnet.com/product/msc-sm2s-imx8plus)
+
+---
+See Also: [MSC SM2S-MB-EP5](https://embedded.avnet.com/simpleswitch-registration) - SimpleFlex, Application-Ready Embedded Platform SMARC™ 2.1
