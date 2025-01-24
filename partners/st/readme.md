@@ -10,7 +10,7 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 <img src="STM32N6570-DK.jpg" width="300" title="STM32N6">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/I-CUBE-IoTC-DA16k-PMOD/blob/main/doc/n6_quickstart.md)
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/blob/main/doc/QUICKSTART.md)
 
 #### Resources:
 * [Blog: Unlocking the Power of EdgeAI](https://news.avnet.com/news-blog/news-blog-details/2024/Unlocking-the-Power-of-EdgeAI-Avnet-STMicroelectronics-and-AWS-team-up-to-show-the-power-of-the-STM32N6-MCU/default.aspx)
