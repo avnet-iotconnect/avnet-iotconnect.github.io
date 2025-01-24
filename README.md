@@ -15,7 +15,7 @@ To quickly jump to documentation, please use the links below:
 ### Avnet
 * [IoTConnect Bridge](https://github.com/avnet-iotconnect/iotc-gateway-mobile-app) (Mobile App for use as a BLE Gateway)
 
-### Pre-enabled Examples Hardware 
+### Pre-enabled Hardware Examples
 
 <table><thead>
   <tr>
