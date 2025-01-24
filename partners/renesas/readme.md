@@ -13,6 +13,7 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod/blob/main/QUICKSTART.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra8m1-pmod)
 * [More Information](https://www.avnet.com/iotconnect/renesas)
 
 ---
@@ -26,6 +27,7 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod/blob/master/QUICKSTART.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod)
 * [More Information](https://www.avnet.com/iotconnect/renesas)
 
 ---
@@ -39,6 +41,7 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod/blob/master/QUICKSTART.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-freertos-ek-ra6m4-pmod)
 * [More Information](https://www.avnet.com/iotconnect/renesas)
 
 ---
@@ -50,6 +53,7 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 
 #### Guides:
 * [QuickStart Guide](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/IoTConnect.md)
+* [RASynPuck Demo](https://github.com/Avnet/RASynBoard-Out-of-Box-Demo/blob/rasynboard_v2_tiny/docs/RASynPuckDemo.md)
 
 #### Resources:
 * [Webinar: Unlock the Future of Industrial AI with Advanced Acoustic and Vibration Monitoring](https://edgeimpulse.com/events/unlock-the-future-of-industrial-ai-with-advanced-acoustic-and-vibration-monitoring)
@@ -139,8 +143,10 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 
 #### Guides:
 * [QuickStart Guide](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/ck-rx65n/QUICKSTART.md)
+* [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-azurertos-sdk/samples/ck-rx65n/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Folder](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n)
 * [More Information](https://www.avnet.com/iotconnect/renesas)
 
 ---
