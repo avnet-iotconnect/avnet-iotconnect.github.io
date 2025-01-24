@@ -10,9 +10,11 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 <img src="CY8CKIT-062S2-AI.jpg" width="300" title="CY8CKIT-062S2-AI">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor/blob/main/QUICKSTART.md)
+* [QuickStart Guide: Sound Recognition (Baby Cry) Demo](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor/blob/main/QUICKSTART.md)
+* [QuickStart Guide: Inertial Measurement Unit (Human Activity Detection) Demo](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imu-example)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor)
 * [Webinar: Infineon PSoC 6 AI Evaluation Kit](https://bcove.video/4gLtaP9)
 * [Video Demo: PSoC6 AI Sound Classification](https://youtu.be/6mzo-koVk00?si=K7YGhhSrIb4A8PFz)
 * [Video Demo: Human Activity Detection](https://bcove.video/40i9psn)
@@ -27,8 +29,10 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 
 #### Guides:
 * [QuickStart Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example/blob/main/QUICKSTART.md)
+* [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example)
 * [Webinar: Connect XENSIV to /IOTCONNECT](https://bcove.video/3UmzhQl)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
 
@@ -43,6 +47,7 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 * [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
 
 ---
@@ -56,6 +61,7 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 * [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
 
 ---
@@ -70,6 +76,7 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 * [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
 
 ---
@@ -83,6 +90,7 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 * [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
 
 ---
@@ -96,4 +104,5 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 * [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example)
 * [More Information](https://www.avnet.com/iotconnect/infineon)
