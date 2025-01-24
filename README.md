@@ -24,7 +24,7 @@ You can expect to find things such as:
 * **References:** Links to other learning material including webinars and blog posts.
 
 > [!TIP]
-> /IOTCONNECT is compatible with most **ALL** MPUs and MCUs by leveraging our various SDKs. If the specific product you're interested in is not listed, please see our SDK information for instructions on how to integrate.
+> /IOTCONNECT is compatible with most **ALL** MPUs and MCUs by leveraging our various SDKs. If the specific product you're interested in is not listed, please see our [SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/) for instructions on how to integrate.
 
 <table><thead>
   <tr>
