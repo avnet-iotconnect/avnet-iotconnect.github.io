@@ -1,4 +1,4 @@
-## Avnet /IOTCONNECT Repository Index
+# Avnet /IOTCONNECT Repository Index
 To quickly jump to documentation, please use the links below:
 
 ### Arduino
@@ -15,7 +15,16 @@ To quickly jump to documentation, please use the links below:
 ### Avnet
 * [IoTConnect Bridge](https://github.com/avnet-iotconnect/iotc-gateway-mobile-app) (Mobile App for use as a BLE Gateway)
 
-### Pre-enabled Hardware Examples
+## /IOTCONNECT Enabled Hardware Examples
+The GitHub links below will list all the hardware that has software available that works with /IOTCONNECT "out of the box."  
+You can expect to find things such as:
+* **QuickStart Guides:** Step-by-step instructions on board bring-up through cloud connectivity without the need to write any code!
+* **Developer Guides:** Same as above, but with more instruction on how to compile the code from source.
+* **Demos:** Similar to QuickStart and Developer Guides, but typically demonstrating a specific use-case / application.
+* **References:** Links to other learning material including webinars and blog posts.
+
+> [!TIP]
+> /IOTCONNECT is compatible with most **ALL** MPUs and MCUs by leveraging our various SDKs. If the specific product you're interested in is not listed, please see our SDK information for instructions on how to integrate.
 
 <table><thead>
   <tr>
