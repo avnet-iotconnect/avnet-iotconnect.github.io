@@ -35,10 +35,10 @@ You can expect to find things such as:
     <td><a href="/partners/st/readme.md">STMicroelectronics</a></td>
   </tr></thead>
   <tr>
-    <td><img src="/partners/infineon/infineon-logo.png></td>
-    <td><img src="/partners/microchip/microchip-logo.png</td>
-    <td><img src="/partners/nxp/nxp-logo.png/td>
-    <td><img src="/partners/renesas/rnenesas-logo.png</td>
-    <td><img src="/partners/st/st-logo.png</td>
+    <td><img src="/partners/infineon/infineon-logo.png"></td>
+    <td><img src="/partners/microchip/microchip-logo.png"></td>
+    <td><img src="/partners/nxp/nxp-logo.png"></td>
+    <td><img src="/partners/renesas/renesas-logo.png"></td>
+    <td><img src="/partners/st/st-logo.png"></td>
   </tr>
 </table>
