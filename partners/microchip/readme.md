@@ -13,6 +13,7 @@ Microchip products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot)
 
 #### Resources:
+* [GitHub Repository Folder](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot)
 * [Webinar: Modernized Condition Monitoring With Next-Generation Sensors](https://event.webcasts.com/starthere.jsp?ei=1689041&tp_key=dc351d6c73)
 * [More Information](https://www.avnet.com/iotconnect/microchip)
 
@@ -27,6 +28,7 @@ Microchip products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk)
 
 #### Resources:
+* [GitHub Repository Folder](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk)
 * [Webinar: Developing a Soil Moisture Sensor with the AVR-IoT Cellular Mini Board](https://event.on24.com/wcc/r/4748672/A0619108F2303A3D794F5AFE8D4B9FA2)
 * [More Information](https://www.avnet.com/iotconnect/microchip)
 
