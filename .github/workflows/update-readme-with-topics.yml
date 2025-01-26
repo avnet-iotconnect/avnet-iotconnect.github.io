@@ -11,20 +11,60 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
-      - name: Fetch current Topics via GitHub API
-        id: get_topics
+
+      - name: Define repositories
+        id: define_repos
         run: |
-          RESPONSE=$(curl -s \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/${{ github.repository }}/topics)
-          TOPIC_NAMES=$(echo "$RESPONSE" | jq -r '.names | join(",")')
-          echo "names=$TOPIC_NAMES" >> $GITHUB_OUTPUT
-      - name: Update README with current Topics
-        id: update_readme
+          # We'll create a JSON array of objects, each with "repoName" and "placeholder"
+          echo "repos=[ \
+            {\"repoName\":\"avnet-iotconnect/iotc-c-lib\",\"placeholder\":\"iotc-c-lib-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-generic-c-sdk\",\"placeholder\":\"iotc-generic-c-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-yocto-c-sdk\",\"placeholder\":\"iotc-yocto-c-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-python-sdk\",\"placeholder\":\"iotc-python-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-python-lite-sdk\",\"placeholder\":\"iotc-python-lite-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/meta-iotc-sdk-lite\",\"placeholder\":\"meta-iotc-sdk-lite-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-yocto-python-sdk\",\"placeholder\":\"iotc-yocto-python-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-dotnet-sdk\",\"placeholder\":\"iotc-dotnet-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-node-sdk\",\"placeholder\":\"iotc-node-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-ios-swift-sdk\",\"placeholder\":\"iotc-ios-swift-sdk-topics\"}, \
+            {\"repoName\":\"avnet-iotconnect/iotc-android-sdk\",\"placeholder\":\"iotc-android-sdk-topics\"} \
+          ]" >> $GITHUB_OUTPUT
+
+      - name: Convert repos to a file
+        id: repos_to_file
         run: |
-          BULLET_LIST=$(echo ${{ steps.get_topics.outputs.names }} | sed 's/,/\n- /g')
-          sed -i "/<!-- START:topics -->/,/<!-- END:topics -->/c\\<!-- START:topics -->\n- $BULLET_LIST\n<!-- END:topics -->" README.md
+          echo "${{ steps.define_repos.outputs.repos }}" > repos.json
+
+      - name: Loop over each repo
+        id: loop_repos
+        run: |
+          # We'll parse repos.json, iterate each repo, fetch topics, and run sed on README.md
+          cat repos.json | jq -c '.[]' | while read item; do
+            repoName=$(echo "$item" | jq -r '.repoName')
+            placeholder=$(echo "$item" | jq -r '.placeholder')
+
+            echo "Fetching topics for $repoName ..."
+
+            # Fetch topics for that repo
+            RESPONSE=$(curl -s \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/$repoName/topics)
+
+            TOPIC_NAMES=$(echo "$RESPONSE" | jq -r '.names | join(",")')
+            if [ -z "$TOPIC_NAMES" ] || [ "$TOPIC_NAMES" = "null" ]; then
+              echo "No topics for $repoName or repo not found."
+              BULLET_LIST="- None"
+            else
+              # Convert comma-separated to bullet list
+              BULLET_LIST=$(echo $TOPIC_NAMES | sed 's/,/\n- /g')
+            fi
+
+            # Now replace placeholder in README.md
+            echo "Replacing placeholder for $placeholder in README.md"
+            sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\n- $BULLET_LIST\n<!-- END:${placeholder} -->" README.md
+
+          done
 
       - name: Commit and Push changes (if any)
         run: |
@@ -32,7 +72,7 @@ jobs:
             git config user.name "github-actions"
             git config user.email "github-actions@github.com"
             git add README.md
-            git commit -m "Auto-update README with latest topics"
+            git commit -m "Auto-update README with latest topics for all repos"
             git push
           else
             echo "No changes to commit."
