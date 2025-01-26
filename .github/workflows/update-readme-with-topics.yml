@@ -67,7 +67,7 @@ jobs:
           done
 
       - name: Cleanup
-      run: rm repos.json
+       run: rm repos.json
       
       - name: Commit and Push changes (if any)
         run: |
