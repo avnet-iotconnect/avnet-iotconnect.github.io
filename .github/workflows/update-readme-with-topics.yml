@@ -12,27 +12,27 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-    - name: Create repos.json
-      run: |
-        cat <<EOF > repos.json
-        [
-          {"repoName": "avnet-iotconnect/iotc-c-lib", "placeholder": "iotc-c-lib-topics"},
-          {"repoName": "avnet-iotconnect/iotc-generic-c-sdk", "placeholder": "iotc-generic-c-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-yocto-c-sdk", "placeholder": "iotc-yocto-c-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-python-sdk", "placeholder": "iotc-python-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-python-lite-sdk", "placeholder": "iotc-python-lite-sdk-topics"},
-          {"repoName": "avnet-iotconnect/meta-iotc-sdk-lite", "placeholder": "meta-iotc-sdk-lite-topics"},
-          {"repoName": "avnet-iotconnect/iotc-yocto-python-sdk", "placeholder": "iotc-yocto-python-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-dotnet-sdk", "placeholder": "iotc-dotnet-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-node-sdk", "placeholder": "iotc-node-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-ios-swift-sdk", "placeholder": "iotc-ios-swift-sdk-topics"},
-          {"repoName": "avnet-iotconnect/iotc-android-sdk", "placeholder": "iotc-android-sdk-topics"}
-        ]
-        EOF
+      - name: Create repos.json
+        run: |
+          cat <<EOF > repos.json
+          [
+            {"repoName": "avnet-iotconnect/iotc-c-lib", "placeholder": "iotc-c-lib-topics"},
+            {"repoName": "avnet-iotconnect/iotc-generic-c-sdk", "placeholder": "iotc-generic-c-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-yocto-c-sdk", "placeholder": "iotc-yocto-c-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-python-sdk", "placeholder": "iotc-python-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-python-lite-sdk", "placeholder": "iotc-python-lite-sdk-topics"},
+            {"repoName": "avnet-iotconnect/meta-iotc-sdk-lite", "placeholder": "meta-iotc-sdk-lite-topics"},
+            {"repoName": "avnet-iotconnect/iotc-yocto-python-sdk", "placeholder": "iotc-yocto-python-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-dotnet-sdk", "placeholder": "iotc-dotnet-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-node-sdk", "placeholder": "iotc-node-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-ios-swift-sdk", "placeholder": "iotc-ios-swift-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-android-sdk", "placeholder": "iotc-android-sdk-topics"}
+          ]
+          EOF
 
-    - name: Loop over each repo
-      run: |
-        cat repos.json | jq -c '.[]' | while read item; do
+      - name: Loop over each repo
+        run: |
+         cat repos.json | jq -c '.[]' | while read item; do   
           repoName=$(echo "$item" | jq -r '.repoName')
           placeholder=$(echo "$item" | jq -r '.placeholder')
     
@@ -53,7 +53,7 @@ jobs:
     
           echo "Replacing placeholder for $placeholder in README.md"
           sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\n- $BULLET_LIST\n<!-- END:${placeholder} -->" README.md
-        done
+         done
 
 
       - name: Cleanup
