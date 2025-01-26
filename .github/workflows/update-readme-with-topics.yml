@@ -35,33 +35,37 @@ jobs:
           cat repos.json | jq -c '.[]' | while read item; do
             repoName=$(echo "$item" | jq -r '.repoName')
             placeholder=$(echo "$item" | jq -r '.placeholder')
-
+      
             echo "Fetching topics for $repoName ..."
             RESPONSE=$(curl -s \
               -H "Accept: application/vnd.github.v3+json" \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               https://api.github.com/repos/$repoName/topics)
-
+      
+            # Join all topic names with commas
             TOPIC_NAMES=$(echo "$RESPONSE" | jq -r '.names | join(",")')
-
+      
             if [ -z "$TOPIC_NAMES" ] || [ "$TOPIC_NAMES" = "null" ]; then
               echo "No topics for $repoName or repo not found."
-              BULLET_LIST="- None"
+              TAG_LINE="Tags: None"
             else
-              BULLET_LIST=$(echo "$TOPIC_NAMES" | sed 's/,/\n- /g')
+              # Replace commas with ", " and prepend "Tags: "
+              TAG_LINE="Tags: $(echo "$TOPIC_NAMES" | sed 's/,/, /g')"
             fi
-
-            # Escape for sed multi-line
-            ESCAPED_BULLET_LIST=$(printf '%s' "$BULLET_LIST" \
-              | sed ':a;N;$!ba;s/\n/\\n/g' \
-              | sed 's/\\/\\\\/g; s/\//\\\//g; s/&/\\&/g')
-
+      
+            # Escape forward slashes & ampersands for sed
+            # (We don't need newline escaping if it's all one line)
+            ESCAPED_TAG_LINE=$(printf '%s' "$TAG_LINE" \
+              | sed 's/\//\\\//g; s/&/\\&/g')
+      
             echo "Replacing placeholder for $placeholder in README.md"
+      
+            # Single-line replacement
             sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\\
-            $ESCAPED_BULLET_LIST\\
-            <!-- END:${placeholder} -->" README.md
-            done
-
+      $ESCAPED_TAG_LINE\\
+      <!-- END:${placeholder} -->" README.md
+          done
+     
       - name: Cleanup
         run: rm repos.json
 
