@@ -57,7 +57,9 @@ jobs:
               | sed 's/\\/\\\\/g; s/\//\\\//g; s/&/\\&/g')
 
             echo "Replacing placeholder for $placeholder in README.md"
-            sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\\$ESCAPED_BULLET_LIST\\<!-- END:${placeholder} -->" README.md
+            sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\\
+            $ESCAPED_BULLET_LIST\\
+            <!-- END:${placeholder} -->" README.md
             done
 
       - name: Cleanup
@@ -73,3 +75,5 @@ jobs:
             git push
           else
             echo "No changes to commit."
+          fi
+           
