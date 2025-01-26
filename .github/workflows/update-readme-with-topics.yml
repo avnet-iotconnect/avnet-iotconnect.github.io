@@ -62,9 +62,9 @@ jobs:
       
             # Single-line replacement
             sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\\
-      $ESCAPED_TAG_LINE\\
-      <!-- END:${placeholder} -->" README.md
-          done
+            $ESCAPED_TAG_LINE\\
+            <!-- END:${placeholder} -->" README.md
+            done
      
       - name: Cleanup
         run: rm repos.json
