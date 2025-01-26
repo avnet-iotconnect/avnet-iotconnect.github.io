@@ -2,8 +2,8 @@ name: Update README with Topics
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'    # Runs daily at midnight (UTC)
+  workflow_dispatch:        # Allows manual trigger
 
 jobs:
   update-readme:
@@ -32,33 +32,43 @@ jobs:
 
       - name: Loop over each repo
         run: |
-         cat repos.json | jq -c '.[]' | while read item; do   
-          repoName=$(echo "$item" | jq -r '.repoName')
-          placeholder=$(echo "$item" | jq -r '.placeholder')
-    
-          echo "Fetching topics for $repoName ..."
-    
-          RESPONSE=$(curl -s \
-            -H "Accept: application/vnd.github.v3+json" \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/$repoName/topics)
-    
-          TOPIC_NAMES=$(echo "$RESPONSE" | jq -r '.names | join(",")')
-          if [ -z "$TOPIC_NAMES" ] || [ "$TOPIC_NAMES" = "null" ]; then
-            echo "No topics for $repoName or repo not found."
-            BULLET_LIST="- None"
-          else
-            BULLET_LIST=$(echo "$TOPIC_NAMES" | sed 's/,/\n- /g')
-          fi
-    
-          echo "Replacing placeholder for $placeholder in README.md"
-          sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\n- $BULLET_LIST\n<!-- END:${placeholder} -->" README.md
-         done
+          # Parse repos.json, fetch topics for each repo, and replace placeholders in README.md
+          cat repos.json | jq -c '.[]' | while read item; do
+            repoName=$(echo "$item" | jq -r '.repoName')
+            placeholder=$(echo "$item" | jq -r '.placeholder')
 
+            echo "Fetching topics for $repoName ..."
+            RESPONSE=$(curl -s \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/$repoName/topics)
+
+            # Extract topic names as a comma-separated list
+            TOPIC_NAMES=$(echo "$RESPONSE" | jq -r '.names | join(",")')
+
+            if [ -z "$TOPIC_NAMES" ] || [ "$TOPIC_NAMES" = "null" ]; then
+              echo "No topics for $repoName or repo not found."
+              BULLET_LIST="- None"
+            else
+              # Turn commas into newlines with a leading dash (bullet)
+              BULLET_LIST=$(echo "$TOPIC_NAMES" | sed 's/,/\n- /g')
+            fi
+
+            # Escape newlines and special characters so sed c\ can handle them
+            ESCAPED_BULLET_LIST=$(printf '%s' "$BULLET_LIST" \
+              | sed ':a;N;$!ba;s/\n/\\n/g' \
+              | sed 's/\\/\\\\/g; s/\//\\\//g; s/&/\\&/g')
+
+            echo "Replacing placeholder for $placeholder in README.md"
+            sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\\
+$ESCAPED_BULLET_LIST\\
+<!-- END:${placeholder} -->" README.md
+
+          done
 
       - name: Cleanup
         run: rm repos.json
-      
+
       - name: Commit and Push changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
@@ -69,4 +79,3 @@ jobs:
             git push
           else
             echo "No changes to commit."
-          fi
