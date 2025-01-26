@@ -1,159 +1,189 @@
 # IoTConnect Enablement Directory
 
-Welcome to the **IoTConnect** enablement directory! This top-level page helps you quickly navigate our repositories, examples, and SDKs. We’ve grouped everything into three primary categories:
-
-1. [Language](#language)  
-2. [Operating System (OS)](#operating-system)  
-3. [Manufacturer / Supplier](#manufacturer)
-
-Additionally, we leverage **tags** (GitHub topics) to make finding relevant projects even easier.
+Welcome to the **IoTConnect** enablement directory! This top-level page helps you quickly navigate our repositories, examples, and SDKs. We’ve grouped everything by **Language** and by **/IOTCONNECT Enabled Hardware Examples**. Additionally, we leverage **GitHub Topics** to make finding relevant projects even easier.
 
 ---
 
 ## Quick Links
 
 - **[IoTConnect Docs](https://docs.iotconnect.io/)**  
-  Explore official documentation for deep dives into IoTConnect features, including device management, OTA, and rule engines.
+  Deep dives into IoTConnect features like device management, OTA, rule engines, and more.
 
 - **[SDK Overview & Workflow](https://docs.iotconnect.io/iotconnect/sdk/sdk-understanding-and-workflow/)**  
   Understand how each SDK works, from device registration and telemetry to commands and cloud configuration.
 
 - **[SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/)**  
-  Learn about different editions of IoTConnect SDKs, each tailored for specific performance or footprint requirements.
+  Explore different IoTConnect SDK editions for various performance and footprint requirements.
 
 ---
 
-## 1. Language
+## Languages
 
-Below are the primary repositories categorized by **programming language**. In many cases, they’re cross-platform and can run on multiple OSes, but this section focuses on the language-specific libraries and examples.
+### C / C++
+
+#### [iotc-c-lib](https://github.com/avnet-iotconnect/iotc-c-lib)
+- **Description**: The core C library forming the foundation for IoTConnect in C.  
+- **Use Cases**: Start here if you’re integrating IoTConnect directly into your C/C++ application.  
+- **Tags**:  
+  <!-- START:iotc-c-lib-topics -->
+  <!-- END:iotc-c-lib-topics -->
+
+#### [iotc-generic-c-sdk](https://github.com/avnet-iotconnect/iotc-generic-c-sdk)
+- **Description**: Generic C SDK providing a reference implementation of IoTConnect client functionality.  
+- **Use Cases**: Easily adapt or extend for different C-based platforms and hardware.  
+- **Tags**:  
+  <!-- START:iotc-generic-c-sdk-topics -->
+  <!-- END:iotc-generic-c-sdk-topics -->
+
+#### [iotc-yocto-c-sdk](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk)
+- **Description**: A Yocto-compatible C SDK for IoTConnect, integrating easily into embedded Linux builds.  
+- **Use Cases**: Automated builds for IoT devices running Yocto-based Linux.  
+- **Tags**:  
+  <!-- START:iotc-yocto-c-sdk-topics -->
+  <!-- END:iotc-yocto-c-sdk-topics -->
+
+---
 
 ### Python
 
-- **[iotc-py](https://github.com/avnet-iotconnect/iotc-py)**  
-  - **Description**: Full-featured Python SDK for IoTConnect.  
-  - **Tags**: `python`, `sdk`, `iotconnect`  
-  - **Use Cases**: Desktop, server, or embedded Linux environments for straightforward device-to-cloud integrations.
+#### [iotc-python-sdk](https://github.com/avnet-iotconnect/iotc-python-sdk)
+- **Description**: Full-featured Python SDK for IoTConnect.  
+- **Use Cases**: Desktop, server, or embedded Linux for straightforward device-to-cloud integrations.  
+- **Tags**:  
+  <!-- START:iotc-python-sdk-topics -->
+  <!-- END:iotc-python-sdk-topics -->
 
-- **[iotc-phyt](https://github.com/avnet-iotconnect/iotc-phyt)**  
-  - **Description**: Lite/minimalist Python SDK for resource-constrained environments.  
-  - **Tags**: `python`, `lightweight-sdk`, `iotconnect`  
-  - **Use Cases**: IoT devices with limited memory or CPU resources.
+#### [iotc-python-lite-sdk](https://github.com/avnet-iotconnect/iotc-python-lite-sdk)
+- **Description**: Lite/minimalist Python SDK for resource-constrained environments.  
+- **Use Cases**: IoT devices with limited memory or CPU resources.  
+- **Tags**:  
+  <!-- START:iotc-python-lite-sdk-topics -->
+  <!-- END:iotc-python-lite-sdk-topics -->
 
-### Node.js (JavaScript/TypeScript)
+#### [meta-iotc-sdk-lite](https://github.com/avnet-iotconnect/meta-iotc-sdk-lite)
+- **Description**: Meta-layer integration of the “lite” Python SDK for Yocto-based Linux.  
+- **Use Cases**: Building images for embedded platforms via Yocto, pre-integrated with IoTConnect.  
+- **Tags**:  
+  <!-- START:meta-iotc-sdk-lite-topics -->
+  <!-- END:meta-iotc-sdk-lite-topics -->
 
-- **[iotc-npm](https://github.com/avnet-iotconnect/iotc-npm)**  
-  - **Description**: Official Node.js SDK for IoTConnect, also on NPM.  
-  - **Tags**: `javascript`, `typescript`, `node.js`, `sdk`  
-  - **Use Cases**: Server-side or embedded JS runtimes on Linux, Windows, etc.
-
-- **[iotc-node-labs](https://github.com/avnet-iotconnect/iotc-node-labs)**  
-  - **Description**: Example projects/labs showcasing Node.js IoTConnect usage.  
-  - **Tags**: `javascript`, `examples`, `iotconnect`  
-  - **Use Cases**: Quick starts, proof-of-concepts, and code snippets.
-
-### .NET (C#)
-
-- **[iotc-dotnet-labs](https://github.com/avnet-iotconnect/iotc-dotnet-labs)**  
-  - **Description**: Example .NET projects for connecting C# apps to IoTConnect.  
-  - **Tags**: `c#`, `.net`, `dotnet`, `iotconnect`  
-  - **Use Cases**: Windows or Linux .NET environments, Azure Sphere, etc.
-
-### Java
-
-- **Coming Soon**  
-  - We will add a dedicated Java repository soon. In the meantime, developers can still integrate IoTConnect using our REST or MQTT APIs, or by adapting other SDKs.  
-  - **Tags**: `java`, `mqtt`, `rest`, `iotconnect`
-
-### C/C++
-
-- **[iotc-c-lib](https://github.com/avnet-iotconnect/iotc-c-lib)**  
-  - **Description**: The **core C library** forming the foundation for IoTConnect in C/C++.  
-  - **Tags**: `c`, `library`, `iotconnect`  
-  - **Use Cases**: Start here if you’re integrating IoTConnect directly into your C/C++ application.
-
-- **[iotconnect-arduino](https://github.com/avnet-iotconnect/iotconnect-arduino)**  
-  - **Description**: Arduino-based library and sample code.  
-  - **Tags**: `arduino`, `c++`, `embedded`, `iotconnect`  
-  - **Use Cases**: Quick prototyping on Arduino-compatible boards.
-
-- **[iotc-stm](https://github.com/avnet-iotconnect/iotc-stm)**  
-  - **Description**: STM microcontroller integrations/examples.  
-  - **Tags**: `stm32`, `c`, `embedded`, `iotconnect`  
-  - **Use Cases**: STM32-based designs leveraging the `iotc-c-lib`.
-
-- **[iotc-nxp](https://github.com/avnet-iotconnect/iotc-nxp)**  
-  - **Description**: NXP MCU/MPU enablement.  
-  - **Tags**: `nxp`, `c`, `embedded`, `iotconnect`  
-  - **Use Cases**: Boards built on NXP chipsets.
-
-- **[iotc-esp32-samples](https://github.com/avnet-iotconnect/iotc-esp32-samples)**  
-  - **Description**: ESP32 example projects in C/C++.  
-  - **Tags**: `esp32`, `c++`, `embedded`, `iotconnect`  
-  - **Use Cases**: Wi-Fi or BLE devices using Espressif’s ESP32.
-
-- **LoRa/LoRaWAN**  
-  - **[iotc-lorawan-labs / iotc-lora-labs](https://github.com/avnet-iotconnect?tab=repositories&q=lorawan)**  
-    - **Description**: LoRa/LoRaWAN labs and examples.  
-    - **Tags**: `lora`, `lorawan`, `c`, `iotconnect`  
-    - **Use Cases**: Low-power, long-range connectivity.
+#### [iotc-yocto-python-sdk](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk)
+- **Description**: A Yocto-compatible Python SDK for IoTConnect, integrating easily into embedded Linux builds.  
+- **Use Cases**: Automated Python-based builds for devices running Yocto.  
+- **Tags**:  
+  <!-- START:iotc-yocto-python-sdk-topics -->
+  <!-- END:iotc-yocto-python-sdk-topics -->
 
 ---
 
-## 2. Operating System
+### C# / .NET
 
-While many repositories above work across multiple OSes, some are specifically designed or tested for certain environments. Here are the primary OS-oriented resources:
-
-- **Yocto Meta Layer**  
-  - **[iotc-meta-avnet](https://github.com/avnet-iotconnect/iotc-meta-avnet)**  
-    - **Description**: A Yocto “meta” layer embedding IoTConnect support (often via `iotc-c-lib` or Python).  
-    - **Tags**: `yocto`, `meta-layer`, `linux`, `iotconnect`  
-    - **Use Cases**: Customized embedded Linux builds using the Yocto Project.
-
-- **Linux**  
-  - Most of our **Python**, **Node.js**, and **C/C++** SDKs (e.g., `iotc-c-lib`) are designed to run on generic Linux distributions.  
-  - **Search by Tag**: On GitHub, look for repositories tagged with `linux` or `embedded-linux`.
-
-- **Windows**  
-  - The **[iotc-dotnet-labs](https://github.com/avnet-iotconnect/iotc-dotnet-labs)** is validated on Windows systems for .NET applications.  
-  - **Search by Tag**: `windows`, `.net`
-
-- **FreeRTOS / Other Embedded OS**  
-  - Repos like **iotc-stm** or **iotc-nxp** may include FreeRTOS-based examples.  
-  - **Search by Tag**: `freertos`, `rtos`, `embedded`.
-
-- **Android**  
-  - While no dedicated Android repo is currently published, Node.js or Java integrations can be adapted for Android.  
-  - **Search by Tag**: `android`, `java`, `typescript`
+#### [iotc-dotnet-sdk](https://github.com/avnet-iotconnect/iotc-dotnet-sdk/tree/master-21)
+- **Description**: .NET SDK enabling IoTConnect capabilities primarily via C#.  
+- **Use Cases**: Windows or Linux .NET environments, Azure Sphere, etc.  
+  - *(Note: .NET can interface with C++/CLI, but this repo is mainly intended for C# use.)*  
+- **Tags**:  
+  <!-- START:iotc-dotnet-sdk-topics -->
+  <!-- END:iotc-dotnet-sdk-topics -->
 
 ---
 
-## 3. Manufacturer
+### Node.js
 
-If you’re working with a specific **supplier** or board manufacturer, you can find targeted references and support material in our **Partners** directory and related repos:
-
-- **[Partner Directory](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/tree/main/partners)**  
-  Inside, you’ll find guides, board definitions, and specialized libraries for suppliers such as:
-  - **NXP**  
-  - **STMicroelectronics**  
-  - **Renesas**  
-  - **Telit**  
-  - **Azure Sphere**  
-  - ...and others
-
-In addition, many of our example repositories include manufacturer-specific naming in their titles or tags (e.g., `iotc-nxp`, `iotc-stm`, `nxp`, `st`, etc.).
+#### [iotc-node-sdk](https://github.com/avnet-iotconnect/iotc-node-sdk/tree/master-std-21)
+- **Description**: Official Node.js SDK for IoTConnect.  
+- **Use Cases**: Server-side or embedded JS runtimes on Linux, Windows, etc.  
+- **Tags**:  
+  <!-- START:iotc-node-sdk-topics -->
+  <!-- END:iotc-node-sdk-topics -->
 
 ---
 
-## Using Tags
+### Swift (iOS)
 
-To **quickly filter** across all repositories under [avnet-iotconnect](https://github.com/avnet-iotconnect), use **tags** (also called GitHub “topics”). For example:
+#### [iotc-ios-swift-sdk](https://github.com/avnet-iotconnect/iotc-ios-swift-sdk/tree/release/2.0.0)
+- **Description**: Swift SDK to integrate IoTConnect features on iOS devices.  
+- **Use Cases**: iPhone or iPad applications requiring IoT telemetry, device provisioning, etc.  
+- **Tags**:  
+  <!-- START:iotc-ios-swift-sdk-topics -->
+  <!-- END:iotc-ios-swift-sdk-topics -->
 
-- Go to the [avnet-iotconnect Repositories Page](https://github.com/avnet-iotconnect?tab=repositories).  
-- Click the “**Type**” dropdown, then select “**All**” or “**Public**”.  
-- In the “**Search or jump to…**” field, type a topic such as `tag:python` or `tag:freertos`.  
-- You’ll see only the repositories tagged accordingly.
+---
 
-Common tags used in our repositories:
+### Java / Kotlin (Android)
+
+#### [iotc-android-sdk](https://github.com/avnet-iotconnect/iotc-android-sdk)
+- **Description**: Android SDK (Java/Kotlin) for IoTConnect.  
+- **Use Cases**: Mobile or IoT Edge devices running Android, collecting telemetry and interacting with IoTConnect.  
+- **Tags**:  
+  <!-- START:iotc-android-sdk-topics -->
+  <!-- END:iotc-android-sdk-topics -->
+
+---
+
+## /IOTCONNECT Enabled Hardware Examples
+
+The GitHub links below list hardware that has software available, working with **/IOTCONNECT** “out of the box.” You can expect to find:
+
+- **QuickStart Guides**: Step-by-step instructions on board bring-up through cloud connectivity without writing code!  
+- **Developer Guides**: Similar, but with more details on compiling from source.  
+- **Demos**: Specific use-case/application demos.  
+- **References**: Webinars, blog posts, or additional learning material.
+
+> **TIP**  
+> /IOTCONNECT is compatible with **nearly all** MPUs and MCUs via our various SDKs. If your product isn’t listed, see our [SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/) to learn how to integrate.
+
+<table>
+  <thead>
+    <tr>
+      <td><a href="/partners/infineon/readme.md">Infineon</a></td>
+      <td><a href="/partners/microchip/readme.md">Microchip</a></td>
+      <td><a href="/partners/nxp/readme.md">NXP</a></td>
+      <td><a href="/partners/renesas/readme.md">Renesas</a></td>
+      <td><a href="/partners/st/readme.md">STMicroelectronics</a></td>
+    </tr>
+  </thead>
+  <tr>
+    <td><a href="/partners/infineon/readme.md"><img src="/partners/infineon/infineon-logo.png" width="100" alt="Infineon Logo"></a></td>
+    <td><a href="/partners/microchip/readme.md"><img src="/partners/microchip/microchip-logo.png" width="100" alt="Microchip Logo"></a></td>
+    <td><a href="/partners/nxp/readme.md"><img src="/partners/nxp/nxp-logo.png" width="80" alt="NXP Logo"></a></td>
+    <td><a href="/partners/renesas/readme.md"><img src="/partners/renesas/renesas-logo.png" width="120" alt="Renesas Logo"></a></td>
+    <td><a href="/partners/st/readme.md"><img src="/partners/st/st-logo.png" width="60" alt="ST Logo"></a></td>
+  </tr>
+  <tr>
+    <!-- Each cell can display tags pulled from the partner's readme or topics -->
+    <td>
+      <!-- START:infineon-partner-tags -->
+      <!-- END:infineon-partner-tags -->
+    </td>
+    <td>
+      <!-- START:microchip-partner-tags -->
+      <!-- END:microchip-partner-tags -->
+    </td>
+    <td>
+      <!-- START:nxp-partner-tags -->
+      <!-- END:nxp-partner-tags -->
+    </td>
+    <td>
+      <!-- START:renesas-partner-tags -->
+      <!-- END:renesas-partner-tags -->
+    </td>
+    <td>
+      <!-- START:st-partner-tags -->
+      <!-- END:st-partner-tags -->
+    </td>
+  </tr>
+</table>
+
+---
+
+## Searching / Filtering by Tags
+
+1. Go to [avnet-iotconnect Repositories](https://github.com/avnet-iotconnect?tab=repositories).  
+2. Type `topic:[tag]` in the search field (e.g., `topic:python`).  
+3. GitHub shows only those repos tagged with that topic.
+
+Common tags:
 - `python`, `c`, `c++`, `javascript`, `dotnet`, `embedded`, `windows`, `linux`, `freertos`, `yocto`, `st`, `nxp`, `esp32`, `iotconnect`, `iotc-c-lib`, etc.
 
 ---
@@ -161,23 +191,23 @@ Common tags used in our repositories:
 ## Additional Resources
 
 - **[IoTConnect Docs](https://docs.iotconnect.io/)**  
-  In-depth guides and references for device management, OTA updates, rule engines, and more.
-
-- **[SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/)**  
-  Compare different SDK editions and decide which one meets your performance or memory constraints.
+  In-depth guides for device management, OTA updates, rule engines, etc.
 
 - **[IoTConnect Portal](https://portal.iotconnect.io/)**  
-  The cloud interface for configuring, monitoring, and managing all your connected IoT devices.
+  Configure, monitor, and manage all your connected devices from the cloud.
+
+- **[SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/)**
+  Compare different SDK editions to match your performance or memory constraints.
 
 ---
 
 ## Contributing
 
-We welcome contributions to help expand or refine IoTConnect enablement. To contribute:
+We welcome contributions to expand or refine IoTConnect enablement. To contribute:
 
 1. **Fork** the relevant repo under [avnet-iotconnect](https://github.com/avnet-iotconnect).  
 2. **Create** a new branch for your feature or fix.  
-3. **Submit** a Pull Request and include a clear explanation of your changes.
+3. **Submit** a Pull Request with a clear explanation of your changes.
 
 ---
 
@@ -186,4 +216,4 @@ We welcome contributions to help expand or refine IoTConnect enablement. To cont
 - **Support**: [support@iotconnect.io](mailto:support@iotconnect.io)  
 - **Docs & FAQ**: [docs.iotconnect.io](https://docs.iotconnect.io/)
 
-> **Note**: IoTConnect is designed to support **all device types**. The listings here are starting points; if you don’t see your exact device or OS, you can adapt any of these SDKs or utilize our REST/MQTT APIs directly to get connected.
+> **Note**: IoTConnect is designed to support **all device types**. These listings are simply starting points; if you don’t see your exact device or OS, you can adapt any of these SDKs or use our REST/MQTT APIs directly to get connected.
