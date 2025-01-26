@@ -66,6 +66,9 @@ jobs:
 
           done
 
+      - name: Cleanup
+      run: rm repos.json
+      
       - name: Commit and Push changes (if any)
         run: |
           if [ -n "$(git status --porcelain)" ]; then
