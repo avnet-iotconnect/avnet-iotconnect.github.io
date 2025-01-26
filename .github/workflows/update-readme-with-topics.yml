@@ -47,10 +47,10 @@ jobs:
       
             if [ -z "$TOPIC_NAMES" ] || [ "$TOPIC_NAMES" = "null" ]; then
               echo "No topics for $repoName or repo not found."
-              TAG_LINE="Tags: None"
+              TAG_LINE="**Tags**: None"
             else
               # Replace commas with ", " and prepend "Tags: "
-              TAG_LINE="Tags: $(echo "$TOPIC_NAMES" | sed 's/,/, /g')"
+              TAG_LINE="**Tags**: $(echo "$TOPIC_NAMES" | sed 's/,/, /g')"
             fi
       
             # Escape forward slashes & ampersands for sed
