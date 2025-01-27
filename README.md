@@ -24,7 +24,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 #### [iotc-c-lib](https://github.com/avnet-iotconnect/iotc-c-lib)
 - **Description**: The core C library forming the foundation for IoTConnect in C.  
 - **Use Cases**: Start here if you’re integrating IoTConnect directly into your C/C++ application.  
-- **Tags**:  <!-- START:iotc-c-lib-topics -->  <!-- END:iotc-c-lib-topics -->
+- **Tags**:  <!-- START:iotc-c-lib-topics --> iotconnect, iot, mqtt <!-- END:iotc-c-lib-topics -->
 
 #### [iotc-generic-c-sdk](https://github.com/avnet-iotconnect/iotc-generic-c-sdk)
 - **Description**: Generic C SDK providing a reference implementation of IoTConnect client functionality.  
