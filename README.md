@@ -25,7 +25,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Description**: The core C library forming the foundation for IoTConnect in C.  
 - **Use Cases**: Start here if you’re integrating IoTConnect directly into your C/C++ application.  
 <!-- START:iotc-c-lib-topics -->
-  : iotconnect, iot, mqtt
+  iotconnect, iot, mqtt
   <!-- END:iotc-c-lib-topics -->
 
 #### [iotc-generic-c-sdk](https://github.com/avnet-iotconnect/iotc-generic-c-sdk)
@@ -33,7 +33,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Easily adapt or extend for different C-based platforms and hardware.  
 - **Tags**:  
 <!-- START:iotc-generic-c-sdk-topics -->
-  : iotconnect-sdk, aws, azure
+  iotconnect-sdk, aws, azure
   <!-- END:iotc-generic-c-sdk-topics -->
 
 #### [iotc-yocto-c-sdk](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk)
@@ -41,7 +41,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Automated builds for IoT devices running Yocto-based Linux.  
 - **Tags**:  
 <!-- START:iotc-yocto-c-sdk-topics -->
-  : aws, azure, iotconnect-sdk
+  aws, azure, iotconnect-sdk
   <!-- END:iotc-yocto-c-sdk-topics -->
 
 ---
@@ -53,7 +53,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Desktop, server, or embedded Linux for straightforward device-to-cloud integrations.  
 - **Tags**:  
 <!-- START:iotc-python-sdk-topics -->
-  : sw, aws, azure, iotconnect-sdk
+  sw, aws, azure, iotconnect-sdk
   <!-- END:iotc-python-sdk-topics -->
 
 #### [iotc-python-lite-sdk](https://github.com/avnet-iotconnect/iotc-python-lite-sdk)
@@ -61,7 +61,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: IoT devices with limited memory or CPU resources.  
 - **Tags**:  
 <!-- START:iotc-python-lite-sdk-topics -->
-  : None
+  None
   <!-- END:iotc-python-lite-sdk-topics -->
 
 #### [meta-iotc-sdk-lite](https://github.com/avnet-iotconnect/meta-iotc-sdk-lite)
@@ -69,7 +69,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Building images for embedded platforms via Yocto, pre-integrated with IoTConnect.  
 - **Tags**:  
 <!-- START:meta-iotc-sdk-lite-topics -->
-  : None
+  None
   <!-- END:meta-iotc-sdk-lite-topics -->
 
 #### [iotc-yocto-python-sdk](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk)
@@ -77,7 +77,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Automated Python-based builds for devices running Yocto.  
 - **Tags**:  
 <!-- START:iotc-yocto-python-sdk-topics -->
-  : aws, azure, iotconnect-sdk
+  aws, azure, iotconnect-sdk
   <!-- END:iotc-yocto-python-sdk-topics -->
 
 ---
@@ -90,7 +90,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
   - *(Note: .NET can interface with C++/CLI, but this repo is mainly intended for C# use.)*  
 - **Tags**:  
 <!-- START:iotc-dotnet-sdk-topics -->
-  : sw, aws, azure, iotconnect-sdk
+  sw, aws, azure, iotconnect-sdk
   <!-- END:iotc-dotnet-sdk-topics -->
 
 ---
@@ -102,7 +102,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Server-side or embedded JS runtimes on Linux, Windows, etc.  
 - **Tags**:  
 <!-- START:iotc-node-sdk-topics -->
-  : sw, aws, azure, iotconnect-sdk
+  sw, aws, azure, iotconnect-sdk
   <!-- END:iotc-node-sdk-topics -->
 
 ---
@@ -114,7 +114,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: iPhone or iPad applications requiring IoT telemetry, device provisioning, etc.  
 - **Tags**:  
 <!-- START:iotc-ios-swift-sdk-topics -->
-  : ios-swift, aws, azure, ios
+  ios-swift, aws, azure, ios
   <!-- END:iotc-ios-swift-sdk-topics -->
 
 ---
@@ -126,7 +126,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 - **Use Cases**: Mobile or IoT Edge devices running Android, collecting telemetry and interacting with IoTConnect.  
 - **Tags**:  
 <!-- START:iotc-android-sdk-topics -->
-  : aws, azure, mpu
+  aws, azure, mpu
   <!-- END:iotc-android-sdk-topics -->
 
 ---
