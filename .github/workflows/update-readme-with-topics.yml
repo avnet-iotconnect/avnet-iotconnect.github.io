@@ -61,9 +61,7 @@ jobs:
             echo "Replacing placeholder for $placeholder in README.md"
       
             # Single-line replacement
-            sed -i "/<!-- START:${placeholder} -->/,/<!-- END:${placeholder} -->/c\\<!-- START:${placeholder} -->\\
-            $ESCAPED_TAG_LINE\\
-            <!-- END:${placeholder} -->" README.md
+            sed -n "/<!-- START:iotc-c-lib-topics -->/,/<!-- END:iotc-c-lib-topics -->/p" README.md
             done
      
       - name: Cleanup
