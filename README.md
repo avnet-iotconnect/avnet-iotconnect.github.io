@@ -24,7 +24,9 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 #### [iotc-c-lib](https://github.com/avnet-iotconnect/iotc-c-lib)
 - **Description**: The core C library forming the foundation for IoTConnect in C.  
 - **Use Cases**: Start here if you’re integrating IoTConnect directly into your C/C++ application.
-- **Topics**:  <!-- START:iotc-c-lib-topics --> <!-- END:iotc-c-lib-topics -->
+- **Topics**:
+<!-- START:iotc-c-lib-topics --> 
+<!-- END:iotc-c-lib-topics -->
 
 #### [iotc-generic-c-sdk](https://github.com/avnet-iotconnect/iotc-generic-c-sdk)
 - **Description**: Generic C SDK providing a reference implementation of IoTConnect client functionality.  
@@ -55,7 +57,7 @@ Welcome to the **IoTConnect** enablement directory! This top-level page helps yo
 #### [iotc-python-lite-sdk](https://github.com/avnet-iotconnect/iotc-python-lite-sdk)
 - **Description**: Lite/minimalist Python SDK for resource-constrained environments.  
 - **Use Cases**: IoT devices with limited memory or CPU resources.  
-- **Topics**:  <!-- START:iotc-python-lite-sdk-topics --><!-- END:iotc-python-lite-sdk-topics -->
+- **Topics**:  <!-- START:iotc-python-lite-sdk-topics -->  <!-- END:iotc-python-lite-sdk-topics -->
 
 #### [meta-iotc-sdk-lite](https://github.com/avnet-iotconnect/meta-iotc-sdk-lite)
 - **Description**: Meta-layer integration of the “lite” Python SDK for Yocto-based Linux.  
