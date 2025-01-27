@@ -27,17 +27,17 @@ You can expect to find things such as:
 
 <table><thead>
   <tr>
-    <td><a href="/partners/infineon/readme.md">Infineon</a></td>
-    <td><a href="/partners/microchip/readme.md">Microchip</a></td>
-    <td><a href="/partners/nxp/readme.md">NXP</a></td>
-    <td><a href="/partners/renesas/readme.md">Renesas</a></td>
-    <td><a href="/partners/st/readme.md">STMicroelectronics</a></td>
+    <td><a href="/partners/infineon/">Infineon</a></td>
+    <td><a href="/partners/microchip/">Microchip</a></td>
+    <td><a href="/partners/nxp/">NXP</a></td>
+    <td><a href="/partners/renesas/">Renesas</a></td>
+    <td><a href="/partners/st/">STMicroelectronics</a></td>
   </tr></thead>
   <tr>
-    <td><a href="/partners/infineon/readme.md"><img src="/partners/infineon/infineon-logo.png"></a></td>
-    <td><a href="/partners/microchip/readme.md"><img src="/partners/microchip/microchip-logo.png"></a></td>
-    <td><a href="/partners/nxp/readme.md"><img src="/partners/nxp/nxp-logo.png"></a></td>
-    <td><a href="/partners/renesas/readme.md"><img src="/partners/renesas/renesas-logo.png"></a></td>
-    <td><a href="/partners/st/readme.md"><img src="/partners/st/st-logo.png"></a></td>
+    <td><a href="/partners/infineon/"><img src="/partners/infineon/infineon-logo.png"></a></td>
+    <td><a href="/partners/microchip/"><img src="/partners/microchip/microchip-logo.png"></a></td>
+    <td><a href="/partners/nxp/"><img src="/partners/nxp/nxp-logo.png"></a></td>
+    <td><a href="/partners/renesas/"><img src="/partners/renesas/renesas-logo.png"></a></td>
+    <td><a href="/partners/st/"><img src="/partners/st/st-logo.png"></a></td>
   </tr>
 </table>
