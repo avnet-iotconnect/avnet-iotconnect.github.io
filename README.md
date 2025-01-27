@@ -133,19 +133,19 @@ The GitHub links below list hardware that has software available, working with *
 <table>
   <thead>
     <tr>
-      <td><a href="/partners/infineon/readme.md">Infineon</a></td>
-      <td><a href="/partners/microchip/readme.md">Microchip</a></td>
-      <td><a href="/partners/nxp/readme.md">NXP</a></td>
-      <td><a href="/partners/renesas/readme.md">Renesas</a></td>
-      <td><a href="/partners/st/readme.md">STMicroelectronics</a></td>
+      <td><a href="/partners/infineon/">Infineon</a></td>
+      <td><a href="/partners/microchip/">Microchip</a></td>
+      <td><a href="/partners/nxp/">NXP</a></td>
+      <td><a href="/partners/renesas/">Renesas</a></td>
+      <td><a href="/partners/st/">STMicroelectronics</a></td>
     </tr>
   </thead>
   <tr>
-    <td><a href="/partners/infineon/readme.md"><img src="/partners/infineon/infineon-logo.png" width="100" alt="Infineon Logo"></a></td>
-    <td><a href="/partners/microchip/readme.md"><img src="/partners/microchip/microchip-logo.png" width="100" alt="Microchip Logo"></a></td>
-    <td><a href="/partners/nxp/readme.md"><img src="/partners/nxp/nxp-logo.png" width="80" alt="NXP Logo"></a></td>
-    <td><a href="/partners/renesas/readme.md"><img src="/partners/renesas/renesas-logo.png" width="120" alt="Renesas Logo"></a></td>
-    <td><a href="/partners/st/readme.md"><img src="/partners/st/st-logo.png" width="60" alt="ST Logo"></a></td>
+    <td><a href="/partners/infineon/"><img src="/partners/infineon/infineon-logo.png" width="100" alt="Infineon Logo"></a></td>
+    <td><a href="/partners/microchip/"><img src="/partners/microchip/microchip-logo.png" width="100" alt="Microchip Logo"></a></td>
+    <td><a href="/partners/nxp/"><img src="/partners/nxp/nxp-logo.png" width="80" alt="NXP Logo"></a></td>
+    <td><a href="/partners/renesas/"><img src="/partners/renesas/renesas-logo.png" width="120" alt="Renesas Logo"></a></td>
+    <td><a href="/partners/st/"><img src="/partners/st/st-logo.png" width="60" alt="ST Logo"></a></td>
   </tr>
   <tr>
     <!-- Each cell can display tags pulled from the partner's readme or topics -->
