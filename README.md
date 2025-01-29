@@ -127,8 +127,7 @@ The GitHub links below list hardware that has software available, working with *
 - **Demos**: Specific use-case/application demos.  
 - **References**: Webinars, blog posts, or additional learning material.
 
-> **TIP**  
-> /IOTCONNECT is compatible with **nearly all** MPUs and MCUs via our various SDKs. If your product isn’t listed, see our [SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/) to learn how to integrate.
+**/IOTCONNECT is compatible with most ALL MPUs and MCUs by leveraging our various SDKs. If the specific product you're interested in is not listed, please see our [SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/) for instructions on how to integrate.**
 
 <table>
   <thead>
