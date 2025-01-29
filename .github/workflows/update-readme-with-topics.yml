@@ -1,0 +1,79 @@
+name: "Update README with Topics"
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Create repos.json
+        run: |
+          cat <<EOF > repos.json
+          [
+            {"repoName": "avnet-iotconnect/iotc-c-lib", "placeholder": "iotc-c-lib-topics"},
+            {"repoName": "avnet-iotconnect/iotc-generic-c-sdk", "placeholder": "iotc-generic-c-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-yocto-c-sdk", "placeholder": "iotc-yocto-c-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-python-sdk", "placeholder": "iotc-python-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-python-lite-sdk", "placeholder": "iotc-python-lite-sdk-topics"},
+            {"repoName": "avnet-iotconnect/meta-iotc-sdk-lite", "placeholder": "meta-iotc-sdk-lite-topics"},
+            {"repoName": "avnet-iotconnect/iotc-yocto-python-sdk", "placeholder": "iotc-yocto-python-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-dotnet-sdk", "placeholder": "iotc-dotnet-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-node-sdk", "placeholder": "iotc-node-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-ios-swift-sdk", "placeholder": "iotc-ios-swift-sdk-topics"},
+            {"repoName": "avnet-iotconnect/iotc-android-sdk", "placeholder": "iotc-android-sdk-topics"}
+          ]
+          EOF
+
+      - name: Loop over each repo
+        run: |
+          cat repos.json | jq -c '.[]' | while read item; do
+            repoName=$(echo "$item" | jq -r '.repoName')
+            placeholder=$(echo "$item" | jq -r '.placeholder')
+      
+            echo "Fetching topics for $repoName ..."
+            RESPONSE=$(curl -s \
+              -H "Accept: application/vnd.github.v3+json" \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              https://api.github.com/repos/$repoName/topics)
+      
+            # Join all topic names with commas
+            TOPIC_NAMES=$(echo "$RESPONSE" | jq -r '.names | join(",")')
+      
+            if [ -z "$TOPIC_NAMES" ] || [ "$TOPIC_NAMES" = "null" ]; then
+              echo "No topics for $repoName or repo not found."
+              TAG_LINE="None"
+            else
+              # Replace commas with ", " and prepend "Tags: "
+              TAG_LINE="$(echo "$TOPIC_NAMES" | sed 's/,/, /g')"
+            fi
+      
+            # Escape forward slashes & ampersands for sed
+            # (We don't need newline escaping if it's all one line)
+            ESCAPED_TAG_LINE=$(printf '%s' "$TAG_LINE" \
+              | sed 's/\//\\\//g; s/&/\\&/g')
+      
+            echo "Replacing placeholder for $placeholder in README.md"
+            sed -i "s/<!-- START:${placeholder} -->.*<!-- END:${placeholder} -->/<!-- START:${placeholder} --> $ESCAPED_TAG_LINE <!-- END:${placeholder} -->/" README.md
+            done
+     
+      - name: Cleanup
+        run: rm repos.json
+
+      - name: Commit and Push changes (if any)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add README.md
+            git commit -m "Auto-update README with latest topics for all repos"
+            git push
+          else
+            echo "No changes to commit."
+          fi
+           
