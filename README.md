@@ -53,7 +53,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 #### [iotc-yocto-c-sdk](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk)
 - **Description**: A Yocto-compatible C SDK for /IOTCONNECT, integrating easily into embedded Linux builds.  
 - **Use Cases**: Automated builds for IoT devices running Yocto-based Linux.  
-- **Topics**:  <!-- START:iotc-yocto-c-sdk-topics --> <!-- END:iotc-yocto-c-sdk-topics -->
+- **Topics**:  <!-- START:iotc-yocto-c-sdk-topics --> aws, azure, iotconnect-sdk <!-- END:iotc-yocto-c-sdk-topics -->
 
 ---
 
