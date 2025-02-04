@@ -25,7 +25,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ## Quick Links
 
-- **[IOTCONNECT Docs](https://docs.iotconnect.io/)**  
+- **[/IOTCONNECT Docs](https://docs.iotconnect.io/)**  
   Deep dives into /IOTCONNECT features like device management, OTA, rule engines, and more.
 
 - **[SDK Overview & Workflow](https://docs.iotconnect.io/iotconnect/sdk/sdk-understanding-and-workflow/)**  
@@ -186,10 +186,10 @@ Common tags:
 
 ## Additional Resources
 
-- **[IoTConnect Docs](https://docs.iotconnect.io/)**  
+- **[/IOTCONNECT Docs](https://docs.iotconnect.io/)**  
   In-depth guides for device management, OTA updates, rule engines, etc.
 
-- **[IoTConnect Portal](https://portal.iotconnect.io/)**  
+- **[/IOTCONNECT Portal](https://portal.iotconnect.io/)**  
   Configure, monitor, and manage all your connected devices from the cloud.
 
 - **[SDK Flavors](https://docs.iotconnect.io/iotconnect/sdk/sdk-flavors/)**
