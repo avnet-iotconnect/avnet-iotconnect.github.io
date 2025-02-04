@@ -38,7 +38,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ## Languages
 
-### C / C++ <img src="https://www.kindpng.com/picc/m/403-4039227_c-language-logo-png-transparent-png.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
+### <img src="https://www.kindpng.com/picc/m/403-4039227_c-language-logo-png-transparent-png.png" height="50" alt="C / C++" style="vertical-align: middle; margin-left: 8px;" />
 
 #### [iotc-c-lib](https://github.com/avnet-iotconnect/iotc-c-lib)
 - **Description**: The core C library forming the foundation for /IOTCONNECT in C.  
@@ -57,7 +57,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ---
 
-### Python <img src="https://brandslogos.com/wp-content/uploads/images/large/python-logo.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
+### <img src="https://www.python.org/static/img/python-logo.png" height="50" alt="Python" style="vertical-align: middle; margin-left: 8px;" />
 
 #### [iotc-python-sdk](https://github.com/avnet-iotconnect/iotc-python-sdk)
 - **Description**: Full-featured Python SDK for /IOTCONNECT.  
@@ -81,7 +81,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ---
 
-### C# / .NET <img src="https://th.bing.com/th/id/OIP.hjW-5Sc-8lyI6vW4DgWrVAAAAA?rs=1&pid=ImgDetMain" width="40" style="vertical-align: middle; margin-left: 8px;" />
+### <img src="https://learn.microsoft.com/en-us/dotnet/media/logo_csharp.png" height="50" alt="C#" style="vertical-align: middle; margin-left: 8px;" />
 
 #### [iotc-dotnet-sdk](https://github.com/avnet-iotconnect/iotc-dotnet-sdk/tree/master-21)
 - **Description**: .NET SDK enabling /IOTCONNECT capabilities primarily via C#.  
@@ -91,7 +91,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ---
 
-### Node.js <img src="https://brandslogos.com/wp-content/uploads/images/large/nodejs-logo.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
+### <img src="https://nodejs.org/static/logos/nodejsDark.svg" height="50" alt="Node.js" style="vertical-align: middle; margin-left: 8px;" />
 
 #### [iotc-node-sdk](https://github.com/avnet-iotconnect/iotc-node-sdk/tree/master-std-21)
 - **Description**: Official Node.js SDK for /IOTCONNECT.  
@@ -100,7 +100,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ---
 
-### Swift (iOS) <img src="https://cdn.freebiesupply.com/logos/large/2x/swift-15-logo-png-transparent.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
+### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/300px-Swift_logo.svg.png" height="50" alt="Swift (iOS)" style="vertical-align: middle; margin-left: 8px;" />
 
 #### [iotc-ios-swift-sdk](https://github.com/avnet-iotconnect/iotc-ios-swift-sdk/tree/release/2.0.0)
 - **Description**: Swift SDK to integrate /IOTCONNECT features on iOS devices.  
@@ -109,7 +109,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 ---
 
-### Java / Kotlin (Android) <img src="https://th.bing.com/th/id/OIP.jagnwqyqxCR4jqKH7eP4NgHaEU?rs=1&pid=ImgDetMain" width="40" style="vertical-align: middle; margin-left: 8px;" />
+### <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/182px-Java_programming_language_logo.svg.png" height="50" alt="Java / Kotlin (Android)" style="vertical-align: middle; margin-left: 8px;" />
 
 #### [iotc-android-sdk](https://github.com/avnet-iotconnect/iotc-android-sdk)
 - **Description**: Android SDK (Java/Kotlin) for /IOTCONNECT.  
