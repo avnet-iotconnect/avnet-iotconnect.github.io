@@ -140,11 +140,11 @@ The GitHub links below list hardware that has software available, working with *
     </tr>
   </thead>
   <tr>
-    <td><a href="/partners/infineon/"><img src="/partners/infineon/infineon-logo.png" width="100" alt="Infineon Logo"></a></td>
-    <td><a href="/partners/microchip/"><img src="/partners/microchip/microchip-logo.png" width="100" alt="Microchip Logo"></a></td>
-    <td><a href="/partners/nxp/"><img src="/partners/nxp/nxp-logo.png" width="80" alt="NXP Logo"></a></td>
-    <td><a href="/partners/renesas/"><img src="/partners/renesas/renesas-logo.png" width="120" alt="Renesas Logo"></a></td>
-    <td><a href="/partners/st/"><img src="/partners/st/st-logo.png" width="60" alt="ST Logo"></a></td>
+    <td><a href="/partners/infineon/"><img src="/partners/infineon/infineon-logo.png" height="60" alt="Infineon Logo"></a></td>
+    <td><a href="/partners/microchip/"><img src="/partners/microchip/microchip-logo.png" height="60" alt="Microchip Logo"></a></td>
+    <td><a href="/partners/nxp/"><img src="/partners/nxp/nxp-logo.png" height="60" alt="NXP Logo"></a></td>
+    <td><a href="/partners/renesas/"><img src="/partners/renesas/renesas-logo.png" height="60" alt="Renesas Logo"></a></td>
+    <td><a href="/partners/st/"><img src="/partners/st/st-logo.png" height="60" alt="ST Logo"></a></td>
   </tr>
   <tr>
     <!-- Each cell can display tags pulled from the partner's readme or topics -->
