@@ -105,7 +105,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 #### [iotc-ios-swift-sdk](https://github.com/avnet-iotconnect/iotc-ios-swift-sdk/tree/release/2.0.0)
 - **Description**: Swift SDK to integrate /IOTCONNECT features on iOS devices.  
 - **Use Cases**: iPhone or iPad applications requiring IoT telemetry, device provisioning, etc.  
-- **Topics**:  <!-- START:iotc-ios-swift-sdk-topics --> ios-swift, aws, azure, ios <!-- END:iotc-ios-swift-sdk-topics -->
+- **Topics**:  <!-- START:iotc-ios-swift-sdk-topics --> mobile-app, ble-gateway <!-- END:iotc-ios-swift-sdk-topics -->
 
 ---
 
