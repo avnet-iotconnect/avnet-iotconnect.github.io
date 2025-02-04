@@ -212,4 +212,5 @@ We welcome contributions to expand or refine /IOTCONNECT enablement. To contribu
 - **Support**: [support@iotconnect.io](mailto:support@iotconnect.io)  
 - **Docs & FAQ**: [docs.iotconnect.io](https://docs.iotconnect.io/)
 
-> **Note**: /IOTCONNECT is designed to support **all device types**. These listings are simply starting points; if you don’t see your exact device or OS, you can adapt any of these SDKs or use our REST/MQTT APIs directly to get connected.
+> **Note**
+> /IOTCONNECT is designed to support **all device types**. These listings are simply starting points; if you don’t see your exact device or OS, you can adapt any of these SDKs or use our REST/MQTT APIs directly to get connected.
