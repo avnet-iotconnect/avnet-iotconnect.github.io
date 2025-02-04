@@ -213,12 +213,3 @@ We welcome contributions to expand or refine /IOTCONNECT enablement. To contribu
 - **Docs & FAQ**: [docs.iotconnect.io](https://docs.iotconnect.io/)
 
 > **Note**: /IOTCONNECT is designed to support **all device types**. These listings are simply starting points; if you don’t see your exact device or OS, you can adapt any of these SDKs or use our REST/MQTT APIs directly to get connected.
-
----
-
-## Revision Info
-
-![GitHub last commit](https://img.shields.io/github/last-commit/avnet-iotconnect/iotc-stm32-n6-demos?label=Last%20Commit)  
-
-- View change to this repository: [Commit History](https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/commits/main)  
-- View changes to this document: [QUICKSTART.md](https://github.com/avnet-iotconnect/iotc-stm32-n6-demos/commits/main/doc/QUICKSTART.md)
