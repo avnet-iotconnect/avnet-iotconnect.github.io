@@ -1,7 +1,7 @@
 # /IOTCONNECT Subscription from AWS Marketplace
 An /IOTCONNECT subscription may be obtained through a variety of different methods.  This page will outline the steps for creating a subscription through the Amazon AWS Marketplace.
 
-For information on creating an /IOTCONNECT account directly, please see the [subscription.md](subscription.md) document.
+For information on creating an /IOTCONNECT account directly on the platform, please see the [subscription.md](subscription.md) document.
 
 ## /IOTCONNECT Sign up
 
