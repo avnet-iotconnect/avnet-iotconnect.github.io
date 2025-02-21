@@ -2,6 +2,32 @@
 
 NXP products that have been pre-enabled to work with /IOTCONNECT.
 
+### FRDM-IMX93
+*Purchase:*  [FRDM-IMX93](https://www.avnet.com/shop/us/products/nxp/frdm-imx93-3074457345660216004)
+
+<img src="FRDM-IMX93.jpg" width="300" title="FRDM-IMX93">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93)
+
+#### Resources:
+[GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93)
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
+
+### MaaXBoard OSM93
+*Purchase:*  [AES-MAAXB-OSM93-DK-G](https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668/)
+
+<img src="AES-MAAXB-OSM93-DK-G.jpg" width="300" title="AES-MAAXB-OSM93-DK-G">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
+
+#### Resources:
+[GitHub Repository Root](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
 ---
 
 ### MaaxBoard RT
