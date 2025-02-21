@@ -11,7 +11,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93)
 
 #### Resources:
-[GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93)
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/nxp-frdm-imx-93)
 * [More Information](https://www.avnet.com/iotconnect/nxp)
 
 ---
@@ -25,7 +25,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
 
 #### Resources:
-[GitHub Repository Root](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
+* [GitHub Repository Root](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
 * [More Information](https://www.avnet.com/iotconnect/nxp)
 
 ---
@@ -39,7 +39,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 * [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/blob/main/samples/maaxboardrt/QUICKSTART.md)
 
 #### Resources:
-[GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt)
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt)
 * [More Information](https://www.avnet.com/iotconnect/nxp)
 
 ---
