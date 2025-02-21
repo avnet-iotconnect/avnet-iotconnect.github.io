@@ -2,6 +2,8 @@
 
 NXP products that have been pre-enabled to work with /IOTCONNECT.
 
+---
+
 ### FRDM-IMX93
 *Purchase:*  [FRDM-IMX93](https://www.avnet.com/shop/us/products/nxp/frdm-imx93-3074457345660216004)
 
