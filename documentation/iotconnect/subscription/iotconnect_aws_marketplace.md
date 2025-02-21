@@ -6,7 +6,7 @@ For information on creating an /IOTCONNECT account directly, please see the [sub
 ## /IOTCONNECT Sign up
 
 Do you have an existing **AWS Marketplace Account**?
-[YES]() | [NO]()
+[YES](#yes-i-have-an-aws-marketplace-account) | [NO]()
 
 ---
 ### No, I don't have an AWS Marketplace Account
