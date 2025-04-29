@@ -83,7 +83,7 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 <img src="STM32MP135F.jpg" width="300" title="STM32MP135">
 
 #### Guides:
- * [Get Started with Python](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo)
+ * [QuickStart Guide with Python](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/stm32mp135f-dk)
  * [Get Started with Yocto](https://github.com/avnet-iotconnect/iotc-yocto-c-sdk/blob/kirkstone/board_specific_readmes/stm32mpu135.md)
  * [Demo: Vision AI](https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1/mickledore-st-x-linux-ai-demo) - Demonstration of using vision AI with X-Linux
 
