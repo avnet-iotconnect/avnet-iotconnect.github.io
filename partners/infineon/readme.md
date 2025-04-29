@@ -12,6 +12,8 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 #### Guides:
 * [QuickStart Guide: Sound Recognition (Baby Cry) Demo](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor/blob/main/QUICKSTART.md)
 * [QuickStart Guide: Inertial Measurement Unit (Human Activity Detection) Demo](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imu-example)
+* [Imagimob Ready Model Demo QuickStart](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm)
+* [Imagimob Ready Model Demo - Fall Detection](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-fall-detection)
 
 #### Resources:
 * [GitHub Repository Root](https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor)
