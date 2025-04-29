@@ -63,6 +63,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 - **Description**: Full-featured Python SDK for /IOTCONNECT.  
 - **Use Cases**: Desktop, server, or embedded Linux for straightforward device-to-cloud integrations.  
 - **Topics**:  <!-- START:iotc-python-sdk-topics --> embedded, linux, python <!-- END:iotc-python-sdk-topics -->
+- See the [iotc-python-examples](https://github.com/avnet-iotconnect/iotc-python-examples) repository for implementation examples.
 
 #### [iotc-python-lite-sdk](https://github.com/avnet-iotconnect/iotc-python-lite-sdk)
 - **Description**: Lite/minimalist Python SDK for resource-constrained environments.  
