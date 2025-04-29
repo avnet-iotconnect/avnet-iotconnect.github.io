@@ -68,6 +68,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 - **Description**: Lite/minimalist Python SDK for resource-constrained environments.  
 - **Use Cases**: IoT devices with limited memory or CPU resources.  
 - **Topics**:  <!-- START:iotc-python-lite-sdk-topics --> embedded, lightweight, python <!-- END:iotc-python-lite-sdk-topics -->
+- See the [iotc-python-lite-sdk-demos](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos) repository for implementation examples.
 
 #### [meta-iotc-sdk-lite](https://github.com/avnet-iotconnect/meta-iotc-sdk-lite)
 - **Description**: Meta-layer integration of the “lite” Python SDK for Yocto-based Linux.  
