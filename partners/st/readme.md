@@ -99,7 +99,7 @@ STMicroelectronics products that have been pre-enabled to work with /IOTCONNECT.
 
 #### Guides:
 * [Get Started with Yocto Python](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/kirkstone/board_specific_readmes/stm32mp157/stm32mp157.md)
-* [Get Started with Yocto C](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/STM32MP157/README.md)
+* [Get Started with Yocto C](https://github.com/avnet-iotconnect/meta-iotconnect-docs/tree/main/Build/STM32MP1)
 * [Using with ST SensorTile.box PRO](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/MKBOXPRO_MP157F_Demo) - Bluetooth
 * [Using with ST Proteus](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PROTEUS_MP157F_Demo) - Bluetooth
 
