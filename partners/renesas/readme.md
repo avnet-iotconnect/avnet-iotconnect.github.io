@@ -122,6 +122,7 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 <img src="AES-RZB-V2L-SK-G.jpg" width="300" title="AES-RZB-V2L-SK-G">
 
 #### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/QuickStart/RZBoardV2L.md)
 * [Developer Guide](https://github.com/avnet-iotconnect/meta-iotconnect-docs/blob/main/Build/RZBoardV2L/README.md)
 
 #### Resources:
