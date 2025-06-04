@@ -41,7 +41,7 @@ Navigate to the AWS Marketplace: https://aws.amazon.com/marketplace/
 8. When you see the "Your purchase of /IOTCONNECT is complete" message, follow the link to "Set up your account"  
 ![purchase_complete.png](media/purchase_complete.png)
 9. Complete the /IOTCONNECT registration details page and click "REGISTER"  
-![iotconnect_register.png](media/iotconnect_register.png)
+![iotconnect_register.png](media/aws_iotconnect_register.png)
 10. Expect to receive two emails (check your spam folder if you don't seem both after a short time)
 11. Login to the platform using the temporary password and you will be prompted to change it.
 12. After changing the password and logging in again, you've successfully completed the setup!
