@@ -47,3 +47,9 @@ More information may be found here [https://www.iotconnect.io/remote-asset-monit
 11. Expect to receive two emails (check your spam folder if you don't seem both after a short time)
 12. Login to the platform using the temporary password and you will be prompted to change it.
 13. After changing the password and logging in again, you've successfully completed the setup!
+
+## Managing Your Subscription
+To manage your subscriptions, click the "Manage" link at the top-right of the /IOTCONNECT home page:  
+![manage_subscription](manage_subscription.png)  
+
+From here you are able to manage your subscriptions and any Solution Accelerators.
