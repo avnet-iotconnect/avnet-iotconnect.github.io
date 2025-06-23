@@ -83,7 +83,7 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 
 #### [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
 - **Description**: /IOTCONNECT AWS Greengrass SDK for building Python-based Greengrass Components, supporting both AWS IoT Greengrass nucleus classic and nucleus lite
-- **Use Cases**: Automated Python-based AWS Greengrass Component builds for devices running AWS IoT Greengrass nucleus classic/lite  
+- **Use Cases**: Automated Python-based AWS IoT Greengrass Component builds for devices running AWS IoT Greengrass nucleus classic/lite  
 
 ---
 
