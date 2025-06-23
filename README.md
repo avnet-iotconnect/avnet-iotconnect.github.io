@@ -81,6 +81,10 @@ Welcome to the **/IOTCONNECT** enablement directory! This top-level page helps y
 - **Use Cases**: Automated Python-based builds for devices running Yocto.  
 - **Topics**:  <!-- START:iotc-yocto-python-sdk-topics --> embedded, linux, python, yocto <!-- END:iotc-yocto-python-sdk-topics -->
 
+#### [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
+- **Description**: /IOTCONNECT AWS Greengrass SDK for building Python-based Greengrass Components, supporting both AWS IoT Greengrass nucleus classic and nucleus lite
+- **Use Cases**: Automated Python-based AWS Greengrass Component builds for devices running AWS IoT Greengrass nucleus classic/lite  
+
 ---
 
 ### C# / .NET<img src="https://learn.microsoft.com/en-us/dotnet/media/logo_csharp.png" height="50" alt="C# / .NET" style="vertical-align: middle; margin-left: 8px;" />
