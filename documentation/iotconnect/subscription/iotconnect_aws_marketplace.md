@@ -43,13 +43,14 @@ Navigate to the AWS Marketplace: https://aws.amazon.com/marketplace/
 9. Complete the /IOTCONNECT registration details page and click "REGISTER"  
 Optionally, check the box next to "Smart Asset Monitoring Solution" to get started with an example Solution Accelerator.  
 More information may be found here [https://www.iotconnect.io/remote-asset-monitoring-solutions.html](https://www.iotconnect.io/remote-asset-monitoring-solutions.html)
-![iotconnect_register.png](media/aws_iotconnect_register.png)
+![iotconnect_register.png](media/iotconnect_signup1.png)  
+![iotconnect_register.png](media/iotconnect_signup2.png)
 11. Expect to receive two emails (check your spam folder if you don't seem both after a short time)
 12. Login to the platform using the temporary password and you will be prompted to change it.
 13. After changing the password and logging in again, you've successfully completed the setup!
 
 ## Managing Your Subscription
 To manage your subscriptions, click the "Manage" link at the top-right of the /IOTCONNECT home page:  
-![manage_subscription](manage_subscription.png)  
+![manage_subscription](media/manage_subscription.png)  
 
 From here you are able to manage your subscriptions and any Solution Accelerators.
