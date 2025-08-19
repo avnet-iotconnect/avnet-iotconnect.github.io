@@ -25,6 +25,7 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 
 #### Guides:
 * [QuickStart Guide](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
+* [QuickStart Guide with /IOTCONNECT](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/tria-maaxboard-osm93)
 
 #### Resources:
 * [GitHub Repository Root](https://github.com/Avnet/MaaXBoard-OSM93-HUB)
