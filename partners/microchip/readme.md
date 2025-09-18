@@ -59,3 +59,14 @@ Microchip products that have been pre-enabled to work with /IOTCONNECT.
 * [More Information](https://www.avnet.com/iotconnect/microchip)
 
 ---
+
+### SAM A7D65 Curiosity Kit
+*Purchase:*  [https://www.newark.com/microchip/ev63j76a/development-kit-arm-cortex-a7/dp/46AM2853)
+
+<img src="sama7d65-product.png" width="300" title="AATSAME54-XPRO">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama7d65-curiosity)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/microchip)
