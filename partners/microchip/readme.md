@@ -61,7 +61,7 @@ Microchip products that have been pre-enabled to work with /IOTCONNECT.
 ---
 
 ### SAM A7D65 Curiosity Kit
-*Purchase:*  [SAMA7D65 Curiosity Kit](https://www.newark.com/microchip/ev63j76a/development-kit-arm-cortex-a7/dp/46AM2853)
+*Purchase:*  [SAMA7D65 Curiosity Kit](https://www.microchipdirect.com/dev-tools/EV63J76A?productLoaded=true&allDevTools=true)
 
 <img src="sama7d65-product.png" width="300" title="AATSAME54-XPRO">
 
