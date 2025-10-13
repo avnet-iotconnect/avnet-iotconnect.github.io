@@ -30,8 +30,6 @@ Navigate to the AWS Marketplace: [https://aws.amazon.com/marketplace](https://aw
 2. Click on "Sign in" at the top-right![aws_marketplace.png](media/aws_marketplace.png)
 2. Enter your credentials and log in to the Marketplace
 3. Enter "iotconnect" in the search box at the top or use this link: [/IOTCONNECT Pay-As-You-Go](https://aws.amazon.com/marketplace/pp/prodview-2yodtsc4d5a6i?trk=00df6a22-c719-426f-b100-52d6cb511137&sc_channel=el&source=avnet)
-4. Click on the /IOTCONNECT listing in the results  
-![iotconnect_product_listing.png](media/iotconnect_product_listing.png)
 5. Click the "Try for Free" button on the right  
 ![try_for_free.png](media/try_for_free.png)
 6. Review the Offer Details and then click the orange "Try for free" button at the bottom-right of the page.  
