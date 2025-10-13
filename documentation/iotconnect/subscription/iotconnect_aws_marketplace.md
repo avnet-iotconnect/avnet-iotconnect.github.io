@@ -10,7 +10,7 @@ Do you have an existing **AWS Marketplace Account**?
 
 ---
 ### No, I don't have an AWS Marketplace Account
-Navigate to the AWS Marketplace: https://aws.amazon.com/marketplace/
+Navigate to the AWS Marketplace: [https://aws.amazon.com/marketplace](https://aws.amazon.com/marketplace/pp/prodview-2yodtsc4d5a6i?trk=00df6a22-c719-426f-b100-52d6cb511137&sc_channel=el&source=avnet)
 1. Click the link to "Create a new account" at the top-right.![aws_marketplace.png](media/aws_marketplace.png)
 2. Click the button "Create a new AWS account" at the bottom of the page.  
 ![create_new_marketplace_account.png](media/create_new_marketplace_account.png)
@@ -26,10 +26,10 @@ Navigate to the AWS Marketplace: https://aws.amazon.com/marketplace/
 * Continue to the next section of this guide, below.
 ---
 ### Yes, I have an AWS Marketplace Account
-1. Navigate to the AWS Marketplace: https://aws.amazon.com/marketplace/
+1. Navigate to the AWS Marketplace: [https://aws.amazon.com/marketplace](https://aws.amazon.com/marketplace/pp/prodview-2yodtsc4d5a6i?trk=00df6a22-c719-426f-b100-52d6cb511137&sc_channel=el&source=avnet)
 2. Click on "Sign in" at the top-right![aws_marketplace.png](media/aws_marketplace.png)
 2. Enter your credentials and log in to the Marketplace
-3. Enter "iotconnect" in the search box at the top or use this link: [https://aws.amazon.com/marketplace/search/results?searchTerms=iotconnect](https://aws.amazon.com/marketplace/search/results?searchTerms=iotconnect)
+3. Enter "iotconnect" in the search box at the top or use this link: [/IOTCONNECT Pay-As-You-Go](https://aws.amazon.com/marketplace/pp/prodview-2yodtsc4d5a6i?trk=00df6a22-c719-426f-b100-52d6cb511137&sc_channel=el&source=avnet)
 4. Click on the /IOTCONNECT listing in the results  
 ![iotconnect_product_listing.png](media/iotconnect_product_listing.png)
 5. Click the "Try for Free" button on the right  
