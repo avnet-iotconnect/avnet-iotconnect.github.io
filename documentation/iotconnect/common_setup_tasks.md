@@ -28,10 +28,10 @@ Login to the platform by navigating to [console.iotconnect.io](https://console.i
 ## 2. Import a Device Template
 In this step we will import a pre-made **Device Template**
 
-1. From the navigation panel on the left, select the **Devices** icon and the **Device** sub-menu.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/fc84a59a-1317-4f25-bebf-1d07d1e535bf)
-2. At the bottom of the page, select the **Templates** icon from the toolbar.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/3dc0b82c-13ea-4d99-93be-3adf14575709)
-3. At the top-right of the page, select the **Create Template** button.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/33325cbd-4fee-4958-b32a-f28d0d52342c)
-4. At the top-right of the page, select the **Import" button**.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/418b999c-58e2-49f3-a3f1-118b16271b26)
+1. From the navigation panel on the left, select the **Devices** icon and the **Device** sub-menu.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/fc84a59a-1317-4f25-bebf-1d07d1e535bf)  
+2. At the bottom of the page, select the **Templates** icon from the toolbar.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/3dc0b82c-13ea-4d99-93be-3adf14575709)  
+3. At the top-right of the page, select the **Create Template** button.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/33325cbd-4fee-4958-b32a-f28d0d52342c)  
+4. At the top-right of the page, select the **Import" button**.<br>![image](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/assets/40640041/418b999c-58e2-49f3-a3f1-118b16271b26)  
 5. Click the **Browse** button, navigate to and select the desired template such as `<template_name>.json`
 6. Click **Save**
 
@@ -39,11 +39,15 @@ In this step we will import a pre-made **Device Template**
 In this step, we will create a **Device** associated with the previously imported **Device Template**
 
 1. In the ribbon at the bottom of the screen, click the **Devices**
-2. At the top-right, click **Create Device**
-<img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" />
-3. Enter a custom **Unique ID** and **Device Name** such as `MyDevice` (Ensure these match for simplicity)
+2. At the top-right, click **Create Device**  
+<img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" /><br>
+3. Enter a custom **Unique ID** and **Device Name** such as `MyDevice` (Ensure these match for simplicity)  
+
+
 > [!IMPORTANT]
 > The Unique ID must be less than 14 characters and be alphanumeric.
+
+
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select the previously imported **Template**  
 6. Ensure "Auto-generated" is selected under **Device Certificate**.
