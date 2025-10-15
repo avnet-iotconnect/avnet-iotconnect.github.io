@@ -42,15 +42,9 @@ In this step, we will create a **Device** associated with the previously importe
 2. At the top-right, click **Create Device**  
 <img width="471" height="211" alt="click_create_device" src="https://github.com/user-attachments/assets/e57d01b4-bb59-43c1-a926-cf862195b071" /><br>
 3. Enter a custom **Unique ID** and **Device Name** such as `MyDevice` (Ensure these match for simplicity)  
-
-
-> [!IMPORTANT]
-> The Unique ID must be less than 14 characters and be alphanumeric.
-
-
 4. Select the **Entity** to put the device in (For new accounts, there is only one option)  
 5. Select the previously imported **Template**  
-6. Ensure "Auto-generated" is selected under **Device Certificate**.
+6. Unless you already obtained a certificate from the device, select "Auto-generated" under **Device Certificate** .
 7. Click **Save & View**
 8. Download the "Connection Kit" by clicking the icon in the upper right of the device page.  Save this file as `connectionKit.zip` and then unzip/extract the contents.  
 <img width="380" height="180" alt="connection_kit" src="https://github.com/user-attachments/assets/ab693911-aebe-4916-b85d-9d734d067a46" />
