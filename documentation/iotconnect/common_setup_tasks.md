@@ -59,6 +59,6 @@ In this step we will locate and copy the **CPID** and **Environment**
 At this point you should have the following information:
 * CPID
 * Environment
-* Security Keys from `connectionKit.zip`
+* Certificates from `connectionKit.zip`
 
 **You may now return to any guides which may have brought you to this file.**
