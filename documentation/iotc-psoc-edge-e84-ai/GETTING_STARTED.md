@@ -111,10 +111,9 @@ Use the resultant outputs to replace the following lines:
 #define IOTCONNECT_DEVICE_KEY "<insert key>"
 ```
 
-<details>
- <summary>Expand for Example</summary>
- ```
- #define IOTCONNECT_DEVICE_CERT \
+<details><summary>Expand for an Example</summary>
+<pre><code>
+#define IOTCONNECT_DEVICE_CERT \
 "-----BEGIN CERTIFICATE-----\n" \
 "MIIDWTCCAkGgAwIBAgIUSbMqOMg8VRUTNUWXYE/LQEYus00wDQYJKoZIhvcNAQEL\n" \
 "BQAwTTFLMEkGA1UECwxCQW1hem9uIFdlYiBTZXJ2aWNlcyBPPUFtYXpvbi5jb20g\n" \
@@ -123,9 +122,9 @@ Use the resultant outputs to replace the following lines:
 "ZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJ1gnw81gtXTDqcCFHN\n" \
 "nH5GhUtemPisY8IOiAOQOvttAcesE5PBTcForGYRMPwBfXIYIQWq+sPsKOIiaxps\n" \
 "XuwNfQhTjw2DlsR1fRVftcj1V70eI0qucZTPJ83en93mhXi0Aja3wkzhUKr/YjXg\n" \
-"61cLDFUhwRwE7TyIg8st                  I5DTjmFgpQwJPR74YXgasUqWDH\n" \
-"C34fpufAHZZcYAKRylLV   EXAMPLE ONLY   FSGkuZoBpkKhsIxdU/1EHqpBtf\n" \
-"ZVVO4ETd1RGadZm6pezI                  IMLv8kP+FCu0JZUV50t2vO46/s\n" \
+"61cLDFUhwRwE7TyIg8stFS+SwEu4nAxnWZxjLII5DTjmFgpQwJPR74YXgasUqWDH\n" \
+"C34fpufAHZZcYAKRylLVd5BJLrFSGkuZoBmwA2mRKoYz+DpkKhsIxdU/1EHqpBtf\n" \
+"ZVVO4ETd1RGadZm6pezIhI33HF2zbn4QOkk88LIMLv8kP+FCu0JZUV50t2vO46/s\n" \
 "sp0CAwEAAaNgMF4wHwYDVR0jBBgwFoAUgEZbxS9CKqZ4t3llAjuNjo7KXD8wHQYD\n" \
 "VR0OBBYEFHjA9aP2CjvTGx+pdBLIlDmAaCAzMAwGA1UdEwEB/wQCMAAwDgYDVR0P\n" \
 "AQH/BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQBks7fvcImw15wnX15b8gw525vP\n" \
@@ -148,9 +147,9 @@ Use the resultant outputs to replace the following lines:
 "C1X8BBCK2wVCDbh5eChhduvgfIL3ot8Yu0VKHiJk2msHf4C2w9X4MkbgXA7X3K2X\n" \
 "RC+YXlNzDs7xhmGGq9OsUzpOZwW3Azg+pSa2HDgUHz3+Bg0XoqxuEW7o3kIe0Aul\n" \
 "tg+hN4ZNUS+WbO9vweUSdvLE0xAwNls7Gx5QalOIP3JahugLhm+tGNgobJSRoYoI\n" \
-"sFMQZaVo4PAZChbqrYu7s1                  wXGqpfKCN4UNsfGMbwkfGpRt\n" \
-"bGAEdRUCgYEA8ai8sFbMbT   EXAMPLE ONLY   8n1tx3he+H5g+F6/hlCXiyeV\n" \
-"Zlewfigfx5GW1LKbKeoQgd                  e5RqdMLG0/20+0tbTY1PKn8B\n" \
+"sFMQZaVo4PAZChbqrYu7s1LrtOopeFeKki02MD3NwXGqpfKCN4UNsfGMbwkfGpRt\n" \
+"bGAEdRUCgYEA8ai8sFbMbTt7/QOpcqIoGP3kpl0K8n1tx3he+H5g+F6/hlCXiyeV\n" \
+"Zlewfigfx5GW1LKbKeoQgd8Y2QM6xU4chHRikGQse5RqdMLG0/20+0tbTY1PKn8B\n" \
 "QH0mJHhl29NXyTsqtusjWoZzzamL41lc4Y/l+mGqQ4V1L/rmI+463msCgYEA7+Xa\n" \
 "oje5GOkJCnJpOzGAXfkLMEQ6YFtugBRfgyX3c2sjBnvEeTkaHx/95Cls0Kdwqr3v\n" \
 "/ygM0kPOt0H7y4eZvlKIj6GdX0+t4O2aoXgZuMijNVnIERqNEz1OIvX9Ilv5lg/b\n" \
@@ -164,7 +163,7 @@ Use the resultant outputs to replace the following lines:
 "DR6XRHCcfI/UceXp7wmfJQ/CcmpqaKe3taPg5VaHS+SDR0ka/hZFkOeVvdgq4kAs\n" \
 "Rw6/f7e9xvBWCQKghZIPvueEK6IwW3cwFMEIe4g+I5VEygUzEbrb\n" \
 "-----END RSA PRIVATE KEY-----\n"
- ```
+</code></pre>
 </details>
 
 ### Configure WiFi
