@@ -191,7 +191,7 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 
 ## 9. Hardware Setup
 1. Connect the USB-C port from the board to your PC. Ensure you use the port identified in the image below.<br>![image](./media/debug-usb-port.png)
-2. Connect the board's debug port to a USB port on your PC. A new USB device should be detected.Firmware logs will be available on that COM port.
+2. Connect the board's debug port to a USB port on your PC. A new USB device should be detected. Firmware logs will be available on that COM port.
 3. Open the Serial Terminal application and configure as shown below:
    * Port: (Select the COM port with the device)
    * Speed: `115200`
@@ -207,7 +207,7 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 ## 11. Verify Data
 * Check in the serial terminal application that various gestures are detected:
 ```
->: {"d":[{"d":{"version":"1.1.1","random":43,"confidence":99,"class_id":1,"class":"baby_cry","event_detected":true}}]}
+>: {"d":[{"d":{"version":"?-1.1.1","random":77,"class_id":2,"class":"SwipeDown","event_detected":true}}]}
 ```
 
 * Return to /IOTCONNECT and verify the device is reported as **CONNECTED** and that **Live Data** is visible.
