@@ -77,14 +77,16 @@ In this step we will locate and download the **device certificates**.
 6. Select the `PSOC Edge E84 AI Kit` and click **Next**.
 7. For the Application(s) Root Path, specify or browse to a directory where the application will be created.
 8. Ensure that the **Target IDE** is `Microsoft Visual Studio Code`.
-9. Type `baby` in the **Template Applications** search box and add a checkmark next to `Avnet PSOC Edge DEEPCRAFT Ready Models`<br>![mtb-project-creator.png](./media/mtb-project-creator.png)
+9. Type `avnet` in the **Template Applications** search box and add a checkmark next to `Avnet PSOC Edge DEEPCRAFT Ready Models`<br>![mtb-project-creator.png](./media/mtb-project-creator.png)
 10. Click **Create**.
 11. After the project is created successfully, close the Project Creator.
 
 ## 8. Configure and Build Software
 Launch `Visual Studio Code`, and Select **File -> Open Workspace from File**, navigate to the location of the application that was just
 created, select the workspace file, and click **Open**.
-> [NOTE] Depending on your settings in VS Code, you may see a message about trusting the authors. If so, click **Yes, I trust the authors**.
+> [!IMPORTANT]
+> Depending on your settings in VS Code, you may see a message about trusting the authors. If so, click **Yes, I trust the authors**.
+
 ### Configure Device
 * In the project tree, expand `proj_cm33_ns` open `app_config.h` and update the following lines using the `iotcDeviceConfig.json` downloaded previously.
 ```
@@ -94,7 +96,7 @@ created, select the workspace file, and click **Open**.
 
 17 #define IOTCONNECT_DUID "<uid>"
 ```
->[WARNING] 
+>[!CAUTION] 
 > The cert and key must be properly formatted when being entered.
 
 Use an LLM like ChatGPT to format the certificate and key by using the following prompt and then pasting in your certificate and key:
@@ -108,6 +110,63 @@ Use the resultant outputs to replace the following lines:
 #define IOTCONNECT_DEVICE_CERT "<insert cert>"
 #define IOTCONNECT_DEVICE_KEY "<insert key>"
 ```
+
+<details>
+ <summary>Expand for Example</summary>
+ ```
+ #define IOTCONNECT_DEVICE_CERT \
+"-----BEGIN CERTIFICATE-----\n" \
+"MIIDWTCCAkGgAwIBAgIUSbMqOMg8VRUTNUWXYE/LQEYus00wDQYJKoZIhvcNAQEL\n" \
+"BQAwTTFLMEkGA1UECwxCQW1hem9uIFdlYiBTZXJ2aWNlcyBPPUFtYXpvbi5jb20g\n" \
+"SW5jLiBMPVNlYXR0bGUgU1Q9V2FzaGluZ3RvbiBDPVVTMB4XDTI1MTAyNDE3MDMw\n" \
+"MloXDTQ5MTIzMTIzNTk1OVowHjEcMBoGA1UEAwwTQVdTIElvVCBDZXJ0aWZpY2F0\n" \
+"ZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJ1gnw81gtXTDqcCFHN\n" \
+"nH5GhUtemPisY8IOiAOQOvttAcesE5PBTcForGYRMPwBfXIYIQWq+sPsKOIiaxps\n" \
+"XuwNfQhTjw2DlsR1fRVftcj1V70eI0qucZTPJ83en93mhXi0Aja3wkzhUKr/YjXg\n" \
+"61cLDFUhwRwE7TyIg8st                  I5DTjmFgpQwJPR74YXgasUqWDH\n" \
+"C34fpufAHZZcYAKRylLV   EXAMPLE ONLY   FSGkuZoBpkKhsIxdU/1EHqpBtf\n" \
+"ZVVO4ETd1RGadZm6pezI                  IMLv8kP+FCu0JZUV50t2vO46/s\n" \
+"sp0CAwEAAaNgMF4wHwYDVR0jBBgwFoAUgEZbxS9CKqZ4t3llAjuNjo7KXD8wHQYD\n" \
+"VR0OBBYEFHjA9aP2CjvTGx+pdBLIlDmAaCAzMAwGA1UdEwEB/wQCMAAwDgYDVR0P\n" \
+"AQH/BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQBks7fvcImw15wnX15b8gw525vP\n" \
+"6uhY9jd30h9urUH/4ErZjq9PBxKESCOsrQUyoz5rer6OWoGNqp4HQ6meE9+iZ5h+\n" \
+"qVfiPe2j7QrHbWDMTMoqNtbaab1jmEpexoVv+TL/w3/kYjSgP0J0059P3dVTRl4F\n" \
+"I5SNu0x+/7AHyzTZfG487IqADS9SyXDrQPB2GSSY0ozFU1Z1Q7nEA6a9t8VRln4Q\n" \
+"OQJUuLHFm5jjRyIfMAHSjexF/Q58vrDUYfKYvGe1cGjXoFgvufFVx2DkARLqz4Ru\n" \
+"VV6uYAMqvdkwFZC+Fp4MaVH3Pj7C7UOY1CpdEgiXwv9wMihIcoh6daWYFuR/\n" \
+"-----END CERTIFICATE-----\n"
+
+#define IOTCONNECT_DEVICE_KEY \
+"-----BEGIN RSA PRIVATE KEY-----\n" \
+"MIIEowIBAAKCAQEA4nWCfDzWC1dMOpwIUc2cfkaFS16Y+Kxjwg6IA5A6+20Bx6wT\n" \
+"k8FNwWisZhEw/AF9chghBar6w+wo4iJrGmxe7A19CFOPDYOWxHV9FV+1yPVXvR4j\n" \
+"Sq5xlM8nzd6f3eaFeLQCNrfCTOFQqv9iNeDrVwsMVSHBHATtPIiDyy0VL5LAS7ic\n" \
+"DGdZnGMsgjkNOOYWClDAk9HvhheBqxSpYMcLfh+m58AdllxgApHKUtV3kEkusVIa\n" \
+"S5mgGbADaZEqhjP4OmQqGwjF1T/UQeqkG19lVU7gRN3VEZp1mbql7MiEjfccXbNu\n" \
+"fhA6STzwsgwu/yQ/4UK7QllRXnS3a87jr+yynQIDAQABAoIBAFq8gLrs2UqUAOwe\n" \
+"5sp4GvMRqIjpb1t8H0B6+A6NdMSXCbaKgRGby17qZOFElB71LeFQP7L4rh9geYUa\n" \
+"C1X8BBCK2wVCDbh5eChhduvgfIL3ot8Yu0VKHiJk2msHf4C2w9X4MkbgXA7X3K2X\n" \
+"RC+YXlNzDs7xhmGGq9OsUzpOZwW3Azg+pSa2HDgUHz3+Bg0XoqxuEW7o3kIe0Aul\n" \
+"tg+hN4ZNUS+WbO9vweUSdvLE0xAwNls7Gx5QalOIP3JahugLhm+tGNgobJSRoYoI\n" \
+"sFMQZaVo4PAZChbqrYu7s1                  wXGqpfKCN4UNsfGMbwkfGpRt\n" \
+"bGAEdRUCgYEA8ai8sFbMbT   EXAMPLE ONLY   8n1tx3he+H5g+F6/hlCXiyeV\n" \
+"Zlewfigfx5GW1LKbKeoQgd                  e5RqdMLG0/20+0tbTY1PKn8B\n" \
+"QH0mJHhl29NXyTsqtusjWoZzzamL41lc4Y/l+mGqQ4V1L/rmI+463msCgYEA7+Xa\n" \
+"oje5GOkJCnJpOzGAXfkLMEQ6YFtugBRfgyX3c2sjBnvEeTkaHx/95Cls0Kdwqr3v\n" \
+"/ygM0kPOt0H7y4eZvlKIj6GdX0+t4O2aoXgZuMijNVnIERqNEz1OIvX9Ilv5lg/b\n" \
+"Eekfax0cTbDdu+p9CB+6VaBJqIy65hRcjNBH5RcCgYAUnqk7Aqz+xQyXUjCrL1rs\n" \
+"hv1zlIzSlBFB6+tumJn9l1gQReAoZ4A/80uD+Dh99tY/392NfgNakYa1PalOHJQi\n" \
+"WSvv1hxVjxxmShhdDlDbAFsSCvSuU5fvwL34bq2CTE45RWsnoHiryL0o10awZ3ed\n" \
+"Z4HgE2VLzZ9qMKZienlbcQKBgCta2vxeHbGGy/97VdFAzPYuv/rlGbe4TmwPQoOt\n" \
+"JN9TCW1uiL9vtmzRl0zYv7WlzRLOaMUwM8D8SCuOXTcXNo3S1KNAjfRfrgjsZ/mu\n" \
+"fteKSxSlOSb+KWjEt45R7oF7Jcwc6XZ/LxJonGjeAfSoGBiTw1UeNrGjXVOfcmpw\n" \
+"ac3ZAoGBAOoSIqLSUN5fL5+k5J040YiNMpOJtJ0pEfiOgO716Xfl6VgjDAccpKSu\n" \
+"DR6XRHCcfI/UceXp7wmfJQ/CcmpqaKe3taPg5VaHS+SDR0ka/hZFkOeVvdgq4kAs\n" \
+"Rw6/f7e9xvBWCQKghZIPvueEK6IwW3cwFMEIe4g+I5VEygUzEbrb\n" \
+"-----END RSA PRIVATE KEY-----\n"
+ ```
+</details>
+
 ### Configure WiFi
 1. Open `wifi_config.h` from the project tree
 2. Modify the following lines, using your network name (WIFI_SSID) and password (WIFI_PASSWORD):
