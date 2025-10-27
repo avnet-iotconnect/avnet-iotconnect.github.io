@@ -4,7 +4,7 @@
 ## 1. Introduction
 
 This guide will walk through the steps of setting up the Infineon PSOC™ Edge E84 AI Kit 
-for connecting to Avnet's /IOTCONNECT platform and demonstrating the "Hand Gesture" DEEPCRAFT™ [Ready Model](https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models).
+for connecting to Avnet's /IOTCONNECT platform and demonstrating the "Hand Gesture" [DEEPCRAFT™ Ready Model](https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models).
 
 ## 2. Prerequisites
 * **PSOC™ Edge E84 AI Kit** ([Buy Now](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459))
