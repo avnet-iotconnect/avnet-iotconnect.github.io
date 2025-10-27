@@ -215,3 +215,8 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 ## 12. Import Dynamic Dashboard
 
 ## 13. Resources
+* Learn more about [/IOTONNECT integration of Infineon DEEPCRAFT Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm)
+* [Purchase the Infineon PSOC Edge E84 AI Kit](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459)
+* [More /IOTCONNECT Infineon Guides](https://avnet-iotconnect.github.io/partners/infineon/)
+* [/IOTCONNECT Overview](https://www.iotconnect.io/)
+* [/IOTCONNECT Knowledgebase](https://help.iotconnect.io/)
