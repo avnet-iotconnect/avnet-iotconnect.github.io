@@ -223,7 +223,7 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to exit the edit mode.
 
-![gesture-dashboard.png](./gesture-dashboard.png)
+![gesture-dashboard.png](/media/gesture-dashboard.png)
 
 ## 13. Resources
 * Learn more about [/IOTONNECT integration of Infineon DEEPCRAFT Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm)
