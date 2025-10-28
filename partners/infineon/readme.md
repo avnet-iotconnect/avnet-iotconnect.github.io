@@ -4,6 +4,41 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 
 ---
 
+### PSOC™ Edge E84 AI Kit
+*Purchase:*  [KIT_PSE84_AI](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459)
+
+<img src="KIT_PSE84_AI.png" width="300" title="KIT_PSE84_AI">
+
+#### Guides:
+* [Getting Started: DEEPCRAFT™ Gesture Ready Model](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-psoc-edge-e84-ai/GETTING_STARTED.md)
+* [Developer Guide: PSOC™ Edge Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/blob/main/DEVELOPER_GUIDE.md)
+
+#### Resources:
+* [Avnet PSOC™ Edge DEEPCRAFT™ Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/tree/main)
+* [Avnet PSOC™ Edge DEEPCRAFT™ Motion](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-motion)
+* [Avnet PSOC™ Edge DEEPCRAFT™ Voice Assistant](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-voice-assistant)
+* [Avnet PSOC™ Edge DEEPCRAFT™ Baby Monitor](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-baby-monitor)
+* [More Information](https://www.avnet.com/iotconnect/infineon)
+
+---
+
+### PSOC™ E84 Evaluation Kit
+*Purchase:*  [KIT_PSE84_EVAL_EPC2](https://www.newark.com/infineon/kitpse84evaltobo1/eval-kit-32bit-arm-cortex-m55f/dp/49AM4460)
+
+<img src="KIT_PSE84_EVAL_EPC2.png" width="300" title="KIT_PSE84_EVAL_EPC2">
+
+#### Guides:
+* [Developer Guide: PSOC™ Edge Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/blob/main/DEVELOPER_GUIDE.md)
+
+#### Resources:
+* [Avnet PSOC™ Edge DEEPCRAFT™ Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/tree/main)
+* [Avnet PSOC™ Edge DEEPCRAFT™ Motion](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-motion)
+* [Avnet PSOC™ Edge DEEPCRAFT™ Voice Assistant](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-voice-assistant)
+* [Avnet PSOC™ Edge DEEPCRAFT™ Baby Monitor](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-baby-monitor)
+* [More Information](https://www.avnet.com/iotconnect/infineon)
+
+---
+
 ### PSOC™ 6 Artificial Intelligence Evaluation Kit
 *Purchase:*  [CY8CKIT-062S2-AI](https://www.avnet.com/shop/us/products/infineon/cy8ckit-062s2-ai-3074457345659496631/)
 
