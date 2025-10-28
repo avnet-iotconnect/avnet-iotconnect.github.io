@@ -4,7 +4,20 @@ Microchip products that have been pre-enabled to work with /IOTCONNECT.
 
 ---
 
-### Microchip PolarFire SoC Discovery Kit
+### Curiosity PIC64GX1000 Kit
+*Purchase:*  [CURIOSITY-PIC64GX1000-KIT](https://www.newark.com/microchip/curiosity-pic64gx1000-kit/curiosity-kit-64bit-risc-v-quad/dp/46AM3917) 
+
+<img src="CURIOSITY-PIC64GX1000-KIT.png" width="300" title="CURIOSITY-PIC64GX1000-KIT">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-pic64gx1000)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/microchip)
+
+---
+
+### PolarFire SoC Discovery Kit
 *Purchase:*  [MPFS-DISCO-KIT](https://export.farnell.com/microchip/mpfs-disco-kit/soc-discovery-kit-64bit-risc-v/dp/4377642) 
 
 <img src="MPFS-DISCO-KIT.png" width="300" title="MPFS-DISCO-KIT">
