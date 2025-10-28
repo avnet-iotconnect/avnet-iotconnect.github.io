@@ -4,6 +4,19 @@ Microchip products that have been pre-enabled to work with /IOTCONNECT.
 
 ---
 
+### Microchip PolarFire SoC Discovery Kit
+*Purchase:*  [MPFS-DISCO-KIT](https://export.farnell.com/microchip/mpfs-disco-kit/soc-discovery-kit-64bit-risc-v/dp/4377642) 
+
+<img src="MPFS-DISCO-KIT.png" width="300" title="MPFS-DISCO-KIT">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-polarfire-soc-dk)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/microchip)
+
+---
+
 ### WFI32-IoT Development Board
 *Purchase:*  [EV36W50A](https://www.avnet.com/shop/us/products/microchip/ev36w50a-3074457345653385127/)
 
