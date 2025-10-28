@@ -2,6 +2,17 @@
 
 Microchip products that have been pre-enabled to work with /IOTCONNECT.
 
+### SAMA5D27
+*Purchase:*  [SAMA5D27](https://www.avnet.com/shop/us/products/microchip/atsama5d27-som1-ek-3074457345633909354/?srsltid=AfmBOorYtSqVK7BDtS-_h4NDc21QKb7yCg1XAcTrRP8ydEuLJZFjeglj) 
+
+<img src="sama5d27.png" width="300" title="SAMA5D27">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-python-lite-sdk-demos/tree/main/microchip-sama5d27)
+
+#### Resources:
+* [More Information](https://www.avnet.com/iotconnect/microchip)
+
 ---
 
 ### Curiosity PIC64GX1000 Kit
