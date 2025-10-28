@@ -1,4 +1,5 @@
 # Getting Started: PSOC Edge E84 AI Kit with /IOTCONNECT 
+[Purchase the PSOC Edge E84 AI Kit](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459)
 ![psoc-edge-e84-ai-kit.png](./media/psoc-edge-e84-ai-kit.png)
 
 ## 1. Introduction
