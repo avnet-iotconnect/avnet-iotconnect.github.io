@@ -100,7 +100,7 @@ created, select the workspace file, and click **Open**.
 >[!CAUTION] 
 > The cert and key must be properly formatted when being entered.
 
-Use an LLM like ChatGPT to format the certificate and key by using the following prompt and then pasting in your certificate and key:
+Use an LLM like Copilot or ChatGPT to format the certificate and key by using the following prompt and then pasting in your certificate and key:
 ```
 Format the following certificate and key for inclusion in a .h file as #define IOTCONNECT_DEVICE_CERT and #define IOTCONNECT_DEVICE_KEY
 ```
