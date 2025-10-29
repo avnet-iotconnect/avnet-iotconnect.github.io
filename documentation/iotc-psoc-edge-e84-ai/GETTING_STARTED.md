@@ -177,7 +177,7 @@ Copy/Paste the certs into <b>app_config.h</b> and manually add the begining <b>"
 </code></pre>
 </details>
 
-<details><summary>AI Option #1: Format with an AI tool</summary>
+<details><summary>AI Option: Format with an AI tool</summary>
 Use an AI tool such as Copilot or ChatGPT to format the certificate and key by using the following prompt as an example.
 <pre><code>
 Format the certificate and key for inclusion in a .h file as #define IOTCONNECT_DEVICE_CERT and #define IOTCONNECT_DEVICE_KEY:
@@ -185,14 +185,6 @@ Format the certificate and key for inclusion in a .h file as #define IOTCONNECT_
 #Paste Key
 </code></pre>
  Paste the output into the <b>app_config.h</b> overwritting the placeholder <b>#define</b> lines
-</details>
-
-<details><summary>AI Option #2: Add certs to project and update <b>app_config.h</b> with AI</summary>
-<b>Copy/Paste</b>, <b>Drag/Drop</b>, or <b>Import</b> the certificate files into the project.
-Using the following prompt in <b>VSCode Chat</b> to update the <b>app_config.h</b>
-<pre><code>
-Set IOTCONNECT_DEVICE_CERT and IOTCONNECT_DEVICE_KEY in app_config.h by using the contents of the .cert and .pem files in the project directory.
-</code></pre>
 </details>
 
 ### Configure WiFi
