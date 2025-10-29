@@ -88,31 +88,28 @@ created, select the workspace file, and click **Open**.
 > [!IMPORTANT]
 > Depending on your settings in VS Code, you may see a message about trusting the authors. If so, click **Yes, I trust the authors**.
 
-### Configure Device
+### Configure Connection Information
 * In the project tree, expand `proj_cm33_ns` open `app_config.h` and update the following lines using the `iotcDeviceConfig.json` downloaded previously.
-```
-12 #define IOTCONNECT_CONNECTION_TYPE IOTC_CT_AWS
-13 #define IOTCONNECT_CPID "<cpid>"
-14 #define IOTCONNECT_ENV  "<env>"
-
-17 #define IOTCONNECT_DUID "<uid>"
-```
->[!CAUTION] 
-> The cert and key must be properly formatted when being entered.
-
-Use an LLM like Copilot or ChatGPT to format the certificate and key by using the following prompt and then pasting in your certificate and key:
-```
-Format the following certificate and key for inclusion in a .h file as #define IOTCONNECT_DEVICE_CERT and #define IOTCONNECT_DEVICE_KEY
+```c
+#define IOTCONNECT_CONNECTION_TYPE IOTC_CT_AWS
+#define IOTCONNECT_CPID "<cpid>"
+#define IOTCONNECT_ENV  "<env>"
+#define IOTCONNECT_DUID "<uid>"
 ```
 
-Use the resultant outputs to replace the following lines:
+### Insert Certificates
+The contents of the `cert_PSOCEdgeE84.crt` and `pk_PSOCEdgeE84.pem` need to be inserted into the following lines:
 
-```
+```c
 #define IOTCONNECT_DEVICE_CERT "<insert cert>"
 #define IOTCONNECT_DEVICE_KEY "<insert key>"
 ```
 
-<details><summary>Expand for an Example</summary>
+>[!CAUTION] 
+> The cert and key must be properly formatted when being entered to escape the double quotes!
+> This can be done manually or by using AI.
+
+<details><summary>Expand for an example of properly formatted certificates</summary>
 <pre><code>
 #define IOTCONNECT_DEVICE_CERT \
 "-----BEGIN CERTIFICATE-----\n" \
@@ -164,6 +161,24 @@ Use the resultant outputs to replace the following lines:
 "DR6XRHCcfI/UceXp7wmfJQ/CcmpqaKe3taPg5VaHS+SDR0ka/hZFkOeVvdgq4kAs\n" \
 "Rw6/f7e9xvBWCQKghZIPvueEK6IwW3cwFMEIe4g+I5VEygUzEbrb\n" \
 "-----END RSA PRIVATE KEY-----\n"
+</code></pre>
+</details>
+
+<details><summary>AI Option #1: Format with an AI tool</summary>
+Use an AI tool such as Copilot or ChatGPT to format the certificate and key by using the following prompt as an example.
+<pre><code>
+Format the certificate and key for inclusion in a .h file as #define IOTCONNECT_DEVICE_CERT and #define IOTCONNECT_DEVICE_KEY:
+#paste Certificate
+#Paste Key
+</code></pre>
+ Paste the output into the <b>app_config.h</b> overwritting the placeholder <b>#define</b> lines
+</details>
+
+<details><summary>AI Option #2: Add certs to project and update <b>app_config.h</b> with AI</summary>
+<b>Copy/Paste</b>, <b>Drag/Drop</b>, or <b>Import</b> the certificate files into the project.
+Using the following prompt in <b>VSCode Chat</b> to update the <b>app_config.h</b>
+<pre><code>
+Set IOTCONNECT_DEVICE_CERT and IOTCONNECT_DEVICE_KEY in app_config.h by using the contents of the .cert and .pem files in the project directory.
 </code></pre>
 </details>
 
