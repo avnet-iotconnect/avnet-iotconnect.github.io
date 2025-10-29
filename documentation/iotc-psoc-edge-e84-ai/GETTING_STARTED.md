@@ -164,6 +164,19 @@ The contents of the `cert_PSOCEdgeE84.crt` and `pk_PSOCEdgeE84.pem` need to be i
 </code></pre>
 </details>
 
+<details><summary>Manual Option: Format manually in VSCode</summary>
+Copy/Paste the certs into <b>app_config.h</b> and manually add the begining <b>"</b> and trailing <b>\" \</b> to each line.
+<pre><code>
+#define IOTCONNECT_DEVICE_KEY \
+"-----BEGIN RSA PRIVATE KEY-----\n" \
+"MIIEowIBAAKCAQEA4nWCfDzWC1dMOpwIUc2cfkaFS16Y+Kxjwg6IA5A6+20Bx6wT\n" \
+.
+.
+.
+"-----END RSA PRIVATE KEY-----\n"
+</code></pre>
+</details>
+
 <details><summary>AI Option #1: Format with an AI tool</summary>
 Use an AI tool such as Copilot or ChatGPT to format the certificate and key by using the following prompt as an example.
 <pre><code>
