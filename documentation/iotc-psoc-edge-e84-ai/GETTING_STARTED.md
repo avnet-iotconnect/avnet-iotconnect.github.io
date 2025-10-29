@@ -226,6 +226,15 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 2. Select **Program** from the dropdown
 
 ## 11. Verify Data
+* Orient the board as shown below make the following gestures:
+  * Swipe Up
+  * Swipe Down
+  * Swipe Right
+  * Swipe Left
+  * Push In
+
+![gesture-directions.png](./media/gesture-directions.png) 
+
 * Check in the serial terminal application that various gestures are detected:
 ```
 >: {"d":[{"d":{"version":"G-1.1.1","random":77,"class_id":2,"class":"SwipeDown","event_detected":true}}]}
