@@ -10,7 +10,7 @@ Infineon products that have been pre-enabled to work with /IOTCONNECT.
 <img src="KIT_PSE84_AI.png" width="300" title="KIT_PSE84_AI">
 
 #### Guides:
-* [Getting Started: DEEPCRAFT™ Gesture Ready Model](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-psoc-edge-e84-ai/GETTING_STARTED.md)
+* [Getting Started: DEEPCRAFT™ Gesture Ready Model](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotc-psoc-edge-e84-ai/)
 * [Developer Guide: PSOC™ Edge Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/blob/main/DEVELOPER_GUIDE.md)
 
 #### Resources:
