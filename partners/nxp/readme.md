@@ -4,6 +4,20 @@ NXP products that have been pre-enabled to work with /IOTCONNECT.
 
 ---
 
+### FRDM‑MCXN947
+*Purchase:*  [FRDM‑MCXN947](https://www.newark.com/nxp/frdm-mcxn947/frdm-development-board-for-mcx/dp/85AK8337)
+
+<img src="FRDM‑MCXN947.png" width="300" title="FRDM‑MCXN947">
+
+#### Guides:
+* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos)
+
+#### Resources:
+* [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-mcx-zephyr-demos)
+* [More Information](https://www.avnet.com/iotconnect/nxp)
+
+---
+
 ### FRDM-IMX93
 *Purchase:*  [FRDM-IMX93](https://www.avnet.com/shop/us/products/nxp/frdm-imx93-3074457345660216004)
 
