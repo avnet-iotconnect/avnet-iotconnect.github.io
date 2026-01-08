@@ -1,5 +1,6 @@
 # Getting Started: PSOC Edge E84 Evaluation Kit with /IOTCONNECT 
-[Purchase the PSOC Edge E84 Eval Kit](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459)
+[Purchase the PSOC Edge E84 Eval Kit](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459) 
+
 ![KIT_PSE84_EVAL_EPC2.png](./media/KIT_PSE84_EVAL_EPC2.png)
 
 ## 1. Introduction
