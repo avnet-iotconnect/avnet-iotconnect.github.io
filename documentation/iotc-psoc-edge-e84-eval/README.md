@@ -196,14 +196,6 @@ Format the certificate and key for inclusion in a .h file as #define IOTCONNECT_
 #define WIFI_PASSWORD                    "<password>"
 ```
 
-### Select the Ready Model
-1. Open `common.mk` from the project tree
-2. Modify the following line to select the Gesture Ready Model
-
-```
-MODEL_SELECTION = GESTURE_MODEL
-```
-
 ### Build
 1. Click **File -> Save**
 2. Click **Terminal -> Run Task**
@@ -228,25 +220,21 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 
 ## 11. Verify Data
 
-* Check in the serial terminal application that various gestures are detected:
-```
->: {"d":[{"d":{"version":"G-1.1.1","random":77,"class_id":2,"class":"SwipeDown","event_detected":true}}]}
-```
-
+* Check the serial terminal to ensure MQTT data is being generated.
 * Return to /IOTCONNECT and verify the device is reported as **CONNECTED** and that **Live Data** is visible.
 
 ## 12. Import Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
-1. Download the example **E84 Eval Kit Dashboard** dashboard: [psoc-edge84-eval-kit-dashboard.json](./psoc-edge84-ai-gesture-dashboard.json)
+1. Download the example **E84 Eval Kit Dashboard** dashboard: [Infineon-PSOC-E84-Imagimob-Baby-Cry-Ready-Model-dashboard.json](./Infineon-PSOC-E84-Imagimob-Baby-Cry-Ready-Model-dashboard.json)
 2. Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 3. **Click** `Create Dashboard` from the top of the page
 4. **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
 5. **Select** the *Template* ("pedgerm") and your *Device Name*
-6. **Enter** a name (such as `Gesture Detection Demo`) and **Click** *Save* the finalize the import
+6. **Enter** a name (such as `Baby Cry Demo`) and **Click** *Save* the finalize the import
 
 You will now be in the dashboard edit mode. You can add/remove widgets or just click `Save` in the upper-right corner to exit the edit mode.
 
-![e84-eval-dashboard.png](./media/e84-eval-dashboard.png)
+![baby-cry-dashboard.png](./media/baby-cry-dashboard.png)
 
 ## 13. Resources
 * Learn more about [/IOTONNECT integration of Infineon DEEPCRAFT Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm)
