@@ -17,7 +17,7 @@ If not, please complete the QuickStart Guide for your device **to the section on
 * [STM32MP257F-EV1 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-ev1)
 
 > [!IMPORTANT]
-> In addition to the hardware and software requirements outlines in the QuickStart guides above, you will also need a **UVC-Compliant USB Camera** such as [this one](https://www.amazon.com/ALPCAM-Distortion-Compliant-Embedded-Industrial/dp/B0B1WTV1KB?th=1).
+> In addition to the hardware and software requirements outlines in the QuickStart guides above, you will also need a **UVC-Compliant USB Camera** such as [this one](https://www.amazon.com/ALPCAM-Distortion-Compliant-Embedded-Industrial/dp/B0B1WTV1KB?th=1) connected to one of the USB type A ports on the board.
 
 ## 3. Upload Vision AI Device Template
 After successfully following one of the guides listed above you should have the Device Health Monitoring greengrass component deployed and sending basic telemetry to the /IOTCONNECT platform.
