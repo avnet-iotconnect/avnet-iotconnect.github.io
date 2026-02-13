@@ -9,25 +9,19 @@ The guide is compatible with the following STM32MP series devices:
 * STM32MP257F-EV1 ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp257f-ev1/eval-brd-arm-cortex-a35-m33-m0/dp/13AM6530))
 
 ## 2. Prerequisites
-This guide assumes that you have already completed the /IOTCONNECT QuickStart setup for one of the devices listed above.  
-If not, please complete the QuickStart for your device **up to the section on component deployment** then return to this guide:
+These instructions assume that you have already completed the QuickStart Guide for one of the devices listed above.  
+If not, please complete the QuickStart Guide for your device **to the section on greengrass component deployment** then return to this guide and resume at the next section.
 * [STM32MP135F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2)
 * [STM32MP157F-DK2 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2)
 * [STM32MP257F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-dk)
 * [STM32MP257F-EV1 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-ev1)
 
-> [!NOTE]
-> Topics covered in the QuickStart guides, above:
-> 1. Create an /IOTCONNECT account
-> 2. Import an example **Device Template** in /IOTCONNECT
-> 3. Create a **Greengrass Device** in /IOTCONNECT
-> 4. Setup **nucleus lite** on the target device
-
-In addition to the Hardware and Software requirements in the QuickStart guide, you will also need a **UVC-Compliant USB Camera** such as [this one](https://www.amazon.com/ALPCAM-Distortion-Compliant-Embedded-Industrial/dp/B0B1WTV1KB?th=1).
+> [!IMPORTANT]
+> In addition to the hardware and software requirements outlines in the QuickStart guides above, you will also need a **UVC-Compliant USB Camera** such as [this one](https://www.amazon.com/ALPCAM-Distortion-Compliant-Embedded-Industrial/dp/B0B1WTV1KB?th=1).
 
 ## 3. Upload Vision AI Device Template
 After successfully following one of the guides listed above you should have the Device Health Monitoring greengrass component deployed and sending basic telemetry to the /IOTCONNECT platform.
-This telemetry was defined in the Device Template imported in the QuickStart guide. We need to upload a new template which defines the telemetry for the Vision AI demo.
+This telemetry was defined in the Device Template imported in the QuickStart guide. We need to upload a new device template which defines the telemetry for the Vision AI demo.
 1. Download the [Vision AI Device Template](https://github.com/avnet-iotconnect/iotc-python-greengrass-components/blob/07bc25372b13c0c2d12ebaea0c798a61a3e8fd75/st-ai-vision/ai-vision-template.json)
 2. Login to the /IOTCONNECT platform
 2. Navigate to **Device** and then **Greengrass Device** menu on the left menu
@@ -82,7 +76,6 @@ This process can take 5 min or more, so wait until you see "Success" in the Depl
 ## 6. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 * Download the *Vision AI Demo* dashboard: [greengrass-nucleus-lite-dashboard.json](../greengrass-nucleus-lite-dashboard.json)
-
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
