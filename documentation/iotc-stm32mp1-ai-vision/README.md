@@ -1,13 +1,20 @@
-# Lab: AI Vision Demo on STM32MP1 Devices with AWS IoT greengrass nucleus lite
+# Lab: AI Vision Demo on STM32MP Devices with AWS IoT greengrass nucleus lite
 
 ## 1. Overview
-In this Lab we will setup an AI Vision Demo on an STM32MP1 device by using Avnet's /IOTCONNECT platform to simplify the process.  
-The AI Vision Demo software is contained within an AWS greengrass component that will be deployed to the AWS Greengrass nucleus lite running on the device via the Avnet /IOTCONNECT platform.  
+In this Lab we will deploy an AI Vision Demo greengrass component to an STM32MP device by using Avnet's /IOTCONNECT platform to simplify the process.
+The guide is compatible with the following STM32MP series devices:
+* STM32MP135F-DK ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp135f-dk/discovery-kit-32bit-arm-cortex/dp/68AK9977))
+* STM32MP157F-DK2 ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731))
+* STM32MP257F-DK ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp257f-dk/discovery-board-arm-cortex-a35/dp/21AM3759))
+* STM32MP257F-EV1 ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp257f-ev1/eval-brd-arm-cortex-a35-m33-m0/dp/13AM6530))
 
 ## 2. Prerequisites
-This guide assumes that you already have a device running the AWS Greengrass nucleus lite, an /IOTCONNECT account and the hardware and software outlined in the QuickStart guide (below).  
-
-If not, please follow the [STM32MP157F-DK2](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2) or [STM32MP135F-DK](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2) Greengrass nucleus lite QuickStart through to the section on component deployment then return to this guide.
+This guide assumes that you have already completed the /IOTCONNECT QuickStart setup for one of the devices listed above.  
+If not, please complete the QuickStart for your device **up to the section on component deployment** then return to this guide:
+* [STM32MP135F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2)
+* [STM32MP157F-DK2 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2)
+* [STM32MP257F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-dk)
+* [STM32MP257F-EV1 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-ev1)
 
 > [!NOTE]
 > Topics covered in the QuickStart guides, above:
@@ -18,21 +25,34 @@ If not, please follow the [STM32MP157F-DK2](https://github.com/avnet-iotconnect/
 
 In addition to the Hardware and Software requirements in the QuickStart guide, you will also need a **UVC-Compliant USB Camera** such as [this one](https://www.amazon.com/ALPCAM-Distortion-Compliant-Embedded-Industrial/dp/B0B1WTV1KB?th=1).
 
-## 3. Deploy the Vision AI Greengrass Component
+## 3. Upload Vision AI Device Template
+After successfully following one of the guides listed above you should have the Device Health Monitoring greengrass component deployed and sending basic telemetry to the /IOTCONNECT platform.
+This telemetry was defined in the Device Template imported in the QuickStart guide. We need to upload a new template which defines the telemetry for the Vision AI demo.
+1. Download the [Vision AI Device Template](https://github.com/avnet-iotconnect/iotc-python-greengrass-components/blob/07bc25372b13c0c2d12ebaea0c798a61a3e8fd75/st-ai-vision/ai-vision-template.json)
+2. Login to the /IOTCONNECT platform
+2. Navigate to **Device** and then **Greengrass Device** menu on the left menu
+3. Click **Templates** from the bottom menu bar
+4. Click the **Create Template** and import the Vision AI Device Template.
+
+## 4. Change to the Vision AI Device Template
+
+1. Navigate to **Device** and then **Greengrass Device** menu on the left menu
+2. Click the **edit** button next to the template name and select `aivision` as shown below
+
+![Edit Template](./media/edit-device-template.png)
+
+## 5. Deploy the Vision AI Greengrass Component
 To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a deployment package that contains the artifact file and a recipe.
 * **Download** and **Extract** the *Vision AI Demo Component*: [iotc-gg-component-st-ai-vision-1.0.0.zip](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-st-ai-vision-1.0.0.zip)
 
 ### Load the Recipe
 1. In the /IOTCONNECT platform, click **Package** at the bottom of the screen, then click **Components** at the top.
-
-<img width="1015" height="84" alt="click_package" src="https://github.com/user-attachments/assets/da800a4d-f5cf-4cd6-9438-ccefb5056501" />
-
-<img width="570" height="211" alt="click_components" src="https://github.com/user-attachments/assets/1ea5ae9d-c9e7-4abd-815b-6e4e6572a0d1" />
-
+<img width="1015" height="84" alt="click_package" src="https://github.com/user-attachments/assets/da800a4d-f5cf-4cd6-9438-ccefb5056501" /><br>
+<img width="570" height="211" alt="click_components" src="https://github.com/user-attachments/assets/1ea5ae9d-c9e7-4abd-815b-6e4e6572a0d1" /><br>
 2. In the "Create Component" box, browse for the recipe file ("recipe.yaml") from the previously extracted component archive here:  `<your working directory>\iotc-gg-component-st-ai-vision-1.0.0\st-ai-vision\greengrass-build\recipes\recipe.yaml`
 
 ### Load the Artifact 
-1. Click the icon to the right of "dhm-demo.zip" and navigate to the dhm-demo.zip from the previously extracted archive here: `<your working directory>\iotc-gg-component-st-ai-vision-1.0.0\st-ai-vision\greengrass-build\artifacts\io.iotconnect.example.IotConnectStAiVision\1.0.0\st-ai-vision.zip`
+1. Click the icon to the right of "st-ai-vision.zip" and navigate to the st-ai-vision.zip from the previously extracted archive here: `<your working directory>\iotc-gg-component-st-ai-vision-1.0.0\st-ai-vision\greengrass-build\artifacts\io.iotconnect.example.IotConnectStAiVision\1.0.0\st-ai-vision.zip`
 2. Click **Save**
 
 ### Create Package
@@ -41,7 +61,7 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 <img width="390" height="167" alt="create_package" src="https://github.com/user-attachments/assets/ac41c5ae-0d45-444b-8357-72d1c41f01e6" />
 
 2. Enter a *Name* such as `VisionAIdemo`
-3. Select the `ggsdkdemo` Template
+3. Select the `aivision` Template
 4. Select the **Custom Component** in the drop-down
 
 5. Click **Save**
@@ -59,20 +79,18 @@ The package with the component is now being deployed to the device.
 
 This process can take 5 min or more, so wait until you see "Success" in the Deployment History.
 
-## 4. Import a Dynamic Dashboard
+## 6. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 * Download the *Vision AI Demo* dashboard: [greengrass-nucleus-lite-dashboard.json](../greengrass-nucleus-lite-dashboard.json)
 
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * **Click** `Create Dashboard` from the top of the page
 * **Select** the `Import Dashboard` option and **Click** *Browse* to select the dashboard template previously downloaded.
-* **Select** the *Template* ("ggsdkdemo") and your *Device Name*
-* **Enter** a name (such as `My STM32MP1 Greengrass Dashboard`) and **Click** *Save* the finalize the import
+* **Select** the *Template* ("aivision") and your *Device Name*
+* **Enter** a name (such as `Vision AI with STM32MP`) and **Click** *Save* the finalize the import
 
 
-## 5. Resources
-* [Purchase the STM32MP135F-DK](https://www.newark.com/stmicroelectronics/stm32mp135f-dk/discovery-kit-32bit-arm-cortex/dp/68AK9977)
-* [Purchase the STM32MP157F-DK2](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731)
+## 7. Resources
 * Try out the other available [greengrass lite components](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk/tree/main/examples)
 * Learn more and develop your own components: [iotc-python-greengrass-sdk](https://github.com/avnet-iotconnect/iotc-python-greengrass-sdk)
 * [More /IOTCONNECT ST Guides](https://avnet-iotconnect.github.io/partners/st/)
