@@ -1,0 +1,36 @@
+{
+    "commands": [
+        {
+            "name": "set-interval",
+            "parameters": [
+                "seconds"
+            ]
+        },
+        {
+            "name": "set-led",
+            "parameters": [
+                "state"
+            ]
+        }
+    ],
+    "example": "blink",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "interval_sec",
+            "type": "INTEGER"
+        },
+        {
+            "name": "led_state",
+            "type": "STRING"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        }
+    ],
+    "notes": "Blink telemetry"
+}

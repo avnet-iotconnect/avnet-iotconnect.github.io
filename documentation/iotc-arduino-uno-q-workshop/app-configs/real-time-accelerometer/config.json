@@ -1,0 +1,54 @@
+{
+    "commands": [
+        {
+            "name": "set-interval",
+            "parameters": [
+                "seconds"
+            ]
+        }
+    ],
+    "example": "real-time-accelerometer",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "interval_sec",
+            "type": "INTEGER"
+        },
+        {
+            "name": "idle",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "snake",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "updown",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "wave",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "x",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "y",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "z",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        }
+    ],
+    "notes": "Real-time accelerometer telemetry"
+}

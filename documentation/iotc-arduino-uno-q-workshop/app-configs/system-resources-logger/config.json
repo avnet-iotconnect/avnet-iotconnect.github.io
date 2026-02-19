@@ -1,0 +1,38 @@
+{
+    "commands": [
+        {
+            "name": "set-interval",
+            "parameters": [
+                "seconds"
+            ]
+        }
+    ],
+    "example": "system-resources-logger",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "interval_sec",
+            "type": "INTEGER"
+        },
+        {
+            "name": "cpu_percent",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "mem_percent",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "ts",
+            "type": "INTEGER"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        }
+    ],
+    "notes": "System resources telemetry"
+}

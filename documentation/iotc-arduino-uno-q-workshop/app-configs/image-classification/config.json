@@ -1,0 +1,63 @@
+{
+    "commands": [
+        {
+            "name": "set-confidence",
+            "parameters": [
+                "confidence"
+            ]
+        },
+        {
+            "name": "classify-image",
+            "parameters": [
+                "image_url",
+                "image",
+                "image_type",
+                "confidence"
+            ]
+        }
+    ],
+    "example": "image-classification",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "class_name",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "processing_time_ms",
+            "type": "INTEGER"
+        },
+        {
+            "name": "input_type",
+            "type": "STRING"
+        },
+        {
+            "name": "image_type",
+            "type": "STRING"
+        },
+        {
+            "name": "results_json",
+            "type": "STRING"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        },
+        {
+            "name": "top_class_name",
+            "type": "STRING"
+        },
+        {
+            "name": "top_confidence",
+            "type": "DECIMAL"
+        }
+    ],
+    "notes": "Image classification telemetry"
+}

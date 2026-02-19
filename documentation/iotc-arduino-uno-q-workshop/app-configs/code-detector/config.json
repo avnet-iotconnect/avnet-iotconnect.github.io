@@ -1,0 +1,37 @@
+{
+    "commands": [
+        {
+            "name": "reset",
+            "parameters": []
+        },
+        {
+            "name": "detect-code",
+            "parameters": [
+                "image_url",
+                "image",
+                "image_type",
+                "confidence"
+            ]
+        }
+    ],
+    "example": "code-detector",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "code_content",
+            "type": "STRING"
+        },
+        {
+            "name": "code_type",
+            "type": "STRING"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        }
+    ],
+    "notes": "Code detector telemetry"
+}

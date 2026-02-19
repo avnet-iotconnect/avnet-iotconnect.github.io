@@ -1,0 +1,46 @@
+{
+    "commands": [
+        {
+            "name": "set-interval",
+            "parameters": [
+                "seconds"
+            ]
+        }
+    ],
+    "example": "audio-classification",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "interval_sec",
+            "type": "INTEGER"
+        },
+        {
+            "name": "class_name",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "processing_time_ms",
+            "type": "INTEGER"
+        },
+        {
+            "name": "input_type",
+            "type": "STRING"
+        },
+        {
+            "name": "selected_file",
+            "type": "STRING"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        }
+    ],
+    "notes": "Glass breaking classification telemetry"
+}

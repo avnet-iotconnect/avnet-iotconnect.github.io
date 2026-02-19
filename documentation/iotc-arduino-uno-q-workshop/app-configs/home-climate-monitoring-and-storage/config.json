@@ -1,0 +1,46 @@
+{
+    "example": "home-climate-monitoring-and-storage",
+    "telemetry": [
+        {
+            "name": "temperature_c",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "humidity",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "dew_point",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "heat_index",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "absolute_humidity",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "ts",
+            "type": "INTEGER"
+        },
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "interval_sec",
+            "type": "INTEGER"
+        }
+    ],
+    "commands": [
+        {
+            "name": "set-interval",
+            "parameters": [
+                "seconds"
+            ]
+        }
+    ],
+    "notes": "Send telemetry in record_sensor_samples(celsius, humidity)"
+}

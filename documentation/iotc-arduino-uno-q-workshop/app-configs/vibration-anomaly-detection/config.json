@@ -1,0 +1,46 @@
+{
+    "commands": [
+        {
+            "name": "set-threshold",
+            "parameters": [
+                "threshold"
+            ]
+        }
+    ],
+    "example": "vibration-anomaly-detection",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "anomaly_score",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "anomaly_detected",
+            "type": "STRING"
+        },
+        {
+            "name": "threshold",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "x",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "y",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "z",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        }
+    ],
+    "notes": "Vibration anomaly telemetry"
+}

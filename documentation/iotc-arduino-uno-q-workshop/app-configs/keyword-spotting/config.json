@@ -1,0 +1,35 @@
+{
+    "commands": [],
+    "example": "keyword-spotting",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "device_name",
+            "type": "STRING"
+        },
+        {
+            "name": "keyword",
+            "type": "STRING"
+        },
+        {
+            "name": "state",
+            "type": "STRING"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "last_detected_ts",
+            "type": "INTEGER"
+        }
+    ],
+    "notes": "Keyword spotting telemetry"
+}

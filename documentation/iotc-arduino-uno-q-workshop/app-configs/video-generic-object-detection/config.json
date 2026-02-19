@@ -1,0 +1,94 @@
+{
+    "commands": [
+        {
+            "name": "set-interval",
+            "parameters": [
+                "seconds"
+            ]
+        },
+        {
+            "name": "set-confidence",
+            "parameters": [
+                "confidence"
+            ]
+        },
+        {
+            "name": "set-auto",
+            "parameters": [
+                "enabled"
+            ]
+        },
+        {
+            "name": "run-detect",
+            "parameters": []
+        }
+    ],
+    "example": "video-generic-object-detection",
+    "telemetry": [
+        {
+            "name": "UnoQdemo",
+            "type": "STRING"
+        },
+        {
+            "name": "auto_mode",
+            "type": "STRING"
+        },
+        {
+            "name": "interval_sec",
+            "type": "INTEGER"
+        },
+        {
+            "name": "detection_count",
+            "type": "INTEGER"
+        },
+        {
+            "name": "max_confidence",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "avg_confidence",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "detections_json",
+            "type": "STRING"
+        },
+        {
+            "name": "status",
+            "type": "STRING"
+        },
+        {
+            "name": "class_name_1",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence_1",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "class_name_2",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence_2",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "class_name_3",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence_3",
+            "type": "DECIMAL"
+        },
+        {
+            "name": "class_name_4",
+            "type": "STRING"
+        },
+        {
+            "name": "confidence_4",
+            "type": "DECIMAL"
+        }
+    ],
+    "notes": "Video detection telemetry (hybrid trigger)"
+}
