@@ -64,8 +64,8 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 3. Ensure you tick the box under "Components" and pick the version `1.0.0`
 4. Click **Deploy**
 
-> [!NOTE]
-> This process may take up to 45 minutes or more depending on the speed of the specific microcontroller selected.  
+> [!CAUTION]
+> This process may take up to 45 minutes - DO NOT restart the board during this time.  
 > **Wait until you see "Success" in the _Deployment History_.**
 
 ## 6. Import a Dynamic Dashboard
