@@ -64,13 +64,13 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 3. Ensure you tick the box under "Components" and pick the version `1.0.0`
 4. Click **Deploy**
 
-> [!NOTE]
-> This process may take up to 45 minutes or more depending on the speed of the specific microcontroller selected.  
+> [!CAUTION]
+> This process may take up to 45 minutes - DO NOT restart the board during this time.  
 > **Wait until you see "Success" in the _Deployment History_.**
 
 ## 6. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
-* Download the *Vision AI Demo* dashboard: [greengrass-nucleus-lite-dashboard.json](../greengrass-nucleus-lite-dashboard.json)
+* Download the *Vision AI Demo* dashboard: [STM32MP-visionAI-dashboard-template.json](./STM32MP-visionAI-dashboard-template.json)
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * Click **Create Dashboard** from the top of the page
 * Select the **Import Dashboard** option and click **Browse** to select the dashboard template previously downloaded.
