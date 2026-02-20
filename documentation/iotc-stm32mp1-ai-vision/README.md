@@ -11,7 +11,7 @@ The guide is compatible with the following STM32MP series devices:
 ## 2. Prerequisites
 These instructions assume that you have already completed the QuickStart Guide for one of the devices listed above.  
 If not, please complete the QuickStart Guide for your device **to the section on greengrass component deployment** then return to this guide and resume at the next section.
-* [STM32MP135F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2)
+* [STM32MP135F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp135f-dk)
 * [STM32MP157F-DK2 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp157f-dk2)
 * [STM32MP257F-DK QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-dk)
 * [STM32MP257F-EV1 QuickStart](https://github.com/avnet-iotconnect/iotc-python-greengrass-demos/tree/main/stm32mp257f-ev1)
