@@ -6,7 +6,7 @@ Avnet's robust IoT platform to run IoT-connected Arduino App Lab demos.
 
 ## 2. Requirements
 This guide has been written and tested to work on a Windows 10/11 PC to reach the widest audience.
-* Arduino Uno Q hardware [Buy Now]()
+* Arduino Uno Q hardware [Buy Now](https://www.newark.com/arduino/abx00162/uno-q-sbc-2gb-arm-cortex-a53-m33f/dp/59AM1209)
 * Arduino App Lab Software [Download](https://www.arduino.cc/en/software/#app-lab-section)
 * USB-C cable for to connection to PC
 * 2.4GHz Wifi network credentials 
@@ -27,19 +27,15 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 
 
 ## 4. Clone the Arduino UNO Q /IOTCONNECT repository to your device
-
 Cloning the repository to your Arduino will provide access to the automation scripts and App Lab code used in this workshop. 
 
-> [!TIP]
-> Users can paste into the Arduino App Lab terminal using **RIGHT-CLICK**. Using CTRL+V is not supported in the App Lab Terminal.
+> [!CAUTION]
+> Using CTRL+V is not supported in the App Lab Terminal. Use **RIGHT-CLICK** to paste.
 
 ```bash
-cd /home/arduino
-
-git clone https://github.com/avnet-iotconnect/iotc-arduino-uno-q-workshop.git
-cd iotc-arduino-uno-q-workshop
-
-chmod +x scripts/*.sh
+sudo mkdir -p /opt/demo && sudo chown $USER /opt/demo && \
+git clone https://github.com/avnet-iotconnect/iotc-arduino-uno-q-workshop.git /home/arduino/iotc-arduino-uno-q-workshop && \
+chmod +x /home/arduino/iotc-arduino-uno-q-workshop/scripts/*.sh
 ```
 
 ## 5. /IOTCONNECT: Cloud Account Setup
@@ -71,13 +67,9 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 4. Select an available **Entity** from the dropdown (only for organization, does not affect connectivity).
 5. Select `arduino` from the **Template** dropdown.
 6. In the resulting **Device Certificate** field, select `Use my certificate`. (This will be populated later.)
-7. Return to the terminal of your Arduino in the App Lab and navigate to the `scripts` directory by using this command: 
+7. Execute the automated device credential generation script with this command:
 ```
-cd /home/arduino/iotc-arduino-uno-q-workshop/scripts
-```
-8. Execute the automated device credential generation script with this command:  
-```
-bash ./credentials.sh
+/home/arduino/iotc-arduino-uno-q-workshop/scripts/credentials.sh
 ```
 8. When prompted, press ENTER to have the script print out the generated device certificate.
 9. Copy **(using CTRL+C)** the device certificate text (including BEGIN and END lines) and paste the text into the 
@@ -90,85 +82,57 @@ certificate box in the /IOTCONNECT device creation page.
 The onboarding process is now complete. 
 
 ## 8. Set Up /IOTCONNECT SDK and Relay Service
-
-Return to the terminal windows and run the following commands to install the /IOTCONNECT Python Lite SDK and then download and configure the /IOTCONNECT Relay Service. 
+Run the following commands to install the /IOTCONNECT Python Lite SDK and then download and configure the /IOTCONNECT Relay Service. 
 ```bash
-cd /home/arduino/iotc-arduino-uno-q-workshop
-sudo ./scripts/unoq_setup.sh --demo-dir /opt/demo
+sudo /home/arduino/iotc-arduino-uno-q-workshop/scripts/unoq_setup.sh
 ```
 
 >[!NOTE]
 > If during the setup script a pop-up appears asking if you would like to restart select device services, simply press 
 > ENTER.
 
-## 9. Choose a Lab Example, Clone It, and Copy the corresponding /IOTCONNECT Files
-
+## 9. Clone and Copy the Example App and /IOTCONNECT Files
 In Arduino App Lab:
 1. Browse the example applications after clicking **Examples** in the vertical toolbar on the left.
-2. Click on the `System Resources Logger` example application
+2. Click on the **System Resources Logger** example application
 3. Click on "Copy and edit app" in the top-right corner
-4. Remove the `Copy of ` from the name
+4. Remove the `Copy of ` from the name and click **Create new**
 5. Copy the /IOTCONNECT-enabled python files and relay client from the workshop repo into the app.  
-
-Let's start with an example that requires no additional hardware, **system-resources-logger**.
 ```bash
-cp /home/arduino/iotc-arduino-uno-q-workshop/app-configs/system-resources-logger/python/* /home/arduino/ArduinoApps/system-resources-logger/python/
+cp /home/arduino/iotc-arduino-uno-q-workshop/app-configs/system-resources-logger/python/* /home/arduino/ArduinoApps/system-resources-logger/python/ && \
 cp /opt/demo/iotc_relay_client.py /home/arduino/ArduinoApps/system-resources-logger/python/
 ```
 
-### Examples Index
+## 10. Run the App and Confirm Telemetry
+1) Return to the Arduino App Lab  and Click **Run** in the top-right
+2) Confirm the App starts sucessfully in the Arduino App Lab output window
+3) Return to the /IOTCONNECT platform and click on your device name and then **Live Data** and verify telemetry is being published.
 
-Use these /IOTCONNECT-specific guides:
+## 11. Import a Dynamic Dashboard
+1. Download the Dashboard Template: [logger-dashboard-template.json](https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/blob/main/app-configs/system-resources-logger/logger-dashboard-template.json)
+2. Open /IOTCONNECT and click **Create Dashboard** at the top of the page
+3. Click **Import Dashboard** and upload the JSON file linked above.
+4. Select the `ardunio` template and your specific device name
+5. Provide dashboard description such as `System Resources Logger` and click **Save**
+6. You are now in the Dashboard Edit View.  Click **Save** once again at the top-right to view the live telemetry:
+<br><img src="https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/blob/main/app-configs/system-resources-logger/unoq-logger-dashboard.jpg"/><br>
 
-- [air-quality-monitoring](app-configs/air-quality-monitoring/README.md)
-- [anomaly-detection](app-configs/anomaly-detection/README.md)
-- [audio-classification](app-configs/audio-classification/README.md)
-- [bedtime-story-teller](app-configs/bedtime-story-teller/README.md)
-- [blink](app-configs/blink/README.md)
-- [blink-with-ui](app-configs/blink-with-ui/README.md)
-- [cloud-blink](app-configs/cloud-blink/README.md)
-- [code-detector](app-configs/code-detector/README.md)
-- [home-climate-monitoring-and-storage](app-configs/home-climate-monitoring-and-storage/README.md)
-- [image-classification](app-configs/image-classification/README.md)
-- [keyword-spotting](app-configs/keyword-spotting/README.md)
-- [led-matrix-painter](app-configs/led-matrix-painter/README.md)
-- [mascot-jump-game](app-configs/mascot-jump-game/README.md)
-- [object-detection](app-configs/object-detection/README.md)
-- [object-hunting](app-configs/object-hunting/README.md)
-- [real-time-accelerometer](app-configs/real-time-accelerometer/README.md)
-- [system-resources-logger](app-configs/system-resources-logger/README.md)
-- [theremin](app-configs/theremin/README.md)
-- [unoq-pin-toggle](app-configs/unoq-pin-toggle/README.md)
-- [vibration-anomaly-detection](app-configs/vibration-anomaly-detection/README.md)
-- [video-face-detection](app-configs/video-face-detection/README.md)
-- [video-generic-object-detection](app-configs/video-generic-object-detection/README.md)
-- [video-person-classification](app-configs/video-person-classification/README.md)
-- [weather-forecast](app-configs/weather-forecast/README.md)
+## 12. Summary of Attributes and Commands
+### Telemetry Fields
+| Field | Type |
+| --- | --- |
+| `UnoQdemo` | `STRING` |
+| `interval_sec` | `INTEGER` |
+| `cpu_percent` | `DECIMAL` |
+| `mem_percent` | `DECIMAL` |
+| `ts` | `INTEGER` |
+| `status` | `STRING` |
 
----
+### Commands
+| Command | Parameters |
+| --- | --- |
+| `set-interval` | `seconds` |
 
-## 6. Run the App and Confirm Telemetry
-
-1) Run the app in App Lab.
-2) Confirm telemetry appears in /IOTCONNECT.
-3) If you enabled commands, test a command from /IOTCONNECT and verify the app receives it.
-
-Expected result: the selected App Lab example runs on the UNO Q and publishes telemetry to /IOTCONNECT.
-
-> [!TIP]
-> You can manually manage the /IOTCONNECT Relay Service on your device.
->
-> To disconnect your device from /IOTCONNECT, stop the relay service:
-> ```bash
-> sudo systemctl stop iotc-relay
-> ```
->
-> To start it again:
-> ```bash
-> sudo systemctl start iotc-relay
-> ```
->
-> To restart:
-> ```bash
-> sudo systemctl restart iotc-relay
-> ```
+## 13. Resources
+* Purchase an Arduino Uno Q [Buy Now](https://www.newark.com/arduino/abx00162/uno-q-sbc-2gb-arm-cortex-a53-m33f/dp/59AM1209)
+* Explore many more supported apps in the [iotc-arduino-uno-q-app-lab](https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab) repository.
