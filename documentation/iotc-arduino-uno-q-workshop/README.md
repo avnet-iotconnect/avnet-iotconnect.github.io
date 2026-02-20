@@ -9,7 +9,7 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 * Arduino Uno Q hardware [Buy Now](https://www.newark.com/arduino/abx00162/uno-q-sbc-2gb-arm-cortex-a53-m33f/dp/59AM1209)
 * Arduino App Lab Software [Download](https://www.arduino.cc/en/software/#app-lab-section)
 * USB-C cable for to connection to PC
-* 2.4GHz Wifi network credentials 
+* 2.4GHz WiFi network credentials 
 
 ## 3. Environment Setup
 
@@ -29,8 +29,8 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 ## 4. Clone the Arduino UNO Q /IOTCONNECT repository to your device
 Cloning the repository to your Arduino will provide access to the automation scripts and App Lab code used in this workshop. 
 
-> [!CAUTION]
-> Using CTRL+V is not supported in the App Lab Terminal. Use **RIGHT-CLICK** to paste.
+> [!WARNING]
+> Using CTRL+v to paste does not work in the App Lab Terminal. Use **RIGHT-CLICK** to paste.
 
 ```bash
 sudo mkdir -p /opt/demo && sudo chown $USER /opt/demo && \
