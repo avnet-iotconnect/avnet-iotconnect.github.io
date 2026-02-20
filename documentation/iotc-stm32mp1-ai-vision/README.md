@@ -37,7 +37,7 @@ This telemetry was defined in the Device Template imported in the QuickStart gui
 
 ## 5. Deploy the Vision AI Greengrass Component
 To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a deployment package that contains the artifact file and a recipe.
-* **Download** and **Extract** the *Vision AI Demo Component*: [iotc-gg-component-st-ai-vision-1.0.0.zip](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-st-ai-vision-1.0.3.zip)
+* **Download** and **Extract** the *Vision AI Demo Component*: [iotc-gg-component-st-ai-vision-1.0.3.zip](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-st-ai-vision-1.0.3.zip)
 
 ### Load the Recipe
 1. In the /IOTCONNECT platform, click **Package** at the bottom of the screen, then click **Components** at the top.
