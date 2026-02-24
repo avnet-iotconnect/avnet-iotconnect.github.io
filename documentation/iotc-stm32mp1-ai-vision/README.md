@@ -1,7 +1,7 @@
-# Lab: AI Vision Demo on STM32MP Devices with AWS IoT greengrass nucleus lite
+# AI Vision Demo on STM32MP Devices with AWS IoT greengrass nucleus lite
 
 ## 1. Overview
-In this Lab we will deploy an AI Vision Demo greengrass component to an STM32MP device by using Avnet's /IOTCONNECT platform to simplify the process.
+In this guide we will deploy an AI Vision Demo greengrass component to an STM32MP device by using Avnet's /IOTCONNECT platform to simplify the process.
 The guide is compatible with the following STM32MP series devices:
 * STM32MP135F-DK ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp135f-dk/discovery-kit-32bit-arm-cortex/dp/68AK9977))
 * STM32MP157F-DK2 ([Buy Now](https://www.newark.com/stmicroelectronics/stm32mp157f-dk2/discovery-kit-arm-cortex-a7-cortex/dp/14AJ2731))
