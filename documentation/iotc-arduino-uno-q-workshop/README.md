@@ -134,7 +134,16 @@ Container detect-objects-on-images-main-1  Started
 6. You are now in the Dashboard Edit View.  Click **Save** once again at the top-right to view the live telemetry:
 <br><img src="https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/raw/main/app-configs/object-detection/unoQ-objdetimg-dashboard.jpg"/><br>
 
-## 12. Summary of Attributes and Commands
+## 12. Using the Dashboard
+* In the **Device Command** widget, select `detect-objects` from the drop-down
+* Paste in a URL to an image with a variety of objects and click **Execute**
+
+Example image URL:
+```
+https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/breakfast.png
+```
+
+## 13. Summary of Attributes and Commands
 ### Telemetry Fields
 | Field | Type |
 | --- | --- |
@@ -158,19 +167,10 @@ Container detect-objects-on-images-main-1  Started
 | `confidence_4` | `DECIMAL` |
 
 ### Commands
-| Command | Parameters |
-| --- | --- |
-| `set-confidence` | `confidence` |
-| `detect-objects` | `image_url`, `image`, `image_type`, `confidence` |
-
-### Example /IOTCONNECT command payload
-```json
-{
-  "image_url": "https://example.com/sample.jpg",
-  "image_type": "jpeg",
-  "confidence": 0.25
-}
-```
+| Command | Parameters | Description|
+| --- | --- | --- |
+| `set-confidence` | `confidence` | Set the default confidence (default: 0.5) |
+| `detect-objects` | `image_url` | URL to image for analysis |
 
 ## 13. Resources
 * Purchase an Arduino Uno Q [Buy Now](https://www.newark.com/arduino/abx00162/uno-q-sbc-2gb-arm-cortex-a53-m33f/dp/59AM1209)
