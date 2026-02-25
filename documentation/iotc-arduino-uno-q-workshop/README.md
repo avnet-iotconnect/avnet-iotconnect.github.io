@@ -149,10 +149,6 @@ https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/bre
 ```
 https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/classroom.png
 ```
-<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection.png" />
-```
-https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection.png
-```
 <br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/desk.png" />
 ```
 https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/desk.png
