@@ -61,11 +61,11 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 1. Click **Deploy**
 <br><img width="567" height="155" alt="click_deploy" src="https://github.com/user-attachments/assets/1b321aa8-9351-4b3d-b841-dfc12c91233f" /><br>
 2. Add a *Name* and select each item in the drop-downs (there will only be one option for each)
-3. Ensure you tick the box under "Components" and pick the version `1.0.0`
+3. Ensure you tick the box under "Components" and pick the version `1.0.3`
 4. Click **Deploy**
 
 > [!CAUTION]
-> This process may take up to 45 minutes - DO NOT restart the board during this time.  
+> This process may take up to 10 minutes - DO NOT restart the board during this time.  
 > **Wait until you see "Success" in the _Deployment History_.**
 
 ## 6. Import a Dynamic Dashboard
