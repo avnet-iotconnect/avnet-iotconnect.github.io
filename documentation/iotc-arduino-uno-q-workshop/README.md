@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 This workshop guide provides step-by-step instructions to set up the Arduino Uno Q hardware and integrate it with /IOTCONNECT,
-Avnet's robust IoT platform to run IoT-connected Arduino App Lab demos.
+Avnet's robust IoT platform, to run an Arduino App Lab demo for AI Object Detection. With some simple changes, a variety of other App Lab Demo can be used as well.
 
 ## 2. Requirements
 This guide has been written and tested to work on a Windows 10/11 PC to reach the widest audience.
@@ -66,18 +66,18 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 3. Enter `ArduinoUnoQ` in both the **Unique ID** and **Device Name** fields.
 4. Select an available **Entity** from the dropdown (only for organization, does not affect connectivity).
 5. Select `arduino` from the **Template** dropdown.
-6. In the resulting **Device Certificate** field, select `Use my certificate`. (This will be populated later.)
-7. Execute the automated device credential generation script with this command:
+6. In the resulting **Device Certificate** field, select `Use my certificate`. Continue to the next step to get the certificate...
+7. Return to the **Terminal Window** an xxecute the automated device credential generation script with this command:
 ```
 /home/arduino/iotc-arduino-uno-q-workshop/scripts/credentials.sh
 ```
 8. When prompted, press ENTER to have the script print out the generated device certificate.
-9. Copy **(using CTRL+C)** the device certificate text (including BEGIN and END lines) and paste the text into the 
-certificate box in the /IOTCONNECT device creation page.
-10. Click the **Save and View** button to go to the page for your new device.
-11. Now viewing the device page, click on the black/white/green "paper-and-cog" icon in the top-right of the device page (just above "Connection Info") to download your device's configuration file.
-12. Open the configuration file in a text editor and copy its entirety to your clipboard.
-13. Return to the terminal in the App Lab and **Paste (using RIGHT-CLICK, because CTRL+V does not work in the App Lab Terminal)** the contents (of the configuration file from your clipboard as instructed by the next step of the script, and then press ENTER.
+9. Highlight the certificate text (including BEGIN and END lines) and **Copy (using CTRL+C)**
+10. Return to the /IOTCONNECT page and paste the text into the **Certificate Text** box
+11. Click the **Save and View** button to go to the page for your new device.
+12. Now viewing the device page, click on the black/white/green "paper-and-cog" icon in the top-right of the device page (just above "Connection Info") to download your device's configuration file.
+13. Open the configuration file in a text editor and copy its entirety to your clipboard.
+14. Return to the terminal in the App Lab and **Paste (using RIGHT-CLICK, because CTRL+V does not work in the App Lab Terminal)** the contents (of the configuration file from your clipboard as instructed by the next step of the script, and then press ENTER.
 
 The onboarding process is now complete. 
 
@@ -94,44 +94,83 @@ sudo /home/arduino/iotc-arduino-uno-q-workshop/scripts/unoq_setup.sh
 ## 9. Clone and Copy the Example App and /IOTCONNECT Files
 In Arduino App Lab:
 1. Browse the example applications after clicking **Examples** in the vertical toolbar on the left.
-2. Click on the **System Resources Logger** example application
+2. Click on the **Detect objects on images** example application
 3. Click on "Copy and edit app" in the top-right corner
 4. Remove the `Copy of ` from the name and click **Create new**
 5. Copy the /IOTCONNECT-enabled python files and relay client from the workshop repo into the app.  
 ```bash
-cp /home/arduino/iotc-arduino-uno-q-workshop/app-configs/system-resources-logger/python/* /home/arduino/ArduinoApps/system-resources-logger/python/ && \
-cp /opt/demo/iotc_relay_client.py /home/arduino/ArduinoApps/system-resources-logger/python/
+cp /home/arduino/iotc-arduino-uno-q-workshop/app-configs/object-detection/python/* /home/arduino/ArduinoApps/detect-objects-on-images/python/ && \
+cp /opt/demo/iotc_relay_client.py /home/arduino/ArduinoApps/detect-objects-on-images/python/
 ```
 
 ## 10. Run the App and Confirm Telemetry
 1) Return to the Arduino App Lab  and Click **Run** in the top-right
-2) Confirm the App starts sucessfully in the Arduino App Lab output window
-3) Return to the /IOTCONNECT platform and click on your device name and then **Live Data** and verify telemetry is being published.
+2) Confirm the App starts sucessfully in the Arduino App Lab output window:
+```bash
+Starting app "Detect objects on images"
+python provisioning
+python downloading
+Network detect-objects-on-images_default  Creating
+Network detect-objects-on-images_default  Created
+Container detect-objects-on-images-ei-obj-detection-runner-1  Creating
+Container detect-objects-on-images-ei-obj-detection-runner-1  Created
+Container detect-objects-on-images-main-1  Creating
+Container detect-objects-on-images-main-1  Created
+Container detect-objects-on-images-ei-obj-detection-runner-1  Starting
+Container detect-objects-on-images-ei-obj-detection-runner-1  Started
+Container detect-objects-on-images-ei-obj-detection-runner-1  Waiting
+Container detect-objects-on-images-ei-obj-detection-runner-1  Healthy
+Container detect-objects-on-images-main-1  Starting
+Container detect-objects-on-images-main-1  Started
+```
+3) After a few seconds you should also see a new browser windows/tab appear. This can be closed as we will use the /IOTCONNECT interface.
 
 ## 11. Import a Dynamic Dashboard
-1. Download the Dashboard Template: [logger-dashboard-template.json](https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/blob/main/app-configs/system-resources-logger/logger-dashboard-template.json)
+1. Download the Dashboard Template: [obj-det-dashboard-template.json](https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/blob/main/app-configs/object-detection/obj-det-dashboard-template.json)
 2. Open /IOTCONNECT and click **Create Dashboard** at the top of the page
 3. Click **Import Dashboard** and upload the JSON file linked above.
 4. Select the `ardunio` template and your specific device name
-5. Provide dashboard description such as `System Resources Logger` and click **Save**
+5. Provide dashboard description such as `Object Detection` and click **Save**
 6. You are now in the Dashboard Edit View.  Click **Save** once again at the top-right to view the live telemetry:
-<br><img src="https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/blob/main/app-configs/system-resources-logger/unoq-logger-dashboard.jpg"/><br>
+<br><img src="https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/raw/main/app-configs/object-detection/unoQ-objdetimg-dashboard.jpg"/><br>
 
 ## 12. Summary of Attributes and Commands
 ### Telemetry Fields
 | Field | Type |
 | --- | --- |
 | `UnoQdemo` | `STRING` |
-| `interval_sec` | `INTEGER` |
-| `cpu_percent` | `DECIMAL` |
-| `mem_percent` | `DECIMAL` |
-| `ts` | `INTEGER` |
+| `detection_count` | `INTEGER` |
+| `processing_time_ms` | `INTEGER` |
+| `has_objects` | `STRING` |
+| `confidence` | `DECIMAL` |
+| `max_confidence` | `DECIMAL` |
+| `avg_confidence` | `DECIMAL` |
+| `detections_json` | `STRING` |
+| `input_type` | `STRING` |
 | `status` | `STRING` |
+| `class_name_1` | `STRING` |
+| `confidence_1` | `DECIMAL` |
+| `class_name_2` | `STRING` |
+| `confidence_2` | `DECIMAL` |
+| `class_name_3` | `STRING` |
+| `confidence_3` | `DECIMAL` |
+| `class_name_4` | `STRING` |
+| `confidence_4` | `DECIMAL` |
 
 ### Commands
 | Command | Parameters |
 | --- | --- |
-| `set-interval` | `seconds` |
+| `set-confidence` | `confidence` |
+| `detect-objects` | `image_url`, `image`, `image_type`, `confidence` |
+
+### Example /IOTCONNECT command payload
+```json
+{
+  "image_url": "https://example.com/sample.jpg",
+  "image_type": "jpeg",
+  "confidence": 0.25
+}
+```
 
 ## 13. Resources
 * Purchase an Arduino Uno Q [Buy Now](https://www.newark.com/arduino/abx00162/uno-q-sbc-2gb-arm-cortex-a53-m33f/dp/59AM1209)
