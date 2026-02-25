@@ -138,9 +138,28 @@ Container detect-objects-on-images-main-1  Started
 * In the **Device Command** widget, select `detect-objects` from the drop-down
 * Paste in a URL to an image with a variety of objects and click **Execute**
 
-Example image URL:
+The application will report out objects with a confidence value over 50% (0.5). This threshold can be changed by using the `set-confidence` command and specifying a value between 0 and 1.
+
+Example images and URLs:
+<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/breakfast.png" />
 ```
 https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/breakfast.png
+```
+<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/classroom.png" />
+```
+https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/classroom.png
+```
+<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection.png" />
+```
+https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection.png
+```
+<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/desk.png" />
+```
+https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/desk.png
+```
+<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/dog.png" />
+```
+https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/dog.png
 ```
 
 ## 13. Summary of Attributes and Commands
@@ -169,9 +188,9 @@ https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/bre
 ### Commands
 | Command | Parameters | Description|
 | --- | --- | --- |
-| `set-confidence` | `confidence` | Set the default confidence (default: 0.5) |
+| `set-confidence` | `confidence` | Set the default confidence (default: 0.5, Range 0-1) |
 | `detect-objects` | `image_url` | URL to image for analysis |
 
-## 13. Resources
+## 14. Resources
 * Purchase an Arduino Uno Q [Buy Now](https://www.newark.com/arduino/abx00162/uno-q-sbc-2gb-arm-cortex-a53-m33f/dp/59AM1209)
 * Explore many more supported apps in the [iotc-arduino-uno-q-app-lab](https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab) repository.
