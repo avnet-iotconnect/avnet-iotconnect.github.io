@@ -22,7 +22,7 @@ If not, please complete the QuickStart Guide for your device **to the section on
 ## 3. Upload Vision AI Device Template
 After successfully following one of the guides listed above you should have the Device Health Monitoring greengrass component deployed and sending basic telemetry to the /IOTCONNECT platform.
 This telemetry was defined in the Device Template imported in the QuickStart guide. We need to upload a new device template which defines the telemetry for the Vision AI demo.
-1. Download the [Vision AI Device Template](https://github.com/avnet-iotconnect/iotc-python-greengrass-components/blob/07bc25372b13c0c2d12ebaea0c798a61a3e8fd75/st-ai-vision/ai-vision-template.json)
+1. Download the [Vision AI Device Template](https://github.com/avnet-iotconnect/iotc-python-greengrass-components/blob/main/st-ai-vision/ai-vision-template.json)
 2. Login to the /IOTCONNECT platform
 2. Navigate to **Device** and then **Greengrass Device** menu on the left menu
 3. Click **Templates** from the bottom menu bar
@@ -37,16 +37,16 @@ This telemetry was defined in the Device Template imported in the QuickStart gui
 
 ## 5. Deploy the Vision AI Greengrass Component
 To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a deployment package that contains the artifact file and a recipe.
-* **Download** and **Extract** the *Vision AI Demo Component*: [iotc-gg-component-st-ai-vision-1.0.3.zip](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-st-ai-vision-1.0.3.zip)
+* **Download** and **Extract** the *Vision AI Demo Component*: [iotc-gg-component-st-ai-vision-1.0.4.zip](https://downloads.iotconnect.io/greengrass/components/iotc-gg-component-st-ai-vision-1.0.4.zip)
 
 ### Load the Recipe
 1. In the /IOTCONNECT platform, click **Package** at the bottom of the screen, then click **Components** at the top.
 <img width="1015" height="84" alt="click_package" src="https://github.com/user-attachments/assets/da800a4d-f5cf-4cd6-9438-ccefb5056501" /><br>
 <img width="570" height="211" alt="click_components" src="https://github.com/user-attachments/assets/1ea5ae9d-c9e7-4abd-815b-6e4e6572a0d1" /><br>
-2. In the *Create Component* box, browse for the recipe file (`recipe.yaml`) from the previously extracted component archive here:  `<your working directory>\iotc-gg-component-st-ai-vision-1.0.0\st-ai-vision\greengrass-build\recipes\recipe.yaml`
+2. In the *Create Component* box, browse for the recipe file (`recipe.yaml`) from the previously extracted component archive here:  `<your working directory>\iotc-gg-component-st-ai-vision-1.0.4\st-ai-vision\greengrass-build\recipes\recipe.yaml`
 
 ### Load the Artifact 
-1. Click the **icon** to the right of "st-ai-vision.zip" and navigate to the st-ai-vision.zip from the previously extracted archive here: `<your working directory>\iotc-gg-component-st-ai-vision-1.0.0\st-ai-vision\greengrass-build\artifacts\io.iotconnect.example.IotConnectStAiVision\1.0.0\st-ai-vision.zip`
+1. Click the **icon** to the right of "st-ai-vision.zip" and navigate to the st-ai-vision.zip from the previously extracted archive here: `<your working directory>\iotc-gg-component-st-ai-vision-1.0.4\st-ai-vision\greengrass-build\artifacts\io.iotconnect.example.IotConnectStAiVision\1.0.4\st-ai-vision.zip`
 2. Click **Save**
 
 ### Create Package
@@ -61,7 +61,7 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 1. Click **Deploy**
 <br><img width="567" height="155" alt="click_deploy" src="https://github.com/user-attachments/assets/1b321aa8-9351-4b3d-b841-dfc12c91233f" /><br>
 2. Add a *Name* and select each item in the drop-downs (there will only be one option for each)
-3. Ensure you tick the box under "Components" and pick the version `1.0.3`
+3. Ensure you tick the box under "Components" and pick the version `1.0.4`
 4. Click **Deploy**
 
 > [!CAUTION]
@@ -70,7 +70,7 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 
 ## 6. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
-* Download the *Vision AI Demo* dashboard: [STM32MP-visionAI-dashboard-template.json](./STM32MP-visionAI-dashboard-template.json)
+* Download the *Vision AI Demo* dashboard: [STM32MP-visionAI-dashboard-template.json](./STM32MP-VisionAI-dashboard.json)
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * Click **Create Dashboard** from the top of the page
 * Select the **Import Dashboard** option and click **Browse** to select the dashboard template previously downloaded.
