@@ -157,7 +157,7 @@ https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/des
 ```
 https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/dog.png
 ```
-<img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection_scaled.png" />
+<br><img width="200" src="https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection_scaled.png" />
 ```
 https://avnetpublicaccess.s3.us-east-1.amazonaws.com/object-detection-images/intersection.png
 ```
