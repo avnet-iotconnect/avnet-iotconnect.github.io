@@ -70,6 +70,7 @@ To deploy the Vision AI greengrass component, we'll use /IOTCONNECT to create a 
 
 ## 6. Import a Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
+![Dashboard Image](./media/STM32MP-vision-ai-dashboard.png)
 * Download the *Vision AI Demo* dashboard: [STM32MP-visionAI-dashboard-template.json](./STM32MP-VisionAI-dashboard.json)
 * Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
 * Click **Create Dashboard** from the top of the page
