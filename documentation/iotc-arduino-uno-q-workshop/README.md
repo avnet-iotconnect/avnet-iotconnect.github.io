@@ -1,5 +1,5 @@
 # Workshop: Bring AI to life with Arduino UNO Q on /IOTCONNECT
-
+<br><img src="images/ArduinoUnoQ_board.png" alt="Arduino Uno Q Image" width="300"><br>
 ## 1. Introduction
 This workshop guide provides step-by-step instructions to set up the Arduino Uno Q hardware and integrate it with /IOTCONNECT,
 Avnet's robust IoT platform, to run an Arduino App Lab demo for AI Object Detection. With some simple changes, a variety of other App Lab Demo can be used as well.
