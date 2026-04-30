@@ -12,6 +12,8 @@ This guide has been written and tested to work on a Windows 10/11 PC to reach th
 * 2.4GHz WiFi network credentials 
 
 ## 3. Environment Setup
+> [!NOTE]
+> The Arduino App Lab is in active development and the screenshots below may not be representative of the latest release.
 
 1. Install Arduino App Lab
 2. Connect the Arduino UNO Q to your PC with a USB cable when prompted:
