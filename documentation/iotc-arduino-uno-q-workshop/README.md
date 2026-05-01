@@ -56,7 +56,7 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 > Ensure that the template file saves as a `.json` file-type. Some browsers will default to a `.txt` file-type
 > which is not supported by the /IOTCONNECT template import feature.
 2. Log into your /IOTCONNECT account at [console.iotconnect.io](https://console.iotconnect.io/login)
-3. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Greengrass Device -> Template (bottom menu)*
+3. Using the Sidebar menu in /IOTCONNECT, navigate to *Device -> Device -> Template (bottom menu)*
 <br><img width="1017" alt="click_templates" src="https://github.com/user-attachments/assets/e20ee569-38a1-4da6-bce1-08c66169774a" /><br>
 4. Click on the **Create Template** button and then the **Import** button and browse to select the device template `arduino-app-lab-template.json` file.
 <br><img width="326" height="227" alt="click_create_template" src="https://github.com/user-attachments/assets/6c6c3e4d-49fb-4cef-83ef-4a9a46f7adeb" /><br>
