@@ -51,7 +51,7 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 > Be sure to check any SPAM folder for the temporary password after registering.
 
 ## 6. /IOTCONNECT: Import the Device Template
-1. Download the pre-made Device Template: [arduino-app-lab-template.json](https://raw.githubusercontent.com/avnet-iotconnect/iotc-arduino-uno-q-workshop/refs/heads/main/app-configs/arduino-app-lab-template.json) 
+1. Download the pre-made Device Template: [arduino-app-lab-template.json](https://github.com/avnet-iotconnect/iotc-arduino-uno-q-app-lab/blob/main/app-configs/arduino-app-lab-template.json) 
 > [!IMPORTANT]
 > Ensure that the template file saves as a `.json` file-type. Some browsers will default to a `.txt` file-type
 > which is not supported by the /IOTCONNECT template import feature.
