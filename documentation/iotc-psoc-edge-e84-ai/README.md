@@ -63,6 +63,8 @@ In this step we will locate and download the **device certificates**.
 2. Click on the **Certificates** icon in the top-right and save the file to your working directory.<br>![icon-certificates.png](../iotconnect/media/icon-certificates.png)
 3. Extract the contents of the `*-certificates.zip` file for use in the next section. 
 ## 7. Setup Development Environment
+> [!CAUTION]
+> By default, Windows limits the length of file paths to ~256 characters. It's strongly recommended to create your project at the root of the drive to avoid issues. Read more about the [Maximum Path Length Limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) 
 
 1. Download and Install [Microsoft Visual Studio Code](https://code.visualstudio.com/Download) v1.105.0 or newer.
 2. Launch VSCode and **Install** the following extensions:<br>![vscode-extensions.png](./media/vscode-extensions.png)
