@@ -1,5 +1,5 @@
 # Getting Started: PSOC Edge E84 AI Kit with /IOTCONNECT 
-[Purchase the PSOC Edge E84 AI Kit](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459)
+[Purchase the PSOC Edge E84 AI Kit](https://referral.element14.com/OrderCodeView?fsku=4755310&nsku=49AM4459)
 ![psoc-edge-e84-ai-kit.png](./media/psoc-edge-e84-ai-kit.png)
 
 ## 1. Introduction
@@ -8,7 +8,7 @@ This guide will walk through the steps of setting up the Infineon PSOC™ Edge E
 for connecting to Avnet's /IOTCONNECT platform and demonstrating the "Hand Gesture" [DEEPCRAFT™ Ready Model](https://www.infineon.com/design-resources/embedded-software/deepcraft-edge-ai-solutions/deepcraft-ready-models).
 
 ## 2. Prerequisites
-* **PSOC™ Edge E84 AI Kit** ([Buy Now](https://referral.element14.com/OrderCodeView?url=%2Fnew-products%2Fembedded-computers-education-maker-boards%2Finfineon-kitpse84-ai-eval-tobo1))
+* **PSOC™ Edge E84 AI Kit** ([Buy Now](https://referral.element14.com/OrderCodeView?fsku=4755310&nsku=49AM4459))
 * PC with Windows 10/11
 * USB-C data cable
 * 2.4GHz WiFi Network
@@ -259,7 +259,7 @@ You will now be in the dashboard edit mode. You can add/remove widgets or just c
 
 ## 13. Resources
 * Learn more about [/IOTONNECT integration of Infineon DEEPCRAFT Ready Models](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm)
-* [Purchase the Infineon PSOC Edge E84 AI Kit](https://www.newark.com/infineon/kitpse84aitobo1/ai-eval-kit-32bit-arm-cortex-m55f/dp/49AM4459)
+* [Purchase the Infineon PSOC Edge E84 AI Kit](https://referral.element14.com/OrderCodeView?fsku=4755310&nsku=49AM4459)
 * [More /IOTCONNECT Infineon Guides](https://avnet-iotconnect.github.io/partners/infineon/)
 * [/IOTCONNECT Overview](https://www.iotconnect.io/)
 * [/IOTCONNECT Knowledgebase](https://help.iotconnect.io/)
