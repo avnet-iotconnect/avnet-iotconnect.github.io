@@ -24,7 +24,7 @@ Renesas products that have been pre-enabled to work with /IOTCONNECT.
 <img src="CK-RA6M5.jpg" width="300" title="CK-RA6M5">
 
 #### Guides:
-* [QuickStart Guide](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod/blob/master/QUICKSTART.md)
+* [Getting Started Guide](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod)
 
 #### Resources:
 * [GitHub Repository Root](https://github.com/avnet-iotconnect/iotc-freertos-ck-ra6m5-v2-pmod)
