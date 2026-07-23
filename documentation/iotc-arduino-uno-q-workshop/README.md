@@ -69,7 +69,7 @@ The free subscription may be obtained directly from [iotconnect.io](https://iotc
 4. Select an available **Entity** from the dropdown (only for organization, does not affect connectivity).
 5. Select `arduino` from the **Template** dropdown.
 6. In the resulting **Device Certificate** field, select `Use my certificate`. Continue to the next step to get the certificate...
-7. Return to the **Terminal Window** an xxecute the automated device credential generation script with this command:
+7. Return to the **Terminal Window** an execute the automated device credential generation script with this command:
 ```
 /home/arduino/iotc-arduino-uno-q-workshop/scripts/credentials.sh
 ```
