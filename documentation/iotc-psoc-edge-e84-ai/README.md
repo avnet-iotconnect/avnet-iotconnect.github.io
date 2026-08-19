@@ -69,15 +69,17 @@ In this step we will locate and download the **device certificates**.
 1. Download and Install [Microsoft Visual Studio Code](https://code.visualstudio.com/Download) v1.105.0 or newer.
 2. Launch VSCode and **Install** the following extensions:<br>![vscode-extensions.png](./media/vscode-extensions.png)
 3. Download [ModusToolbox&trade; software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/). Install the ***ModusToolbox&trade; Setup*** software. The software may require you to log into your Infineon account. In ***ModusToolbox&trade; Setup*** software, download & install the items below:
-   * ModusToolbox&trade; Tools Package 3.6.
+   * ModusToolbox&trade; Tools Package 3.7.
    * ModusToolbox&trade; Edge Protect Security Suite 1.6.1.
-   * ModusToolbox&trade; Programming Tools 1.6.0.
+   * ModusToolbox&trade; Programming Tools 1.8.0.
    * Arm GNU Toolchain (GCC) 14.2.1.
-   * Microsoft Visual Studio Code (Should be checked by default)
+   * Microsoft Visual Studio Code (Should be checked by default)  
+> [!IMPORTANT]
+> If you encounter any issues, please cross check the versions outlined in the [Developer Guide](https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm/blob/main/DEVELOPER_GUIDE.md) to ensure they haven't been incremented.
 
 4. Launch **ModusToolbox&trade; Dashboard** and select Target IDE `Microsoft Visual Studio Code` from the dropdown on top-right.<br>![mtb-ide-select.png](./media/mtb-ide-select.png)
 5. Click **Launch Project Creator**.  
-6. Select the `PSOC Edge E84 AI Kit` and click **Next**.
+6. Select the KIT_PSE84_AI` and click **Next**.
 7. For the Application(s) Root Path, specify or browse to a directory where the application will be created.
 8. Ensure that the **Target IDE** is `Microsoft Visual Studio Code`.
 9. Type `avnet` in the **Template Applications** search box and add a checkmark next to `Avnet PSOC Edge DEEPCRAFT Ready Models`<br>![mtb-project-creator.png](./media/mtb-project-creator.png)
