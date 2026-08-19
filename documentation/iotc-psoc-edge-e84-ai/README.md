@@ -70,7 +70,7 @@ In this step we will locate and download the **device certificates**.
 2. Launch VSCode and **Install** the following extensions:<br>![vscode-extensions.png](./media/vscode-extensions.png)
 3. Download [ModusToolbox&trade; software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/). Install the ***ModusToolbox&trade; Setup*** software. The software may require you to log into your Infineon account. In ***ModusToolbox&trade; Setup*** software, download & install the items below:
    * ModusToolbox&trade; Tools Package 3.6.
-   * ModusToolbox&trade; Edge Protect Security Suite 1.6.0.
+   * ModusToolbox&trade; Edge Protect Security Suite 1.6.1.
    * ModusToolbox&trade; Programming Tools 1.6.0.
    * Arm GNU Toolchain (GCC) 14.2.1.
    * Microsoft Visual Studio Code (Should be checked by default)
