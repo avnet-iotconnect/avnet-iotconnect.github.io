@@ -79,7 +79,7 @@ In this step we will locate and download the **device certificates**.
 
 4. Launch **ModusToolbox&trade; Dashboard** and select Target IDE `Microsoft Visual Studio Code` from the dropdown on top-right.<br>![mtb-ide-select.png](./media/mtb-ide-select.png)
 5. Click **Launch Project Creator**.  
-6. Select the KIT_PSE84_AI` and click **Next**.
+6. Select the `KIT_PSE84_AI` and click **Next**.
 7. For the Application(s) Root Path, specify or browse to a directory where the application will be created.
 8. Ensure that the **Target IDE** is `Microsoft Visual Studio Code`.
 9. Type `avnet` in the **Template Applications** search box and add a checkmark next to `Avnet PSOC Edge DEEPCRAFT Ready Models`<br>![mtb-project-creator.png](./media/mtb-project-creator.png)
