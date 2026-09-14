@@ -53,7 +53,7 @@ In this step, we will create a **Device** associated with the previously importe
 5. Select the previously imported template `pedgerm` 
 6. Under **Device Certificate** select **Auto-generated**
 7. Click **Save & View**
-8. Download the **Device Configuration Information** by clicking the icon in the upper right of the device page  
+8. Download the **Device Configuration Information** by clicking the icon in the upper right of the device page (it will save as `iotcDeviceConfig.json`)  
 ![icon-device-configuration-information.png](../iotconnect/media/icon-device-configuration-information.png)
  
 ## 6. Obtain Certificates
@@ -93,7 +93,7 @@ created, select the workspace file, and click **Open**.
 > Depending on your settings in VS Code, you may see a message about trusting the authors. If so, click **Yes, I trust the authors**.
 
 ### Configure Connection Information
-* In the project tree, expand `proj_cm33_ns` open `app_config.h` and update the following lines using the `iotcDeviceConfig.json` downloaded previously.
+* In the project tree, expand `proj_cm33_ns` open `app_config.h` and update the following lines using the `iotcDeviceConfig.json` downloaded previously in Section 5.
 ```c
 #define IOTCONNECT_CONNECTION_TYPE IOTC_CT_AWS
 #define IOTCONNECT_CPID "<cpid>"
