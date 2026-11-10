@@ -42,36 +42,17 @@ Login to the platform by navigating to [console.iotconnect.io](https://console.i
 5. Click the **Browse** button, navigate to and select the downloaded template `device-template.json`
 6. Click **Save**
 
-## 5. Create a Device
-In this step, we will create a **Device** associated with the previously imported **Device Template**
 
-1. In the ribbon at the bottom of the screen, click the **Devices**
-2. At the top-right, click **Create Device**  
-![button-create-device.png](../iotconnect/media/button-create-device.png)
-3. Enter a custom device **Unique ID** (also called a **DUID**) and **Device Name** such as `PSOCEdgeE84`
-4. Select the **Entity** to associate the device (For new accounts, there is only one option)  
-5. Select the previously imported template `pedgerm` 
-6. Under **Device Certificate** select **Auto-generated**
-7. Click **Save & View**
-8. Download the **Device Configuration Information** by clicking the icon in the upper right of the device page (it will save as `iotcDeviceConfig.json`)  
-![icon-device-configuration-information.png](../iotconnect/media/icon-device-configuration-information.png)
- 
-## 6. Obtain Certificates
-In this step we will locate and download the **device certificates**.
-
-1. Just below the Device Configuration Information icon, click the `Connection Info` link.<br>![connection-info.png](../iotconnect/media/connection-info.png)
-2. Click on the **Certificates** icon in the top-right and save the file to your working directory.<br>![icon-certificates.png](../iotconnect/media/icon-certificates.png)
-3. Extract the contents of the `*-certificates.zip` file for use in the next section. 
-## 7. Setup Development Environment
+## 5. Setup Development Environment
 > [!CAUTION]
 > By default, Windows limits the length of file paths to ~256 characters. It's strongly recommended to create your project at the root of the drive to avoid issues. Read more about the [Maximum Path Length Limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry) 
 
 1. Download and Install [Microsoft Visual Studio Code](https://code.visualstudio.com/Download) v1.105.0 or newer.
 2. Launch VSCode and **Install** the following extensions:<br>![vscode-extensions.png](./media/vscode-extensions.png)
 3. Download [ModusToolbox&trade; software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/). Install the ***ModusToolbox&trade; Setup*** software. The software may require you to log into your Infineon account. In ***ModusToolbox&trade; Setup*** software, download & install the items below:
-   * ModusToolbox&trade; Tools Package 3.7.
-   * ModusToolbox&trade; Edge Protect Security Suite 1.6.1.
-   * ModusToolbox&trade; Programming Tools 1.8.0.
+   * ModusToolbox&trade; Tools Package 3.9.
+   * ModusToolbox&trade; Edge Protect Security Suite 2.2.0.
+   * ModusToolbox&trade; Programming Tools 1.9.0.
    * Arm GNU Toolchain (GCC) 14.2.1.
    * Microsoft Visual Studio Code (Should be checked by default)  
 > [!IMPORTANT]
@@ -86,14 +67,119 @@ In this step we will locate and download the **device certificates**.
 10. Click **Create**.
 11. After the project is created successfully, close the Project Creator.
 
-## 8. Configure and Build Software
+
+## 6. Configure and Build Software
 Launch `Visual Studio Code`, and Select **File -> Open Workspace from File**, navigate to the location of the application that was just
 created, select the workspace file, and click **Open**.
 > [!IMPORTANT]
 > Depending on your settings in VS Code, you may see a message about trusting the authors. If so, click **Yes, I trust the authors**.
 
+### Select the Ready Model
+1. Open `common.mk` from the project tree
+2. Modify the following line to select the Gesture Ready Model
+
+```
+MODEL_SELECTION = GESTURE_MODEL
+```
+
 ### Configure Connection Information
-* In the project tree, expand `proj_cm33_ns` open `app_config.h` and update the following lines using the `iotcDeviceConfig.json` downloaded previously in Section 5.
+
+#### Configuration Option 1 (run-time)
+* Since it is run-time configuration, you do not have to configure anything now. Go next section [Build](#build).
+* After [Step 8. Program Board](#10-program-board), 
+open the terminal application to see the log.
+
+* You can configure your device connection info and WiFi credential by typing "y" and "Enter" key (3 seconds timeout) as shown below. You only need to configure it once unless your device connection info changes.
+
+
+
+```
+Generated device unique ID (DUID) is: psoc-edge-rm-xxxxxxxx
+EEPROM data loaded successfully. Data is valid.
+Do you wish to configure the device?(y/[n]):
+```
+
+> [!NOTE]
+> **CPID** and **ENV** can be found on /IOTCONNECT web page's sidebar menu **Settings->Key Vault** or in the file `iotcDeviceConfig.json` downloaded after successfully creating an /IOTCONNECT device.
+> **Platform(pf)** is "aws" for this demo.
+
+* If the board is already successfully configured, the info below will be displayed on the terminal.
+
+```
+Current Settings:
+Platform: AWS
+DUID: psoc-edge-rm-xxxxxxxx
+CPID: 7f68eedd5bdc459baa4d375993790099
+ENV: prod
+WiFi SSID: xxxxxxxx
+This device certificate:
+-----BEGIN CERTIFICATE-----
+MIIBfzCCASagAwIBAgIIetSABxoGATMwCgYIKoZIzj0EAwIwOTEaMBgGA1UEAwwR
+SW9UQ29ubmVjdERldkNlcnQxDjAMBgNVBAoMBUF2bmV0MQswCQYDVQQGEwJVUzAg
+Fw0yNTAxMDEwMDAwMDBaGA8yMDUwMDEwMTAwMDAwMFowOTEaMBgGA1UEAwwRSW9U
+Q29ubmVjdERldkNlcnQx                  V0MQswCQYDVQQGEwJVUzBZMBMG
+ByqGSM49AgEGCCqGSM49      EXAMPLE     g+MlGLdObYvkq/g5gQviHRORFk
+VkUVNf9QM3CF+hyWvlUx                  yaZee+45OODdOjFjAUMBIGA1Ud
+EwEB/wQIMAYBAf8CAQAwCgYIKoZIzj0EAwIDRwAwRAIgN6L7vek/hmtaRVyFGB2p
+jyd9MDu4sO7AJgVJEYQ+eWICIBOQkeCd90nGVunmkA3HKjGWf53cFgeN2alEsrSt
+2qRo
+-----END CERTIFICATE-----
+
+```
+
+* The certificate and the auto-genernate DUID will be used to create your device in the next step. This generated certificate will be unique and always the same for each device.
+
+* Create a device on /IOTCONNECT to obtain the device connection info by following the steps below.
+
+#### Create a device on /IOTCONNECT
+
+1. In the sidebar, navigate to Devices->Device page and at the top-right, click **Create Device**. 
+See [this short guide](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md)
+for detailed navigation steps.  
+1. Use the auto-generated **Unique ID** (**DUID**) in the log above *"psoc-edge-rm-xxxxxxxx"* or enter a **Unique ID** of your choosing.
+1. For simplicity, in the **Device Name** enter the same **Unique ID**. 
+1. Select the **Entity** to associate the device (For new accounts, there is only one option).  
+1. Select the previously imported template.
+1. Under **Device Certificate** select **Use my certificate**.
+1. Copy and Paste the device certificate printed on the Device Configurator terminal above, including the BEGIN and END lines
+into the **Certificate Text** field.
+1. Click **Save & View**.
+1. Either copy (click the *Copy* icon on the right) or download the **Device Configuration Information** `iotcDeviceConfig.json`
+by clicking the icon in the upper right of the device *Info* panel page.  
+![icon-device-configuration-information.png](https://raw.githubusercontent.com/avnet-iotconnect/avnet-iotconnect.github.io/66a9479e87d1b1b44f6ad3f33d59d63737cbb65c/documentation/iotconnect/media/icon-device-configuration-information.png).
+
+* After successfully creating the device on /IOTCONNECT, reboot the board to run the demo.
+
+
+
+#### Configuration Option 2 (hard-coded)
+<details><summary>Expand for Configuration Option 2</summary>
+
+
+#### Create a Device on /IOTCONNECT
+
+In this step, we will create a **Device** associated with the previously imported **Device Template**
+
+1. In the ribbon at the bottom of the screen, click the **Devices**
+2. At the top-right, click **Create Device**  
+![button-create-device.png](../iotconnect/media/button-create-device.png)
+3. Enter a custom device **Unique ID** (also called a **DUID**) and **Device Name** such as `PSOCEdgeE84`
+4. Select the **Entity** to associate the device (For new accounts, there is only one option)  
+5. Select the previously imported template `pedgerm` 
+6. Under **Device Certificate** select **Auto-generated**
+7. Click **Save & View**
+8. Download the **Device Configuration Information** by clicking the icon in the upper right of the device page (it will save as `iotcDeviceConfig.json`)  
+![icon-device-configuration-information.png](../iotconnect/media/icon-device-configuration-information.png)
+
+#### Obtain Certificates
+In this step we will locate and download the **device certificates**.
+
+1. Just below the Device Configuration Information icon, click the `Connection Info` link.<br>![connection-info.png](../iotconnect/media/connection-info.png)
+2. Click on the **Certificates** icon in the top-right and save the file to your working directory.<br>![icon-certificates.png](../iotconnect/media/icon-certificates.png)
+3. Extract the contents of the `*-certificates.zip` file for use in the next section. 
+
+#### Configure connection info based on the device just created
+* In the project tree, expand `proj_cm33_ns` open `app_config.h` and update the following lines using the `iotcDeviceConfig.json` downloaded previously in Section 9.
 ```c
 #define IOTCONNECT_CONNECTION_TYPE IOTC_CT_AWS
 #define IOTCONNECT_CPID "<cpid>"
@@ -198,14 +284,9 @@ Format the certificate and key for inclusion in a .h file as #define IOTCONNECT_
 #define WIFI_SSID                        "<SSID>"
 #define WIFI_PASSWORD                    "<password>"
 ```
+</details>
 
-### Select the Ready Model
-1. Open `common.mk` from the project tree
-2. Modify the following line to select the Gesture Ready Model
 
-```
-MODEL_SELECTION = GESTURE_MODEL
-```
 
 ### Build
 1. Click **File -> Save**
@@ -214,7 +295,7 @@ MODEL_SELECTION = GESTURE_MODEL
 
 Continue on to the **Hardware Setup** while waiting for the build to complete. 
 
-## 9. Hardware Setup
+## 7. Hardware Setup
 1. Connect the USB-C port from the board to your PC. Ensure you use the port identified in the image below.<br>![image](./media/debug-usb-port.png)
 2. Connect the board's debug port to a USB port on your PC. A new USB device should be detected. Firmware logs will be available on that COM port.
 3. Open the Serial Terminal application and configure as shown below:
@@ -225,11 +306,13 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
    * Stop Bits: `1`
    * Flow Control: `none`
 
-## 10. Program Board
+## 8. Program Board
 1. Select **Terminal -> Run Task**
 2. Select **Program** from the dropdown
+3. After programming, you can do the [run-time configuration](#configuration-option-1-run-time) if needed.
+ 
 
-## 11. Verify Data
+## 10. Verify Data
 * Orient the board as shown below make the following gestures:
   * Swipe Up
   * Swipe Down
@@ -246,7 +329,7 @@ Continue on to the **Hardware Setup** while waiting for the build to complete.
 
 * Return to /IOTCONNECT and verify the device is reported as **CONNECTED** and that **Live Data** is visible.
 
-## 12. Import Dynamic Dashboard
+## 11. Import Dynamic Dashboard
 /IOTCONNECT Dynamic Dashboards are an easy way to visualize data and interact with edge devices.  
 1. Download the example **Gesture Detection Demo** dashboard: [psoc-edge84-ai-gesture-dashboard.json](./psoc-edge84-ai-gesture-dashboard.json)
 2. Switch back to the /IOTCONNECT browser window and verify the device status is displaying as `Connected`
